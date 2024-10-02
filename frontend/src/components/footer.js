@@ -26,7 +26,6 @@ const Footer = () => {
         {/* Company Info */}
         <div className="company-info" data-aos="fade-right">
           <img src="/images/Logo 6.png" alt="Baquaiveda Logo" className="logo" />
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
           <div className="social-media">
             <a href="#"><i className="fab fa-facebook-f"></i></a>
             <a href="#"><i className="fab fa-twitter"></i></a>
@@ -63,9 +62,9 @@ const Footer = () => {
         {/* Contact Us Section */}
         <div className="contact-us" data-aos="fade-left">
           <h3>Contact Us</h3>
-          <p>Call: 987-654-3210</p>
-          <p>Email: baquaiveda@123.com</p>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <p>Call: 8961514680</p>
+          <p>Email: baquaiveda@gmail.com</p>
+          <p></p>
         </div>
       </div>
 
