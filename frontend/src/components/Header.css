@@ -25,7 +25,7 @@
 
 /* Navbar */
 .navbar {
-  padding: 10px 0;
+  padding: 0px 0;
   position: fixed;
 }
 
@@ -41,7 +41,10 @@
 }
 
 .nav-item{
-  padding: 10px;
+  padding: 5px;
+}
+.nav-item:hover{
+  scale: 1.2;
 }
 .navbar-collapse{
   margin-left: 100px;
@@ -102,6 +105,92 @@
 
 .nav-link {
   font-size: 12px;
+  margin: 0 10px;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+}
+
+.nav-icon {
+  font-size: 18px;
+  margin: 0 5px;
+  transition: color 0.3s ease;
+}
+
+.nav-icon:hover {
+  color: #28a745; /* Bootstrap success color */
+}
+
+/* AOS specific styles */
+[data-aos="fade-down"] {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+[data-aos="fade-down"].aos-animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+[data-aos="fade-up"] {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+[data-aos="fade-up"].aos-animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+[data-aos="fade-left"] {
+  opacity: 0;
+  transform: translateX(-20px);
+}
+
+[data-aos="fade-left"].aos-animate {
+  opacity: 1;
+  transform: translateX(0);
+}
+@media (max-width: 1360px) {
+  .discount-text, .contact-info {
+    text-align: center;
+    width: 100%;
+  }
+
+  .contact-info {
+    margin-top: 5px;
+  }
+}
+.top-bar {
+  padding: 10px 0;
+  background-color: #28a745; /* Bootstrap success color */
+}
+
+.discount-text {
+  font-size: 14px;
+}
+
+.contact-info {
+  font-size: 14px;
+}
+
+.navbar {
+  transition: background-color 0.3s ease;
+  position:sticky;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="%23000000" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/></svg>');
+}
+
+.nav-link {
+  font-size: 10px;
   margin: 0 10px;
 }
 

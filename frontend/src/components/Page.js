@@ -1,5 +1,6 @@
 import React from 'react';
 import './page.css';
+import { Button } from 'react-bootstrap';
 
 const services = [
   { title: 'Skin & Hair Problems', image: 'young-woman-with-acne-dry-skin-black-dots-skin-zoom-circle-young-girl-beauty-portrait-close-up_1-4364886 2.png' },
@@ -23,6 +24,7 @@ const ServicesGrid = () => {
           <div key={index} className="service-card">
             <img src={require(`/public/images/${service.image}`)} alt={service.title} />
             <h3>{service.title}</h3>
+            <Button className="primary" href="/ayurveda-treatment">Cure</Button>
           </div>
         ))}
       </div>

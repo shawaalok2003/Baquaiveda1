@@ -12,6 +12,13 @@
     color: #333;
     font-weight: bold;
   }
+  .primary{
+    width: 150px;
+    height: 40px;
+    background-color: green;
+    cursor: pointer;
+    color: green;
+  }
   
   /* Grid layout for services */
   .services-grid {

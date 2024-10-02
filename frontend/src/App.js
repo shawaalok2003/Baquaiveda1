@@ -250,6 +250,7 @@ import Specialties from './components/Specialities';
 import Gallery from './components/Gallery';
 import AboutUs from './components/extra';
 import TermsAndConditions from './components/condition';
+import AyurvedicSolutionsPage from './components/AyurvedaTreatment';
 
 // New imports for account section
 import ProfileDetails from './components/Profile Section/ProfileDetails';
@@ -318,6 +319,7 @@ function App() {
             <Route path="/cart" element={<Layout><CartPage /></Layout>} />
             <Route path="/appointmentForm" element={<AppointmentForm />} />
             <Route path="/blog" element={<Layout><BlogPage /></Layout>} />
+            <Route path="//ayurveda-treatment" element={<Layout><AyurvedicSolutionsPage /></Layout>} />
             <Route path="/gallery" element={<Layout><Gallery/></Layout>} />
             <Route path="/healthpage" element={<Layout><HealthAndWellness /></Layout>} />
             <Route path="/product-gallery" element={<Layout><ProductGallery /></Layout>} />
