@@ -4,7 +4,7 @@ const VideoPage = () => {
   const videoContainerStyle = {
     position: 'relative',
     width: '100vw',
-    height: '90vh',
+    height: '100vh',
     overflow: 'hidden',
     opacity : '1',
   };
@@ -49,7 +49,7 @@ const VideoPage = () => {
   return (
     <div style={{ ...videoContainerStyle, ...mobileStyles.videoContainerStyle }}>
       <video style={{ ...backgroundVideoStyle }} autoPlay muted loop>
-        <source src="/images/5480226-uhd_3840_2160_25fps (1).mp4" type="video/mp4" />
+        <source src="\images\Why Ayurveda_ _ History, Traditions and Benefits _ Kerala Tourism.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div style={{ ...responsiveStyle, ...mobileStyles.responsiveStyle }}>
