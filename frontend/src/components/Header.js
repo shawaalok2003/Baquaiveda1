@@ -58,9 +58,9 @@ const Header = () => {
               <li className="nav-item" onClick={closeNavbar}>
                 <Link className="nav-link" to="/products">Products</Link>
               </li>
-              <li className="nav-item" onClick={closeNavbar}>
+              {/* <li className="nav-item" onClick={closeNavbar}>
                 <Link className="nav-link" to="/specialities">Specialities</Link>
-              </li>
+              </li> */}
               <li className="nav-item" onClick={closeNavbar}>
                 <Link className="nav-link" to="/blog">Blog</Link>
               </li>
