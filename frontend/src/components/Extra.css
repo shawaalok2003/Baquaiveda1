@@ -1,0 +1,174 @@
+.details-section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+  
+  .image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .clinic-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text-section {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .subtitle {
+    color: #ff9900;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+  }
+  
+  /* Why Choose Us Section */
+  .why-us-section {
+    text-align: center;
+    background-color: #fff;
+    padding: 50px;
+  }
+  
+  .why-us-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .why-us-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card-image {
+    max-width: 100%;
+    border-radius: 15px;
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .card-description {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #555;
+  }
+  
+  /* Mission and Vision Section */
+  .mission-vision-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f1f1f1;
+  }
+  
+  .mission-section, .vision-section {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .mission-section img, .vision-section img {
+    max-width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .mission-section h2, .vision-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .mission-section p, .vision-section p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+  }
+  
+  /* Animations for Mission and Vision */
+  .animate-mission {
+    animation: fadeInLeft 2s ease-in-out;
+  }
+  
+  .animate-vision {
+    animation: fadeInRight 2s ease-in-out;
+  }
+  
+  @keyframes fadeInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes fadeInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  
+}
+  @media (max-width: 768px) {
+    .details-section, .mission-vision-section {
+      flex-direction: column;
+    }
+  
+    .why-us-cards {
+      flex-direction: column;
+    }
+  }

@@ -6,15 +6,13 @@ import 'slick-carousel/slick/slick-theme.css';
 
 
 const products = [
-  { title: 'Pyramid Tea Bags', image: 'Product 1.jpeg' },
-  { title: 'Single Chamber Paper Coated Tea Bags', image: 'Product 2.jpeg' },
-  { title: 'Chamber Foil Envelope Beauty Skin', image: 'Product 3.jpeg' },
-  { title: 'Single Chamber String Tag Tea Bags', image: 'Product 4.jpeg' },
-  { title: 'Double Chamber String & Tea Bags', image: 'Product 5.jpeg' },
-  { title: 'Double Chamber String & Capsules', image: 'Product 6.jpeg' },
-  { title: 'Double Chamber String & Capsules', image: 'Product 7.jpeg' },
-  { title: 'Double Chamber String & Capsules', image: 'Product 8.jpeg' },
-  { title: 'Double Chamber String & Capsules', image: 'Product 9.jpeg' },
+  {image: 'Product 1.jpeg' },
+  {image: 'Product 2.jpeg' },
+  {image: 'Product 3.jpeg' },
+  {image: 'Product 4.jpeg' },
+  {image: 'Product 5.jpeg' },
+  {image: 'Product 6.jpeg' },
+  {image: 'Product 7.jpeg' },
 ];
 
 const ProductGallery = () => {
@@ -72,9 +70,6 @@ const ProductGallery = () => {
                 className="product-image"
                 alt={product.title}
               />
-              <div className="card-body">
-                <h5 className="product-title">{product.title}</h5>
-              </div>
             </div>
           </div>
         ))}

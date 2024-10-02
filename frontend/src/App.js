@@ -249,6 +249,7 @@ import TermsAndConditions from './components/condition';
 import PrivacyPolicy from './components/Privacy';
 import Specialties from './components/Specialities';
 import Gallery from './components/Gallery';
+import AboutUs from './components/extra';
 
 
 // New imports for account section
@@ -311,6 +312,7 @@ function App() {
             <Route path="/" element={<Layout><Banner /><AboutProducts /><ServicesPage /><DropdownMenu /><ServiceFeatures /><Products /><ProductGallery /><VideoPage/><ServicesGrid /><ContactPage /><ReviewSection /></Layout>} />
             <Route path="/products" element={<Layout><ProductsPage /></Layout>} />
             <Route path="/privacy-policy" element={<Layout><PrivacyPolicy/></Layout>} />
+            <Route path="/extra" element={<Layout><AboutUs/></Layout>} />
             <Route path="/specialities" element={<Layout><Specialties/></Layout>} />
             <Route path="/wishlist" element={<Layout><WishlistPage /></Layout>} />
             <Route path="/termsandcondition" element={<Layout><TermsAndConditions /></Layout>} />

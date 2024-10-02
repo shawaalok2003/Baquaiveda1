@@ -24,11 +24,11 @@ const AboutProducts = () => {
           <img src={images.middleImg} className="middle-img" alt="Tea" />
           <h2>About Products</h2>
           <p>
-            बकाईवेदा क्लिनिक, बकाई दवाखाना का ही आधुनिक रूप है। समय के साथ हम मॉडर्न जरूर हुए हैं परंतु सैकड़ों वर्ष पुरानी परंपरा को हमने जीवित रखा है। 
-            आज भी हमारी फैक्ट्री में दवाएं उसी पुरानी पद्धति से बनाई जाती हैं। फॉर्मूले ठीक वैसे के वैसे  हैं जैसा हमें हमारे पूर्वजों से मिले थे।
-            हम उस गौरवशाली परंपरा को बचा कर रखने को इच्छुक हैं और साथ ही चाहते हैं कि इसका लाभ आम जनता को मिले।
-            हम अपनी फैक्ट्री में ही दवा बनाते हैं। यहां सब कुछ नेचुरल है, पूरी तरह से केमिकल फ्री। 
-            हम चाहते हैं कि मरीज का जड़ से इलाज हो। मरीज हमारी क्लिनिक से दवा के साथ ठीक होने का भरोसा भी ले कर जाए।
+          Bakaiveda Clinic is the modern form of the traditional Bakai Dispensary. While we have embraced modernity with time, we have kept centuries-old traditions alive. Even today, medicines in our factory are made using the same ancient methods. The formulas are exactly as they were passed down to us by our ancestors. We are committed to preserving this glorious tradition and want it to benefit the common people.
+
+          We manufacture our medicines in-house, and everything here is natural, completely chemical-free.
+          
+          Our goal is to treat patients from the root cause. We want patients to leave our clinic not only with the medicine but also with the assurance of being healed.
           </p>
           <a btn className="btn btn-primary" href="/contact" >Contact Us</a>
         </div>

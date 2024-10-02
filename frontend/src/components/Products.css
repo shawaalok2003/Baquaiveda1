@@ -13,7 +13,7 @@
   /* Flip card container */
   .flip-card {
     background-color: transparent;
-    width: 300px;
+    width: 350px;
     height: 400px;
     perspective: 1000px; /* Gives 3D effect */
     margin: 20px;
@@ -246,8 +246,8 @@
 }
 
 .product-image {
-  width: 100%;
-  height: auto;
+  width: 300px;
+  height: 300px;
 }
 
 .product-name {
@@ -279,7 +279,13 @@ button:hover {
 button:focus {
   outline: none;
 }
+.product-price{
+  width: 120px;
+  border-radius: 3px;
+  color: rgb(209, 27, 27);
+  background-color: rgb(99, 211, 74);
 
+}
 .btn-outline-primary {
   background-color: transparent;
   color: #28a745;

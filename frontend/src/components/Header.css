@@ -26,16 +26,12 @@
 /* Navbar */
 .navbar {
   padding: 10px 0;
+  position: fixed;
 }
 
-.logo {
-  max-width: 150px;
-  height: auto;
-  padding-left: 40px;
-}
 
 .navbar-nav .nav-item .nav-link {
-  font-size: 16px;
+  font-size: 12px;
   padding: 8px 15px;
   color: #000; /* Text color */
 }
@@ -93,6 +89,7 @@
 
 .navbar {
   transition: background-color 0.3s ease;
+  position:sticky;
 }
 
 .navbar-toggler {
@@ -104,7 +101,7 @@
 }
 
 .nav-link {
-  font-size: 16px;
+  font-size: 12px;
   margin: 0 10px;
 }
 

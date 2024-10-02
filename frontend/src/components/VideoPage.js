@@ -4,7 +4,7 @@ const VideoPage = () => {
   const videoContainerStyle = {
     position: 'relative',
     width: '100vw',
-    height: '100vh',
+    height: '90vh',
     overflow: 'hidden',
     opacity : '1',
   };
@@ -12,7 +12,7 @@ const VideoPage = () => {
   const backgroundVideoStyle = {
     position: 'absolute',
     top: 0,
-    padding : '10px',
+    padding : '30px',
     left: 0,
     width: '100%',
     height: '100%',

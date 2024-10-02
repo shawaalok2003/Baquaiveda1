@@ -1,62 +1,67 @@
 /* Container for the entire gallery */
 .product-gallery-container {
-  padding: 20px;
+  padding: 0; /* Removed padding for a tighter fit */
+  height: 300px; /* Light background for contrast */
 }
 
 /* Styling for product title */
 .one {
-  font-size: 2rem;
-  color: green;
+  font-size: 2.5rem; /* Larger title for better visibility */
+  color: #2c3e50; /* Darker color for a more elegant look */
   font-weight: bold;
   text-align: center;
+  margin: 0; /* Added margin for spacing between title and gallery */
 }
 
 /* Styling for product subtitle */
 .product-subtitle {
   font-size: 1.2rem;
   text-align: center;
-  margin-bottom: 20px;
+  margin: 0; /* Removed margin to eliminate extra space */
+  color: #34495e; /* Softer color for the subtitle */
 }
 
 /* Styling for each gallery item */
 .gallery-item {
-  padding: 10px;
+  padding: 0; /* Removed padding for tighter fit */
+  height: 100px;
+  background: transparent;
 }
 
 /* Styling for the product card */
 .product-card {
   border: 1px solid #ddd;
-  width: 200px;
-  height: 200px;
   border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Softer shadow for depth */
+  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions for hover effects */
+  background-color: #fff; /* White background for product cards */
+  margin: 0; /* Removed margin for tighter fit */
+  display: flex; /* Allows for better layout control */
+  align-items: center; /* Vertically centers the image */
+  justify-content: center; /* Horizontally centers the image */
 }
 
+/* Hover effect for product card */
 .product-card:hover {
-  transform: scale(1.05);
+  transform: scale(1.05); /* Slightly increase size on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+ 
 }
 
 /* Styling for the product image */
 .product-image {
-  width: 100%;
-  height: auto;
+  width: 100%; /* Ensures image fits within the card */ /* Fixed height for uniformity */
+  object-fit: cover; /* Crop images to maintain aspect ratio */
   display: block;
-}
-
-/* Styling for product title within the card */
-.product-title {
-  font-size: 1rem;
-  text-align: center;
-  margin: 10px 0;
+  margin: 0; /* Remove margin to eliminate extra spacing */
 }
 
 /* Arrow styling */
 .slick-prev,
 .slick-next {
   font-size: 30px !important; /* Adjust size of the arrow */
-  color: black !important; /* Arrow color */
+  color: #2980b9 !important; /* Arrow color */
   background: none !important; /* Remove background */
   border: none !important; /* Remove border */
   cursor: pointer !important; /* Pointer cursor */
@@ -87,24 +92,7 @@
 @media (max-width: 1024px) {
   .product-card {
     width: 150px; /* Smaller width for tablets */
-    height: 150px; /* Adjust height as needed */
-  }
-
-  .one {
-    font-size: 1.8rem; /* Slightly smaller title */
-  }
-
-  .product-subtitle {
-    font-size: 1.1rem; /* Smaller subtitle */
-  }
-
-  .product-title {
-    font-size: 0.9rem; /* Smaller product title */
-  }
-
-  .slick-prev,
-  .slick-next {
-    font-size: 25px; /* Slightly smaller arrow */
+    height: 150px; /* Fixed height for uniformity */
   }
 }
 
@@ -112,24 +100,7 @@
 @media (max-width: 768px) {
   .product-card {
     width: 100%; /* Full width on mobile */
-    height: auto; /* Automatic height for flexibility */
-  }
-
-  .one {
-    font-size: 1.5rem; /* Further reduce title size */
-  }
-
-  .product-subtitle {
-    font-size: 1rem; /* Smaller subtitle */
-  }
-
-  .product-title {
-    font-size: 0.8rem; /* Smaller product title */
-  }
-
-  .slick-prev,
-  .slick-next {
-    font-size: 20px; /* Smaller arrows */
+    height: 150px; /* Fixed height for uniformity */
   }
 }
 
@@ -137,23 +108,6 @@
 @media (max-width: 480px) {
   .product-card {
     width: 100%; /* Full width for small devices */
-    height: auto; /* Maintain aspect ratio */
-  }
-
-  .one {
-    font-size: 1.2rem; /* Further reduce title size */
-  }
-
-  .product-subtitle {
-    font-size: 0.9rem; /* Smaller subtitle */
-  }
-
-  .product-title {
-    font-size: 0.75rem; /* Smaller product title */
-  }
-
-  .slick-prev,
-  .slick-next {
-    font-size: 18px; /* Even smaller arrows */
+    height: 150px; /* Fixed height for uniformity */
   }
 }

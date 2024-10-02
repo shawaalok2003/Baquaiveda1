@@ -53,6 +53,9 @@ const Header = () => {
                 <a className="nav-link" href="/healthpage">Health and Wellness</a>
               </li>
               <li className="nav-item" onClick={closeNavbar}>
+                <a className="nav-link" href="/extra">About</a>
+              </li>
+              <li className="nav-item" onClick={closeNavbar}>
                 <Link className="nav-link" to="/products">Products</Link>
               </li>
               <li className="nav-item" onClick={closeNavbar}>
