@@ -54,9 +54,7 @@
 .benefit-card {
   border: none;
   background-size: cover;
-  background-position: center;
-  margin-bottom: 20px; /* Reduced margin */
-  padding: 20px;
+  background-position: center;/* Reduced margin */
   color: white; /* Ensure all text is white */
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
@@ -71,14 +69,12 @@
 /* Benefit content (heading + text together in one div) */
 .benefit-content {
   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for both title and text */
-  padding: 15px;
   border-radius: 5px;
 }
 
 .benefit-title {
   font-size: 22px;
   color: white; /* White text for headings */
-  margin-bottom: 10px;
 }
 
 .benefit-text {
@@ -110,15 +106,13 @@
 
 /* Ayurveda Practices section */
 .ayurveda-practices {
-  background-color: #e9f7ef;
-  padding: 40px 0; /* Reduced padding */
+  background-color: #e9f7ef; /* Reduced padding */
 }
 
 .practice-item {
   padding: 20px; /* Reduced padding for larger div */
   color: white;
-  border-radius: 10px;
-  margin-bottom: 20px; /* Reduced margin */
+  border-radius: 10px;; /* Reduced margin */
   background-size: cover;
   background-position: center;
   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
@@ -129,17 +123,18 @@
 .panchakarma {
   background: url('https://media.istockphoto.com/id/474419952/photo/woman-having-ayurvedic-spa-treatment.jpg?s=612x612&w=0&k=20&c=6QNcB1_KsZu5_kQNBNTu9w0aE_A391UeEkkIVmTsn3U=') no-repeat center center;
   opacity: .9;
+  border-radius: 20px;
 }
 
 .abhyanga {
   background: url('https://media.istockphoto.com/id/503046024/photo/pretty-young-women-relaxing-in-the-spa-salon.jpg?s=612x612&w=0&k=20&c=1PFFjxx7W8PuC_n8VESvEwm0O13eQJtgdMFndIlkNkM=') no-repeat center center;
   opacity: .9;
+  border-radius: 20px;
 }
 
 /* Practice content (heading + text together in one div) */
 .practice-content {
   background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for both title and text */
-  padding: 20px;
   border-radius: 5px;
 }
 
