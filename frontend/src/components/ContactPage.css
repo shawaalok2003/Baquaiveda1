@@ -1,0 +1,110 @@
+/* ContactPage.css */
+.contact-page {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: flex-start; /* Align items to the left */
+  height: 100vh; /* Full viewport height */
+  background-image: url('/public/images/Rectangle 43.png'); /* Ensure the path is correct */
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the background image */
+  color: white; /* Text color */
+  padding: 40px; /* Padding around the page */
+}
+
+.contact-page h2 {
+  font-family: 'Playfair Display', serif; /* Font for the heading */
+  font-size: 2.5rem; /* Size for the heading */
+  margin-bottom: 20px; /* Margin below heading */
+  text-align: left; /* Align text to the left */
+}
+
+.contact-page p {
+  font-family: 'Raleway', sans-serif; /* Font for the paragraph */
+  font-size: 1.2rem; /* Size for the paragraph */
+  line-height: 1.5; /* Line height for better readability */
+  margin-bottom: 30px; /* Margin below paragraph */
+  text-align: left; /* Align text to the left */
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column; /* Arrange form elements in a column */
+  width: 100%; /* Full width for the form */
+  max-width: 500px; /* Max width for better layout */
+}
+
+.contact-form label {
+  font-family: 'Raleway', sans-serif; /* Font for labels */
+  font-size: 1rem; /* Font size for labels */
+  margin-bottom: 5px; /* Space below labels */
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 15px; /* Space below input/textarea */
+  padding: 10px; /* Padding inside the input fields */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 1rem; /* Font size for inputs */
+  background: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+}
+
+.contact-form button {
+  padding: 10px 20px; /* Padding inside button */
+  background-color: #28a745; /* Button color */
+  color: white; /* Button text color */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 1rem; /* Font size for button */
+  transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.contact-form button:hover {
+  background-color: #218838; /* Darker shade on hover */
+}
+
+/* Responsive styling for tablets (max-width 768px) */
+@media (max-width: 768px) {
+  .contact-page {
+    padding: 20px; /* Reduce padding for tablets */
+  }
+
+  .contact-form {
+    width: 100%; /* Full width for form on tablets */
+  }
+}
+
+/* Responsive styling for mobile (max-width 480px) */
+@media (max-width: 480px) {
+  .contact-page {
+    padding: 15px; /* Reduced padding for mobile */
+  }
+
+  .contact-page h2 {
+    font-size: 2rem; /* Smaller heading size */
+  }
+
+  .contact-page p {
+    font-size: 1rem; /* Smaller paragraph size */
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.9rem; /* Smaller input text size */
+  }
+
+  .contact-form button {
+    font-size: 0.9rem; /* Smaller button text size */
+    padding: 8px 16px; /* Reduced button padding */
+  }
+}
+
+.contact-page p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  text-align: left;
+  color: white; /* Set the paragraph text to white */
+}

@@ -1,0 +1,22 @@
+import React from 'react';
+import './Banner.css'; // Import the custom CSS
+
+const Banner = () => {
+  return (
+    <section className="banner bg-light py-5">
+      <div className="container">
+        <div className="row align-items-center">
+          <div className="col-md-6 banner-content text-start">
+          <div className="banner-text">
+          <h1>The Ayurvedic Way of Life</h1>
+          <p> 5% Off + Extra 10%</p>
+        </div>
+            <a href="/products" className="btn btn-success btn-lg mt-3">Shop Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Banner;

@@ -1,0 +1,198 @@
+/* HealthAndWellness.css */
+
+/* General styles for the health and wellness page */
+.health-wellness-page {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  /* Banner section */
+  .wellness-banner {
+    background-color: #6ab547;
+    padding: 100px 0;
+    color: white;
+  }
+  
+  .banner-title {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .banner-text {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  /* Key Benefits section */
+  .key-benefits {
+    background-color: #f5f5f5;
+  }
+  
+  .section-title {
+    font-size: 36px;
+    color: #4c9a2a;
+    margin-bottom: 40px;
+  }
+  
+  .benefits-row {
+    justify-content: center;
+  }
+  
+  .benefit-card {
+    border: none;
+    background-color: white;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .benefit-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .benefit-icon {
+    font-size: 40px;
+    color: #4c9a2a;
+    margin-bottom: 15px;
+  }
+  
+  .benefit-title {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .benefit-text {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Ayurveda Practices section */
+  .ayurveda-practices {
+    background-color: #e9f7ef;
+  }
+  
+  .practice-item {
+    margin-bottom: 30px;
+  }
+  
+  .practice-title {
+    font-size: 24px;
+    color: #4c9a2a;
+    margin-bottom: 10px;
+  }
+  
+  .practice-description {
+    font-size: 16px;
+    color: #555;
+  }
+
+  /* Banner section */
+.wellness-banner {
+  background-color: #6ab547;
+  padding: 100px 0;
+  color: white; /* This ensures all text in the banner is white */
+}
+
+.banner-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: white; /* Make title text white */
+}
+
+.banner-text {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 20px auto;
+  color: white; /* Make subtitle text white */
+}
+
+  @media (max-width: 1024px) {
+    .wellness-banner {
+        padding: 80px 20px; /* Reduce top/bottom padding */
+    }
+
+    .banner-title {
+        font-size: 36px; /* Smaller banner title size */
+    }
+
+    .banner-text {
+        font-size: 16px; /* Smaller text size */
+    }
+
+    .section-title {
+        font-size: 30px; /* Smaller section title size */
+    }
+
+    .benefit-card {
+        flex: 0 1 calc(50% - 30px); /* Two cards per row */
+    }
+
+    .practice-title {
+        font-size: 22px; /* Smaller practice title size */
+    }
+}
+
+/* For large mobile phones */
+@media (max-width: 768px) {
+    .wellness-banner {
+        padding: 60px 20px; /* Further reduce padding */
+    }
+
+    .banner-title {
+        font-size: 30px; /* Even smaller banner title size */
+    }
+
+    .banner-text {
+        font-size: 14px; /* Smaller text size */
+    }
+
+    .section-title {
+        font-size: 28px; /* Smaller section title size */
+    }
+
+    .benefit-card {
+        flex: 0 1 calc(100% - 30px); /* One card per row */
+    }
+}
+
+/* For small mobile phones */
+@media (max-width: 480px) {
+    .wellness-banner {
+        padding: 40px 10px; /* Minimal padding for very small screens */
+    }
+
+    .banner-title {
+        font-size: 24px; /* Smallest banner title size */
+    }
+
+    .banner-text {
+        font-size: 12px; /* Smallest text size */
+    }
+
+    .section-title {
+        font-size: 24px; /* Smallest section title size */
+    }
+
+    .benefit-icon {
+        font-size: 30px; /* Smaller icon size */
+    }
+
+    .benefit-title {
+        font-size: 18px; /* Smaller benefit title size */
+    }
+
+    .benefit-text {
+        font-size: 14px; /* Smaller benefit text size */
+    }
+
+    .practice-title {
+        font-size: 20px; /* Smaller practice title size */
+    }
+
+    .practice-description {
+        font-size: 14px; /* Smaller practice description size */
+    }
+}

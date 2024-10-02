@@ -1,0 +1,168 @@
+.review-section {
+  padding: 50px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.review-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+/* Reviews container layout */
+.reviews-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.review-card {
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  flex: 1 1 300px; /* Make cards responsive to the width of the screen */
+  max-width: 300px;
+  transition: transform 0.2s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-10px);
+}
+
+.review-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.rating {
+  font-size: 1.2rem;
+  color: #ffcc00;
+}
+
+.review-text {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Pagination styles */
+.pagination {
+  margin-top: 30px;
+}
+
+.pagination button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 5px;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.pagination button:hover {
+  background-color: #218838;
+}
+
+.pagination span {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.pagination button[disabled] {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Responsive Styles */
+
+/* For tablets and small laptops */
+@media (max-width: 1024px) {
+  .review-section {
+    padding: 40px 20px;
+  }
+
+  .review-section h2 {
+    font-size: 2rem;
+  }
+
+  .review-card {
+    max-width: 250px; /* Decrease max-width for smaller screens */
+  }
+
+  .review-content h3 {
+    font-size: 1.3rem;
+  }
+
+  .review-text {
+    font-size: 0.95rem;
+  }
+}
+
+/* For large mobile phones */
+@media (max-width: 768px) {
+  .review-section {
+    padding: 30px 15px;
+  }
+
+  .review-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .review-card {
+    max-width: 220px;
+    padding: 15px;
+  }
+
+  .review-content h3 {
+    font-size: 1.2rem;
+  }
+
+  .review-text {
+    font-size: 0.9rem;
+  }
+
+  .pagination button {
+    padding: 8px 15px;
+    font-size: 0.9rem;
+  }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+  .review-section {
+    padding: 20px 10px;
+  }
+
+  .review-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .review-card {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .review-content h3 {
+    font-size: 1.1rem;
+  }
+
+  .review-text {
+    font-size: 0.85rem;
+  }
+
+  .pagination button {
+    padding: 6px 10px;
+    font-size: 0.8rem;
+    margin: 0 5px;
+  }
+
+  .pagination span {
+    font-size: 1rem;
+  }
+}

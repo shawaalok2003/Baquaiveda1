@@ -1,0 +1,159 @@
+/* Container for the entire gallery */
+.product-gallery-container {
+  padding: 20px;
+}
+
+/* Styling for product title */
+.one {
+  font-size: 2rem;
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Styling for product subtitle */
+.product-subtitle {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Styling for each gallery item */
+.gallery-item {
+  padding: 10px;
+}
+
+/* Styling for the product card */
+.product-card {
+  border: 1px solid #ddd;
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+/* Styling for the product image */
+.product-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Styling for product title within the card */
+.product-title {
+  font-size: 1rem;
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* Arrow styling */
+.slick-prev,
+.slick-next {
+  font-size: 30px !important; /* Adjust size of the arrow */
+  color: black !important; /* Arrow color */
+  background: none !important; /* Remove background */
+  border: none !important; /* Remove border */
+  cursor: pointer !important; /* Pointer cursor */
+  z-index: 1 !important; /* Ensure it appears above other content */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  color: #007bff !important; /* Color on hover */
+}
+
+/* Positioning for previous arrow */
+.slick-prev {
+  left: 10px !important; /* Position from the left */
+}
+
+/* Positioning for next arrow */
+.slick-next {
+  right: 10px !important; /* Position from the right */
+}
+
+/* Responsive Styles */
+
+/* For tablets and smaller laptops */
+@media (max-width: 1024px) {
+  .product-card {
+    width: 150px; /* Smaller width for tablets */
+    height: 150px; /* Adjust height as needed */
+  }
+
+  .one {
+    font-size: 1.8rem; /* Slightly smaller title */
+  }
+
+  .product-subtitle {
+    font-size: 1.1rem; /* Smaller subtitle */
+  }
+
+  .product-title {
+    font-size: 0.9rem; /* Smaller product title */
+  }
+
+  .slick-prev,
+  .slick-next {
+    font-size: 25px; /* Slightly smaller arrow */
+  }
+}
+
+/* For large mobile phones */
+@media (max-width: 768px) {
+  .product-card {
+    width: 100%; /* Full width on mobile */
+    height: auto; /* Automatic height for flexibility */
+  }
+
+  .one {
+    font-size: 1.5rem; /* Further reduce title size */
+  }
+
+  .product-subtitle {
+    font-size: 1rem; /* Smaller subtitle */
+  }
+
+  .product-title {
+    font-size: 0.8rem; /* Smaller product title */
+  }
+
+  .slick-prev,
+  .slick-next {
+    font-size: 20px; /* Smaller arrows */
+  }
+}
+
+/* For small mobile phones */
+@media (max-width: 480px) {
+  .product-card {
+    width: 100%; /* Full width for small devices */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .one {
+    font-size: 1.2rem; /* Further reduce title size */
+  }
+
+  .product-subtitle {
+    font-size: 0.9rem; /* Smaller subtitle */
+  }
+
+  .product-title {
+    font-size: 0.75rem; /* Smaller product title */
+  }
+
+  .slick-prev,
+  .slick-next {
+    font-size: 18px; /* Even smaller arrows */
+  }
+}
