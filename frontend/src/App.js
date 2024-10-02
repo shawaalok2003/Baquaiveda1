@@ -245,12 +245,11 @@ import ServiceFeatures from './components/Providers';
 import AppointmentForm from './components/Form';
 import DropdownMenu from './components/menu';
 import HealthAndWellness from './components/Health_Page';
-import TermsAndConditions from './components/condition';
 import PrivacyPolicy from './components/Privacy';
 import Specialties from './components/Specialities';
 import Gallery from './components/Gallery';
 import AboutUs from './components/extra';
-
+import TermsAndConditions from './components/condition';
 
 // New imports for account section
 import ProfileDetails from './components/Profile Section/ProfileDetails';
