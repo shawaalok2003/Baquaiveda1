@@ -5,13 +5,11 @@ const Gallery = () => {
   const images = [
     '/images/pexels-akash-2906350-5060587.jpg', // Replace with your image paths
     '/images/pexels-cottonbro-5416013.jpg',
-    '/images/pexels-doterra-international-llc-2204678-17380334.jpg',
-    '/images/pexels-misolo-cosmetic-2588316-4841250.jpg',
-    '/images/pexels-nora-brody-1241785370-23511140.jpg',
-    '/images/pexels-nora-brody-1241785370-23511158.jpg',
-    '/images/pexels-rethaferguson-3621234.jpg',
-    'images/pexels-shubham-sony-213168835-11984292.jpg',
-    '/images/pexels-victoria-bowers-148548814-10487768.jpg'
+    '/images/WhatsApp Image 2024-10-03 at 14.52.56 (1).jpeg',
+    '/images/WhatsApp Image 2024-10-03 at 14.52.56.jpeg',
+    '/images/WhatsApp Image 2024-10-03 at 14.52.57 (1).jpeg',
+    '/images/WhatsApp Image 2024-10-03 at 14.52.57.jpeg',
+    
   ];
 
   return (

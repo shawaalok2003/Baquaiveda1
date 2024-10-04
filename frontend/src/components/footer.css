@@ -52,6 +52,7 @@
   justify-content: space-around;
   padding: 20px 0;
   color: #333;
+  height: 180px;
 }
 
 .company-info, .footer-links, .contact-us {

@@ -8,9 +8,6 @@ const Products = () => {
       <div className="left-section">
         <div className="text-container" data-aos="fade-up" data-aos-duration="1000">
           <h2>Products</h2>
-          <a href="/" className="read-more" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-            Read More →
-          </a>
         </div>
 
         <div className="images-container">
