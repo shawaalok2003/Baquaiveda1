@@ -27,6 +27,7 @@ const Header = () => {
       </div>
 
       {/* Main Navbar */}
+      <div className='stickk'>
       <nav className="navbar navbar-expand-lg navbar-light bg-white">
         <Container fluid>
           <a className="navbar-brand" href="/">
@@ -90,7 +91,7 @@ const Header = () => {
             </div>
           </div>
         </Container>
-      </nav>
+      </nav></div>
     </>
   );
 };
