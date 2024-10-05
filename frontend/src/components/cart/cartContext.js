@@ -137,7 +137,7 @@ export const CartProvider = ({ children }) => {
         setCartItems(response.data.items || []);
       } catch (error) {
         console.error("Error fetching cart:", error);
-        toast.error("Failed to fetch cart.");
+        // toast.error("Failed to fetch cart.");
       }
     };
 
