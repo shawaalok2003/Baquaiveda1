@@ -10,18 +10,12 @@ const BlogPage = () => {
     { title: 'How to Get Rid of a Cold using Ayurveda', image: 'download (5).jpg', date: 'Aug 06, 2024', excerpt: 'Natural remedies to treat common cold symptoms using Ayurveda...' },
     { title: 'Boost Immunity with Ayurvedic',image:'download (6).jpg', date: 'Aug 05, 2024', excerpt: 'Learn about powerful herbs to strengthen immunity...' },
     { title: 'Detoxify your Liver with Ayurveda', image: 'download (7).jpg', date: 'Aug 04, 2024', excerpt: 'Ayurvedic solutions for a healthy liver detox...' },
-    { title: 'Natural Eye Care with Ayurveda', image: 'download (8).jpg', date: 'Aug 03, 2024', excerpt: 'Top Ayurvedic practices for improving eye health...' },
-    { title: 'Ayurvedic Diet for Better Digestion', image: 'download (8).jpg', date: 'Aug 02, 2024', excerpt: 'An Ayurvedic guide to improving digestion...' },
-    { title: 'Using Turmeric in Ayurveda', image: 'download (8).jpg', date: 'Aug 01, 2024', excerpt: 'The benefits of turmeric and how it’s used in Ayurvedic practices...' },
-    { title: 'Ayurvedic Solutions for Better Sleep', image: 'download (8).jpg', date: 'Jul 31, 2024', excerpt: 'Natural ways to enhance sleep quality using Ayurveda...' },
-    { title: 'Treating Sinusitis with Ayurveda', image: 'download (8).jpg', date: 'Jul 30, 2024', excerpt: 'Ayurvedic methods to relieve sinusitis symptoms...' },
-    { title: 'Ayurveda for Reducing Anxiety', image: 'download (8).jpg', date: 'Jul 29, 2024', excerpt: 'Natural Ayurvedic techniques to help calm anxiety...' },
-    { title: 'Herbal Remedies for Asthma', image: 'download (8).jpg', date: 'Jul 28, 2024', excerpt: 'Effective Ayurvedic treatments for asthma...' },
-    { title: 'Ayurveda and Skin Health', image: 'download (8).jpg', date: 'Jul 27, 2024', excerpt: 'Discover Ayurvedic tips for glowing skin...' },
-    { title: 'Ayurvedic Weight Loss Tips', image: 'download (8).jpg', date: 'Jul 26, 2024', excerpt: 'Healthy weight loss practices according to Ayurveda...' },
-    { title: 'Managing High Blood Pressure with Ayurveda', image: 'download (8).jpg', date: 'Jul 25, 2024', excerpt: 'Ayurvedic methods to control high blood pressure...' },
-  ];
-
+    { title: 'Natural Eye Care with Ayurveda', image: 'images (4).jpg', date: 'Aug 03, 2024', excerpt: 'Top Ayurvedic practices for improving eye health...' },
+    { title: 'Ayurvedic Diet for Better Digestion', image: 'images (5).jpg', date: 'Aug 02, 2024', excerpt: 'An Ayurvedic guide to improving digestion...' },
+    { title: 'Using Turmeric in Ayurveda', image: 'download (9).jpg', date: 'Aug 01, 2024', excerpt: 'The benefits of turmeric and how it’s used in Ayurvedic practices...' },
+    { title: 'Ayurvedic Solutions for Better Sleep', image: 'download (10).jpg', date: 'Jul 31, 2024', excerpt: 'Natural ways to enhance sleep quality using Ayurveda...' },
+    { title: 'Treating Sinusitis with Ayurveda', image: 'download (11).jpg', date: 'Jul 30, 2024', excerpt: 'Ayurvedic methods to relieve sinusitis symptoms...' },
+  ]
   // State for pagination
   const [currentPage, setCurrentPage] = useState(1);
   const postsPerPage = 5;
@@ -125,5 +119,4 @@ const BlogPage = () => {
     </Container>
   );
 };
-
 export default BlogPage;

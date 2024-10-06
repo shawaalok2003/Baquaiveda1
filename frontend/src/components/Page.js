@@ -24,7 +24,7 @@ const ServicesGrid = () => {
           <div key={index} className="service-card">
             <img src={require(`/public/images/${service.image}`)} alt={service.title} />
             <h3>{service.title}</h3>
-            <Button className="primary" href="/ayurveda-treatment">Cure</Button>
+            <Button className="primary" href="/ayurveda-treatment">Click</Button>
           </div>
         ))}
       </div>

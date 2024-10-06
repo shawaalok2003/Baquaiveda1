@@ -1,4 +1,3 @@
-/* ContactPage.css */
 .contact-page {
   display: flex;
   flex-direction: column; /* Stack elements vertically */
@@ -9,6 +8,15 @@
   background-position: center; /* Center the background image */
   color: white; /* Text color */
   padding: 40px; /* Padding around the page */
+}
+
+.contact-container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between form and image */
+  align-items: flex-start; /* Align items at the top */
+  width: 100%; /* Full width */
+  max-width: 1200px; /* Limit max width */
+  margin-top: 20px; /* Space between heading and container */
 }
 
 .contact-page h2 {
@@ -73,6 +81,15 @@
   .contact-form {
     width: 100%; /* Full width for form on tablets */
   }
+
+  .contact-container {
+    flex-direction: column; /* Stack form and image vertically */
+  }
+
+  .contact-image {
+    margin-top: 20px; /* Space above the image */
+    text-align: center; /* Center the image */
+  }
 }
 
 /* Responsive styling for mobile (max-width 480px) */
@@ -107,4 +124,16 @@
   margin-bottom: 30px;
   text-align: left;
   color: white; /* Set the paragraph text to white */
+}
+
+.contact-image {
+  margin-left: 20px; /* Space between form and image */
+}
+
+.contact-image img {
+  width: 100%; /* Make image responsive */
+  max-width: 250px; /* Limit max width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10px; 
+  margin: 20px;
 }

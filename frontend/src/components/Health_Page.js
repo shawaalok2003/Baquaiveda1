@@ -109,9 +109,6 @@ const HealthAndWellness = () => {
         <Container>
           <div className="banner-content">
             <h1 className="banner-title">Embrace the Power of Ayurveda</h1>
-            <p className="banner-text">
-              Discover natural healing with Ayurveda's timeless wisdom. Achieve a balanced mind, body, and soul.
-            </p>
           </div>
         </Container>
       </section>

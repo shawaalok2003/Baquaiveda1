@@ -7,42 +7,43 @@ const AyurvedicSolutionsPage = () => {
     { 
       title: 'Skin & Hair Problems', 
       image: 'young-woman-with-acne-dry-skin-black-dots-skin-zoom-circle-young-girl-beauty-portrait-close-up_1-4364886 2.png',
-      solution: 'Ayurveda suggests using natural oils like coconut or sesame oil, along with herbs like Neem and Aloe Vera. Treatments like Abhyanga (oil massage) and dietary changes to balance the Pitta dosha can be highly effective.'
+      solution: ' Skin and hair problems can range from conditions like acne, dry skin, blackheads, eczema, psoriasis, dandruff, and hair loss. These issues are often related to imbalances in the body that manifest externally, affecting the health and appearance of the skin and hair. Common triggers include environmental factors, hormonal imbalances, poor diet, and stress.'
+
     },
     { 
       title: 'Joint Problems', 
       image: 'joint-pain-atoz-optimists-healthcare 1.png',
-      solution: 'Herbs such as Ashwagandha and Guggul are used to reduce inflammation. Ayurvedic therapies like Janu Basti (medicated oil retention) and Panchakarma can provide relief from joint pain and stiffness.'
+      solution: 'Description: Joint problems can include conditions such as arthritis, stiffness, inflammation, and joint pain. These issues are typically associated with wear and tear on the joints, autoimmune disorders like rheumatoid arthritis, or injuries. Common symptoms include pain, swelling, limited mobility, and discomfort, which can worsen with age or physical activity.'
     },
     { 
       title: 'Digestive Disorders', 
       image: 'ImageForArticle_22799_16572812576525563 1.png',
-      solution: 'Herbs like Triphala, ginger, and fennel can help improve digestion. Regular intake of warm water, a balanced diet based on the digestive fire (Agni), and Panchakarma treatments like Virechana (purgation) can alleviate digestive issues.'
+      solution: 'Description: Neurological issues refer to disorders that affect the brain, spinal cord, and nerves. These include conditions such as anxiety, depression, migraines, epilepsy, and neurodegenerative diseases like Parkinson’s and Alzheimers. Symptoms can range from headaches, dizziness, and cognitive decline to mood changes and impaired motor functions'
     },
     { 
       title: 'Neurological Issues', 
       image: '2382452 1.png',
-      solution: 'Ayurvedic treatments for neurological disorders involve therapies like Shirodhara (oil pouring over the forehead) and using herbs like Brahmi and Ashwagandha to calm the nervous system.'
+      solution: 'Description: Neurological issues refer to disorders that affect the brain, spinal cord, and nerves. These include conditions such as anxiety, depression, migraines, epilepsy, and neurodegenerative diseases like Parkinson’s and Alzheimers. Symptoms can range from headaches, dizziness, and cognitive decline to mood changes and impaired motor functions.'
     },
     { 
       title: 'Endocrine Disorders', 
       image: 'large_20190919_040243_397859_cuong_giap_chuyen_s_max_1800x1800_jpg_edc05c8ed4 1.png',
-      solution: 'Herbs like Shatavari and Ashwagandha can help balance hormone levels. Ayurveda also focuses on lifestyle changes, including stress management techniques and dietary adjustments to support the endocrine system.'
+      solution: 'Description: Endocrine disorders are related to imbalances in hormone production and regulation. These can include thyroid problems (hyperthyroidism or hypothyroidism), diabetes, adrenal gland dysfunction, and hormonal imbalances that affect metabolism, reproductive health, and stress responses. Symptoms often include fatigue, weight fluctuations, mood changes, and irregular menstruation.'
     },
     { 
       title: 'Anorectal Problems', 
       image: 'shutterstock_721605601-300x200 1.png',
-      solution: 'Ayurvedic treatments for anorectal problems include Kshar Sutra therapy (medicated thread treatment) for hemorrhoids and fissures. Internal medications like Triphala and proper diet can aid digestion and promote healing.'
+      solution: 'Description: Endocrine disorders are related to imbalances in hormone production and regulation. These can include thyroid problems (hyperthyroidism or hypothyroidism), diabetes, adrenal gland dysfunction, and hormonal imbalances that affect metabolism, reproductive health, and stress responses. Symptoms often include fatigue, weight fluctuations, mood changes, and irregular menstruation.'
     },
     { 
       title: 'Gynaecological Disorders', 
       image: 'Gynaecological Disorders 1.png',
-      solution: 'Herbs like Ashoka, Lodhra, and Shatavari are used in Ayurvedic treatment for conditions like menstrual irregularities and PCOS. Panchakarma therapies like Uttar Basti (medicated enema) are beneficial in addressing gynecological issues.'
+      solution: 'Description: Gynaecological disorders affect the female reproductive system and include conditions such as menstrual irregularities, polycystic ovarian syndrome (PCOS), endometriosis, uterine fibroids, and infertility. Symptoms can vary but may include irregular periods, pelvic pain, hormonal imbalances, and issues related to pregnancy and conception.'
     },
     { 
       title: 'Metabolic Disorders', 
       image: 'Metabolic Disorders 1.png',
-      solution: 'Ayurveda recommends using herbs like Guggul and Triphala to manage metabolic disorders like diabetes and obesity. A personalized diet plan along with Panchakarma therapies can help regulate metabolism and balance Kapha dosha.'
+      solution: 'Description: Metabolic disorders refer to conditions that affect the body’s ability to process nutrients and energy, such as diabetes, obesity, and hyperlipidemia. These disorders often result from issues in how the body metabolizes glucose, fats, or proteins, leading to symptoms like weight gain, fatigue, frequent urination, excessive thirst, and abnormal cholesterol levels.'
     }
   ];
 

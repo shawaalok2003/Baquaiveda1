@@ -24,7 +24,7 @@ const AboutProducts = () => {
           <img src={images.middleImg} className="middle-img" alt="Tea" />
           <h2>About Products</h2>
           <p>
-          Bakaiveda Clinic is the modern form of the traditional Bakai Dispensary. While we have embraced modernity with time, we have kept centuries-old traditions alive. Even today, medicines in our factory are made using the same ancient methods. The formulas are exactly as they were passed down to us by our ancestors. We are committed to preserving this glorious tradition and want it to benefit the common people.
+          Baquaiveda Clinic is the modern form of the traditional Bakai Dispensary. While we have embraced modernity with time, we have kept centuries-old traditions alive. Even today, medicines in our factory are made using the same ancient methods. The formulas are exactly as they were passed down to us by our ancestors. We are committed to preserving this glorious tradition and want it to benefit the common people.
 
           We manufacture our medicines in-house, and everything here is natural, completely chemical-free.
           
