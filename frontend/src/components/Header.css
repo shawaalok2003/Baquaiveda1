@@ -26,14 +26,14 @@
 /* Navbar */
 .navbar {
   padding: 0px 0;
-  position: fixed;
+  background-color: #000;
 }
 
 
 .navbar-nav .nav-item .nav-link {
   font-size: 14px;
   padding: 8px 15px;
-  color: #000; /* Text color */
+  color: white; /* Text color */
 }
 
 .navbar-nav .nav-item .nav-link:hover {
@@ -66,6 +66,11 @@
   color: #28a745;
 }
 
+.logo{
+  width: 500px;
+  height: 500px;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .discount-text, .contact-info {
@@ -88,11 +93,6 @@
 
 .contact-info {
   font-size: 14px;
-}
-
-.navbar {
-  transition: background-color 0.3s ease;
-  position:sticky;
 }
 
 .navbar-toggler {
@@ -174,11 +174,6 @@
 
 .contact-info {
   font-size: 14px;
-}
-
-.navbar {
-  transition: background-color 0.3s ease;
-  position:sticky;
 }
 
 .navbar-toggler {
@@ -351,10 +346,6 @@
   background-image: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="%23000000" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/></svg>');
 }
 
-/* Adjust the navbar background on scroll */
-.navbar {
-  transition: background-color 0.3s ease;
-}
 
 /* Adjust font sizes for smaller screens */
 @media (max-width: 480px) {
@@ -377,18 +368,8 @@
 }
 
 
-/* Navbar Styles */
-.navbar {
-  background-color: #ffffff; /* White background for the navbar */
-  transition: background-color 0.3s; /* Smooth background transition */
-}
-
-.navbar:hover {
-  background-color: #f8f9fa; /* Light gray on hover */
-}
-
 .navbar .logo {
-  width: 150px; /* Adjust logo size */
+  width: 180px; /* Adjust logo size */
 }
 
 /* Navbar Toggler Styles */
@@ -402,7 +383,7 @@
 
 /* Navbar Links Styles */
 .navbar-nav .nav-link {
-  color: #333; /* Dark text color */
+  color: white; /* Dark text color */
   font-weight: bold; /* Bold text */
   transition: color 0.3s; /* Smooth color transition */
 }
@@ -415,6 +396,7 @@
 .nav-icons {
   display: flex;
   align-items: center; /* Center icons vertically */
+  color: white;
 }
 
 .nav-icon {
@@ -477,6 +459,7 @@
   /* Navbar */
   .navbar {
     padding: 8px 0;
+    background-color: #000;
   }
 
   .logo {
@@ -516,7 +499,7 @@
     opacity: 1;
     transform: translateY(0);
   }
-
+}
   /* For smaller screens on laptops */
   @media (max-width: 1024px) {
     .contact-info {
@@ -531,11 +514,9 @@
       margin-right: 20px; /* Adjust icon spacing */
     }
   }
-}
 
 .stickk {
   position: sticky;
   top: 0;
   z-index: 1000; /* Adjust as needed */
-  background-color: #ffffff; /* Adjust background color */
 }

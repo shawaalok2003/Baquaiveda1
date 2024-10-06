@@ -28,7 +28,7 @@ const Header = () => {
 
       {/* Main Navbar */}
       <div className='stickk'>
-      <nav className="navbar navbar-expand-lg navbar-light bg-white">
+      <nav className="navbar navbar-expand-lg navbar-light">
         <Container fluid>
           <a className="navbar-brand" href="/">
             <img src="\images\Logo 6.png" alt="Baquai Veda" className="logo img-fluid" />
@@ -76,17 +76,17 @@ const Header = () => {
             {/* Navigation Icons */}
             <div className="nav-icons">
               <a href="#" className="nav-icon">
-                <i className="bi bi-search"></i>
+                <i className="bi bi-search" style={{ color: 'white' }}></i>
               </a>
               <div className="nav-icon">
-                <i className="bi bi-person"></i>
+                <i className="bi bi-person" style={{ color: 'white' }}></i>
                 <DropdownMenu /> {/* Dropdown will be shown on hover due to CSS */}
               </div>
               <Link to="/wishlist" className="nav-icon">
-                <i className="bi bi-heart"></i>
+                <i className="bi bi-heart style={{ color: 'white' }}" style={{ color: 'white' }}></i>
               </Link>
               <Link to="/cart" className="nav-icon">
-                <i className="bi bi-bag"></i>
+                <i className="bi bi-bag" style={{ color: 'white' }}></i>
               </Link>
             </div>
           </div>

@@ -97,7 +97,7 @@ export const WishlistProvider = ({ children }) => {
                 }
             } catch (error) {
                 console.error("Error fetching wishlist:", error);
-                toast.error('Failed to fetch wishlist.'); 
+                //toast.error('Failed to fetch wishlist.'); 
                 setWishlistItems([]); 
             }
         };
