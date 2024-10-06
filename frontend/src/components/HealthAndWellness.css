@@ -1,7 +1,7 @@
 /* General styles for the health and wellness page */
 .health-wellness-page {
   font-family: 'Arial', sans-serif;
-  color: white; /* Ensure all text is white */
+  color: rgb(0, 0, 0); /* Ensure all text is white */
 }
 
 /* Banner section */
@@ -14,7 +14,7 @@
 }
 
 .banner-content {
-  background-color: rgba(0, 0, 0, 0); /* Semi-transparent overlay */
+  background-color: rgba(255, 255, 255, 0); /* Semi-transparent overlay */
   padding: 20px;
   opacity: 0.9;
 }
@@ -22,27 +22,27 @@
 .banner-title {
   font-size: 48px;
   font-weight: bold;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .banner-text {
   font-size: 18px;
   max-width: 600px;
   margin: 20px auto;
-  color: rgba(0, 0, 0, 0.944);
+  color: rgb(0, 0, 0);
 }
 
 /* Key Benefits section */
 .key-benefits {
-  background-color: #f5f5f5;
+  background-color: #ffffff;
   padding: 40px 0; /* Reduced padding */
 }
 
 .section-title {
   font-size: 36px;
-  color: white; /* White text for headings */
+  color: rgb(0, 0, 0); /* White text for headings */
   margin-bottom: 20px; /* Reduced margin */
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  background-color: rgb(255, 255, 255); /* Semi-transparent background */
   padding: 10px;
   border-radius: 5px;
 }
@@ -55,10 +55,10 @@
   border: none;
   background-size: cover;
   background-position: center;/* Reduced margin */
-  color: white; /* Ensure all text is white */
+  color: rgb(0, 0, 0); /* Ensure all text is white */
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  background-color: rgb(255, 255, 255); /* Semi-transparent overlay */
   opacity: 0.9;
 }
 
@@ -68,18 +68,18 @@
 
 /* Benefit content (heading + text together in one div) */
 .benefit-content {
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for both title and text */
+  background-color: rgb(255, 255, 255); /* Semi-transparent background for both title and text */
   border-radius: 5px;
 }
 
 .benefit-title {
   font-size: 22px;
-  color: white; /* White text for headings */
+  color: rgb(255, 255, 255); /* White text for headings */
 }
 
 .benefit-text {
   font-size: 16px;
-  color: white; /* White text */
+  color: rgb(255, 255, 255); /* White text */
 }
 
 /* Different background images for each benefit */
@@ -100,18 +100,18 @@
 
 .benefit-icon {
   font-size: 40px;
-  color: white;
+  color: rgb(0, 0, 0);
   margin-bottom: 15px;
 }
 
 /* Ayurveda Practices section */
 .ayurveda-practices {
-  background-color: #e9f7ef; /* Reduced padding */
+  background-color: #ffffff; /* Reduced padding */
 }
 
 .practice-item {
   padding: 20px; /* Reduced padding for larger div */
-  color: white;
+  color: rgb(0, 0, 0);
   border-radius: 10px;; /* Reduced margin */
   background-size: cover;
   background-position: center;
