@@ -9,6 +9,10 @@
   margin-bottom: 30px;
 }
 
+.logo {
+  width: 100px;
+}
+
 .mailing-list h2 {
   font-size: 12px;
   margin-bottom: 10px;
@@ -55,7 +59,9 @@
   height: 180px;
 }
 
-.company-info, .footer-links, .contact-us {
+.company-info,
+.footer-links,
+.contact-us {
   flex: 1;
   text-align: left;
 }
@@ -82,12 +88,14 @@
   color: #218838;
 }
 
-.footer-links h3, .contact-us h3 {
+.footer-links h3,
+.contact-us h3 {
   font-size: 18px;
   margin-bottom: 15px;
 }
 
-.footer-links ul, .contact-us p {
+.footer-links ul,
+.contact-us p {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -140,7 +148,8 @@
     flex-direction: column;
   }
 
-  .subscribe-input, .subscribe-button {
+  .subscribe-input,
+  .subscribe-button {
     width: 100%;
     margin-bottom: 10px;
   }
@@ -151,7 +160,8 @@
     font-size: 20px;
   }
 
-  .footer-links h3, .contact-us h3 {
+  .footer-links h3,
+  .contact-us h3 {
     font-size: 16px;
   }
 
@@ -159,6 +169,7 @@
     font-size: 12px;
   }
 }
+
 /* Media Query for iPhone 14 Pro */
 @media (max-width: 430px) {
   .footer-sections {
@@ -170,7 +181,8 @@
     flex-direction: column;
   }
 
-  .subscribe-input, .subscribe-button {
+  .subscribe-input,
+  .subscribe-button {
     width: 100%;
     margin-bottom: 10px;
   }
@@ -179,7 +191,8 @@
     font-size: 20px; /* Adjusted size for better readability */
   }
 
-  .footer-links h3, .contact-us h3 {
+  .footer-links h3,
+  .contact-us h3 {
     font-size: 16px; /* Adjusted size for better visibility */
   }
 
@@ -198,5 +211,112 @@
 
   .subscribe-button {
     padding: 8px 15px; /* Reduced button padding */
+  }
+}
+
+/* Visually Hidden Class for Accessibility */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+/* For tablets (max-width: 768px) */
+@media (max-width: 768px) {
+  .footer-sections {
+    flex-direction: column; /* Stack sections vertically */
+    text-align: center; /* Center text alignment */
+  }
+
+  .subscribe {
+    flex-direction: column; /* Stack subscribe inputs vertically */
+  }
+
+  .subscribe-input,
+  .subscribe-button {
+    width: 100%; /* Full width for inputs and buttons */
+    margin-bottom: 10px; /* Space between inputs and button */
+  }
+
+  .mailing-list h2 {
+    font-size: 16px; /* Slightly larger text for tablets */
+  }
+
+  .footer-links h3,
+  .contact-us h3 {
+    font-size: 16px; /* Adjust header sizes */
+  }
+
+  .footer-bottom {
+    font-size: 12px; /* Maintain smaller font size */
+  }
+}
+
+/* For mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+  .mailing-list h2 {
+    font-size: 14px; /* Smaller heading size */
+  }
+
+  .footer-links h3,
+  .contact-us h3 {
+    font-size: 14px; /* Smaller header size for mobile */
+  }
+
+  .footer-links ul,
+  .contact-us p {
+    font-size: 12px; /* Font size for links and paragraphs */
+  }
+
+  .footer-bottom {
+    font-size: 10px; /* Further reduced font size for footer bottom */
+  }
+}
+
+/* Media Query for iPhone 14 Pro (max-width: 430px) */
+@media (max-width: 430px) {
+  .footer-sections {
+    flex-direction: column; /* Stack sections vertically */
+    text-align: center; /* Center text alignment */
+  }
+
+  .subscribe {
+    flex-direction: column; /* Stack subscribe inputs vertically */
+  }
+
+  .subscribe-input,
+  .subscribe-button {
+    width: 100%; /* Full width for inputs and buttons */
+    margin-bottom: 10px; /* Space between inputs and button */
+  }
+
+  .mailing-list h2 {
+    font-size: 18px; /* Adjusted size for better readability */
+  }
+
+  .footer-links h3,
+  .contact-us h3 {
+    font-size: 16px; /* Adjusted size for better visibility */
+  }
+
+  .footer-bottom {
+    font-size: 10px; /* Further reduced font size for footer bottom */
+  }
+
+  /* Optional: Adjust padding and margins for small screens */
+  .footer-sections {
+    padding: 10px 0; /* Reduced padding */
+  }
+
+  .subscribe-input {
+    padding: 6px; /* Reduced padding for smaller input */
+  }
+
+  .subscribe-button {
+    padding: 6px 10px; /* Reduced button padding */
   }
 }
