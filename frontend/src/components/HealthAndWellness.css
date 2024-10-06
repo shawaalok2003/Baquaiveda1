@@ -8,9 +8,11 @@
 .wellness-banner {
   background: url('https://media.istockphoto.com/id/1301229745/photo/saffron-coffee-in-a-glass-bowl-on-a-black-surface-with-some-raw-fresh-cinnamon-stick-and.webp?a=1&b=1&s=612x612&w=0&k=20&c=Zg2eRpMAtLnU01LeUcRtzrHiCxhzgOShMrX3cQ5AV0k=') no-repeat center center;
   background-size: cover;
-  padding: 80px 0; /* Reduced padding */
+  padding:  0; /* Reduced padding */
   padding-bottom: 0px;
   text-align: center;
+  width: 100px;
+  height: 100px;
 }
 
 .banner-content {
