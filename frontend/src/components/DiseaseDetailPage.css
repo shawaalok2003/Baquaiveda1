@@ -1,0 +1,83 @@
+.disease-detail {
+    max-width: 800px; /* Limit the width for better readability */
+    margin: 20px auto; /* Center the content on the page */
+    padding: 20px; /* Add padding for spacing */
+    background-color: #ffffff; /* White background for content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Headings */
+h1 {
+    font-size: 2.5em; /* Main title size */
+    color: #333; /* Dark color for headings */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+h2 {
+    font-size: 2em; /* Subheading size */
+    color: #555; /* Medium-dark color for subheadings */
+    margin-top: 20px; /* Space above subheadings */
+    margin-bottom: 10px; /* Space below subheadings */
+}
+
+/* Paragraphs */
+p {
+    font-size: 1.1em; /* Body text size */
+    line-height: 1.6; /* Line height for readability */
+    color: #666; /* Medium color for body text */
+    margin-bottom: 15px; /* Space between paragraphs */
+}
+
+/* Lists */
+ul {
+    list-style-type: disc; /* Bullet points for lists */
+    padding-left: 20px; /* Indentation for the list */
+}
+
+li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+/* Links */
+a {
+    color: #007BFF; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .disease-detail {
+        padding: 15px; /* Reduce padding on small screens */
+    }
+
+    h1 {
+        font-size: 2em; /* Smaller title size on mobile */
+    }
+
+    h2 {
+        font-size: 1.5em; /* Smaller subheading size on mobile */
+    }
+
+    p, li {
+        font-size: 1em; /* Body text and list size */
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+    .disease-detail {
+        padding: 25px; /* Increased padding for medium screens */
+    }
+
+    h1 {
+        font-size: 2.2em; /* Medium title size */
+    }
+
+    h2 {
+        font-size: 1.8em; /* Medium subheading size */
+    }
+}

@@ -1,78 +1,114 @@
+
+/* Container for the disease list */
 .disease-container {
-  display: grid;
+  display: grid; 
   grid-template-columns: repeat(6, 1fr); /* 6 columns in a row */
-  gap: 15px;
-  margin: 20px;
-  padding: 10px;
+  gap: 15px; /* Space between items */
+  margin: 20px; /* Margin around container */
+  padding: 10px; /* Padding inside the container */
 }
 
+/* Each disease item styling */
 .disease-item {
-  background-color: #f1f1f1;
-  border-radius: 8px;
-  padding: 10px;
-  cursor: pointer;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #f1f1f1; /* Light grey background */
+  border-radius: 8px; /* Rounded corners */
+  padding: 10px; /* Padding inside each item */
+  cursor: pointer; /* Change cursor on hover */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   height: 120px; /* Default height for square */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  transition: height 0.3s ease, background-color 0.3s ease; /* Smooth height and color transition */
+  display: flex; /* Flexbox for alignment */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center children vertically */
+  align-items: center; /* Center children horizontally */
+  text-align: center; /* Center text */
+  transition: height 0.3s ease, background-color 0.3s ease; /* Smooth transitions */
   position: relative; /* To keep dropdown in the same flow */
 }
 
+/* Style for open disease item */
 .disease-item.open {
-  height: auto; /* Allows the height to expand with the dropdown */
+  height: auto; /* Allows height to expand with the dropdown */
   background-color: #d9f9d9; /* Greenish background on toggle */
 }
 
+/* Header for each disease item */
 .disease-header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: flex; /* Flexbox for alignment */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
 }
 
+/* Icon styles */
 .disease-icon {
   color: #28a745; /* Greenish icon */
-  margin-bottom: 10px;
+  margin-bottom: 10px; /* Space below icon */
 }
 
+/* Toggle icon styles */
 .toggle-icon {
   color: #28a745; /* Greenish arrow */
-  margin-top: 10px;
+  margin-top: 10px; /* Space above arrow */
 }
 
+/* Details section styling */
 .disease-details {
-  background-color: #fff;
-  padding: 10px;
-  margin-top: 5px;
-  border-radius: 8px;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #fff; /* White background for details */
+  padding: 10px; /* Padding inside details */
+  margin-top: 5px; /* Space above details */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   width: 100%; /* Same width as parent div */
-  position: absolute;
-  top: 100%; /* Position dropdown just below the div */
-  left: 0;
-  z-index: 1;
+  position: absolute; /* Position dropdown just below the div */
+  top: 100%; /* Position below the item */
+  left: 0; /* Align to left */
+  z-index: 1; /* Stack above other elements */
   display: none; /* Initially hidden */
 }
 
+/* Show details when the item is open */
 .disease-item.open .disease-details {
   display: block; /* Show when the div is open */
 }
 
+/* Styles for unordered list in disease details */
 .disease-item ul {
   padding-left: 0; /* Remove default padding */
 }
 
+/* List item styles */
 .disease-item li {
   list-style: none; /* Remove bullet points */
-  margin-bottom: 5px;
-  color: #007bff; /* Make the text look like a clickable link */
-  cursor: pointer;
+  margin-bottom: 5px; /* Space between list items */
+  color: #007bff; /* Blue color for links */
+  cursor: pointer; /* Change cursor on hover */
 }
 
+/* Underline on hover for list items */
 .disease-item li:hover {
   text-decoration: underline; /* Add underline on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .disease-container {
+      grid-template-columns: repeat(4, 1fr); /* 4 columns on medium screens */
+  }
+}
+
+@media (max-width: 900px) {
+  .disease-container {
+      grid-template-columns: repeat(3, 1fr); /* 3 columns on smaller screens */
+  }
+}
+
+@media (max-width: 600px) {
+  .disease-container {
+      grid-template-columns: 1fr; /* 1 column on mobile screens */
+  }
+
+  .disease-item {
+      height: auto; /* Allow height to auto adjust for smaller screens */
+      padding: 15px; /* Increase padding for better touch targets */
+  }
 }

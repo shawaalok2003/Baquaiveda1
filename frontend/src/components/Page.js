@@ -337,7 +337,7 @@ import './page.css';
 const MainDiseases = () => {
   const diseases = [
     { name: 'Joint Pain', details: ['OA', 'RA', 'KLP', 'LOP', 'Frozen Shoulder', 'Nerve Pain', 'Heel Pain', 'Sciatica'] },
-    { name: 'Digestive Disease', details: ['Gastric Acidity', 'IBS', 'Constipation'] },
+       { name: 'Digestive Disease', details: ['Gastric Acidity', 'IBS', 'Constipation'] },
         { name: 'Neurological', details: ['Migraine'] },
         { name: 'Endocrinal Disorders', details: ['Diabetes Type 2', 'Thyroid (Hypothyroidism)'] },
         { name: 'Anorectal Problems', details: ['Piles', 'Fissures', 'Fistula'] },
