@@ -57,9 +57,8 @@
 // export default MainDiseases;
 
 
-
-
 import React, { useState } from "react";
+import { Route, Routes, Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown, faChevronUp, faDisease } from '@fortawesome/free-solid-svg-icons';
 import './page.css';
@@ -73,7 +72,7 @@ const MainDiseases = () => {
     { name: 'Anorectal Problems', details: ['Piles', 'Fissures', 'Fistula'] },
     { name: 'Female Problems', details: ['Dysmenorrhea', 'Irregular Menses', 'Excess Bleeding', 'PCOS', 'PCOD'] },
     { name: 'Skin Problems', details: ['Acne', 'Pimples', 'Eczema', 'Psoriasis', 'Skin Allergy', 'White Patch'] },
-    { name: 'Sexual Problems', details: ['SP', 'NF', 'LSD', 'ED', 'PE', 'Infertility < M > < F >', 'Sexual Debility'] },
+    { name: 'Sexual Problems', details: ['SP', 'NF', 'LSD', 'ED', 'PE', 'Infertility'] },
     { name: 'Mental', details: ['Anxiety'] },
     { name: 'Hairfall', details: ['Dandruff', 'Alopecia'] },
     { name: 'Metabolic Disease', details: ['Obesity', 'High Blood Pressure', 'Hyperlipidemia'] },
@@ -106,7 +105,10 @@ const MainDiseases = () => {
           <div className="disease-details">
             <ul>
               {disease.details.map((detail, i) => (
-                <li key={i}>{detail}</li>
+                <li key={i}>
+                  {/* Generate the correct link dynamically */}
+                  <Link to={`/disease/${detail.toLowerCase().replace(/\s+/g, '-')}`}>{detail}</Link>
+                </li>
               ))}
             </ul>
           </div>
@@ -116,4 +118,36 @@ const MainDiseases = () => {
   );
 };
 
-export default MainDiseases;
+const DiseaseDetailPage = ({ diseaseName }) => {
+  return (
+    <div>
+      <h1>{diseaseName}</h1>
+      <p>Details about {diseaseName} will go here...</p>
+    </div>
+  );
+};
+
+// Routes Component to include in your main App
+const AppRoutes = () => {
+  const diseases = [
+    { name: 'Joint Pain', details: ['OA', 'RA', 'KLP', 'LOP', 'Frozen Shoulder', 'Nerve Pain', 'Heel Pain', 'Sciatica'] },
+    { name: 'Digestive Disease', details: ['Gastric Acidity', 'IBS', 'Constipation'] },
+    // Add other diseases as per the array above...
+  ];
+
+  return (
+    <Routes>
+      {diseases.map((disease) =>
+        disease.details.map((detail) => (
+          <Route
+            key={detail}
+            path={`/disease/${detail.toLowerCase().replace(/\s+/g, '-')}`}
+            element={<DiseaseDetailPage diseaseName={detail} />}
+          />
+        ))
+      )}
+    </Routes>
+  );
+};
+
+export { MainDiseases, AppRoutes };
