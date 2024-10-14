@@ -144,31 +144,6 @@
     padding: 7px 14px;
   }
 }
-
-/* For small mobile phones */
-@media (max-width: 480px) {
-  .flip-card {
-    width: 100%;
-    height: auto;
-  }
-
-  .product-image {
-    height: 120px;
-  }
-
-  .product-name {
-    font-size: 1.1rem;
-  }
-
-  .product-price {
-    font-size: 0.85rem;
-  }
-
-  .add-to-cart-btn {
-    font-size: 0.8rem;
-    padding: 6px 12px;
-  }
-}
 .new{
   color: rgb(0, 0, 0);
   background-color: #093515;

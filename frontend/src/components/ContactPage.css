@@ -71,7 +71,10 @@
 .contact-form button:hover {
   background-color: #218838; /* Darker shade on hover */
 }
-
+.contact-image{
+  width: 400px;
+  height: 500px;
+}
 /* Responsive styling for tablets (max-width 768px) */
 @media (max-width: 768px) {
   .contact-page {
@@ -81,6 +84,10 @@
   .contact-form {
     width: 100%; /* Full width for form on tablets */
   }
+  .contact-image{
+    display: none;
+  }
+
 
   .contact-container {
     flex-direction: column; /* Stack form and image vertically */
@@ -100,6 +107,9 @@
 
   .contact-page h2 {
     font-size: 2rem; /* Smaller heading size */
+  }
+  .contact-image{
+    display: none;
   }
 
   .contact-page p {

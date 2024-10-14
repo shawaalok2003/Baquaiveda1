@@ -437,6 +437,11 @@
   .nav-icon {
     margin-left: 10px; /* Reduce margin on mobile */
   }
+  .top-bar {
+    padding: 10px 0;
+    font-size: 9px;
+    display: none; /* Adjust font size */
+  }
 }
 
 /* Media query for 13-inch laptop (1366px and below) */
@@ -444,7 +449,7 @@
   /* Top Bar */
   .top-bar {
     padding: 10px 0;
-    font-size: 13px; /* Adjust font size */
+    font-size: 9px; /* Adjust font size */
   }
 
   .discount-text {

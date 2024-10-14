@@ -362,6 +362,7 @@ const MainDiseases = () => {
   };
 
   return (
+
     <div className="disease-container">
       {diseases.map((disease, index) => (
         <div
@@ -391,6 +392,7 @@ const MainDiseases = () => {
         </div>
       ))}
     </div>
+
   );
 };
 

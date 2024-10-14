@@ -594,7 +594,6 @@ const DiseaseDetailPage = () => {
      case 'pimples':
       content = (
         <>
-          <h1>Acne & Pimples</h1>
           <p>Acne and pimples are skin conditions that occur when hair follicles become clogged with oil and dead skin cells, leading to inflammation.</p>
           
           <h2>Symptoms:</h2>
@@ -620,7 +619,6 @@ const DiseaseDetailPage = () => {
     case 'eczema':
       content = (
         <>
-          <h1>Eczema</h1>
           <p>Eczema is a condition that makes your skin red, itchy, and inflamed. It's often triggered by an overactive immune response to allergens.</p>
           
           <h2>Symptoms:</h2>
@@ -646,7 +644,6 @@ const DiseaseDetailPage = () => {
     case 'psoriasis':
       content = (
         <>
-          <h1>Psoriasis</h1>
           <p>Psoriasis is a chronic autoimmune skin condition characterized by red, scaly patches on the skin, often accompanied by itching or pain.</p>
           
           <h2>Symptoms:</h2>
@@ -672,7 +669,6 @@ const DiseaseDetailPage = () => {
     case 'skin-allergy':
       content = (
         <>
-          <h1>Skin Allergy</h1>
           <p>Skin allergies are immune system reactions to certain substances, leading to redness, itching, and inflammation.</p>
           
           <h2>Symptoms:</h2>
@@ -698,7 +694,6 @@ const DiseaseDetailPage = () => {
     case 'white-patch':
       content = (
         <>
-          <h1>White Patch (Vitiligo)</h1>
           <p>White patches (Vitiligo) occur due to a loss of pigment in the skin, leading to white, depigmented areas.</p>
           
           <h2>Symptoms:</h2>
@@ -725,7 +720,6 @@ const DiseaseDetailPage = () => {
     case 'sp':
       content = (
         <>
-          <h1>Spermatorrhea (SP)</h1>
           <p>Spermatorrhea (SP) is the involuntary leakage of semen, which can lead to weakness and fatigue.</p>
 
           <h2>Symptoms:</h2>
@@ -751,7 +745,6 @@ const DiseaseDetailPage = () => {
     case 'nf':
       content = (
         <>
-          <h1>Nocturnal Emission (NF)</h1>
           <p>Nocturnal Emission (NF), also known as wet dreams, is the involuntary release of semen during sleep, often associated with sexual dreams.</p>
 
           <h2>Symptoms:</h2>
@@ -776,7 +769,6 @@ const DiseaseDetailPage = () => {
     case 'ed':
       content = (
         <>
-          <h1>Erectile Dysfunction (ED)</h1>
           <p>Erectile Dysfunction (ED) is the inability to maintain or achieve an erection sufficient for satisfactory sexual performance.</p>
 
           <h2>Symptoms:</h2>
@@ -802,7 +794,6 @@ const DiseaseDetailPage = () => {
     case 'pe':
       content = (
         <>
-          <h1>Premature Ejaculation (PE)</h1>
           <p>Premature Ejaculation (PE) is when ejaculation occurs with minimal sexual stimulation, often before the person wishes.</p>
 
           <h2>Symptoms:</h2>
@@ -827,7 +818,6 @@ const DiseaseDetailPage = () => {
     case 'infertility':
       content = (
         <>
-          <h1>Infertility</h1>
           <p>Infertility is the inability to conceive after one year of unprotected intercourse, affecting both men and women.</p>
 
           <h2>Symptoms:</h2>
@@ -853,7 +843,6 @@ const DiseaseDetailPage = () => {
      case 'anxiety':
       content = (
         <>
-          <h1>Anxiety</h1>
           <p>Anxiety is a common mental health disorder characterized by persistent feelings of worry, fear, or apprehension that can interfere with daily activities.</p>
           
           <h2>Symptoms:</h2>
@@ -881,7 +870,6 @@ const DiseaseDetailPage = () => {
        case 'dandruff':
       content = (
         <>
-          <h1>Dandruff</h1>
           <p>Dandruff is a common scalp condition characterized by flaking skin, which can lead to itching and discomfort.</p>
           
           <h2>Symptoms:</h2>
