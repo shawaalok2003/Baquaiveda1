@@ -1,52 +1,3 @@
-/* .disease-container {
-  margin: 20px;
-  padding: 10px;
-  max-width: 600px;
-}
-
-.disease-item {
-  margin-bottom: 15px;
-  background-color: #f1f1f1;
-  border-radius: 8px;
-  padding: 10px;
-  cursor: pointer;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.disease-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.disease-icon {
-  color: #007bff;
-  margin-right: 10px;
-}
-
-.toggle-icon {
-  color: #007bff;
-}
-
-.disease-details {
-  background-color: #fff;
-  padding: 10px;
-  margin-top: 5px;
-  border-radius: 8px;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.disease-details ul {
-  padding-left: 20px;
-}
-
-.disease-details li {
-  list-style: disc;
-  margin-bottom: 5px;
-} */
-
-
-
 .disease-container {
   display: grid;
   grid-template-columns: repeat(6, 1fr); /* 6 columns in a row */
@@ -125,4 +76,3 @@
 .disease-item li:hover {
   text-decoration: underline; /* Add underline on hover */
 }
-
