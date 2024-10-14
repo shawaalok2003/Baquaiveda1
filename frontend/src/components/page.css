@@ -1,210 +1,120 @@
-/* Container for the entire services section */
-.services-container {
-    padding: 20px;
-    padding-bottom: 40px; /* Added padding to the bottom for spacing */
-    text-align: center;
-  }
-  
-  /* Title styling */
-  .services-title {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #333;
-    font-weight: bold;
-  }
-  .primary{
-    width: 150px;
-    height: 40px;
-    background-color: green;
-    cursor: pointer;
-    color: green;
-  }
-  
-  /* Grid layout for services */
-  .services-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr); /* Set 5 columns */
-    gap: 15px; /* Adjusted gap for better spacing */
-    justify-items: center;
-  }
-  
-  /* Service card styling */
-  .service-card {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px; /* Standard padding for consistency */
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease-in-out;
-    width: 200px; /* Fixed width for all cards */
-    height: 250px; /* Fixed height for all cards */
-  }
-  
-  /* Increase the size of the product image */
-  .service-card img {
-    width: 120px; /* Adjusted image size for better visibility */
-    height: 120px; /* Set fixed height for the images */
-    margin-bottom: 10px;
-    object-fit: cover; /* Maintain aspect ratio */
-  }
-  
-  /* Service title styling */
-  .service-card h3 {
-    font-size: 20px; /* Increased font size for better visibility */
-    color: #555;
-    margin: 0; /* No margin for consistent alignment */
-  }
-  
-  /* Hover effect for service cards */
-  .service-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-  }
-  
-  /* Responsive design for smaller screens */
-  @media (max-width: 1024px) {
-    .services-grid {
-      grid-template-columns: repeat(3, 1fr); /* Adjust to 3 columns on medium screens */
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .services-grid {
-      grid-template-columns: repeat(2, 1fr); /* Adjust to 2 columns on smaller screens */
-    }
-  
-    .services-title {
-      font-size: 20px;
-    }
-  
-    .service-card img {
-      width: 100px; /* Adjusted image size for smaller screens */
-      height: 100px; /* Adjusted height for smaller screens */
-    }
-  
-    .service-card h3 {
-      font-size: 18px; /* Adjusted font size */
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .services-grid {
-      grid-template-columns: 1fr; /* 1 column on mobile screens */
-    }
-  
-    .services-title {
-      font-size: 18px;
-    }
-  
-    .service-card img {
-      width: 80px; /* Further reduced for mobile */
-      height: 80px; /* Further reduced height for mobile */
-    }
-  
-    .service-card h3 {
-      font-size: 16px; /* Adjusted font size */
-    }
-  }
-  /* Container for the entire services section */
-.services-container {
-    padding: 20px;
-    padding-bottom: 40px; /* Added padding to the bottom for spacing */
-    text-align: center;
-  }
-  
-  /* Title styling */
-  .services-title {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #333;
-    font-weight: bold;
-  }
-  
-  /* Grid layout for services */
-  .services-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr); /* Set 5 columns */
-    gap: 15px; /* Adjusted gap for better spacing */
-    justify-items: center;
-  }
-  
-  /* Service card styling */
-  .service-card {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px; /* Standard padding for consistency */
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease-in-out;
-    width: 250px; /* Increased width for all cards */
-    height: 250px; /* Fixed height for all cards */
-  }
-  
-  /* Increase the size of the product image */
-  .service-card img {
-    width: 120px; /* Adjusted image size for better visibility */
-    height: 120px; /* Set fixed height for the images */
-    margin-bottom: 10px;
-    object-fit: cover; /* Maintain aspect ratio */
-  }
-  
-  /* Service title styling */
-  .service-card h3 {
-    font-size: 20px; /* Increased font size for better visibility */
-    color: #555;
-    margin: 0; /* No margin for consistent alignment */
-  }
-  
-  /* Hover effect for service cards */
-  .service-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-  }
-  
-  /* Responsive design for smaller screens */
-  @media (max-width: 1024px) {
-    .services-grid {
-      grid-template-columns: repeat(3, 1fr); /* Adjust to 3 columns on medium screens */
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .services-grid {
-      grid-template-columns: repeat(2, 1fr); /* Adjust to 2 columns on smaller screens */
-    }
-  
-    .services-title {
-      font-size: 20px;
-    }
-  
-    .service-card img {
-      width: 100px; /* Adjusted image size for smaller screens */
-      height: 100px; /* Adjusted height for smaller screens */
-    }
-  
-    .service-card h3 {
-      font-size: 18px; /* Adjusted font size */
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .services-grid {
-      grid-template-columns: 1fr; /* 1 column on mobile screens */
-    }
-  
-    .services-title {
-      font-size: 18px;
-    }
-  
-    .service-card img {
-      width: 80px; /* Further reduced for mobile */
-      height: 80px; /* Further reduced height for mobile */
-    }
-  
-    .service-card h3 {
-      font-size: 16px; /* Adjusted font size */
-    }
-  }
-  
+/* .disease-container {
+  margin: 20px;
+  padding: 10px;
+  max-width: 600px;
+}
+
+.disease-item {
+  margin-bottom: 15px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.disease-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.disease-icon {
+  color: #007bff;
+  margin-right: 10px;
+}
+
+.toggle-icon {
+  color: #007bff;
+}
+
+.disease-details {
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.disease-details ul {
+  padding-left: 20px;
+}
+
+.disease-details li {
+  list-style: disc;
+  margin-bottom: 5px;
+} */
+
+
+
+.disease-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* 6 columns in a row */
+  gap: 15px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.disease-item {
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  height: 120px; /* Default height for square */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: height 0.3s ease; /* Smooth transition for height change */
+  position: relative; /* To keep dropdown in the same flow */
+}
+
+.disease-item.open {
+  height: auto; /* Allows the height to expand with the dropdown */
+}
+
+.disease-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.disease-icon {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.toggle-icon {
+  color: #007bff;
+  margin-top: 10px;
+}
+
+.disease-details {
+  background-color: #fff;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Same width as parent div */
+  position: absolute;
+  top: 100%; /* Position dropdown just below the div */
+  left: 0;
+  z-index: 1;
+  display: none; /* Initially hidden */
+}
+
+.disease-item.open .disease-details {
+  display: block; /* Show when the div is open */
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  list-style: disc;
+  margin-bottom: 5px;
+}
