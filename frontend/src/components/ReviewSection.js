@@ -2,15 +2,15 @@ import React, { useState } from 'react';
 import './ReviewSection.css';
 
 const reviews = [
-  { id: 1, name: 'John Doe', rating: 5, review: 'Amazing service and great support!' },
-  { id: 2, name: 'Jane Smith', rating: 4, review: 'Loved the experience, will come back again!' },
-  { id: 3, name: 'Alex Johnson', rating: 5, review: 'Highly recommend, great quality!' },
-  { id: 4, name: 'Emily Brown', rating: 3, review: 'It was okay, could be better.' },
-  { id: 5, name: 'Michael Lee', rating: 4, review: 'Satisfied with the overall experience.' },
-  { id: 6, name: 'Sara Wilson', rating: 5, review: 'Fantastic, exceeded my expectations!' },
-  { id: 7, name: 'David Clark', rating: 5, review: 'Best service I have ever used!' },
-  { id: 8, name: 'Laura Davis', rating: 4, review: 'Good service, but room for improvement.' },
-  { id: 9, name: 'James Evans', rating: 3, review: 'Average experience, but worth the price.' }
+  { id: 1, name: 'Rahul Sharma', rating: 5, review: 'Excellent Ayurvedic consultation, truly life-changing!' },
+  { id: 2, name: 'Sneha Gupta', rating: 4, review: 'Very informative and calming experience, will return for more treatments.' },
+  { id: 3, name: 'Anil Verma', rating: 5, review: 'Highly recommended! The herbal remedies worked wonders for my health.' },
+  { id: 4, name: 'Priya Reddy', rating: 3, review: 'It was a decent experience, but I expected more personalized advice.' },
+  { id: 5, name: 'Vikram Singh', rating: 4, review: 'Good experience, the Ayurvedic massage was particularly relaxing.' },
+  { id: 6, name: 'Aarti Patel', rating: 5, review: 'The best Ayurvedic treatment I’ve ever had! Truly healing and rejuvenating.' },
+  { id: 7, name: 'Rohit Iyer', rating: 5, review: 'Amazing holistic approach to wellness, I felt completely refreshed.' },
+  { id: 8, name: 'Neha Mehta', rating: 4, review: 'Good, but there’s still room for improvement in the overall ambiance.' },
+  { id: 9, name: 'Kiran Das', rating: 3, review: 'Average experience, the herbal tea was nice but the consultation felt rushed.' }
 ];
 
 const ReviewSection = () => {

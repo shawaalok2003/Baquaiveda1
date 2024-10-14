@@ -30,6 +30,10 @@
   color: white;
   margin: 0; /* Remove any margin for better alignment */
 }
+.banner-content h2{
+  color: white;
+  z-index: 3;
+}
 
 .banner-content h1 {
   font-size: 3rem;
