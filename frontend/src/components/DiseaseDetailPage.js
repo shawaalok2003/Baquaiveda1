@@ -1126,7 +1126,6 @@ const DiseaseDetailPage = () => {
        case 'lsd':
       content = (
         <>
-          <h1>LSD (Lysergic Acid Diethylamide)</h1>
           <p>LSD is a powerful hallucinogenic drug that alters perception, mood, and a range of cognitive processes. It is known for inducing profound changes in consciousness and is often used recreationally.</p>
 
           <h2>Effects and Symptoms:</h2>
