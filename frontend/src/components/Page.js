@@ -357,7 +357,7 @@ const MainDiseases = () => {
     if (openDisease === index) {
       setOpenDisease(null); // Close if clicked again
     } else {
-      setOpenDisease(index); // Open this disease
+      setOpenDisease(index); // Open this diseases
     }
   };
 
