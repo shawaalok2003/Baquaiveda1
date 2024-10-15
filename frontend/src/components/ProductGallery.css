@@ -1,113 +1,82 @@
-/* Container for the entire gallery */
 .product-gallery-container {
-  padding: 0; /* Removed padding for a tighter fit */
-  height: 300px; /* Light background for contrast */
+  padding: 20px; /* Padding around the gallery */
+  background-color: #f8f9fa; /* Light background color */
+  text-align: center; /* Center-aligning text */
 }
 
-/* Styling for product title */
 .one {
-  font-size: 2.5rem; /* Larger title for better visibility */
-  color: #2c3e50; /* Darker color for a more elegant look */
-  font-weight: bold;
-  text-align: center;
-  margin: 0; /* Added margin for spacing between title and gallery */
+  font-size: 2rem; /* Font size for the title */
+  font-weight: bold; /* Bold title */
+  margin-bottom: 10px; /* Margin below the title */
+  color: #333; /* Dark color for the title */
 }
 
-/* Styling for product subtitle */
 .product-subtitle {
-  font-size: 1.2rem;
-  text-align: center;
-  margin: 0; /* Removed margin to eliminate extra space */
-  color: #34495e; /* Softer color for the subtitle */
+  font-size: 1rem; /* Smaller font for subtitle */
+  color: #666; /* Gray color for subtitle */
+  margin-bottom: 20px; /* Margin below the subtitle */
 }
 
-/* Styling for each gallery item */
+/* Slider Settings */
 .gallery-item {
-  padding: 0; /* Removed padding for tighter fit */
-  height: 100px;
-  background: transparent;
-}
-
-/* Styling for the product card */
-.product-card {
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Softer shadow for depth */
-  transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions for hover effects */
-  background-color: #fff; /* White background for product cards */
-  margin: 0; /* Removed margin for tighter fit */
-  display: flex; /* Allows for better layout control */
-  align-items: center; /* Vertically centers the image */
-  justify-content: center; /* Horizontally centers the image */
-}
-
-/* Hover effect for product card */
-.product-card:hover {
-  transform: scale(1.05); /* Slightly increase size on hover */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
- 
-}
-
-/* Styling for the product image */
-.product-image {
-  width: 100%; /* Ensures image fits within the card */ /* Fixed height for uniformity */
-  object-fit: cover; /* Crop images to maintain aspect ratio */
-  display: block;
-  margin: 0; /* Remove margin to eliminate extra spacing */
-}
-
-/* Arrow styling */
-.slick-prev,
-.slick-next {
-  font-size: 30px !important; /* Adjust size of the arrow */
-  color: #2980b9 !important; /* Arrow color */
-  background: none !important; /* Remove background */
-  border: none !important; /* Remove border */
-  cursor: pointer !important; /* Pointer cursor */
-  z-index: 1 !important; /* Ensure it appears above other content */
   display: flex;
-  align-items: center;
-  justify-content: center;
+  justify-content: center; /* Center the image */
+  align-items: center; /* Center the image vertically */
+  padding: 10px; /* Padding for the gallery items */
 }
 
-.slick-prev:hover,
-.slick-next:hover {
-  color: #007bff !important; /* Color on hover */
+.product-card {
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden; /* Ensures child elements don't overflow */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
-/* Positioning for previous arrow */
-.slick-prev {
-  left: 10px !important; /* Position from the left */
+.product-image {
+  width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+  transition: transform 0.2s; /* Smooth zoom effect */
 }
 
-/* Positioning for next arrow */
+.product-image:hover {
+  transform: scale(1.05); /* Zoom in effect on hover */
+}
+
+/* Arrows styles */
+.slick-next, .slick-prev {
+  z-index: 1; /* Ensure arrows are on top */
+  font-size: 24px; /* Size of arrow icons */
+  color: #333; /* Color for arrows */
+}
+
 .slick-next {
-  right: 10px !important; /* Position from the right */
+  right: 15px; /* Position next arrow */
 }
 
-/* Responsive Styles */
+.slick-prev {
+  left: 15px; /* Position previous arrow */
+}
 
-/* For tablets and smaller laptops */
-@media (max-width: 1024px) {
-  .product-card {
-    width: 150px; /* Smaller width for tablets */
-    height: 150px; /* Fixed height for uniformity */
+/* Media Queries for responsiveness */
+@media (max-width: 1200px) {
+  .product-image {
+    height: 200px; /* Set a height for large screens */
   }
 }
 
-/* For large mobile phones */
+@media (max-width: 992px) {
+  .product-image {
+    height: 180px; /* Set a height for medium screens */
+  }
+}
+
 @media (max-width: 768px) {
-  .product-card {
-    width: 100%; /* Full width on mobile */
-    height: 150px; /* Fixed height for uniformity */
+  .product-image {
+    height: 160px; /* Set a height for small screens */
   }
 }
 
-/* For small mobile phones */
-@media (max-width: 480px) {
-  .product-card {
-    width: 100%; /* Full width for small devices */
-    height: 150px; /* Fixed height for uniformity */
+@media (max-width: 576px) {
+  .product-image {
+    height: 140px; /* Set a height for extra small screens */
   }
 }

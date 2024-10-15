@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Container, Row, Col, Button, Card } from 'react-bootstrap';
 import { useCart } from './cart/cartContext';
 import { WishlistContext } from './wishlist/wishlistContext';
 import './Products.css'; // Custom styles for your products page
@@ -29,64 +29,53 @@ const ProductsPage = () => {
     { id: 13, name: 'Product 13', price: 100, image: 'Product 14.jpeg', description: 'This is a detailed description of Product 1.' },
   ];
 
-  // const notify = (productName) => {
-  //   toast.success(`${productName} added to cart`, {
-  //     position: "top-right",
-  //     autoClose: 2000, // Auto close the toast after 2 seconds
-  //   });
-  // };
-
   return (
-    <Container className="products-page">
+    <Container className="products-container">
       <Row>
         {productList.map(product => (
-          <Col md={4} key={product.id} className="product-col">
-            <div className="flip-card">
-              <div className="flip-card-inner">
-                {/* Front side of the card */}
-                <div className="flip-card-front">
-                  <img
-                    src={require(`/public/images/${product.image}`)}
-                    alt={product.name}
-                    className="product-image"
-                  />
-                  <h4 className="product-name">{product.name}</h4>     
-                  <p className="product-price">${product.price}</p>
-                </div>
-                {/* Back side of the card */}
-                <div className="flip-card-back">
-                  <h4>{product.name}</h4>
-                  <p>{product.description}</p>
-                  <button
-                    onClick={() => {
-                      if (token) {
-                        handleAddToCart(product.id, product.name, product.price, 1, token);
-                        //notify(product.name);
-                      } else {
-                        console.error('User is not authenticated');
-                        window.location.href = '/login'; // Redirect to login if no token
-                      }
-                    }}
-                  >
-                    Add to Cart
-                  </button>
-                  <Button variant="outline-primary" onClick={() => {
-                    if (token) {
-                      handleAddToWishlist(product.id, product.name, product.price, token);
-                    } else {
-                      console.error('User is not authenticated');
-                      window.location.href = '/login';
-                    }
-                  }}>
-                    Add to Wishlist
-                  </Button>
-                </div>
-              </div>
-            </div>
+          <Col md={4} key={product.id} className="product-column">
+            <Card className="product-card">
+              <Card.Img variant="top" src={require(`/public/images/${product.image}`)} alt={product.name} className="product-image" />
+              <Card.Body>
+                <Card.Title className="product-title">{product.name}</Card.Title>
+                <Card.Text className="product-description">
+                  {product.description}
+                </Card.Text>
+                <p className="product-price">${product.price}</p>
+                <Button variant="primary" onClick={() => {
+                  if (token) {
+                    handleAddToCart(product.id, product.name, product.price, 1, token);
+                    toast.success(`${product.name} added to cart`, {
+                      position: "top-right",
+                      autoClose: 2000,
+                    });
+                  } else {
+                    console.error('User is not authenticated');
+                    window.location.href = '/login'; // Redirect to login if no token
+                  }
+                }}>
+                  Add to Cart
+                </Button>
+                <Button variant="outline-primary" onClick={() => {
+                  if (token) {
+                    handleAddToWishlist(product.id, product.name, product.price, token);
+                    toast.info(`${product.name} added to wishlist`, {
+                      position: "top-right",
+                      autoClose: 2000,
+                    });
+                  } else {
+                    console.error('User is not authenticated');
+                    window.location.href = '/login';
+                  }
+                }} className="ml-2">
+                  Add to Wishlist
+                </Button>
+              </Card.Body>
+            </Card>
           </Col>
         ))}
       </Row>
-      <ToastContainer/>
+      <ToastContainer />
     </Container>
   );
 };

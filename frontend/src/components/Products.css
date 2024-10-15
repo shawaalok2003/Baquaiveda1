@@ -1,281 +1,117 @@
-/* Container for the product page */
-.products-page {
-    margin-top: 20px;
-  }
-  
-  /* Styling for individual product columns */
-  .product-col {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  /* Flip card container */
-  .flip-card {
-    background-color: transparent;
-    width: 350px;
-    height: 400px;
-    perspective: 1000px; /* Gives 3D effect */
-    margin: 20px;
-  }
-  
-  /* Inner content of the flip card */
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  
-  /* Trigger the flip on hover */
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  /* Front side of the card */
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
-  /* Front side styling */
-  .flip-card-front {
-    background-color: #28a745;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-  }
-  
-  .product-image {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 10px 10px 0 0;
-  }
-  
-  .product-name {
-    font-size: 1.5rem;
-    margin-top: 10px;
-  }
-  
-  .product-price {
-    font-size: 1.2rem;
-  }
-  
-  /* Back side styling */
-  .flip-card-back {
-    background-color: #f8f9fa;
-    color: #155724;
-    transform: rotateY(180deg);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-  }
-  
-  /* Add to cart button */
-  .add-to-cart-btn {
-    margin-top: 15px;
-    background-color: #28a745;
-    border-color: #28a745;
-    color: white;
-    transition: background-color 0.3s ease-in-out;
-  }
-  
-  .add-to-cart-btn:hover {
-    background-color: #218838;
-    border-color: #218838;
-  }
-  @media (max-width: 1024px) {
-  .flip-card {
-    width: 250px;
-    height: 350px;
-  }
+/* Products.css */
 
-  .product-name {
-    font-size: 1.3rem;
-  }
-
-  .product-price {
-    font-size: 1rem;
-  }
-
-  .flip-card-back {
-    padding: 15px;
-  }
-
-  .add-to-cart-btn {
-    font-size: 0.9rem;
-    padding: 8px 16px;
-  }
+.products-container {
+  padding: 20px; /* Padding for the entire products page */
 }
 
-/* For large mobile phones */
-@media (max-width: 768px) {
-  .flip-card {
-    width: 200px;
-    height: 300px;
-  }
-
-  .product-image {
-    height: 150px;
-  }
-
-  .product-name {
-    font-size: 1.2rem;
-  }
-
-  .product-price {
-    font-size: 0.95rem;
-  }
-
-  .add-to-cart-btn {
-    font-size: 0.85rem;
-    padding: 7px 14px;
-  }
-}
-.new{
-  color: rgb(0, 0, 0);
-  background-color: #093515;
-}
-/* Product price styling */
-.product-price {
-  font-size: 1.2rem;
-  color: white !important; /* Force price text color to white */
+.product-column {
+  margin-bottom: 20px; /* Space between product columns */
 }
 
-/* Adjustments for medium screens */
-@media (max-width: 1024px) {
-  .product-price {
-    font-size: 1rem;
-    color: white !important; /* Ensure price text color stays white on medium screens */
-  }
+.product-card {
+  border: none; /* Remove default border */
+  transition: transform 0.2s; /* Smooth hover effect */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for card */
+  border-radius: 10px; /* Rounded corners for card */
+  overflow: hidden; /* Ensures child elements do not overflow */
+  padding: 10px; /* Add padding inside card */
 }
 
-/* Adjustments for large mobile phones */
-@media (max-width: 768px) {
-  .product-price {
-    font-size: 0.95rem;
-    color: white !important; /* Ensure price text color stays white on large mobile phones */
-  }
-}
-
-/* Adjustments for small mobile phones */
-@media (max-width: 480px) {
-  .product-price {
-    font-size: 0.85rem;
-    color: white !important; /* Ensure price text color stays white on small mobile phones */
-  }
-}
-
-
-.product-col {
-  margin-bottom: 30px;
-}
-
-.flip-card {
-  background-color: transparent;
-  width: 100%;
-  perspective: 1000px;
-}
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: #093515;
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden; /* Safari */
-}
-
-.flip-card-front {
-  background-color: #f1f1f1;
-  color: black;
-}
-
-.flip-card-back {
-  background-color: #f8f9fa;
-  color: black;
-  transform: rotateY(180deg);
-  padding: 10px;
+.product-card:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
 }
 
 .product-image {
-  width: 300px;
-  height: 300px;
+  height: 150px; /* Set a fixed height for images */
+  width: 100%; /* Ensure images take full width */
+  object-fit: cover; /* Cover the area without distortion */
+  margin-bottom: 10px; /* Space below each image */
 }
 
-.product-name {
-  font-size: 20px;
-  margin-top: 10px;
-  font-weight: bold;
+.product-title {
+  font-size: 1.2rem; /* Font size for product title */
+  font-weight: bold; /* Bold product title */
+}
+
+.product-description {
+  font-size: 0.9rem; /* Font size for description */
+  color: #666; /* Gray color for description */
 }
 
 .product-price {
-  font-size: 18px;
-  color: #333;
+  font-size: 1.1rem; /* Font size for price */
+  color: #333; /* Dark color for price */
+  margin: 10px 0; /* Margin around price */
 }
 
+/* Button Styles */
 button {
+  width: 100%; /* Full width for buttons */
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+/* Set button colors */
+.btn-primary {
   background-color: #28a745; /* Green background */
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-  margin-top: 10px;
+  border-color: #28a745; /* Same color for border */
+  color: white; /* White text color */
 }
 
-button:hover {
-  background-color: #218838; /* Darker green on hover */
-}
-
-button:focus {
-  outline: none;
-}
-.product-price{
-  width: 120px;
-  border-radius: 3px;
-  color: rgb(209, 27, 27);
-  background-color: rgb(99, 211, 74);
-
-}
 .btn-outline-primary {
-  background-color: transparent;
-  color: #28a745;
-  border: 2px solid #28a745;
-  transition: all 0.3s ease;
-  padding: 10px 20px;
-  margin-top: 10px;
-  border-radius: 5px;
+  color: #28a745; /* Green text color for outline */
+  border-color: #28a745; /* Same color for outline border */
 }
 
-.btn-outline-primary:hover {
-  background-color: #28a745; /* Green on hover */
-  color: white;
-  border: 2px solid transparent;
+.btn-primary:hover, .btn-outline-primary:hover {
+  background-color: #218838; /* Darker green on hover for primary button */
+  border-color: #218838; /* Darker green on hover for border */
+}
+
+/* Media Queries */
+@media (max-width: 576px) {
+  .product-column {
+    flex: 0 0 100%; /* 1 column for extra small devices */
+    max-width: 100%; /* Ensure full width */
+  }
+
+  .product-card {
+    height: 100%;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .product-column {
+    flex: 0 0 50%; /* 2 columns for small devices (tablets) */
+    max-width: 50%; /* Ensure max width */
+  }
+
+  .product-card {
+    height: 100%;
+  }
+
+  .product-image {
+    height: 180px; /* Increase image height slightly for better visibility */
+  }
+}
+
+@media (min-width: 769px) {
+  .product-column {
+    flex: 0 0 33.33%; /* 3 columns for medium devices */
+    max-width: 33.33%; /* Ensure max width */
+  }
+
+  .product-card {
+    height: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .product-column {
+    flex: 0 0 25%; /* 4 columns for large devices */
+    max-width: 25%; /* Ensure max width */
+  }
+
+  .product-card {
+    height: 100%;
+  }
 }

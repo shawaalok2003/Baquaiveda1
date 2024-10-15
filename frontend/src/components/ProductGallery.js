@@ -4,15 +4,14 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-
 const products = [
-  {image: 'Product 1.jpeg' },
-  {image: 'Product 2.jpeg' },
-  {image: 'Product 3.jpeg' },
-  {image: 'Product 4.jpeg' },
-  {image: 'Product 5.jpeg' },
-  {image: 'Product 6.jpeg' },
-  {image: 'Product 7.jpeg' },
+  { image: 'Product 1.jpeg' },
+  { image: 'Product 2.jpeg' },
+  { image: 'Product 8.jpeg' },
+  { image: 'Product 4.jpeg' },
+  { image: 'Product 5.jpeg' },
+  { image: 'Product 6.jpeg' },
+  { image: 'Product 7.jpeg' },
 ];
 
 const ProductGallery = () => {
@@ -57,9 +56,7 @@ const ProductGallery = () => {
   return (
     <div className="product-gallery-container">
       <h2 className="one">Type of Products</h2>
-      <p className="product-subtitle">
-       
-      </p>
+      <p className="product-subtitle"></p>
 
       <Slider {...settings}>
         {products.map((product, index) => (
@@ -68,7 +65,7 @@ const ProductGallery = () => {
               <img
                 src={require(`/public/images/${product.image}`)}
                 className="product-image"
-                alt={product.title}
+                alt={`Product ${index + 1}`}
               />
             </div>
           </div>
@@ -81,11 +78,9 @@ const ProductGallery = () => {
 const NextArrow = (props) => {
   const { className, onClick } = props;
   return (
-    <div
-      className={`${className} slick-next`}
-      onClick={onClick}
-    >
-      {/* Add your right arrow icon or text here */}
+    <div className={`${className} slick-next`} onClick={onClick}>
+      {/* Right arrow icon or text */}
+      &#x2192; {/* Right arrow symbol */}
     </div>
   );
 };
@@ -93,11 +88,9 @@ const NextArrow = (props) => {
 const PrevArrow = (props) => {
   const { className, onClick } = props;
   return (
-    <div
-      className={`${className} slick-prev`}
-      onClick={onClick}
-    >
-      {/* Add your left arrow icon or text here */}
+    <div className={`${className} slick-prev`} onClick={onClick}>
+      {/* Left arrow icon or text */}
+      &#x2190; {/* Left arrow symbol */}
     </div>
   );
 };

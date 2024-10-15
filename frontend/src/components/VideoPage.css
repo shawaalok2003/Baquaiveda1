@@ -1,0 +1,43 @@
+.video-container {
+    position: relative;
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    overflow: hidden; /* Hide overflow */
+    opacity: 1;
+  }
+  
+  .background-video {
+    position: absolute; /* Position the video absolutely */
+    top: 0; /* Align to top */
+    left: 0; /* Align to left */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    object-fit: cover; /* Cover the area without stretching */
+    opacity: 1; /* Full opacity */
+  }
+  
+  .responsive-text {
+    font-size: 2rem; /* Default text size */
+    font-family: Arial, sans-serif; /* Font family */
+    color: #fff; /* White text */
+    z-index: 1; /* Above video */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Text shadow for better readability */
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .video-container {
+      height: 80vh; /* Adjust height for mobile for better visibility */
+      padding: 10px; /* Less padding on mobile */
+    }
+  
+    .responsive-text {
+      font-size: 1.5rem; /* Smaller text size on mobile */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .responsive-text {
+      font-size: 1.2rem; /* Further reduce text size for very small screens */
+    }
+  }
