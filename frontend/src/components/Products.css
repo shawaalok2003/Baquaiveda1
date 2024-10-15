@@ -1,5 +1,3 @@
-/* Products.css */
-
 .products-container {
   padding: 20px; /* Padding for the entire products page */
 }
@@ -44,39 +42,21 @@
   margin: 10px 0; /* Margin around price */
 }
 
-/* Button Styles */
-button {
+.button {
   width: 100%; /* Full width for buttons */
-  transition: background-color 0.3s ease; /* Smooth background color transition */
-}
-
-/* Set button colors */
-.btn-primary {
-  background-color: #28a745; /* Green background */
-  border-color: #28a745; /* Same color for border */
-  color: white; /* White text color */
-}
-
-.btn-outline-primary {
-  color: #28a745; /* Green text color for outline */
-  border-color: #28a745; /* Same color for outline border */
-}
-
-.btn-primary:hover, .btn-outline-primary:hover {
-  background-color: #218838; /* Darker green on hover for primary button */
-  border-color: #218838; /* Darker green on hover for border */
 }
 
 /* Media Queries */
 @media (max-width: 576px) {
   .product-column {
     flex: 0 0 100%; /* 1 column for extra small devices */
-    max-width: 100%; /* Ensure full width */
+    max-width: 100%;/* Ensure full width */
   }
 
-  .product-card {
-    height: 100%;
-  }
+.product-card {
+  height: 100%;
+}
+
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
@@ -84,11 +64,9 @@ button {
     flex: 0 0 50%; /* 2 columns for small devices (tablets) */
     max-width: 50%; /* Ensure max width */
   }
-
-  .product-card {
-    height: 100%;
-  }
-
+.product-card{
+  height: 100%;
+}
   .product-image {
     height: 180px; /* Increase image height slightly for better visibility */
   }
@@ -99,7 +77,6 @@ button {
     flex: 0 0 33.33%; /* 3 columns for medium devices */
     max-width: 33.33%; /* Ensure max width */
   }
-
   .product-card {
     height: 100%;
   }
@@ -110,8 +87,7 @@ button {
     flex: 0 0 25%; /* 4 columns for large devices */
     max-width: 25%; /* Ensure max width */
   }
-
-  .product-card {
+  .product-card{
     height: 100%;
   }
 }
