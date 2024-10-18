@@ -1,24 +1,35 @@
+/* Container for the disease detail */
 .disease-detail {
     max-width: 800px; /* Limit the width for better readability */
-    margin: 20px auto; /* Center the content on the page */
+    margin: 30px auto; /* Center the content on the page */
     padding: 20px; /* Add padding for spacing */
-    background-color: #ffffff; /* White background for content */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #e7f9e7; /* Light green background for the container */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition for animations */
+}
+
+/* Add animation on hover */
+.disease-detail:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Darker shadow on hover */
 }
 
 /* Headings */
 h1 {
     font-size: 2.5em; /* Main title size */
-    color: #333; /* Dark color for headings */
-    margin-bottom: 10px; /* Space below the heading */
+    color: #2c6f2f; /* Dark green color for headings */
+    margin-bottom: 15px; /* Space below the heading */
+    text-align: center; /* Center the heading */
+    animation: fadeIn 0.5s ease-in; /* Fade-in animation */
 }
 
+/* Subheading */
 h2 {
     font-size: 2em; /* Subheading size */
-    color: #555; /* Medium-dark color for subheadings */
+    color: #4caf50; /* Medium green color for subheadings */
     margin-top: 20px; /* Space above subheadings */
-    margin-bottom: 10px; /* Space below subheadings */
+    margin-bottom: 15px; /* Space below subheadings */
 }
 
 /* Paragraphs */
@@ -47,6 +58,18 @@ a {
 
 a:hover {
     text-decoration: underline; /* Underline on hover */
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px); /* Slide in from below */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0); /* Final position */
+    }
 }
 
 /* Responsive Styles */

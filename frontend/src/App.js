@@ -348,7 +348,41 @@ function App() {
       <CartProvider token={token}>
         <div className="App">
           <Routes>
-            <Route path="/" element={<Layout><Banner /><AboutProducts /><ServicesPage /><DropdownMenu /><ServiceFeatures /><Products /><ProductGallery /><VideoPage /><MainDiseases /><ContactPage /><ReviewSection /></Layout>} />
+          <Route 
+  path="/" 
+  element={
+    <Layout>
+      <Banner />
+      <AboutProducts />
+      <ServicesPage />
+      <DropdownMenu />
+      <ServiceFeatures />
+      <Products />
+      
+      {/* Attractive and Styled Text */}
+      <h1 style={{ color: 'green', fontSize: '2.5rem', fontWeight: 'bold', textAlign: 'center', margin: '20px 0' }}>
+        Our Exclusive Products
+      </h1>
+      <ProductGallery />
+      <VideoPage/>
+      
+      <h1 style={{ color: 'green', fontSize: '2.5rem', fontWeight: 'bold', textAlign: 'center', margin: '20px 0' }}>
+        Our Exceptional Services
+      </h1>
+      <MainDiseases />
+      
+      <h1 style={{ color: 'green', fontSize: '2.5rem', fontWeight: 'bold', textAlign: 'center', margin: '20px 0' }}>
+        Get in Touch with Us
+      </h1>
+      <ContactPage />
+      
+      <h1 style={{ color: 'green', fontSize: '2.5rem', fontWeight: 'bold', textAlign: 'center', margin: '20px 0' }}>
+        What Our Customers Are Saying
+      </h1>
+      <ReviewSection />
+    </Layout>
+  } 
+/>
             <Route path="/products" element={<Layout><ProductsPage /></Layout>} />
             <Route path="/disease/:diseaseName" element={<Layout><DiseaseDetailPage /></Layout>} /> {/* New route for disease details */}
             <Route path="/privacy-policy" element={<Layout><PrivacyPolicy /></Layout>} />

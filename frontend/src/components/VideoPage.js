@@ -5,7 +5,7 @@ const VideoPage = () => {
   return (
     <div className="video-container">
       <video className="background-video" autoPlay muted loop>
-        <source src="/images/Why Ayurveda_ _ History, Traditions and Benefits _ Kerala Tourism.mp4" type="video/mp4" />
+        <source src="\images\67124fa18a6901b339097e3f.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div className="responsive-text">

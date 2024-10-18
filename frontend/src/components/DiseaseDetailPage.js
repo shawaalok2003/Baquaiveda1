@@ -1161,10 +1161,10 @@ const DiseaseDetailPage = () => {
 
 
   return (
-    <div>
-      <h1>{diseaseName ? diseaseName.replace('-', ' ').toUpperCase() : 'Disease'}</h1>
-      {content}
-    </div>
+    <div className="disease-detail">
+    <h1>{diseaseName ? diseaseName.replace('-', ' ').toUpperCase() : 'Disease'}</h1>
+    {content}
+</div>
   );
 };
 

@@ -328,6 +328,77 @@
 
 
 // MainDiseases.js
+// import React, { useState } from "react";
+// import { Link } from "react-router-dom";
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faChevronDown, faChevronUp, faDisease } from '@fortawesome/free-solid-svg-icons';
+// import './page.css';
+
+// const MainDiseases = () => {
+//   const diseases = [
+//     { name: 'Joint Pain', details: ['OA', 'RA', 'KLP', 'LOP', 'Frozen Shoulder', 'Nerve Pain', 'Heel Pain', 'Sciatica'] },
+//        { name: 'Digestive Disease', details: ['Gastric Acidity', 'IBS', 'Constipation'] },
+//         { name: 'Neurological', details: ['Migraine'] },
+//         { name: 'Endocrinal Disorders', details: ['Diabetes Type 2', 'Thyroid (Hypothyroidism)'] },
+//         { name: 'Anorectal Problems', details: ['Piles', 'Fissures', 'Fistula'] },
+//         { name: 'Female Problems', details: ['Dysmenorrhea', 'Irregular Menses', 'Excess Bleeding', 'PCOS', 'PCOD'] },
+//         { name: 'Skin Problems', details: ['Acne', 'Pimples', 'Eczema', 'Psoriasis', 'Skin Allergy', 'White Patch'] },
+//         { name: 'Sexual Problems', details: ['SP', 'NF', 'LSD', 'ED', 'PE', 'Infertility'] },
+//         { name: 'Mental', details: ['Anxiety'] },
+//         { name: 'Hairfall', details: ['Dandruff', 'Alopecia'] },
+//         { name: 'Metabolic Disease', details: ['Obesity', 'High Blood Pressure', 'Hyperlipidemia'] },
+//         { name: 'Respiratory Problems', details: ['Cough & Cold', 'Sinusitis', 'COPD', 'Asthma'] },
+//     // ... other diseases
+//   ];
+
+//   const [openDisease, setOpenDisease] = useState(null);
+
+//   const toggleDisease = (index) => {
+//     if (openDisease === index) {
+//       setOpenDisease(null); // Close if clicked again
+//     } else {
+//       setOpenDisease(index); // Open this diseases
+//     }
+//   };
+
+//   return (
+
+//     <div className="disease-container">
+//       {diseases.map((disease, index) => (
+//         <div
+//           key={index}
+//           className={`disease-item ${openDisease === index ? 'open' : ''}`}
+//           onClick={() => toggleDisease(index)}
+//         >
+//           <div className="disease-header">
+//             <FontAwesomeIcon icon={faDisease} className="disease-icon" />
+//             <span>{disease.name}</span>
+//             <FontAwesomeIcon icon={openDisease === index ? faChevronUp : faChevronDown} className="toggle-icon" />
+//           </div>
+//           <div className="disease-details">
+//             <ul>
+//               {disease.details.map((detail, i) => (
+//                 <li key={i}>
+//                   {/* Update the link for the OA disease */}
+//                   {detail === 'OA' ? (
+//                     <Link to="/disease/oa">{detail}</Link>
+//                   ) : (
+//                     <Link to={`/disease/${detail.toLowerCase().replace(/\s+/g, '-')}`}>{detail}</Link>
+//                   )}
+//                 </li>
+//               ))}
+//             </ul>
+//           </div>
+//         </div>
+//       ))}
+//     </div>
+
+//   );
+// };
+
+// export default MainDiseases;
+
+
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -336,33 +407,115 @@ import './page.css';
 
 const MainDiseases = () => {
   const diseases = [
-    { name: 'Joint Pain', details: ['OA', 'RA', 'KLP', 'LOP', 'Frozen Shoulder', 'Nerve Pain', 'Heel Pain', 'Sciatica'] },
-       { name: 'Digestive Disease', details: ['Gastric Acidity', 'IBS', 'Constipation'] },
-        { name: 'Neurological', details: ['Migraine'] },
-        { name: 'Endocrinal Disorders', details: ['Diabetes Type 2', 'Thyroid (Hypothyroidism)'] },
-        { name: 'Anorectal Problems', details: ['Piles', 'Fissures', 'Fistula'] },
-        { name: 'Female Problems', details: ['Dysmenorrhea', 'Irregular Menses', 'Excess Bleeding', 'PCOS', 'PCOD'] },
-        { name: 'Skin Problems', details: ['Acne', 'Pimples', 'Eczema', 'Psoriasis', 'Skin Allergy', 'White Patch'] },
-        { name: 'Sexual Problems', details: ['SP', 'NF', 'LSD', 'ED', 'PE', 'Infertility'] },
-        { name: 'Mental', details: ['Anxiety'] },
-        { name: 'Hairfall', details: ['Dandruff', 'Alopecia'] },
-        { name: 'Metabolic Disease', details: ['Obesity', 'High Blood Pressure', 'Hyperlipidemia'] },
-        { name: 'Respiratory Problems', details: ['Cough & Cold', 'Sinusitis', 'COPD', 'Asthma'] },
-    // ... other diseases
+    {
+      name: 'Joint Pain',
+      details: [
+        { short: 'OA', full: 'Osteoarthritis' },
+        { short: 'RA', full: 'Rheumatoid Arthritis' },
+        { short: 'KLP', full: 'Knee Ligament Pain' },
+        { short: 'LOP', full: 'Lower Back Pain' },
+        { short: 'Frozen Shoulder', full: 'Frozen Shoulder' },
+        { short: 'Nerve Pain', full: 'Nerve Pain' },
+        { short: 'Heel Pain', full: 'Heel Pain' },
+        { short: 'Sciatica', full: 'Sciatica' }
+      ]
+    },
+    {
+      name: 'Digestive Disease',
+      details: [
+        { short: 'Gastric Acidity', full: 'Gastric Acidity' },
+        { short: 'IBS', full: 'Irritable Bowel Syndrome' },
+        { short: 'Constipation', full: 'Constipation' }
+      ]
+    },
+    {
+      name: 'Neurological',
+      details: [{ short: 'Migraine', full: 'Migraine' }]
+    },
+    {
+      name: 'Endocrinal Disorders',
+      details: [
+        { short: 'Diabetes Type 2', full: 'Diabetes Type 2' },
+        { short: 'Hypothyroidism', full: 'Hypothyroidism' }
+      ]
+    },
+    {
+      name: 'Anorectal Problems',
+      details: [
+        { short: 'Piles', full: 'Piles' },
+        { short: 'Fissures', full: 'Fissures' },
+        { short: 'Fistula', full: 'Fistula' }
+      ]
+    },
+    {
+      name: 'Female Problems',
+      details: [
+        { short: 'Dysmenorrhea', full: 'Dysmenorrhea' },
+        { short: 'Irregular Menses', full: 'Irregular Menses' },
+        { short: 'Excess Bleeding', full: 'Excess Bleeding' },
+        { short: 'PCOS', full: 'Polycystic Ovarian Syndrome' },
+        { short: 'PCOD', full: 'Polycystic Ovarian Disease' }
+      ]
+    },
+    {
+      name: 'Skin Problems',
+      details: [
+        { short: 'Acne', full: 'Acne' },
+        { short: 'Pimples', full: 'Pimples' },
+        { short: 'Eczema', full: 'Eczema' },
+        { short: 'Psoriasis', full: 'Psoriasis' },
+        { short: 'Skin Allergy', full: 'Skin Allergy' },
+        { short: 'White Patch', full: 'White Patch' }
+      ]
+    },
+    {
+      name: 'Sexual Problems',
+      details: [
+        { short: 'SP', full: 'Sexual Performance Issues' },
+        { short: 'NF', full: 'Nocturnal Emission' },
+        { short: 'LSD', full: 'Low Sex Drive' },
+        { short: 'ED', full: 'Erectile Dysfunction' },
+        { short: 'PE', full: 'Premature Ejaculation' },
+        { short: 'Infertility', full: 'Infertility' }
+      ]
+    },
+    {
+      name: 'Mental',
+      details: [{ short: 'Anxiety', full: 'Anxiety' }]
+    },
+    {
+      name: 'Hairfall',
+      details: [
+        { short: 'Dandruff', full: 'Dandruff' },
+        { short: 'Alopecia', full: 'Alopecia' }
+      ]
+    },
+    {
+      name: 'Metabolic Disease',
+      details: [
+        { short: 'Obesity', full: 'Obesity' },
+        { short: 'High Blood Pressure', full: 'High Blood Pressure' },
+        { short: 'Hyperlipidemia', full: 'Hyperlipidemia' }
+      ]
+    },
+    {
+      name: 'Respiratory Problems',
+      details: [
+        { short: 'Cough & Cold', full: 'Cough & Cold' },
+        { short: 'Sinusitis', full: 'Sinusitis' },
+        { short: 'COPD', full: 'Chronic Obstructive Pulmonary Disease' },
+        { short: 'Asthma', full: 'Asthma' }
+      ]
+    }
   ];
 
   const [openDisease, setOpenDisease] = useState(null);
 
   const toggleDisease = (index) => {
-    if (openDisease === index) {
-      setOpenDisease(null); // Close if clicked again
-    } else {
-      setOpenDisease(index); // Open this diseases
-    }
+    setOpenDisease(openDisease === index ? null : index); // Toggle between open and closed
   };
 
   return (
-
     <div className="disease-container">
       {diseases.map((disease, index) => (
         <div
@@ -373,26 +526,28 @@ const MainDiseases = () => {
           <div className="disease-header">
             <FontAwesomeIcon icon={faDisease} className="disease-icon" />
             <span>{disease.name}</span>
-            <FontAwesomeIcon icon={openDisease === index ? faChevronUp : faChevronDown} className="toggle-icon" />
+            <FontAwesomeIcon
+              icon={openDisease === index ? faChevronUp : faChevronDown}
+              className="toggle-icon"
+            />
           </div>
-          <div className="disease-details">
-            <ul>
-              {disease.details.map((detail, i) => (
-                <li key={i}>
-                  {/* Update the link for the OA disease */}
-                  {detail === 'OA' ? (
-                    <Link to="/disease/oa">{detail}</Link>
-                  ) : (
-                    <Link to={`/disease/${detail.toLowerCase().replace(/\s+/g, '-')}`}>{detail}</Link>
-                  )}
-                </li>
-              ))}
-            </ul>
-          </div>
+          {openDisease === index && (
+            <div className="disease-details">
+              <ul>
+                {disease.details.map((detail, i) => (
+                  <li key={i}>
+                    {/* Display the full name but link with the short name */}
+                    <Link to={`/disease/${detail.short.toLowerCase().replace(/\s+/g, '-')}`}>
+                      {detail.full}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
       ))}
     </div>
-
   );
 };
 
