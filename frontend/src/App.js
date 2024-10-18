@@ -360,23 +360,23 @@ function App() {
       <Products />
       
       {/* Attractive and Styled Text */}
-      <h1 style={{ color: 'green', fontSize: '2.5rem', fontWeight: 'bold', textAlign: 'center', margin: '20px 0' }}>
+      <h1 style={{ color: 'green', fontSize: '2.5rem', fontWeight: 'bold', textAlign: 'center', margin: '30px 0' }}>
         Our Exclusive Products
       </h1>
       <ProductGallery />
       <VideoPage/>
       
-      <h1 style={{ color: 'green', fontSize: '2.5rem', fontWeight: 'bold', textAlign: 'center', margin: '20px 0' }}>
+      <h1 style={{ color: 'green', fontSize: '2.5rem', fontWeight: 'bold', textAlign: 'center', margin: '30px 0' }}>
         Our Exceptional Services
       </h1>
       <MainDiseases />
       
-      <h1 style={{ color: 'green', fontSize: '2.5rem', fontWeight: 'bold', textAlign: 'center', margin: '20px 0' }}>
+      <h1 style={{ color: 'green', fontSize: '2.5rem', fontWeight: 'bold', textAlign: 'center', margin: '30px 0' }}>
         Get in Touch with Us
       </h1>
       <ContactPage />
       
-      <h1 style={{ color: 'green', fontSize: '2.5rem', fontWeight: 'bold', textAlign: 'center', margin: '20px 0' }}>
+      <h1 style={{ color: 'green', fontSize: '2.5rem', fontWeight: 'bold', textAlign: 'center', margin: '30px 0' }}>
         What Our Customers Are Saying
       </h1>
       <ReviewSection />
