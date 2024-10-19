@@ -1,5 +1,4 @@
-.product-gallery-container {
-  padding: 20px; /* Padding around the gallery */
+.product-gallery-container {/* Padding around the gallery */
   background-color: #f8f9fa; /* Light background color */
   text-align: center; /* Center-aligning text */
 }
