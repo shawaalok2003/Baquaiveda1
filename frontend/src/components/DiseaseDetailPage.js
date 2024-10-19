@@ -490,6 +490,30 @@ const DiseaseDetailPage = () => {
         </>
       );
       break;
+      case 'leucorrhea':
+      content = (
+        <>
+          <p>Leucorrhea refers to a thick, white or yellowish vaginal discharge that can be normal or indicate an infection.</p>
+
+          <h2>Symptoms:</h2>
+          <ul>
+            <li>Thick, white or yellow vaginal discharge</li>
+            <li>Itching, irritation, or a foul smell in the genital area</li>
+            <li>Mild lower abdominal discomfort or back pain</li>
+          </ul>
+
+          <h2>Conventional Treatment:</h2>
+          <p>Treatment may include antifungal or antibiotic medications depending on the underlying cause, such as infections.</p>
+
+          <h2>Ayurvedic Solutions:</h2>
+          <ul>
+            <li><strong>Herbs:</strong> Lodhra, Ashoka, and Triphala are often recommended to balance excess discharge and restore health.</li>
+            <li><strong>Therapies:</strong> Yoni pichu (application of medicated oil or paste in the vaginal canal) can help maintain vaginal health.</li>
+            <li><strong>Diet:</strong> Include cooling foods such as pomegranate, Indian gooseberry (amla), and avoid fried or spicy foods.</li>
+          </ul>
+        </>
+      );
+      break;
 
     case 'irregular-menses':
       content = (
@@ -1149,35 +1173,6 @@ const DiseaseDetailPage = () => {
             <li><strong>Aromatherapy:</strong> Essential oils like lavender can help soothe anxiety and promote relaxation.</li>
             <li><strong>Dietary Adjustments:</strong> Consuming a balanced diet rich in fruits, vegetables, and whole grains can support overall mental health.</li>
             <li><strong>Massage Therapy:</strong> Abhyanga (Ayurvedic oil massage) can help relieve stress and promote relaxation.</li>
-          </ul>
-        </>
-      );
-      break;
-      case 'leucorrhea':
-      content = (
-        <>
-          <p>Leucorrhea is a medical condition characterized by a white or yellowish vaginal discharge. While it is common and usually harmless, persistent or excessive discharge can indicate an infection or other underlying conditions.</p>
-
-          <h2>Causes and Symptoms:</h2>
-          <ul>
-            <li>Hormonal changes during pregnancy, puberty, or menopause</li>
-            <li>Infections, including bacterial, fungal (like yeast infections), or sexually transmitted infections (STIs)</li>
-            <li>Poor hygiene or irritation from certain soaps or detergents</li>
-            <li>Inflammation of the vagina or cervix</li>
-            <li>Abnormal discharge can be accompanied by itching, burning, or foul odor</li>
-          </ul>
-
-          <h2>Risks and Complications:</h2>
-          <p>While mild leucorrhea is typically not serious, untreated infections or prolonged abnormal discharge can lead to more severe reproductive health issues, including pelvic inflammatory disease (PID).</p>
-
-          <h2>Ayurvedic Solutions:</h2>
-          <p>Ayurveda provides holistic approaches to managing leucorrhea, focusing on balancing the body's doshas and enhancing reproductive health:</p>
-          <ul>
-            <li><strong>Herbal Remedies:</strong> Shatavari and Lodhra are often used in Ayurvedic treatments to strengthen the reproductive system and balance hormones.</li>
-            <li><strong>Dietary Changes:</strong> A diet rich in leafy greens, fruits, and whole grains can support reproductive health. Avoiding spicy, oily, and overly processed foods can help reduce symptoms.</li>
-            <li><strong>Hygiene Practices:</strong> Maintaining proper vaginal hygiene, wearing loose cotton clothing, and avoiding harsh chemicals can prevent infections and irritation.</li>
-            <li><strong>Panchakarma Therapy:</strong> Ayurvedic detoxification therapies, such as Basti (medicated enema), can help cleanse the reproductive system.</li>
-            <li><strong>Yoga and Meditation:</strong> Practices that promote hormonal balance and reduce stress, such as specific asanas and breathing exercises, can be beneficial.</li>
           </ul>
         </>
       );

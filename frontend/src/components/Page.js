@@ -451,7 +451,7 @@ const MainDiseases = () => {
       name: 'Female Problems',
       details: [
         { short: 'Dysmenorrhea', full: 'Dysmenorrhea' },
-        {short : 'Leucorrohea', full : 'Leucorrohea'},
+        {short : 'Leucorrhea', full : 'Leucorrhea'},
         { short: 'Irregular Menses', full: 'Irregular Menses' },
         { short: 'Excess Bleeding', full: 'Excess Bleeding' },
         { short: 'PCOS', full: 'Polycystic Ovarian Syndrome' },

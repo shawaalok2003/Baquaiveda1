@@ -1,18 +1,16 @@
 import React, { useState } from 'react';
 import './ReviewSection.css';
-
 const reviews = [
-  { id: 1, name: 'Rahul Sharma', rating: 5, review: 'Excellent Ayurvedic consultation, truly life-changing!' },
-  { id: 2, name: 'Sneha Gupta', rating: 4, review: 'Very informative and calming experience, will return for more treatments.' },
-  { id: 3, name: 'Anil Verma', rating: 5, review: 'Highly recommended! The herbal remedies worked wonders for my health.' },
-  { id: 4, name: 'Priya Reddy', rating: 3, review: 'It was a decent experience, but I expected more personalized advice.' },
-  { id: 5, name: 'Vikram Singh', rating: 4, review: 'Good experience, the Ayurvedic massage was particularly relaxing.' },
-  { id: 6, name: 'Aarti Patel', rating: 5, review: 'The best Ayurvedic treatment I’ve ever had! Truly healing and rejuvenating.' },
-  { id: 7, name: 'Rohit Iyer', rating: 5, review: 'Amazing holistic approach to wellness, I felt completely refreshed.' },
-  { id: 8, name: 'Neha Mehta', rating: 4, review: 'Good, but there’s still room for improvement in the overall ambiance.' },
-  { id: 9, name: 'Kiran Das', rating: 3, review: 'Average experience, the herbal tea was nice but the consultation felt rushed.' }
+  { id: 1, name: 'Rahim Khan', rating: 5, review: 'Excellent Ayurvedic consultation, truly life-changing!' },
+  { id: 3, name: 'Sadia Begum', rating: 4, review: 'Good experience, the Ayurvedic massage was particularly relaxing.' },
+  { id: 4, name: 'Farhana Islam', rating: 4, review: 'Very informative and calming experience, will return for more treatments.' },
+  { id: 5, name: 'Rafiq Ahmed', rating: 5, review: 'Amazing holistic approach to wellness, I felt completely refreshed.' },
+  { id: 6, name: 'Ayesha Sultana', rating: 4, review: 'Good, but there’s still room for improvement in the overall ambiance.' },
+  { id: 7, name: 'Shahinur Alam', rating: 5, review: 'The best Ayurvedic treatment I’ve ever had! Truly healing and rejuvenating.' },
+  { id: 8, name: 'Nafisa Yasmin', rating: 4, review: 'The Ayurvedic consultation was very helpful, and I felt much better after following the advice.' },
+  { id: 9, name: 'Sourav Chatterjee', rating: 5, review: 'Outstanding service, I feel like my overall health has improved significantly.' },
+  { id: 10, name: 'Mitali Roy', rating: 4, review: 'Great experience, the herbal remedies really worked for me.' }
 ];
-
 const ReviewSection = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const reviewsPerPage = 3;
