@@ -423,7 +423,7 @@ const MainDiseases = () => {
     {
       name: 'Digestive Disease',
       details: [
-        { short: 'Gastric Acidity', full: 'Gastric Acidity' },
+        { short: 'Gastric Acidity', full: 'Excess Gas Formation' },
         { short: 'IBS', full: 'Irritable Bowel Syndrome' },
         { short: 'Constipation', full: 'Constipation' }
       ]
@@ -451,6 +451,7 @@ const MainDiseases = () => {
       name: 'Female Problems',
       details: [
         { short: 'Dysmenorrhea', full: 'Dysmenorrhea' },
+        {short : 'Leucorrohea', full : 'Leucorrohea'},
         { short: 'Irregular Menses', full: 'Irregular Menses' },
         { short: 'Excess Bleeding', full: 'Excess Bleeding' },
         { short: 'PCOS', full: 'Polycystic Ovarian Syndrome' },
@@ -471,7 +472,7 @@ const MainDiseases = () => {
     {
       name: 'Sexual Problems',
       details: [
-        { short: 'SP', full: 'Sexual Performance Issues' },
+        { short: 'SP', full: 'Spermatorrhea' },
         { short: 'NF', full: 'Nocturnal Emission' },
         { short: 'LSD', full: 'Low Sex Drive' },
         { short: 'ED', full: 'Erectile Dysfunction' },
