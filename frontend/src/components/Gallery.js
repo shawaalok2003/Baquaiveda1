@@ -9,6 +9,16 @@ const Gallery = () => {
     '/images/WhatsApp Image 2024-10-03 at 14.52.56.jpeg',
     '/images/WhatsApp Image 2024-10-03 at 14.52.57 (1).jpeg',
     '/images/WhatsApp Image 2024-10-03 at 14.52.57.jpeg',
+    '/images/siu1.jpg',
+    '/images/siu2.jpg',
+    '/images/siu3.jpg',
+    '/images/siu4.jpg',
+    '/images/siu5.jpg',
+    '/images/siu6.jpg',
+    '/images/siu7.jpg',
+    '/images/siu8.jpg',
+    '/images/siu9.jpg',
+    
     
   ];
 
