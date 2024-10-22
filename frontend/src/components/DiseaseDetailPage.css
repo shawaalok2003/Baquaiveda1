@@ -1,106 +1,103 @@
 /* Container for the disease detail */
 .disease-detail {
-    max-width: 800px; /* Limit the width for better readability */
-    margin: 30px auto; /* Center the content on the page */
-    padding: 20px; /* Add padding for spacing */
-    background-color: #e7f9e7; /* Light green background for the container */
-    border-radius: 15px; /* Rounded corners */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition for animations */
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #e7f9e7;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Add animation on hover */
-.disease-detail:hover {
-    transform: translateY(-5px); /* Lift effect on hover */
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Darker shadow on hover */
+/* Flex container for side-by-side layout */
+/* Flex container for disease details */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
 }
 
-/* Headings */
-h1 {
-    font-size: 2.5em; /* Main title size */
-    color: #2c6f2f; /* Dark green color for headings */
-    margin-bottom: 15px; /* Space below the heading */
-    text-align: center; /* Center the heading */
-    animation: fadeIn 0.5s ease-in; /* Fade-in animation */
+/* Left div styling */
+.disease-detail-left {
+    width: 50%;
+    padding: 20px;
 }
 
-/* Subheading */
-h2 {
-    font-size: 2em; /* Subheading size */
-    color: #4caf50; /* Medium green color for subheadings */
-    margin-top: 20px; /* Space above subheadings */
-    margin-bottom: 15px; /* Space below subheadings */
+/* Right div styling */
+.disease-detail-right {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-/* Paragraphs */
-p {
-    font-size: 1.1em; /* Body text size */
-    line-height: 1.6; /* Line height for readability */
-    color: #666; /* Medium color for body text */
-    margin-bottom: 15px; /* Space between paragraphs */
+.disease-detail-right img {
+    max-width: 100%;
+    border-radius: 10px;
 }
 
-/* Lists */
-ul {
-    list-style-type: disc; /* Bullet points for lists */
-    padding-left: 20px; /* Indentation for the list */
+/* Review Section */
+.review-section {
+    text-align: center;
+    margin-top: 30px;
 }
 
-li {
-    margin-bottom: 10px; /* Space between list items */
+.review-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 
-/* Links */
-a {
-    color: #007BFF; /* Link color */
-    text-decoration: none; /* Remove underline */
+.review-content {
+    margin: 0 20px;
+    text-align: left;
+    display: flex;
+    align-items: center;
 }
 
-a:hover {
-    text-decoration: underline; /* Underline on hover */
+.review-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
 }
 
-/* Fade-in animation */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(10px); /* Slide in from below */
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0); /* Final position */
-    }
+.toggle-button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
 }
+
+.toggle-button.left {
+    margin-right: 10px;
+}
+
+.toggle-button.right {
+    margin-left: 10px;
+}
+
+.toggle-button:hover {
+    background-color: #388e3c;
+}
+
 
 /* Responsive Styles */
 @media (max-width: 600px) {
-    .disease-detail {
-        padding: 15px; /* Reduce padding on small screens */
+    .flex-container {
+        flex-direction: column;
     }
 
-    h1 {
-        font-size: 2em; /* Smaller title size on mobile */
+    .disease-detail-left,
+    .disease-detail-right {
+        padding: 0;
     }
 
-    h2 {
-        font-size: 1.5em; /* Smaller subheading size on mobile */
-    }
-
-    p, li {
-        font-size: 1em; /* Body text and list size */
-    }
-}
-
-@media (min-width: 601px) and (max-width: 1200px) {
-    .disease-detail {
-        padding: 25px; /* Increased padding for medium screens */
-    }
-
-    h1 {
-        font-size: 2.2em; /* Medium title size */
-    }
-
-    h2 {
-        font-size: 1.8em; /* Medium subheading size */
+    .toggle-button {
+        font-size: 1.2em;
+        padding: 8px;
     }
 }

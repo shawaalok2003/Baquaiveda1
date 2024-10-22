@@ -1,46 +1,107 @@
-import React from 'react';
-import { useParams } from 'react-router-dom';
+import React,{ useState } from 'react';
+import { useParams} from 'react-router-dom';
 import './DiseaseDetailPage.css'
 
 const DiseaseDetailPage = () => {
   const { diseaseName } = useParams();
-
+    // Define state for reviews and current review index
+    const reviews = [
+      { name: 'John D.', text: 'After the treatment, my knee pain has significantly reduced.', image: '/images/siu1.jpg' },
+      { name: 'Mary A.', text: 'I was skeptical, but the improvement in joint flexibility is undeniable.', image: 'path_to_image2.jpg' },
+      { name: 'Sam K.', text: 'Discomfort minimized after following the recommended plan.', image: 'path_to_image3.jpg' },
+      { name: 'Emily W.', text: 'Feeling much better and more mobile after the treatment.', image: 'path_to_image4.jpg' },
+      { name: 'Robert T.', text: 'Great results, I can walk longer distances without pain.', image: 'path_to_image5.jpg' }
+    ];
+  
+    const [currentReviewIndex, setCurrentReviewIndex] = useState(0);
+    const currentReview = reviews[currentReviewIndex];
+  
+    // Toggle functions
+    const showNextReview = () => {
+      setCurrentReviewIndex((currentReviewIndex + 1) % reviews.length);
+    };
+  
+    const showPreviousReview = () => {
+      setCurrentReviewIndex((currentReviewIndex - 1 + reviews.length) % reviews.length);
+    };
+  
   let content;
 
   switch (diseaseName) {
-    case 'oa':  // Osteoarthritis
-      content = (
-        <>
-          <p>Osteoarthritis (OA) is a degenerative joint disease where the protective cartilage that cushions the ends of bones wears down over time, leading to pain and stiffness.</p>
+    // case 'oa':  // Osteoarthritis
+    //   content = (
+    //     <>
+    //       <p>Osteoarthritis (OA) is a degenerative joint disease where the protective cartilage that cushions the ends of bones wears down over time, leading to pain and stiffness.</p>
           
-          <h2>Symptoms:</h2>
-          <ul>
-            <li>Joint pain during or after movement</li>
-            <li>Joint stiffness</li>
-            <li>Loss of flexibility</li>
-            <li>Grating sensation</li>
-            <li>Swelling</li>
-          </ul>
+    //       <h2>Symptoms:</h2>
+    //       <ul>
+    //         <li>Joint pain during or after movement</li>
+    //         <li>Joint stiffness</li>
+    //         <li>Loss of flexibility</li>
+    //         <li>Grating sensation</li>
+    //         <li>Swelling</li>
+    //       </ul>
 
-          <h2>Conventional Treatment:</h2>
-          <p>Treatment options include pain relievers, physical therapy, and in severe cases, joint replacement surgery.</p>
+    //       <h2>Conventional Treatment:</h2>
+    //       <p>Treatment options include pain relievers, physical therapy, and in severe cases, joint replacement surgery.</p>
 
-          <h2>Ayurvedic Solutions:</h2>
-          <ul>
-            <li><strong>Herbs:</strong> Shallaki (Boswellia), Guggulu, and Ashwagandha are anti-inflammatory and help reduce joint pain.</li>
-            <li><strong>Oil Massage:</strong> Applying warm sesame oil or medicated oils like Mahanarayan oil helps improve joint mobility and reduce stiffness.</li>
-            <li><strong>Diet:</strong> Consume anti-inflammatory foods like turmeric, ginger, and garlic. Avoid sour and fermented foods that increase inflammation.</li>
-          </ul>
+    //       <h2>Ayurvedic Solutions:</h2>
+    //       <ul>
+    //         <li><strong>Herbs:</strong> Shallaki (Boswellia), Guggulu, and Ashwagandha are anti-inflammatory and help reduce joint pain.</li>
+    //         <li><strong>Oil Massage:</strong> Applying warm sesame oil or medicated oils like Mahanarayan oil helps improve joint mobility and reduce stiffness.</li>
+    //         <li><strong>Diet:</strong> Consume anti-inflammatory foods like turmeric, ginger, and garlic. Avoid sour and fermented foods that increase inflammation.</li>
+    //       </ul>
 
-          <h2>Unani Solutions:</h2>
-          <ul>
-            <li><strong>Herbal Remedies:</strong> Use of herbs like Suranjan Shirin (Colchicum luteum), and Sibr (Aloe barbadensis) to reduce pain and inflammation.</li>
-            <li><strong>Hijama (Cupping Therapy):</strong> Cupping on specific points helps detoxify the body and relieve pain.</li>
-            <li><strong>Ilaj bil Ghiza (Dietotherapy):</strong> Emphasizes foods that strengthen bones and joints, like olive oil, dates, and figs.</li>
-          </ul>
+    //       <h2>Unani Solutions:</h2>
+    //       <ul>
+    //         <li><strong>Herbal Remedies:</strong> Use of herbs like Suranjan Shirin (Colchicum luteum), and Sibr (Aloe barbadensis) to reduce pain and inflammation.</li>
+    //         <li><strong>Hijama (Cupping Therapy):</strong> Cupping on specific points helps detoxify the body and relieve pain.</li>
+    //         <li><strong>Ilaj bil Ghiza (Dietotherapy):</strong> Emphasizes foods that strengthen bones and joints, like olive oil, dates, and figs.</li>
+    //       </ul>
+    //     </>
+    //   );
+    //   break;
+      case 'oa':  // Osteoarthritis
+        content = (
+          <>
+            {/* Container for text and image */}
+            <div className="disease-detail flex-container">
+              {/* Left Div: Disease problems */}
+              <div className="disease-detail-left">
+                <h2>Problems of Osteoarthritis (OA):</h2>
+                <ul>
+                  <li>Degeneration of joint cartilage</li>
+                  <li>Pain and stiffness, especially after movement</li>
+                  <li>Loss of joint flexibility</li>
+                  <li>Swelling around the joints</li>
+                  <li>Grating sensation when moving the joint</li>
+                </ul>
+                <p>OA can severely affect quality of life, making it difficult to perform daily tasks. It usually develops over time due to wear and tear on the joints.</p>
+              </div>
+    
+              {/* Right Div: Image */}
+              <div className="disease-detail-right">
+                <img src="/images/siu1.jpg" alt="Osteoarthritis condition" />
+              </div>
+            </div>
+    
+            {/* Review Section */}
+            <div className="review-section">
+            <h2>Patient Reviews:</h2>
+            <div className="review-slider">
+              <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
+              <div className="review-content">
+                <img src={currentReview.image} alt={`${currentReview.name}'s review`} className="review-image" />
+                <p><strong>{currentReview.name}</strong>: {currentReview.text}</p>
+              </div>
+              <button className="toggle-button right" onClick={showNextReview}>&gt;</button>
+            </div>
+          </div>
         </>
       );
       break;
+    
+    
 
       case 'neck-pain':
 
