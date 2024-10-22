@@ -1,22 +1,22 @@
-.review-section {
+.review-section1 {
   background-color: #f9f9f9;
   text-align: center;
 }
 
-.review-section h2 {
+.review-section1 h2 {
   font-size: 2.5rem;
   margin-bottom: 30px;
 }
 
 /* Reviews container layout */
-.reviews-container {
+.reviews-container1 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
 }
 
-.review-card {
+.review-card1 {
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -25,21 +25,21 @@
   transition: transform 0.2s ease;
 }
 
-.review-card:hover {
+.review-card1:hover {
   transform: translateY(-10px);
 }
 
-.review-content h3 {
+.review-content1 h3 {
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
 
-.rating {
+.rating1 {
   font-size: 1.2rem;
   color: #ffcc00;
 }
 
-.review-text {
+.review-text1 {
   font-size: 1rem;
   color: #555;
   margin-top: 10px;

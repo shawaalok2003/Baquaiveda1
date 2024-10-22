@@ -1,15 +1,17 @@
 import React, { useState } from 'react';
 import './ReviewSection.css';
 const reviews = [
-  { id: 1, name: 'Rahim Khan', rating: 5, review: 'Excellent Ayurvedic consultation, truly life-changing!' },
-  { id: 3, name: 'Sadia Begum', rating: 4, review: 'Good experience, the Ayurvedic massage was particularly relaxing.' },
-  { id: 4, name: 'Farhana Islam', rating: 4, review: 'Very informative and calming experience, will return for more treatments.' },
-  { id: 5, name: 'Rafiq Ahmed', rating: 5, review: 'Amazing holistic approach to wellness, I felt completely refreshed.' },
-  { id: 6, name: 'Ayesha Sultana', rating: 4, review: 'Good, but there’s still room for improvement in the overall ambiance.' },
-  { id: 7, name: 'Shahinur Alam', rating: 5, review: 'The best Ayurvedic treatment I’ve ever had! Truly healing and rejuvenating.' },
-  { id: 8, name: 'Nafisa Yasmin', rating: 4, review: 'The Ayurvedic consultation was very helpful, and I felt much better after following the advice.' },
-  { id: 9, name: 'Sourav Chatterjee', rating: 5, review: 'Outstanding service, I feel like my overall health has improved significantly.' },
-  { id: 10, name: 'Mitali Roy', rating: 4, review: 'Great experience, the herbal remedies really worked for me.' }
+  { id: 1, name: 'Anirban Sen', location: 'Kolkata', rating: 5, review: 'The Ayurvedic consultation was truly life-changing!' },
+  { id: 2, name: 'Priyanka Ghosh', location: 'Howrah', rating: 4, review: 'The Ayurvedic massage was particularly relaxing, a great experience overall.' },
+  { id: 3, name: 'Subhajit Dutta', location: 'Siliguri', rating: 5, review: 'Traveling from Siliguri was completely worth it for this holistic wellness treatment. I felt completely refreshed.' },
+  
+  { id: 4, name: 'Rahim Khan', location: 'Lucknow', rating: 5, review: 'The best Ayurvedic treatment I’ve ever had! I came all the way from Lucknow, and it was truly healing and rejuvenating.' },
+  { id: 5, name: 'Sadia Begum', location: 'Patna', rating: 4, review: 'Good experience, but there’s still room for improvement in the ambiance.' },
+  { id: 6, name: 'Farhana Islam', location: 'Allahabad', rating: 4, review: 'Very informative and calming experience. Worth the trip from Allahabad, I will definitely return for more treatments.' },
+  
+  { id: 7, name: 'Vivek Kumar', location: 'Varanasi', rating: 5, review: 'Outstanding service! I feel like my overall health has improved significantly.' },
+  { id: 8, name: 'Neha Sharma', location: 'Gorakhpur', rating: 4, review: 'The Ayurvedic consultation was helpful, and I felt much better after following the advice.' },
+  { id: 9, name: 'Amit Singh', location: 'Kanpur', rating: 4, review: 'The herbal remedies really worked for me. Definitely glad I made the trip from Kanpur.' }
 ];
 const ReviewSection = () => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -36,15 +38,15 @@ const ReviewSection = () => {
   };
 
   return (
-    <div className="review-section">
+    <div className="review-section1">
       <h2>Customer Reviews</h2>
-      <div className="reviews-container">
+      <div className="reviews-container1">
         {currentReviews.map((review) => (
-          <div className="review-card" key={review.id}>
-            <div className="review-content">
+          <div className="review-card1" key={review.id}>
+            <div className="review-content1">
               <h3>{review.name}</h3>
-              <p className="rating">Rating: {Array(review.rating).fill('⭐').join('')}</p>
-              <p className="review-text">"{review.review}"</p>
+              <p className="rating1">Rating: {Array(review.rating).fill('⭐').join('')}</p>
+              <p className="review-text1">"{review.review}"</p>
             </div>
           </div>
         ))}

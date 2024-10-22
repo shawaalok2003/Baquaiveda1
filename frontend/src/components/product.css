@@ -39,40 +39,46 @@
   .images-container {
     display: flex;
     flex-direction: column;
+    gap: 30px;
   }
-  
   .large-image img {
     width: 100%;
-    height: auto;
-    max-height: 300px; /* Adjust height if needed */
+    height: 300px; /* Adjust height if needed */
     object-fit: cover;
-  }
-  
-  .small-images {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow to the large image */
+    border-radius: 8px; /* Adds slight rounding to corners */
+}
+
+.small-images {
     display: flex;
-    gap: 10px;
-    margin-top: 10px;
-  }
-  
-  .small-images img {
+    gap: 30px;
+}
+
+.small-images img {
     width: 100%;
-    height: 230px; /* Adjust height if needed */
+    height: 300px; /* Adjust height if needed */
     object-fit: cover;
-  }
-  
-  .right-section {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow to the small images */
+    border-radius: 8px; /* Adds slight rounding to corners */
+}
+
+.right-section {
     flex: 1;
     max-width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-  }
-  
-  .right-image {
+    gap: 30px;
+    padding: 30px;
+}
+
+.right-image {
     width: 100%;
-    height: 350px; /* Adjust height if needed */
-    object-fit: contain;
-  }
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow to the right image */
+    border-radius: 8px; /* Adds slight rounding to corners */
+}
+
   @media (max-width: 1024px) {
     .app-container {
         flex-direction: column; /* Stack sections vertically */

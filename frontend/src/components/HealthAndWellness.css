@@ -80,6 +80,7 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
   margin-bottom: 30px; /* Margin between cards */
   background-color: white; /* White background for cards */
+  height: 300px;
 }
 
 .benefit-card:hover {

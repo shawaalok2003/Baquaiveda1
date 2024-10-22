@@ -33,8 +33,7 @@ const ServicesPage = () => {
               <div className="card-body">
                 <h5 className="card-title text-success">Phone Consultation</h5>
                 <p className="card-text">
-                  Now, you can get the appropriate medical advice from our
-                  experienced team of doctors over the phone.
+                Get medical advice from our experienced doctors over the phone.
                 </p>
                 <a href="/appointmentForm" className="btn btn-outline-success j">
                   Book Appointment

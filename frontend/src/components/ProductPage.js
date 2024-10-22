@@ -42,7 +42,7 @@ const ProductsPage = () => {
                   {product.description}
                 </Card.Text>
                 <p className="product-price">${product.price}</p>
-                <Button variant="primary" onClick={() => {
+                <Button variant="primary" className='button1' onClick={() => {
                   if (token) {
                     handleAddToCart(product.id, product.name, product.price, 1, token);
                     toast.success(`${product.name} added to cart`, {
@@ -54,9 +54,9 @@ const ProductsPage = () => {
                     window.location.href = '/login'; // Redirect to login if no token
                   }
                 }}>
-                  Add to Cart
+                  Cart
                 </Button>
-                <Button variant="outline-primary" onClick={() => {
+                <Button variant="outline-primary" className='button1' onClick={() => {
                   if (token) {
                     handleAddToWishlist(product.id, product.name, product.price, token);
                     toast.info(`${product.name} added to wishlist`, {
@@ -67,8 +67,8 @@ const ProductsPage = () => {
                     console.error('User is not authenticated');
                     window.location.href = '/login';
                   }
-                }} className="ml-2">
-                  Add to Wishlist
+                }} >
+                  Wishlist
                 </Button>
               </Card.Body>
             </Card>

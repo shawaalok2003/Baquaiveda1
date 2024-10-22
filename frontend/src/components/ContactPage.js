@@ -45,8 +45,26 @@ const ContactPage = () => {
 
   return (
     <div className="contact-page">
-      <h2>Say Hello To Us, Get In Touch</h2>
-      <p>Reach out to us and we will respond as soon as we can.</p>
+    <h2 style={{
+      fontFamily: "'Playfair Display', serif",
+      fontSize: '2.5rem',
+      color: 'white',
+      textAlign: 'center',
+      marginBottom: '20px'
+    }}>
+      Say Hello To Us, Get In Touch
+    </h2>
+    <p style={{
+      fontFamily: "'Raleway', sans-serif",
+      fontSize: '1.2rem',
+      color: 'green',
+      fontSize : '27px',
+      textAlign: 'center',
+      lineHeight: '1.5',
+      marginBottom: '30px'
+    }}>
+      Reach out to us and we will respond as soon as we can.
+    </p>
       <div className="contact-container">
         <form className="contact-form" ref={form} onSubmit={sendEmail}>
           <label htmlFor="name">Name</label>
@@ -86,9 +104,6 @@ const ContactPage = () => {
         </form>
 
         {/* Image to the right of the form */}
-        <div className="contact-image">
-          <img src={`${process.env.PUBLIC_URL}/images/unsplash_zp72-rffT9g.png`} alt="Contact" />
-        </div>
       </div>
 
       {/* Toast container to display the notifications */}

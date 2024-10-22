@@ -6,7 +6,6 @@ const BlogPage = () => {
   // Blog post data with 15 posts
   const blogPosts = [
     { title: 'Get Ayurvedic Treatment for Fatty Liver', image: 'download (3).jpg', date: 'Aug 08, 2024', excerpt: 'Discover how Ayurveda can help treat fatty liver...' },
-    { title: 'Get Ayurvedic Treatment for Eyes', image: 'download (4).jpg', date: 'Aug 07, 2024', excerpt: 'Ayurvedic remedies for maintaining healthy eyes...' },
     { title: 'How to Get Rid of a Cold using Ayurveda', image: 'download (5).jpg', date: 'Aug 06, 2024', excerpt: 'Natural remedies to treat common cold symptoms using Ayurveda...' },
     { title: 'Boost Immunity with Ayurvedic',image:'download (6).jpg', date: 'Aug 05, 2024', excerpt: 'Learn about powerful herbs to strengthen immunity...' },
     { title: 'Detoxify your Liver with Ayurveda', image: 'download (7).jpg', date: 'Aug 04, 2024', excerpt: 'Ayurvedic solutions for a healthy liver detox...' },

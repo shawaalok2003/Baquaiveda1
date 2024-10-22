@@ -243,7 +243,7 @@ const HealthAndWellness = () => {
       <section className="wellness-banner text-center">
         <Container>
           <div className="banner-content">
-            <h1 className="banner-title">Embrace the Power of Ayurveda</h1>
+            <h1 className="banner-title">Embrace the Power of Ayurveda & Unani</h1>
           </div>
         </Container>
       </section>
@@ -251,7 +251,7 @@ const HealthAndWellness = () => {
       {/* Key Benefits Section */}
       <section className="key-benefits text-center py-5">
         <Container>
-          <h2 className="section-title">Key Benefits of Ayurveda</h2>
+          <h2 className="section-title">Key Benefits of Ayurveda & Unani</h2>
           <Row className="benefits-row">
             <Col md={4}>
               <Card className="benefit-card holistic-healing">
@@ -259,7 +259,7 @@ const HealthAndWellness = () => {
                   <i className="bi bi-flower benefit-icon"></i>
                   <h5 className="benefit-title">Holistic Healing</h5>
                   <p className="benefit-text">
-                    Ayurveda emphasizes the balance between mind, body, and spirit to promote overall wellness.
+                   Ayurveda & Unani emphasizes the balance between mind, body, and spirit to promote overall wellness.
                   </p>
                 </Card.Body>
               </Card>
@@ -268,7 +268,6 @@ const HealthAndWellness = () => {
             <Col md={4}>
               <Card className="benefit-card natural-remedies">
                 <Card.Body>
-                  <i className="bi bi-heart-pulse benefit-icon"></i>
                   <h5 className="benefit-title">Natural Remedies</h5>
                   <p className="benefit-text">
                     All treatments use natural herbs, oils, and minerals to heal the body naturally.
@@ -283,7 +282,7 @@ const HealthAndWellness = () => {
                   <i className="bi bi-leaf benefit-icon"></i>
                   <h5 className="benefit-title">Sustainable Practices</h5>
                   <p className="benefit-text">
-                    Ayurveda is grounded in the principles of sustainability, offering long-lasting health benefits.
+                   Ayurveda & Unani is grounded in the principles of sustainability, offering long-lasting health benefits.
                   </p>
                 </Card.Body>
               </Card>

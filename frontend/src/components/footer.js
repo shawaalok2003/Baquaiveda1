@@ -10,9 +10,6 @@ import 'react-toastify/dist/ReactToastify.css'; // Import toastify CSS
 const Footer = () => {
   const [email, setEmail] = useState('');
 
-  useEffect(() => {
-    AOS.init({ duration: 1000 }); // Initialize AOS and set the animation duration
-  }, []);
 
   const handleSubscribe = () => {
     // Logic for subscription (e.g., API call)
@@ -20,9 +17,9 @@ const Footer = () => {
   };
 
   return (
-    <footer className="footer-container" data-aos="fade-up">
+    <footer className="footer-container">
       {/* Mailing List Section */}
-      <div className="mailing-list" data-aos="fade-up">
+      <div className="mailing-list" >
         <h2>Join Our Mailing List and Stay Updated</h2>
         <div className="subscribe">
           <label htmlFor="subscribe-email" className="visually-hidden">Email Address</label>
@@ -41,7 +38,7 @@ const Footer = () => {
       {/* Footer Content Section */}
       <div className="footer-sections">
         {/* Company Info */}
-        <div className="company-info" data-aos="fade-right">
+        <div className="company-info">
           <div className="social-media">
             <a href="#"><i className="fab fa-facebook-f"></i></a>
             <a href="#"><i className="fab fa-twitter"></i></a>
@@ -52,7 +49,7 @@ const Footer = () => {
         </div>
 
         {/* Links Section */}
-        <div className="footer-links" data-aos="fade-up">
+        <div className="footer-links" >
           <h3>Our Company</h3>
           <ul>
             <li><Link to="/">Home</Link></li>
@@ -64,7 +61,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="footer-links" data-aos="fade-up">
+        <div className="footer-links">
           <h3>Information</h3>
           <ul>
             <li><a href="#">My Account</a></li>
@@ -77,7 +74,7 @@ const Footer = () => {
         </div>
 
         {/* Contact Us Section */}
-        <div className="contact-us" data-aos="fade-left">
+        <div className="contact-us" >
           <h3>Contact Us</h3>
           <p>Call: 8961514680</p>
           <p>Email: baquaiveda@gmail.com</p>
@@ -85,7 +82,7 @@ const Footer = () => {
       </div>
 
       {/* Footer Bottom */}
-      <div className="footer-bottom" data-aos="fade-up">
+      <div className="footer-bottom">
         <p>© 2024 Baquaiveda. All Rights Reserved.</p>
         <p>
           <Link to="/privacy-policy">Privacy Policy</Link> | <Link to="/termsandcondition">Terms & Conditions</Link>

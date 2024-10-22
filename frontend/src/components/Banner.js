@@ -8,7 +8,7 @@ const Banner = () => {
         <div className="row align-items-center">
           <div className="col-md-6 banner-content text-start">
           <div className="banner-text">
-          <h1>The Ayurvedic Way of Life</h1>
+          <h1>The Ayurvedic & Unani Way of Life</h1>
           <p> 5% Off + Extra 10% </p>
           <p>Products are delivered in West bengal , Bihar , Jharkhand , Uttar Pradesh</p>
         </div>
