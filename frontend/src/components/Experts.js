@@ -19,7 +19,7 @@ const ServicesPage = () => {
 
       {/* Meet Our Doctors Section */}
       <div className="container text-center">
-        <h3 className="mb-5" data-aos="fade-up">Meet Our Experts Doctors</h3>
+        <h3 className="mb-5" data-aos="fade-up">Meet Our Expert Doctors</h3>
         <div className="row">
           <div className="col-md-4 mb-4" data-aos="zoom-in">
             <div className="card h-100">

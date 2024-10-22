@@ -416,6 +416,7 @@ const MainDiseases = () => {
         { short: 'LOP', full: 'Lower Back Pain' },
         { short: 'Frozen Shoulder', full: 'Frozen Shoulder' },
         { short: 'Nerve Pain', full: 'Nerve Pain' },
+        { short: 'Neck Pain', full: 'Neck Pain' },
         { short: 'Heel Pain', full: 'Heel Pain' },
         { short: 'Sciatica', full: 'Sciatica' }
       ]
@@ -423,7 +424,7 @@ const MainDiseases = () => {
     {
       name: 'Digestive Disease',
       details: [
-        { short: 'Gastric Acidity', full: 'Excess Gas Formation' },
+        { short: 'Excess Gas Formation', full: 'Excess Gas Formation' },
         { short: 'IBS', full: 'Irritable Bowel Syndrome' },
         { short: 'Constipation', full: 'Constipation' }
       ]
@@ -451,7 +452,7 @@ const MainDiseases = () => {
       name: 'Female Problems',
       details: [
         { short: 'Dysmenorrhea', full: 'Dysmenorrhea' },
-        {short : 'Leucorrhea', full : 'Leucorrhea'},
+        {short : 'Leucorrhoea', full : 'Leucorrhoea'},
         { short: 'Irregular Menses', full: 'Irregular Menses' },
         { short: 'Excess Bleeding', full: 'Excess Bleeding' },
         { short: 'PCOS', full: 'Polycystic Ovarian Syndrome' },
@@ -472,11 +473,11 @@ const MainDiseases = () => {
     {
       name: 'Sexual Problems',
       details: [
-        { short: 'SP', full: 'Spermatorrhea' },
-        { short: 'NF', full: 'Nocturnal Emission' },
-        { short: 'LSD', full: 'Low Sex Drive' },
-        { short: 'ED', full: 'Erectile Dysfunction' },
-        { short: 'PE', full: 'Premature Ejaculation' },
+        { short: 'Spermatorrhoea', full: 'Spermatorrhoea' },
+        { short: 'Nocturnal Emission', full: 'Nocturnal Emission' },
+        { short: 'Low Sex Drive', full: 'Low Sex Drive' },
+        { short: 'Erectile Dysfunction', full: 'Erectile Dysfunction' },
+        { short: 'Premature Ejaculation', full: 'Premature Ejaculation' },
         { short: 'Infertility', full: 'Infertility' }
       ]
     },
@@ -485,8 +486,9 @@ const MainDiseases = () => {
       details: [{ short: 'Anxiety', full: 'Anxiety' }]
     },
     {
-      name: 'Hairfall',
+      name: 'Hair problems',
       details: [
+        { short: 'Hairfall', full: 'Hairfall' },
         { short: 'Dandruff', full: 'Dandruff' },
         { short: 'Alopecia', full: 'Alopecia' }
       ]

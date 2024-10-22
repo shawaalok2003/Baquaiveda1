@@ -42,6 +42,34 @@ const DiseaseDetailPage = () => {
       );
       break;
 
+      case 'neck-pain':
+
+  content = (
+    <>
+      <p>Neck pain is often caused by muscle strain, poor posture, or underlying conditions like arthritis or a herniated disc.</p>
+
+      <h2>Symptoms:</h2>
+      <ul>
+        <li>Stiffness in the neck</li>
+        <li>Difficulty in moving the head</li>
+        <li>Sharp or dull pain in the neck</li>
+        <li>Muscle spasms in the neck and shoulders</li>
+      </ul>
+
+      <h2>Conventional Treatment:</h2>
+      <p>Pain relievers, physical therapy, and ergonomic adjustments are common treatments for neck pain.</p>
+
+      <h2>Ayurvedic Solutions:</h2>
+      <ul>
+        <li><strong>Herbs:</strong> Guggulu, Ashwagandha, and Shallaki (Boswellia) are effective in reducing inflammation and muscle pain.</li>
+        <li><strong>Oil Therapy:</strong> Gently massaging the neck with warm Mahanarayan oil or sesame oil can relieve tension and improve blood flow.</li>
+        <li><strong>Diet:</strong> A diet rich in anti-inflammatory foods, such as turmeric, ginger, and green leafy vegetables, can help reduce neck pain.</li>
+      </ul>
+    </>
+  );
+
+  break;
+
     case 'ra':  // Rheumatoid Arthritis
       content = (
         <>
@@ -168,10 +196,10 @@ const DiseaseDetailPage = () => {
           </ul>
         </>
       );
-        case 'gastric-acidity':
+        case 'excess-gas-formation':
       content = (
         <>
-          <p>Gastric Acidity is caused by excess acid production in the stomach, leading to discomfort and heartburn.</p>
+          <p>Excess Gas Formation is caused by excess acid production in the stomach, leading to discomfort and heartburn.</p>
           
           <h2>Symptoms:</h2>
           <ul>
@@ -343,6 +371,34 @@ const DiseaseDetailPage = () => {
       );
       break;
 
+      case 'hairfall':
+
+      content = (
+        <>
+          <p>Hair fall, or hair loss, can be caused by various factors such as stress, poor nutrition, hormonal changes, or underlying health conditions.</p>
+    
+          <h2>Symptoms:</h2>
+          <ul>
+            <li>Thinning hair</li>
+            <li>Excessive hair shedding</li>
+            <li>Visible scalp or bald patches</li>
+          </ul>
+    
+          <h2>Conventional Treatment:</h2>
+          <p>Minoxidil, finasteride, and hair transplant surgery are common treatments for hair loss.</p>
+    
+          <h2>Ayurvedic Solutions:</h2>
+          <ul>
+            <li><strong>Herbs:</strong> Bhringraj, Amla, and Fenugreek seeds are known to promote hair growth and reduce hair fall.</li>
+            <li><strong>Oil Therapy:</strong> Massaging the scalp with warm coconut or sesame oil can improve blood circulation and nourish the hair.</li>
+            <li><strong>Diet:</strong> Include protein-rich foods, iron, and vitamins in your diet. Amla juice or powder can also be beneficial for hair health.</li>
+          </ul>
+        </>
+      );
+    
+      break;
+    
+
     case 'heel-pain':
       content = (
         <>
@@ -490,10 +546,10 @@ const DiseaseDetailPage = () => {
         </>
       );
       break;
-      case 'leucorrhea':
+      case 'leucorrhoea':
       content = (
         <>
-          <p>Leucorrhea refers to a thick, white or yellowish vaginal discharge that can be normal or indicate an infection.</p>
+          <p>Leucorrhoea refers to a thick, white or yellowish vaginal discharge that can be normal or indicate an infection.</p>
 
           <h2>Symptoms:</h2>
           <ul>
@@ -741,7 +797,7 @@ const DiseaseDetailPage = () => {
       break;
 
     // Sexual Problems
-    case 'sp':
+    case 'spermatorrhoea':
       content = (
         <>
           <p>Spermatorrhea (SP) is the involuntary leakage of semen, which can lead to weakness and fatigue.</p>
@@ -766,7 +822,7 @@ const DiseaseDetailPage = () => {
       );
       break;
 
-    case 'nf':
+    case 'nocturnal-emission':
       content = (
         <>
           <p>Nocturnal Emission (NF), also known as wet dreams, is the involuntary release of semen during sleep, often associated with sexual dreams.</p>
@@ -790,7 +846,7 @@ const DiseaseDetailPage = () => {
       );
       break;
 
-    case 'ed':
+    case 'erectile-dysfunction':
       content = (
         <>
           <p>Erectile Dysfunction (ED) is the inability to maintain or achieve an erection sufficient for satisfactory sexual performance.</p>
@@ -815,7 +871,7 @@ const DiseaseDetailPage = () => {
       );
       break;
 
-    case 'pe':
+    case 'premature-ejaculation':
       content = (
         <>
           <p>Premature Ejaculation (PE) is when ejaculation occurs with minimal sexual stimulation, often before the person wishes.</p>
@@ -1088,7 +1144,7 @@ const DiseaseDetailPage = () => {
           </ul>
         </>
       );
-      break;
+      break; 
 
     // COPD
     case 'copd':
@@ -1147,10 +1203,10 @@ const DiseaseDetailPage = () => {
         </>
       );
       break;
-       case 'lsd':
+       case 'low-sex-drive':
       content = (
         <>
-          <p>LSD is a powerful hallucinogenic drug that alters perception, mood, and a range of cognitive processes. It is known for inducing profound changes in consciousness and is often used recreationally.</p>
+          <p>Low Sex Drive is a powerful hallucinogenic drug that alters perception, mood, and a range of cognitive processes. It is known for inducing profound changes in consciousness and is often used recreationally.</p>
 
           <h2>Effects and Symptoms:</h2>
           <ul>
