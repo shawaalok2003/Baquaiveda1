@@ -9,7 +9,6 @@ const Banner = () => {
           <div className="col-md-6 banner-content text-start">
           <div className="banner-text">
           <h1>The Ayurvedic & Unani Way of Life</h1>
-          <p> 5% Off + Extra 10% </p>
           <p>Products are delivered in West bengal , Bihar , Jharkhand , Uttar Pradesh</p>
         </div>
             <a href="/products" className="btn btn-success btn-lg mt-3">Shop Now</a>
