@@ -96,7 +96,7 @@ h1 {
     animation: fadeIn 0.5s ease-in; /* Fade-in animation */
 }
 
-h2 {
+.disease-detail-left h2 {
     font-size: 2em; /* Subheading size */
     color: #af724c; /* Medium green color for subheadings */
     margin-top: 20px; /* Space above subheadings */
