@@ -41,7 +41,7 @@ const DiseaseDetailPage = () => {
     //     <>
     //       <p>Osteoarthritis (OA) is a degenerative joint disease where the protective cartilage that cushions the ends of bones wears down over time, leading to pain and stiffness.</p>
           
-    //       <h2>Symptoms:</h2>
+    //       <h1>Symptoms:</h1>
     //       <ul>
     //         <li>Joint pain during or after movement</li>
     //         <li>Joint stiffness</li>
@@ -50,17 +50,17 @@ const DiseaseDetailPage = () => {
     //         <li>Swelling</li>
     //       </ul>
 
-    //       <h2>Conventional Treatment:</h2>
+    //       <h1>Conventional Treatment:</h1>
     //       <p>Treatment options include pain relievers, physical therapy, and in severe cases, joint replacement surgery.</p>
 
-    //       <h2>Ayurvedic Solutions:</h2>
+    //       <h1>Ayurvedic Solutions:</h1>
     //       <ul>
     //         <li><strong>Herbs:</strong> Shallaki (Boswellia), Guggulu, and Ashwagandha are anti-inflammatory and help reduce joint pain.</li>
     //         <li><strong>Oil Massage:</strong> Applying warm sesame oil or medicated oils like Mahanarayan oil helps improve joint mobility and reduce stiffness.</li>
     //         <li><strong>Diet:</strong> Consume anti-inflammatory foods like turmeric, ginger, and garlic. Avoid sour and fermented foods that increase inflammation.</li>
     //       </ul>
 
-    //       <h2>Unani Solutions:</h2>
+    //       <h1>Unani Solutions:</h1>
     //       <ul>
     //         <li><strong>Herbal Remedies:</strong> Use of herbs like Suranjan Shirin (Colchicum luteum), and Sibr (Aloe barbadensis) to reduce pain and inflammation.</li>
     //         <li><strong>Hijama (Cupping Therapy):</strong> Cupping on specific points helps detoxify the body and relieve pain.</li>
@@ -76,7 +76,7 @@ const DiseaseDetailPage = () => {
       <div className="disease-detail flex-container">
         {/* Left Div: Disease problems */}
         <div className="disease-detail-left">
-          <h2>Problems of Osteoarthritis (OA):</h2>
+        <h1>Problems of Osteoarthritis (OA):</h1>
           <ul>
             <li>Degeneration of joint cartilage</li>
             <li>Pain and stiffness, especially after movement</li>
@@ -95,7 +95,7 @@ const DiseaseDetailPage = () => {
 
       {/* Review Section */}
       <div className="review-section">
-        <h2>Patient Reviews:</h2>
+        <h1>Patient Reviews:</h1>
         <div className="review-slider">
           <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
           <div className="review-content">
@@ -120,7 +120,7 @@ const DiseaseDetailPage = () => {
         <div className="disease-detail flex-container">
           {/* Left Div: Disease problems */}
           <div className="disease-detail-left">
-            <h2>Problems of Neck Pain:</h2>
+            <h1>Problems of Neck Pain:</h1>
             <ul>
               <li>Stiffness in the neck</li>
               <li>Difficulty in moving the head</li>
@@ -138,7 +138,7 @@ const DiseaseDetailPage = () => {
   
         {/* Review Section */}
     <div className="review-section">
-        <h2>Patient Reviews:</h2>
+        <h1>Patient Reviews:</h1>
         <div className="review-slider">
           <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
           <div className="review-content">
@@ -160,7 +160,7 @@ const DiseaseDetailPage = () => {
       <div className="disease-detail flex-container">
         {/* Left Div: Disease problems */}
         <div className="disease-detail-left">
-          <h2>Problems of Rheumatoid Arthritis (RA):</h2>
+          <h1>Problems of Rheumatoid Arthritis (RA):</h1>
           <ul>
             <li>Swollen, tender, and warm joints</li>
             <li>Joint stiffness, especially in the morning</li>
@@ -177,7 +177,7 @@ const DiseaseDetailPage = () => {
 
       {/* Review Section */}
      <div className="review-section">
-        <h2>Patient Reviews:</h2>
+        <h1>Patient Reviews:</h1>
         <div className="review-slider">
           <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
           <div className="review-content">
@@ -199,7 +199,7 @@ const DiseaseDetailPage = () => {
       <div className="disease-detail flex-container">
         {/* Left Div: Disease problems */}
         <div className="disease-detail-left">
-          <h2>Problems of Knee Pain:</h2>
+          <h1>Problems of Knee Pain:</h1>
           <ul>
             <li>Knee instability or buckling</li>
             <li>Pain, especially during movement</li>
@@ -215,7 +215,7 @@ const DiseaseDetailPage = () => {
       </div>
 
       <div className="review-section">
-        <h2>Patient Reviews:</h2>
+        <h1>Patient Reviews:</h1>
         <div className="review-slider">
           <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
           <div className="review-content">
@@ -236,7 +236,7 @@ const DiseaseDetailPage = () => {
       <div className="disease-detail flex-container">
         {/* Left Div: Disease problems */}
         <div className="disease-detail-left">
-          <h2>Problems of Lower Back Pain (LBP):</h2>
+          <h1>Problems of Lower Back Pain (LBP):</h1>
           <ul>
             <li>Pain in the lower back, especially when bending or lifting</li>
             <li>Stiffness or limited range of motion</li>
@@ -253,7 +253,7 @@ const DiseaseDetailPage = () => {
 
      
       <div className="review-section">
-        <h2>Patient Reviews:</h2>
+        <h1>Patient Reviews:</h1>
         <div className="review-slider">
           <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
           <div className="review-content">
@@ -277,7 +277,7 @@ const DiseaseDetailPage = () => {
           <div className="disease-detail-left">
             <p>Frozen shoulder, also known as adhesive capsulitis, causes stiffness and pain in the shoulder joint, making it difficult to move.</p>
   
-            <h2>Symptoms:</h2>
+            <h1>Symptoms:</h1>
             <ul>
               <li>Limited range of motion in the shoulder</li>
               <li>Pain, especially when trying to move the arm</li>
@@ -294,7 +294,7 @@ const DiseaseDetailPage = () => {
   
          
       <div className="review-section">
-        <h2>Patient Reviews:</h2>
+        <h1>Patient Reviews:</h1>
         <div className="review-slider">
           <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
           <div className="review-content">
@@ -317,7 +317,7 @@ const DiseaseDetailPage = () => {
             <div className="disease-detail-left">
               <p>Excess Gas Formation is caused by excess acid production in the stomach, leading to discomfort and heartburn.</p>
     
-              <h2>Symptoms:</h2>
+              <h1>Symptoms:</h1>
               <ul>
                 <li>Heartburn and burning sensation in the chest</li>
                 <li>Acid reflux, indigestion</li>
@@ -334,7 +334,7 @@ const DiseaseDetailPage = () => {
           {/* Review Section */}
             
       <div className="review-section">
-        <h2>Patient Reviews:</h2>
+        <h1>Patient Reviews:</h1>
         <div className="review-slider">
           <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
           <div className="review-content">
@@ -356,14 +356,14 @@ const DiseaseDetailPage = () => {
               <div className="disease-detail-left">
                 <p>Irritable Bowel Syndrome (IBS) is a chronic gastrointestinal condition that affects the large intestine, causing discomfort and irregular bowel movements.</p>
       
-                <h2>Symptoms:</h2>
+                <h1>Symptoms:</h1>
                 <ul>
                   <li>Abdominal pain or cramping</li>
                   <li>Diarrhea or constipation</li>
                   <li>Bloating and gas</li>
                 </ul>
       
-                <h2>Conventional Treatment:</h2>
+                <h1>Conventional Treatment:</h1>
                 <p>Treatment includes dietary modifications, fiber supplements, and medications for symptom relief.</p>
       
               </div>
@@ -373,7 +373,7 @@ const DiseaseDetailPage = () => {
               </div>
             </div>
       <div className="review-section">
-        <h2>Patient Reviews:</h2>
+        <h1>Patient Reviews:</h1>
         <div className="review-slider">
           <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
           <div className="review-content">
@@ -395,7 +395,7 @@ const DiseaseDetailPage = () => {
                 <div className="disease-detail-left">
                   <p>Constipation is the infrequent or difficult passage of stool, often caused by a lack of fiber or dehydration.</p>
         
-                  <h2>Symptoms:</h2>
+                  <h1>Symptoms:</h1>
                   <ul>
                     <li>Difficulty passing stools</li>
                     <li>Hard, lumpy stools</li>
@@ -409,7 +409,7 @@ const DiseaseDetailPage = () => {
                 </div>
               </div>
               <div className="review-section">
-              <h2>Patient Reviews:</h2>
+              <h1>Patient Reviews:</h1>
               <div className="review-slider">
                 <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                 <div className="review-content">
@@ -431,7 +431,7 @@ const DiseaseDetailPage = () => {
                   <div className="disease-detail-left">
                     <p>Migraines are a type of recurring headache that causes intense throbbing pain, often accompanied by nausea, sensitivity to light, and visual disturbances.</p>
           
-                    <h2>Symptoms:</h2>
+                    <h1>Symptoms:</h1>
                     <ul>
                       <li>Severe headache, usually on one side of the head</li>
                       <li>Nausea, vomiting</li>
@@ -445,7 +445,7 @@ const DiseaseDetailPage = () => {
                 </div>
           
                <div className="review-section">
-              <h2>Patient Reviews:</h2>
+              <h1>Patient Reviews:</h1>
               <div className="review-slider">
                 <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                 <div className="review-content">
@@ -469,7 +469,7 @@ const DiseaseDetailPage = () => {
                     <div className="disease-detail-left">
                       <p>Type 2 Diabetes is a chronic condition that affects the way your body processes glucose, leading to high blood sugar levels.</p>
             
-                      <h2>Symptoms:</h2>
+                      <h1>Symptoms:</h1>
                       <ul>
                         <li>Increased thirst and hunger</li>
                         <li>Frequent urination</li>
@@ -484,7 +484,7 @@ const DiseaseDetailPage = () => {
                   </div>
             
                    <div className="review-section">
-              <h2>Patient Reviews:</h2>
+              <h1>Patient Reviews:</h1>
               <div className="review-slider">
                 <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                 <div className="review-content">
@@ -507,7 +507,7 @@ const DiseaseDetailPage = () => {
                       <div className="disease-detail-left">
                         <p>Hypothyroidism is a condition where the thyroid gland doesn't produce enough hormones, leading to fatigue, weight gain, and sluggishness.</p>
               
-                        <h2>Symptoms:</h2>
+                        <h1>Symptoms:</h1>
                         <ul>
                           <li>Fatigue and weakness</li>
                           <li>Weight gain and cold intolerance</li>
@@ -522,7 +522,7 @@ const DiseaseDetailPage = () => {
                     </div>
               
                      <div className="review-section">
-              <h2>Patient Reviews:</h2>
+              <h1>Patient Reviews:</h1>
               <div className="review-slider">
                 <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                 <div className="review-content">
@@ -545,7 +545,7 @@ const DiseaseDetailPage = () => {
                         <div className="disease-detail-left">
                           <p>Nerve pain (Neuropathic pain) occurs when there is damage or dysfunction in the nervous system, often leading to sharp, burning, or stabbing pain.</p>
                 
-                          <h2>Symptoms:</h2>
+                          <h1>Symptoms:</h1>
                           <ul>
                             <li>Burning or shooting pain</li>
                             <li>Numbness or tingling</li>
@@ -560,7 +560,7 @@ const DiseaseDetailPage = () => {
                       </div>
                 
                       <div className="review-section">
-              <h2>Patient Reviews:</h2>
+              <h1>Patient Reviews:</h1>
               <div className="review-slider">
                 <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                 <div className="review-content">
@@ -586,7 +586,7 @@ const DiseaseDetailPage = () => {
                               Hair fall, or hair loss, can be caused by various factors such as stress, poor nutrition, hormonal changes, or underlying health conditions.
                             </p>
                   
-                            <h2>Symptoms:</h2>
+                            <h1>Symptoms:</h1>
                             <ul>
                               <li>Thinning hair</li>
                               <li>Excessive hair shedding</li>
@@ -601,7 +601,7 @@ const DiseaseDetailPage = () => {
                         </div>
                   
                        <div className="review-section">
-              <h2>Patient Reviews:</h2>
+              <h1>Patient Reviews:</h1>
               <div className="review-slider">
                 <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                 <div className="review-content">
@@ -628,14 +628,14 @@ const DiseaseDetailPage = () => {
                                 Heel pain, often caused by plantar fasciitis or Achilles tendinitis, is a common foot condition that results in discomfort and difficulty walking.
                               </p>
                     
-                              <h2>Symptoms:</h2>
+                              <h1>Symptoms:</h1>
                               <ul>
                                 <li>Pain in the heel, especially in the morning</li>
                                 <li>Swelling around the heel</li>
                                 <li>Difficulty walking or standing for long periods</li>
                               </ul>
                     
-                              <h2>Conventional Treatment:</h2>
+                              <h1>Conventional Treatment:</h1>
                               <p>Treatment includes rest, ice, physical therapy, and anti-inflammatory medications.</p>
                     
                             </div>
@@ -647,7 +647,7 @@ const DiseaseDetailPage = () => {
                           </div>
                     
                          <div className="review-section">
-              <h2>Patient Reviews:</h2>
+              <h1>Patient Reviews:</h1>
               <div className="review-slider">
                 <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                 <div className="review-content">
@@ -673,7 +673,7 @@ const DiseaseDetailPage = () => {
                                   Sciatica refers to pain that radiates along the path of the sciatic nerve, which runs from the lower back down to the legs. This is often caused by a herniated disk or bone spur compressing the nerve.
                                 </p>
                       
-                                <h2>Symptoms:</h2>
+                                <h1>Symptoms:</h1>
                                 <ul>
                                   <li>Pain radiating from the lower back down the leg</li>
                                   <li>Numbness or weakness in the leg or foot</li>
@@ -690,7 +690,7 @@ const DiseaseDetailPage = () => {
                             </div>
                       
                            <div className="review-section">
-              <h2>Patient Reviews:</h2>
+              <h1>Patient Reviews:</h1>
               <div className="review-slider">
                 <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                 <div className="review-content">
@@ -714,7 +714,7 @@ const DiseaseDetailPage = () => {
                                     Piles, also known as hemorrhoids, are swollen blood vessels in the lower rectum or anus, leading to discomfort, pain, and sometimes bleeding.
                                   </p>
                         
-                                  <h2>Symptoms:</h2>
+                                  <h1>Symptoms:</h1>
                                   <ul>
                                     <li>Bleeding during bowel movements</li>
                                     <li>Itching and discomfort around the anus</li>
@@ -731,7 +731,7 @@ const DiseaseDetailPage = () => {
                               </div>
                         
                              <div className="review-section">
-              <h2>Patient Reviews:</h2>
+              <h1>Patient Reviews:</h1>
               <div className="review-slider">
                 <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                 <div className="review-content">
@@ -757,7 +757,7 @@ const DiseaseDetailPage = () => {
                                       An anal fissure is a small tear in the lining of the anus, often causing sharp pain during bowel movements.
                                     </p>
                           
-                                    <h2>Symptoms:</h2>
+                                    <h1>Symptoms:</h1>
                                     <ul>
                                       <li>Severe pain during and after bowel movements</li>
                                       <li>Bright red blood on the stool or toilet paper</li>
@@ -774,7 +774,7 @@ const DiseaseDetailPage = () => {
                                 </div>
                           
                                 <div className="review-section">
-              <h2>Patient Reviews:</h2>
+              <h1>Patient Reviews:</h1>
               <div className="review-slider">
                 <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                 <div className="review-content">
@@ -800,7 +800,7 @@ const DiseaseDetailPage = () => {
                                         Fistula-in-ano is an abnormal connection between the end of the bowel and the skin near the anus, often resulting from an infection.
                                       </p>
                             
-                                      <h2>Symptoms:</h2>
+                                      <h1>Symptoms:</h1>
                                       <ul>
                                         <li>Pain and swelling around the anus</li>
                                         <li>Pus or blood discharge near the anus</li>
@@ -817,7 +817,7 @@ const DiseaseDetailPage = () => {
                                   </div>
                             
                                  <div className="review-section">
-              <h2>Patient Reviews:</h2>
+              <h1>Patient Reviews:</h1>
               <div className="review-slider">
                 <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                 <div className="review-content">
@@ -843,7 +843,7 @@ const DiseaseDetailPage = () => {
                                           Dysmenorrhea refers to painful menstrual cramps that occur before or during menstruation.
                                         </p>
                               
-                                        <h2>Symptoms:</h2>
+                                        <h1>Symptoms:</h1>
                                         <ul>
                                           <li>Severe cramps in the lower abdomen</li>
                                           <li>Back pain, nausea, or headaches</li>
@@ -860,7 +860,7 @@ const DiseaseDetailPage = () => {
                                     </div>
                               
                                    <div className="review-section">
-                                      <h2>Patient Reviews:</h2>
+                                      <h1>Patient Reviews:</h1>
                                       <div className="review-slider">
                                         <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                                         <div className="review-content">
@@ -885,7 +885,7 @@ const DiseaseDetailPage = () => {
                                             Leucorrhoea refers to a thick, white or yellowish vaginal discharge that can be normal or indicate an infection.
                                           </p>
                                 
-                                          <h2>Symptoms:</h2>
+                                          <h1>Symptoms:</h1>
                                           <ul>
                                             <li>Thick, white or yellow vaginal discharge</li>
                                             <li>Itching, irritation, or a foul smell in the genital area</li>
@@ -902,7 +902,7 @@ const DiseaseDetailPage = () => {
                                       </div>
                                 
                                       <div className="review-section">
-              <h2>Patient Reviews:</h2>
+              <h1>Patient Reviews:</h1>
               <div className="review-slider">
                 <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                 <div className="review-content">
@@ -925,7 +925,7 @@ const DiseaseDetailPage = () => {
                                           <div className="disease-detail-left">
                                             <p>Irregular menstrual cycles can be caused by hormonal imbalances, stress, or underlying health conditions.</p>
                                   
-                                            <h2>Symptoms:</h2>
+                                            <h1>Symptoms:</h1>
                                             <ul>
                                               <li>Irregular or missed periods</li>
                                               <li>Unusual bleeding patterns</li>
@@ -942,7 +942,7 @@ const DiseaseDetailPage = () => {
                                         </div>
                                   
                                        <div className="review-section">
-              <h2>Patient Reviews:</h2>
+              <h1>Patient Reviews:</h1>
               <div className="review-slider">
                 <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                 <div className="review-content">
@@ -965,7 +965,7 @@ const DiseaseDetailPage = () => {
                                           <div className="disease-detail-left">
                                             <p>Excessive menstrual bleeding (menorrhagia) can be caused by hormonal imbalances, fibroids, or other health conditions.</p>
                                   
-                                            <h2>Symptoms:</h2>
+                                            <h1>Symptoms:</h1>
                                             <ul>
                                               <li>Heavy bleeding lasting more than 7 days</li>
                                               <li>Weakness or fatigue due to blood loss</li>
@@ -982,7 +982,7 @@ const DiseaseDetailPage = () => {
                                         </div>
                                   
                                        <div className="review-section">
-              <h2>Patient Reviews:</h2>
+              <h1>Patient Reviews:</h1>
               <div className="review-slider">
                 <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                 <div className="review-content">
@@ -1005,7 +1005,7 @@ const DiseaseDetailPage = () => {
                                           <div className="disease-detail-left">
                                             <p>Polycystic Ovary Syndrome (PCOS) is a hormonal disorder that affects the ovaries and can lead to irregular periods, infertility, and metabolic issues.</p>
                                   
-                                            <h2>Symptoms:</h2>
+                                            <h1>Symptoms:</h1>
                                             <ul>
                                               <li>Irregular or absent periods</li>
                                               <li>Excess facial or body hair (hirsutism)</li>
@@ -1022,7 +1022,7 @@ const DiseaseDetailPage = () => {
                                         </div>
                                   
                                        <div className="review-section">
-              <h2>Patient Reviews:</h2>
+              <h1>Patient Reviews:</h1>
               <div className="review-slider">
                 <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                 <div className="review-content">
@@ -1045,7 +1045,7 @@ const DiseaseDetailPage = () => {
                                           <div className="disease-detail-left">
                                             <p>Acne and pimples are skin conditions that occur when hair follicles become clogged with oil and dead skin cells, leading to inflammation.</p>
                                   
-                                            <h2>Symptoms:</h2>
+                                            <h1>Symptoms:</h1>
                                             <ul>
                                               <li>Whiteheads, blackheads, or pustules on the skin</li>
                                               <li>Inflammation and redness</li>
@@ -1062,7 +1062,7 @@ const DiseaseDetailPage = () => {
                                         </div>
                                   
                                         <div className="review-section">
-              <h2>Patient Reviews:</h2>
+              <h1>Patient Reviews:</h1>
               <div className="review-slider">
                 <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                 <div className="review-content">
@@ -1082,7 +1082,7 @@ const DiseaseDetailPage = () => {
                                       <>
                                         <div className="disease-detail flex-container">
                                           <div className="disease-detail-left">
-                                            <h2>Problems of Polycystic Ovary Disease (PCOD):</h2>
+                                            <h1>Problems of Polycystic Ovary Disease (PCOD):</h1>
                                             <ul>
                                               <li>Irregular periods and hormonal imbalance</li>
                                               <li>Weight gain and difficulty losing weight</li>
@@ -1098,7 +1098,7 @@ const DiseaseDetailPage = () => {
                                         </div>
                                 
                                         <div className="review-section">
-                                          <h2>Patient Reviews:</h2>
+                                          <h1>Patient Reviews:</h1>
                                           <div className="review-slider">
                                             <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                                             <div className="review-content">
@@ -1117,7 +1117,7 @@ const DiseaseDetailPage = () => {
                                       <>
                                         <div className="disease-detail flex-container">
                                           <div className="disease-detail-left">
-                                            <h2>Problems of Acne and Pimples:</h2>
+                                            <h1>Problems of Acne and Pimples:</h1>
                                             <ul>
                                               <li>Clogged pores due to oil and dead skin buildup</li>
                                               <li>Inflammation and redness</li>
@@ -1134,7 +1134,7 @@ const DiseaseDetailPage = () => {
                                         </div>
                                 
                                         <div className="review-section">
-                                          <h2>Patient Reviews:</h2>
+                                          <h1>Patient Reviews:</h1>
                                           <div className="review-slider">
                                             <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                                             <div className="review-content">
@@ -1153,7 +1153,7 @@ const DiseaseDetailPage = () => {
                                       <>
                                         <div className="disease-detail flex-container">
                                           <div className="disease-detail-left">
-                                            <h2>Problems of Eczema:</h2>
+                                            <h1>Problems of Eczema:</h1>
                                             <ul>
                                               <li>Itchy, dry, or scaly skin</li>
                                               <li>Red or inflamed patches</li>
@@ -1170,7 +1170,7 @@ const DiseaseDetailPage = () => {
                                         </div>
                                   
                                         <div className="review-section">
-                                          <h2>Patient Reviews:</h2>
+                                          <h1>Patient Reviews:</h1>
                                           <div className="review-slider">
                                             <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                                             <div className="review-content">
@@ -1189,7 +1189,7 @@ const DiseaseDetailPage = () => {
                                       <>
                                         <div className="disease-detail flex-container">
                                           <div className="disease-detail-left">
-                                            <h2>Problems of Psoriasis:</h2>
+                                            <h1>Problems of Psoriasis:</h1>
                                             <ul>
                                               <li>Red patches of skin covered with thick, silvery scales</li>
                                               <li>Dry, cracked skin that may bleed</li>
@@ -1205,7 +1205,7 @@ const DiseaseDetailPage = () => {
                                         </div>
                                   
                                         <div className="review-section">
-                                          <h2>Patient Reviews:</h2>
+                                          <h1>Patient Reviews:</h1>
                                           <div className="review-slider">
                                             <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                                             <div className="review-content">
@@ -1225,7 +1225,7 @@ const DiseaseDetailPage = () => {
                                       <>
                                         <div className="disease-detail flex-container">
                                           <div className="disease-detail-left">
-                                            <h2>Problems of Skin Allergy:</h2>
+                                            <h1>Problems of Skin Allergy:</h1>
                                             <ul>
                                               <li>Red, inflamed, and itchy skin</li>
                                               <li>Rashes or hives</li>
@@ -1240,7 +1240,7 @@ const DiseaseDetailPage = () => {
                                           </div>
                                         </div>
                                         <div className="review-section">
-                                          <h2>Patient Reviews:</h2>
+                                          <h1>Patient Reviews:</h1>
                                           <div className="review-slider">
                                             <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                                             <div className="review-content">
@@ -1258,7 +1258,7 @@ const DiseaseDetailPage = () => {
                                       <>
                                         <div className="disease-detail flex-container">
                                           <div className="disease-detail-left">
-                                            <h2>Problems of White Patches (Vitiligo):</h2>
+                                            <h1>Problems of White Patches (Vitiligo):</h1>
                                             <ul>
                                               <li>White or light-colored patches on the skin</li>
                                               <li>May affect any area, including the face, hands, and feet</li>
@@ -1273,7 +1273,7 @@ const DiseaseDetailPage = () => {
                                         </div>
                                   
                                         <div className="review-section">
-                                          <h2>Patient Reviews:</h2>
+                                          <h1>Patient Reviews:</h1>
                                           <div className="review-slider">
                                             <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                                             <div className="review-content">
@@ -1292,7 +1292,7 @@ const DiseaseDetailPage = () => {
                                       <>
                                         <div className="disease-detail flex-container">
                                           <div className="disease-detail-left">
-                                            <h2>Problems of Spermatorrhea (SP):</h2>
+                                            <h1>Problems of Spermatorrhea (SP):</h1>
                                             <ul>
                                               <li>Involuntary discharge of semen during sleep or urination</li>
                                               <li>Weakness or fatigue</li>
@@ -1307,7 +1307,7 @@ const DiseaseDetailPage = () => {
                                         </div>
                                   
                                         <div className="review-section">
-                                          <h2>Patient Reviews:</h2>
+                                          <h1>Patient Reviews:</h1>
                                           <div className="review-slider">
                                             <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                                             <div className="review-content">
@@ -1329,7 +1329,7 @@ const DiseaseDetailPage = () => {
                                         <div className="disease-detail flex-container">
                                           {/* Left Div: Disease problems */}
                                           <div className="disease-detail-left">
-                                            <h2>Problems of Nocturnal Emissions:</h2>
+                                            <h1>Problems of Nocturnal Emissions:</h1>
                                             <ul>
                                               <li>Involuntary ejaculation during sleep</li>
                                               <li>May cause embarrassment or stress for some individuals</li>
@@ -1347,7 +1347,7 @@ const DiseaseDetailPage = () => {
                                   
                                         {/* Review Section */}
                                         <div className="review-section">
-                                          <h2>Patient Reviews:</h2>
+                                          <h1>Patient Reviews:</h1>
                                           <div className="review-slider">
                                             <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                                             <div className="review-content">
@@ -1368,7 +1368,7 @@ const DiseaseDetailPage = () => {
                                         <div className="disease-detail flex-container">
                                           {/* Left Div: Disease problems */}
                                           <div className="disease-detail-left">
-                                            <h2>Problems of Premature Ejaculation (PE):</h2>
+                                            <h1>Problems of Premature Ejaculation (PE):</h1>
                                             <ul>
                                               <li>Ejaculation occurs sooner than desired</li>
                                               <li>Causes frustration or distress</li>
@@ -1386,7 +1386,7 @@ const DiseaseDetailPage = () => {
                                   
                                         {/* Review Section */}
                                         <div className="review-section">
-                                          <h2>Patient Reviews:</h2>
+                                          <h1>Patient Reviews:</h1>
                                           <div className="review-slider">
                                             <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                                             <div className="review-content">
@@ -1406,7 +1406,7 @@ const DiseaseDetailPage = () => {
       <div className="disease-detail flex-container">
         {/* Left Div: Disease problems */}
         <div className="disease-detail-left">
-          <h2>Problems of Erectile Dysfunction (ED):</h2>
+          <h1>Problems of Erectile Dysfunction (ED):</h1>
           <ul>
             <li>Difficulty achieving or maintaining an erection</li>
             <li>Reduces sexual satisfaction</li>
@@ -1424,7 +1424,7 @@ const DiseaseDetailPage = () => {
 
       {/* Review Section */}
       <div className="review-section">
-        <h2>Patient Reviews:</h2>
+        <h1>Patient Reviews:</h1>
         <div className="review-slider">
           <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
           <div className="review-content">
@@ -1448,7 +1448,7 @@ const DiseaseDetailPage = () => {
           <div className="disease-detail-left">
             <p>Infertility is the inability to conceive after one year of unprotected intercourse, affecting both men and women.</p>
   
-            <h2>Symptoms:</h2>
+            <h1>Symptoms:</h1>
             <ul>
               <li>Inability to conceive after a year of trying</li>
               <li>Irregular menstrual cycles (in women)</li>
@@ -1463,7 +1463,7 @@ const DiseaseDetailPage = () => {
         </div>
       {/* Review Section */}
                                         <div className="review-section">
-                                          <h2>Patient Reviews:</h2>
+                                          <h1>Patient Reviews:</h1>
                                           <div className="review-slider">
                                             <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                                             <div className="review-content">
@@ -1488,7 +1488,7 @@ const DiseaseDetailPage = () => {
           <div className="disease-detail-left">
             <p>Anxiety is a common mental health disorder characterized by persistent feelings of worry, fear, or apprehension that can interfere with daily activities.</p>
             
-            <h2>Symptoms:</h2>
+            <h1>Symptoms:</h1>
             <ul>
               <li>Excessive worrying about various aspects of life</li>
               <li>Restlessness or feeling on edge</li>
@@ -1505,7 +1505,7 @@ const DiseaseDetailPage = () => {
         </div>
       {/* Review Section */}
                                         <div className="review-section">
-                                          <h2>Patient Reviews:</h2>
+                                          <h1>Patient Reviews:</h1>
                                           <div className="review-slider">
                                             <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                                             <div className="review-content">
@@ -1530,7 +1530,7 @@ const DiseaseDetailPage = () => {
           <div className="disease-detail-left">
             <p>Dandruff is a common scalp condition characterized by flaking skin, which can lead to itching and discomfort.</p>
             
-            <h2>Symptoms:</h2>
+            <h1>Symptoms:</h1>
             <ul>
               <li>White or yellow flakes on the scalp and hair</li>
               <li>Itching or irritation on the scalp</li>
@@ -1546,7 +1546,7 @@ const DiseaseDetailPage = () => {
         </div>
       {/* Review Section */}
                                         <div className="review-section">
-                                          <h2>Patient Reviews:</h2>
+                                          <h1>Patient Reviews:</h1>
                                           <div className="review-slider">
                                             <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                                             <div className="review-content">
@@ -1571,7 +1571,7 @@ const DiseaseDetailPage = () => {
           <div className="disease-detail-left">
             <p>Alopecia refers to hair loss that can occur in patches (Alopecia Areata) or can be more widespread. It can affect people of all ages.</p>
   
-            <h2>Symptoms:</h2>
+            <h1>Symptoms:</h1>
             <ul>
               <li>Sudden hair loss in round patches on the scalp or other areas</li>
               <li>Thinning of hair on the scalp</li>
@@ -1587,7 +1587,7 @@ const DiseaseDetailPage = () => {
         </div>
       {/* Review Section */}
                                         <div className="review-section">
-                                          <h2>Patient Reviews:</h2>
+                                          <h1>Patient Reviews:</h1>
                                           <div className="review-slider">
                                             <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                                             <div className="review-content">
@@ -1612,7 +1612,7 @@ const DiseaseDetailPage = () => {
           <div className="disease-detail-left">
             <p>Obesity is a complex health issue characterized by excessive body fat, which can increase the risk of various health problems.</p>
             
-            <h2>Symptoms:</h2>
+            <h1>Symptoms:</h1>
             <ul>
               <li>Increased body weight and body mass index (BMI)</li>
               <li>Difficulty in physical activities</li>
@@ -1630,7 +1630,7 @@ const DiseaseDetailPage = () => {
         </div>
       {/* Review Section */}
                                         <div className="review-section">
-                                          <h2>Patient Reviews:</h2>
+                                          <h1>Patient Reviews:</h1>
                                           <div className="review-slider">
                                             <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                                             <div className="review-content">
@@ -1656,7 +1656,7 @@ case 'high-blood-pressure':
       <div className="disease-detail-left">
         <p>High blood pressure is a chronic condition that occurs when the force of the blood against the artery walls is too high, leading to serious health complications.</p>
 
-        <h2>Symptoms:</h2>
+        <h1>Symptoms:</h1>
         <ul>
           <li>Often asymptomatic; many may not know they have it</li>
           <li>Headaches</li>
@@ -1673,7 +1673,7 @@ case 'high-blood-pressure':
     </div>
     {/* Review Section */}
                                         <div className="review-section">
-                                          <h2>Patient Reviews:</h2>
+                                          <h1>Patient Reviews:</h1>
                                           <div className="review-slider">
                                             <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                                             <div className="review-content">
@@ -1697,7 +1697,7 @@ case 'hyperlipidemia':
       <div className="disease-detail-left">
         <p>Hyperlipidemia refers to elevated levels of lipids (fats) in the blood, which can lead to cardiovascular diseases.</p>
 
-        <h2>Symptoms:</h2>
+        <h1>Symptoms:</h1>
         <ul>
           <li>Often asymptomatic until serious complications arise</li>
           <li>Chest pain (angina)</li>
@@ -1713,7 +1713,7 @@ case 'hyperlipidemia':
     </div>
     {/* Review Section */}
                                         <div className="review-section">
-                                          <h2>Patient Reviews:</h2>
+                                          <h1>Patient Reviews:</h1>
                                           <div className="review-slider">
                                             <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                                             <div className="review-content">
@@ -1737,7 +1737,7 @@ case 'cough-and-cold':
       <div className="disease-detail-left">
         <p>Cough and cold are common viral infections that affect the upper respiratory tract, causing discomfort and inconvenience.</p>
 
-        <h2>Symptoms:</h2>
+        <h1>Symptoms:</h1>
         <ul>
           <li>Runny or stuffy nose</li>
           <li>Sore throat</li>
@@ -1753,7 +1753,7 @@ case 'cough-and-cold':
     </div>
     {/* Review Section */}
                                         <div className="review-section">
-                                          <h2>Patient Reviews:</h2>
+                                          <h1>Patient Reviews:</h1>
                                           <div className="review-slider">
                                             <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                                             <div className="review-content">
@@ -1777,7 +1777,7 @@ case 'sinusitis':
       <div className="disease-detail-left">
         <p>Sinusitis is an inflammation of the sinus linings, which can be caused by infections, allergies, or other factors.</p>
 
-        <h2>Symptoms:</h2>
+        <h1>Symptoms:</h1>
         <ul>
           <li>Facial pain or pressure</li>
           <li>Stuffy or runny nose</li>
@@ -1793,7 +1793,7 @@ case 'sinusitis':
     </div>
     {/* Review Section */}
                                         <div className="review-section">
-                                          <h2>Patient Reviews:</h2>
+                                          <h1>Patient Reviews:</h1>
                                           <div className="review-slider">
                                             <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                                             <div className="review-content">
@@ -1818,7 +1818,7 @@ case 'copd':
         <h1>Chronic Obstructive Pulmonary Disease (COPD)</h1>
         <p>COPD is a progressive lung disease that makes it difficult to breathe due to airflow obstruction and breathing-related problems.</p>
 
-        <h2>Symptoms:</h2>
+        <h1>Symptoms:</h1>
         <ul>
           <li>Shortness of breath</li>
           <li>Chronic cough</li>
@@ -1834,7 +1834,7 @@ case 'copd':
     </div>
     {/* Review Section */}
                                         <div className="review-section">
-                                          <h2>Patient Reviews:</h2>
+                                          <h1>Patient Reviews:</h1>
                                           <div className="review-slider">
                                             <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                                             <div className="review-content">
@@ -1857,7 +1857,7 @@ case 'asthma':
       <div className="disease-detail-left">
         <p>Asthma is a chronic condition characterized by the inflammation of the airways, leading to difficulty in breathing.</p>
 
-        <h2>Symptoms:</h2>
+        <h1>Symptoms:</h1>
         <ul>
           <li>Wheezing</li>
           <li>Shortness of breath</li>
@@ -1872,7 +1872,7 @@ case 'asthma':
     </div>
     {/* Review Section */}
                                         <div className="review-section">
-                                          <h2>Patient Reviews:</h2>
+                                          <h1>Patient Reviews:</h1>
                                           <div className="review-slider">
                                             <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                                             <div className="review-content">
@@ -1895,7 +1895,7 @@ case 'low-sex-drive':
       <div className="disease-detail-left">
         <p>Low sex drive, or decreased libido, can result from various factors including stress, hormonal changes, and lifestyle choices.</p>
 
-        <h2>Symptoms:</h2>
+        <h1>Symptoms:</h1>
         <ul>
           <li>Reduced interest in sexual activity</li>
           <li>Difficulty in achieving sexual arousal</li>
@@ -1909,7 +1909,7 @@ case 'low-sex-drive':
     </div>
     {/* Review Section */}
                                         <div className="review-section">
-                                          <h2>Patient Reviews:</h2>
+                                          <h1>Patient Reviews:</h1>
                                           <div className="review-slider">
                                             <button className="toggle-button left" onClick={showPreviousReview}>&lt;</button>
                                             <div className="review-content">
