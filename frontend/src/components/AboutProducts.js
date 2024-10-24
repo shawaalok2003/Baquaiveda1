@@ -3,7 +3,7 @@ import './AboutProducts.css'// Import the CSS file
 
 // Store images in an object
 const images = {
-  mainImg: "/images/Product 3.jpeg",
+  mainImg: "https://images.unsplash.com/photo-1545840716-c82e9eec6930?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTJ8MTI2NjY5NXx8ZW58MHx8fHx8",
   middleImg: "/images/About Product.png",
 };
 

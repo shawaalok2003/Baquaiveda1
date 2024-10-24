@@ -418,13 +418,15 @@ const MainDiseases = () => {
         { short: 'Nerve Pain', full: 'Nerve Pain' },
         { short: 'Neck Pain', full: 'Neck Pain' },
         { short: 'Heel Pain', full: 'Heel Pain' },
-        { short: 'Sciatica', full: 'Sciatica' }
+        { short: 'Sciatica', full: 'Sciatica' },
+        { short: 'low-back-pain', full : 'Low Back Pain'}
       ]
     },
     {
       name: 'Digestive Disease',
       details: [
         { short: 'Excess Gas Formation', full: 'Excess Gas Formation' },
+        { short: 'Hyper Acidity', full: 'Hyper Acidity'},
         { short: 'IBS', full: 'Irritable Bowel Syndrome' },
         { short: 'Constipation', full: 'Constipation' }
       ]
