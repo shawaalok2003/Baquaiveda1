@@ -413,7 +413,6 @@ const MainDiseases = () => {
         { short: 'OA', full: 'Osteoarthritis' },
         { short: 'RA', full: 'Rheumatoid Arthritis' },
         { short: 'KLP', full: 'Knee Ligament Pain' },
-        { short: 'LOP', full: 'Lower Back Pain' },
         { short: 'Frozen Shoulder', full: 'Frozen Shoulder' },
         { short: 'Nerve Pain', full: 'Nerve Pain' },
         { short: 'Neck Pain', full: 'Neck Pain' },
