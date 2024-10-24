@@ -164,7 +164,7 @@ export const CartProvider = ({ children }) => {
         headers: { Authorization: `Bearer ${token}` },
       });
       setCartItems(response.data.cart.items);
-      toast.success('Item added to cart successfully!');
+      //toast.success('Item added to cart successfully!');
     } catch (error) {
       console.error("Failed to add item to cart:", error.response?.data || error.message);
       toast.error('Failed to add item to cart.');

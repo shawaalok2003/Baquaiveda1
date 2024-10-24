@@ -113,7 +113,7 @@ export const WishlistProvider = ({ children }) => {
             } else {
                 setWishlistItems([]);
             }
-            toast.success('Item added to wishlist successfully!');
+            //toast.success('Item added to wishlist successfully!');
         } catch (error) {
             if (error.message.includes('Unauthorized')) {
                 toast.error('Please log in to add items to the wishlist.');
@@ -129,6 +129,7 @@ export const WishlistProvider = ({ children }) => {
             const data = await removeFromWishlist(productId);
             if (data && Array.isArray(data.wishlist.items)) {
                 setWishlistItems(data.wishlist.items);
+                toast.success('Item removed from wishlist successfully!');
             } else {
                 setWishlistItems([]);
             }
