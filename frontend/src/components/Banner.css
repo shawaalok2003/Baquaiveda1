@@ -4,11 +4,25 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh; /* Set height of the banner, adjust as neededd */
+  height: 100vh; /* Set height of the banner, adjust as needed */
   display: flex;
-  align-items: center; /* Vertically center the content */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: flex-start; /* Align items to the top */
+  align-items: center;
+  padding-top: 20px; /* Add space at the top */
 }
 
+/* New style for the h1 at the top of the banner */
+.banner-title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px; /* Space between this title and the rest of the content */
+  z-index: 2;
+  text-align: center; /* Center the text */
+}
+
+/* Original content styling */
 .banner-content {
   color: white;
   padding: 20px;
@@ -16,7 +30,6 @@
   z-index: 1;
 }
 
-/* Flexbox to align h1 and p on the same plane */
 .banner-text {
   display: flex;
   flex-direction: column;
@@ -24,15 +37,10 @@
   gap: 10px; /* Adjust spacing between lines as needed */
 }
 
-/* Set text color to white */
 .banner-content h1,
 .banner-content p {
   color: white;
-  margin: 0; /* Remove any margin for better alignment */
-}
-.banner-content h2{
-  color: white;
-  z-index: 3;
+  margin: 0;
 }
 
 .banner-content h1 {
@@ -45,31 +53,16 @@
   font-weight: bold;
 }
 
-.banner-content a {
-  font-size: 4rem;
-}
-
 .banner-content .btn {
-  position: absolute;
+  position: relative;
   cursor: pointer;
-  bottom: 125px;
-  left: 50px;
+  margin-top: 20px;
   z-index: 2;
   padding-left: 50px;
   padding-right: 50px;
-  padding-top: 0px;
-  padding-bottom: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 15px;
-}
-
-.banner::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 1;
 }
 
 /* Media queries for responsiveness */
@@ -77,6 +70,10 @@
   .banner {
     height: 80vh;
     padding: 20px;
+  }
+
+  .banner-title {
+    font-size: 2.5rem;
   }
 
   .banner-content {
@@ -92,14 +89,7 @@
     font-size: 18px;
   }
 
-  .banner-content a {
-    font-size: 1.5rem;
-  }
-
   .banner-content .btn {
-    position: static;
-    display: block;
-    margin-top: 20px;
     width: 100%;
     padding: 10px;
   }
@@ -110,6 +100,10 @@
     height: 70vh;
   }
 
+  .banner-title {
+    font-size: 2rem;
+  }
+
   .banner-content h1 {
     font-size: 2rem;
   }
@@ -118,16 +112,9 @@
     font-size: 16px;
   }
 
-  .banner-content a {
-    font-size: 1.2rem;
-  }
-
   .banner-content .btn {
-    bottom: 75px;
-    left: 10px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 10px;
   }
 }
 
@@ -135,6 +122,10 @@
   .banner {
     height: auto;
     padding: 20px;
+  }
+
+  .banner-title {
+    font-size: 1.5rem;
   }
 
   .banner-content h1 {
@@ -145,13 +136,7 @@
     font-size: 14px;
   }
 
-  .banner-content a {
-    font-size: 1rem;
-  }
-
   .banner-content .btn {
-    bottom: 50px;
-    left: 0;
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;

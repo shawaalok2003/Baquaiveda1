@@ -6,12 +6,14 @@ const Banner = () => {
     <section className="banner bg-light py-5">
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-md-6 banner-content text-start">
-          <div className="banner-text">
-          <h1>The Ayurvedic & Unani Way of Life</h1>
-          <h1>100+ Years of Legacy</h1>
-          <p>Products are delivered in West bengal , Bihar , Jharkhand , Uttar Pradesh</p>
-        </div>
+          {/* Move the h1 tag to the top of the banner */}
+          <h1 className="banner-title">The Ayurvedic & Unani Way of Life</h1>
+          <h1  className="banner-title">100+ Years of Legacy</h1>
+          <div className="col-md-9 banner-content text-start">
+            <div className="banner-text">
+              {/* The other h1 and paragraph will stay in the original position */}
+              <p>Products are delivered in West Bengal, Bihar, Jharkhand, Uttar Pradesh</p>
+            </div>
             <a href="/products" className="btn btn-success btn-lg mt-3">Shop Now</a>
           </div>
         </div>
