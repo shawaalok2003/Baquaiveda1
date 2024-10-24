@@ -4,7 +4,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh; /* Set height of the banner, adjust as needed */
+  height: 80vh; /* Set height of the banner, adjust as needed */
   display: flex;
   flex-direction: column; /* Stack items vertically */
   justify-content: flex-start; /* Align items to the top */
@@ -63,6 +63,10 @@
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 15px;
+}
+
+.banner-text{
+  margin-top: 200px;
 }
 
 /* Media queries for responsiveness */
