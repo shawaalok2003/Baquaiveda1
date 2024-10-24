@@ -14,7 +14,7 @@ const Banner = () => {
               {/* The other h1 and paragraph will stay in the original position */}
               <p>Products are delivered in West Bengal, Bihar, Jharkhand, Uttar Pradesh</p>
             </div>
-            <a href="/products" className="btn btn-success btn-lg mt-3">Shop Now</a>
+            <a href="/products" className=" ban btn btn-success btn-lg mt-3" style={{ fontSize: '24px', fontWeight: 'bold' }}>Shop Now</a>
           </div>
         </div>
       </div>
