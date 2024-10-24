@@ -3,6 +3,9 @@ import './Gallery.css'; // Import the CSS file
 
 const Gallery = () => {
   const images = [
+    '/images/neem.avif',
+    '/images/bankim.avif',
+    '/images/giloy.jpeg',
     '/images/siu1.jpg',
     '/images/siu2.jpg',
     '/images/siu3.jpg',

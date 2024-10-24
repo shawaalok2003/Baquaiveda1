@@ -67,8 +67,8 @@
 }
 
 .logo{
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 600px;
 }
 
 /* Responsive */
@@ -369,7 +369,7 @@
 
 
 .navbar .logo {
-  width: 180px; /* Adjust logo size */
+  width: 220px; /* Adjust logo size */
 }
 
 /* Navbar Toggler Styles */
