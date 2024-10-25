@@ -1,6 +1,8 @@
 .review-section1 {
   background-color: #f9f9f9;
   text-align: center;
+  padding: 30px 0; /* Added padding for top and bottom */
+  margin: 0; /* Ensure no margin at the start */
 }
 
 .review-section1 h2 {
@@ -23,6 +25,7 @@
   flex: 1 1 300px; /* Make cards responsive to the width of the screen */
   max-width: 300px;
   transition: transform 0.2s ease;
+  margin: 10px; /* Optional margin for spacing between cards */
 }
 
 .review-card1:hover {
@@ -36,7 +39,14 @@
 
 .rating1 {
   font-size: 1.2rem;
-  color: #ffcc00;
+  color: #28a745; /* Change star color to green */
+}
+
+/* Example for star ratings - assuming stars are represented by emojis or icons */
+.rating1::before {
+  content: '★★★★★'; /* Example star rating, replace with actual stars if using icons */
+  color: #28a745; /* Ensure stars are green */
+  font-size: 1.2rem;
 }
 
 .review-text1 {
@@ -46,6 +56,9 @@
 }
 
 /* Pagination styles */
+.pagination {
+  margin-top: 20px; /* Add spacing above pagination */
+}
 
 .pagination button {
   padding: 10px 20px;
@@ -77,47 +90,47 @@
 
 /* For tablets and small laptops */
 @media (max-width: 1024px) {
-  .review-section {
+  .review-section1 {
     padding: 40px 20px;
   }
 
-  .review-section h2 {
+  .review-section1 h2 {
     font-size: 2rem;
   }
 
-  .review-card {
+  .review-card1 {
     max-width: 250px; /* Decrease max-width for smaller screens */
   }
 
-  .review-content h3 {
+  .review-content1 h3 {
     font-size: 1.3rem;
   }
 
-  .review-text {
+  .review-text1 {
     font-size: 0.95rem;
   }
 }
 
 /* For large mobile phones */
 @media (max-width: 768px) {
-  .review-section {
+  .review-section1 {
     padding: 30px 15px;
   }
 
-  .review-section h2 {
+  .review-section1 h2 {
     font-size: 1.8rem;
   }
 
-  .review-card {
+  .review-card1 {
     max-width: 220px;
     padding: 15px;
   }
 
-  .review-content h3 {
+  .review-content1 h3 {
     font-size: 1.2rem;
   }
 
-  .review-text {
+  .review-text1 {
     font-size: 0.9rem;
   }
 
@@ -129,24 +142,24 @@
 
 /* For mobile phones */
 @media (max-width: 480px) {
-  .review-section {
+  .review-section1 {
     padding: 20px 10px;
   }
 
-  .review-section h2 {
+  .review-section1 h2 {
     font-size: 1.5rem;
   }
 
-  .review-card {
+  .review-card1 {
     max-width: 100%;
     padding: 10px;
   }
 
-  .review-content h3 {
+  .review-content1 h3 {
     font-size: 1.1rem;
   }
 
-  .review-text {
+  .review-text1 {
     font-size: 0.85rem;
   }
 

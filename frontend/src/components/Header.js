@@ -74,9 +74,6 @@ const Header = () => {
 
             {/* Navigation Icons */}
             <div className="nav-icons">
-              <a href="#" className="nav-icon">
-                <i className="bi bi-search" style={{ color: 'white' }}></i>
-              </a>
               <div className="nav-icon">
                 <i className="bi bi-person" style={{ color: 'white' }}></i>
                 <DropdownMenu /> {/* Dropdown will be shown on hover due to CSS */}

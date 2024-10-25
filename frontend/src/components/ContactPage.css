@@ -4,13 +4,35 @@
   align-items: center; /* Center align the content horizontally */
   justify-content: center; /* Center align the content vertically */
   height: 100vh; /* Full viewport height */
-  background-image: url('https://cdn.pixabay.com/photo/2022/01/06/11/44/envelopes-6919301_640.jpg'); /* Ensure the path is correct */
+  position: relative; /* Position relative for absolute positioning of the overlay */
+  background-image: url('https://cdn.pixabay.com/photo/2022/01/06/11/44/envelopes-6919301_640.jpg'); /* Background image */
   background-size: cover;
   background-position: center;
   color: rgb(0, 0, 0);
   padding: 40px;
+  overflow: hidden; /* Ensures overlay stays within contact-page bounds */
+  opacity: 0; /* Start with page hidden */
+  animation: fadeIn 0.8s forwards; /* Fade in animation */
 }
 
+.contact-page::before {
+  content: "";
+  position: absolute; /* Position overlay absolutely */
+  top: 0;
+  left: 0;
+  right: 0; /* Cover entire width */
+  bottom: 0; /* Cover entire height */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  z-index: 1; /* Ensure overlay is below the content but above the background */
+}
+
+.contact-page * {
+  position: relative; /* Position text above the overlay */
+  z-index: 2; /* Ensure all content is above the overlay */
+  opacity: 0; /* Start all content as hidden */
+  animation: slideIn 0.5s forwards; /* Slide in animation for all content */
+  animation-delay: 0.2s; /* Delay for the content to appear */
+}
 
 .contact-container {
   display: flex;
@@ -21,7 +43,7 @@
   max-width: 1200px; 
   margin-top: 20px;
   height: 100%; /* Ensures container takes full height */
-  color: #218838;
+  color: #fefefe;
 }
 
 .contact-form {
@@ -37,13 +59,16 @@
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to the form */
   text-align: left;
   color: #218838;
+  opacity: 0; /* Start with form hidden */
+  animation: scaleIn 0.5s forwards; /* Scale in animation */
+  animation-delay: 0.3s; /* Delay for the form to appear */
 }
 
 .contact-form label {
   font-family: 'Raleway', sans-serif;
   font-size: 1rem; 
   margin-bottom: 5px; 
-  color: rgb(0, 0, 0); /* Set labels to white for visibility */
+  color: rgb(255, 255, 255); /* Set labels to white for visibility */
   font-weight: bold;
   text-align: left;
 }
@@ -75,39 +100,97 @@
   background-color: #218838; 
 }
 
-/* Responsive styling for tablets (max-width 768px) */
+.contact-page p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  text-align: left;
+  color: white;
+}
+
+.contact-image {
+  width: 50%;
+  text-align: right; /* Align image container to the right */
+  margin-bottom: 200px;
+}
+
+.contact-image img {
+  max-width: 100%; /* Responsive image */
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0; /* Start invisible */
+  }
+  to {
+    opacity: 1; /* End fully visible */
+  }
+}
+
+/* Keyframes for slide-in animation */
+@keyframes slideIn {
+  from {
+    transform: translateY(20px); /* Start below */
+    opacity: 0; /* Invisible */
+  }
+  to {
+    transform: translateY(0); /* End at normal position */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+/* Keyframes for scaling animation */
+@keyframes scaleIn {
+  from {
+    transform: scale(0.9); /* Start slightly smaller */
+    opacity: 0; /* Invisible */
+  }
+  to {
+    transform: scale(1); /* End at normal size */
+    opacity: 1; /* Fully visible */
+  }
+}
+
+/* Responsive styles */
+
+/* For Tablets */
 @media (max-width: 768px) {
   .contact-page {
     padding: 20px; 
   }
 
-  .contact-form {
-    width: 100%; 
-  }
-
   .contact-container {
-    flex-direction: column;
+    flex-direction: column; /* Stack form and image vertically */
+    align-items: center; /* Center items */
   }
 
   .contact-image {
-    margin-top: 20px;
-    text-align: center;
-    display: none;
+    width: 100%; /* Full width on tablets */
+    display: block; /* Show image on tablets */
+    text-align: center; /* Center the image */
+  }
+
+  .contact-form {
+    width: 90%; /* Slightly narrower on tablets */
   }
 }
 
-/* Responsive styling for mobile (max-width 480px) */
+/* For Mobile Devices */
 @media (max-width: 480px) {
   .contact-page {
     padding: 15px;
   }
 
   .contact-page h2 {
-    font-size: 2rem;
+    font-size: 1.8rem; /* Smaller heading */
   }
 
   .contact-page p {
-    font-size: 1rem;
+    font-size: 1rem; /* Smaller paragraph */
   }
 
   .contact-form input,
@@ -119,113 +202,8 @@
     font-size: 0.9rem;
     padding: 8px 16px;
   }
-}
-
-.contact-page p {
-  font-family: 'Raleway', sans-serif;
-  font-size: 1.2rem;
-  line-height: 1.5;
-  margin-bottom: 30px;
-  text-align: left;
-  color: white;
-}
-
-.contact-image img {
-  width: 300px;
-  height: 300px; 
-  border-radius: 10px; 
-  margin: 20px;
-  right: 0px;
-}
-
-.contact-image {
-  margin-bottom: 200px;
-  right: 0px;
-}
-
-.contact-page {
-  display: flex;
-  justify-content: space-between; /* Space between form and image */
-  align-items: center;
-  height: 100vh; 
-  background-image: url('https://wallpaperaccess.com/full/3124512.jpg');
-  background-size: cover;
-  background-position: center;
-  color: rgb(0, 0, 0);
-  padding: 40px;
-}
-
-.contact-container {
-  display: flex;
-  justify-content: space-between; /* Aligns content in rows */
-  width: 100%;
-  max-width: 1200px;
-  height: 100%;
-}
-
-.contact-form {
-  display: flex;
-  flex-direction: column; 
-  justify-content:flex-start; /* Aligns the form elements to the left */
-  align-items: flex-start;
-  width: 50%; 
-  background: rgba(255, 255, 255, 0.1); 
-  padding: 30px;
-  border-radius: 10px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-  text-align: left;
-  color: #218838;
-}
-
-.contact-form label,
-.contact-form input,
-.contact-form textarea {
-  width: 100%; /* Full width input fields */
-}
-
-.contact-form button {
-  width: 100%; 
-}
-
-.contact-image {
-  width: 50%;
-  text-align: right; /* Align image container to the right */
-}
-
-.contact-image img {
-  max-width: 100%; /* Responsive image */
-  height: auto;
-  border-radius: 10px;
-}
-
-/* Responsive styling for tablets (max-width 768px) */
-@media (max-width: 768px) {
-  .contact-container {
-    flex-direction: column; /* Stack form and image vertically */
-  }
 
   .contact-image {
-    display: none; /* Hide image for smaller screens */
-  }
-
-  .contact-form {
-    width: 100%; /* Full-width form */
-  }
-}
-
-/* Responsive styling for mobile (max-width 480px) */
-@media (max-width: 480px) {
-  .contact-page {
-    padding: 15px;
-  }
-
-  .contact-form input,
-  .contact-form textarea,
-  .contact-form button {
-    font-size: 0.9rem;
-  }
-
-  .contact-form button {
-    padding: 8px 16px;
+    display: none; /* Hide image on mobile */
   }
 }

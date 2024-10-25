@@ -76,15 +76,26 @@ const DiseaseDetailPage = () => {
       <div className="disease-detail flex-container">
         {/* Left Div: Disease problems */}
         <div className="disease-detail-left">
-        <h1>Problems of Osteoarthritis (OA):</h1>
-          <ul>
-            <li>Degeneration of joint cartilage</li>
-            <li>Pain and stiffness, especially after movement</li>
-            <li>Loss of joint flexibility</li>
-            <li>Swelling around the joints</li>
-            <li>Grating sensation when moving the joint</li>
-          </ul>
-          <p>OA can severely affect quality of life, making it difficult to perform daily tasks. It usually develops over time due to wear and tear on the joints.</p>
+        <h1>What is Osteoarthritis (OA)?</h1>
+<p>Osteoarthritis (OA) is a chronic joint condition involving the gradual breakdown of cartilage, which cushions bones in the joints. As cartilage wears away, bones may rub against each other, causing pain, swelling, and limited movement. OA commonly affects weight-bearing joints like knees, hips, and the spine, but can occur in any joint.</p>
+
+<h1>Causes of Osteoarthritis</h1>
+<ul>
+  <li><strong>Aging:</strong> Natural deterioration of cartilage over time.</li>
+  <li><strong>Joint Injuries:</strong> Previous injuries or surgeries can lead to OA later.</li>
+  <li><strong>Repetitive Stress:</strong> Repeated joint use in certain jobs or activities can damage cartilage.</li>
+  <li><strong>Genetics:</strong> Family history of OA can increase susceptibility.</li>
+  <li><strong>Obesity:</strong> Extra weight places stress on joints, accelerating cartilage breakdown.</li>
+</ul>
+
+<h1>Symptoms of Osteoarthritis</h1>
+<ul>
+  <li><strong>Joint Pain and Stiffness:</strong> Discomfort, especially after movement or rest.</li>
+  <li><strong>Loss of Flexibility:</strong> Decreased range of motion in affected joints.</li>
+  <li><strong>Swelling and Tenderness:</strong> Inflammation and sensitivity around the joint.</li>
+  <li><strong>Grating Sensation:</strong> A feeling of bone friction or “grating” during movement.</li>
+</ul>
+<p>OA can significantly impact daily life, making simple tasks difficult and diminishing quality of life over time.</p>
         </div>
 
         {/* Right Div: Image */}
@@ -120,14 +131,27 @@ const DiseaseDetailPage = () => {
         <div className="disease-detail flex-container">
           {/* Left Div: Disease problems */}
           <div className="disease-detail-left">
-            <h1>Problems of Neck Pain:</h1>
-            <ul>
-              <li>Stiffness in the neck</li>
-              <li>Difficulty in moving the head</li>
-              <li>Sharp or dull pain in the neck</li>
-              <li>Muscle spasms in the neck and shoulders</li>
-            </ul>
-            <p>Neck pain is often caused by muscle strain, poor posture, or underlying conditions like arthritis or a herniated disc.</p>
+            <h1>What is Neck Pain?</h1>
+    <p>Neck pain refers to discomfort in the neck area, which can involve muscles, nerves, and vertebrae. It can vary from mild discomfort to severe pain and can impact daily activities.</p>
+
+    <h1>Causes of Neck Pain</h1>
+    <ul>
+        <li><strong>Muscle Strain:</strong> Overuse, poor posture, or sleeping in an awkward position can lead to muscle strain.</li>
+        <li><strong>Injuries:</strong> Accidents or falls may cause injuries that lead to neck pain.</li>
+        <li><strong>Poor Posture:</strong> Prolonged use of computers or phones can result in neck pain from poor posture.</li>
+        <li><strong>Degenerative Diseases:</strong> Conditions like arthritis can cause neck pain due to joint inflammation.</li>
+        <li><strong>Herniated Discs:</strong> Discs in the spine that bulge or rupture can press on nerves, causing pain.</li>
+    </ul>
+
+    <h1>Symptoms of Neck Pain</h1>
+    <ul>
+        <li><strong>Stiffness:</strong> Reduced ability to turn or move the head.</li>
+        <li><strong>Pain:</strong> Sharp or dull pain in the neck that can radiate to shoulders or arms.</li>
+        <li><strong>Muscle Spasms:</strong> Involuntary contractions in the neck or shoulder muscles.</li>
+        <li><strong>Headaches:</strong> Tension headaches may accompany neck pain.</li>
+    </ul>
+    
+    <p>Neck pain can significantly impact one’s quality of life, making it difficult to perform daily tasks comfortably.</p>
           </div>
   
           {/* Right Div: Image */}
@@ -158,15 +182,27 @@ const DiseaseDetailPage = () => {
         <div className="disease-detail flex-container">
           {/* Left Div: Disease problems */}
           <div className="disease-detail-left">
-            <h1>Problems of Low Back Pain:</h1>
-            <ul>
-              <li>Constant or intermittent pain in the lower back</li>
-              <li>Sharp, localized pain in the lumbar region</li>
-              <li>Pain that worsens with movement or prolonged standing</li>
-              <li>Difficulty in bending or lifting objects</li>
-              <li>Muscle stiffness or spasms in the lower back</li>
-            </ul>
-            <p>Low back pain can be caused by poor posture, lifting heavy objects, muscle strain, or more serious conditions like a herniated disc or arthritis.</p>
+             <h1>What is Low Back Pain?</h1>
+    <p>Low back pain is a common condition that affects the lower part of the spine. It can range from a dull, constant ache to a sudden, sharp pain, impacting daily activities and quality of life.</p>
+
+    <h1>Causes of Low Back Pain</h1>
+    <ul>
+        <li><strong>Muscle or Ligament Strain:</strong> Heavy lifting, sudden awkward movements, or repetitive strain can lead to muscle or ligament injuries.</li>
+        <li><strong>Disc Problems:</strong> Bulging or herniated discs can press on nerves, causing pain and discomfort.</li>
+        <li><strong>Arthritis:</strong> Osteoarthritis can lead to spinal stenosis, which causes pain and stiffness in the lower back.</li>
+        <li><strong>Skeletal Irregularities:</strong> Conditions like scoliosis can contribute to lower back pain by altering spinal alignment.</li>
+        <li><strong>Inactivity:</strong> Sedentary lifestyle can weaken the muscles supporting the back, increasing the risk of pain.</li>
+    </ul>
+
+    <h1>Symptoms of Low Back Pain</h1>
+    <ul>
+        <li><strong>Persistent Pain:</strong> Ongoing pain that may worsen with activity or prolonged sitting.</li>
+        <li><strong>Stiffness:</strong> Reduced flexibility or difficulty in bending or moving the back.</li>
+        <li><strong>Radiating Pain:</strong> Pain that may extend to the hips, legs, or feet.</li>
+        <li><strong>Muscle Spasms:</strong> Involuntary contractions in the back muscles.</li>
+    </ul>
+    
+    <p>Low back pain can significantly affect daily life, making tasks such as standing, walking, or lifting difficult.</p>
           </div>
 
           {/* Right Div: Image */}
@@ -197,16 +233,27 @@ case 'hyper-acidity':
         <div className="disease-detail flex-container">
           {/* Left Div: Disease problems */}
           <div className="disease-detail-left">
-            <h1>Problems of Hyper Acidity:</h1>
-            <ul>
-              <li>Burning sensation in the chest or throat (heartburn)</li>
-              <li>Feeling of discomfort or heaviness after eating</li>
-              <li>Acidic taste in the mouth or sour burps</li>
-              <li>Frequent burping or bloating</li>
-              <li>Stomach discomfort or pain, especially after meals</li>
-              <li>Nausea or regurgitation of food or sour liquid</li>
-            </ul>
-            <p>Hyper acidity, also known as acid reflux, occurs when stomach acid flows back into the esophagus, causing irritation and discomfort. Common triggers include spicy foods, caffeine, overeating, and stress.</p>
+             <h1>What is Hyperacidity?</h1>
+    <p>Hyperacidity, also known as acid dyspepsia, refers to an excess secretion of gastric acid in the stomach. This condition can lead to discomfort and various digestive issues, including heartburn and acid reflux.</p>
+
+    <h1>Causes of Hyperacidity</h1>
+    <ul>
+        <li><strong>Poor Diet:</strong> Consumption of spicy, fatty, or acidic foods can trigger excessive acid production.</li>
+        <li><strong>Stress:</strong> Psychological stress can increase stomach acid levels and lead to digestive problems.</li>
+        <li><strong>Smoking:</strong> Tobacco use can stimulate acid secretion and weaken the lower esophageal sphincter.</li>
+        <li><strong>Alcohol Consumption:</strong> Alcohol can irritate the stomach lining and increase acid production.</li>
+        <li><strong>Medical Conditions:</strong> Conditions like gastroesophageal reflux disease (GERD) or peptic ulcers can contribute to hyperacidity.</li>
+    </ul>
+
+    <h1>Symptoms of Hyperacidity</h1>
+    <ul>
+        <li><strong>Heartburn:</strong> A burning sensation in the chest or throat caused by stomach acid rising into the esophagus.</li>
+        <li><strong>Stomach Pain:</strong> Discomfort or pain in the stomach area, often described as a gnawing sensation.</li>
+        <li><strong>Bloating:</strong> A feeling of fullness or swelling in the stomach after eating.</li>
+        <li><strong>Nausea:</strong> A feeling of unease or discomfort in the stomach that may lead to vomiting.</li>
+    </ul>
+    
+    <p>Hyperacidity can significantly impact quality of life, causing discomfort during daily activities and affecting overall well-being.</p>
           </div>
 
           {/* Right Div: Image */}
@@ -237,13 +284,28 @@ case 'hyper-acidity':
       <div className="disease-detail flex-container">
         {/* Left Div: Disease problems */}
         <div className="disease-detail-left">
-          <h1>Problems of Rheumatoid Arthritis (RA):</h1>
-          <ul>
-            <li>Swollen, tender, and warm joints</li>
-            <li>Joint stiffness, especially in the morning</li>
-            <li>Fatigue, fever, and weight loss</li>
-          </ul>
-          <p>RA is an autoimmune condition causing chronic inflammation of the joints and other parts of the body.</p>
+         <h1>What is Rheumatoid Arthritis?</h1>
+    <p>Rheumatoid arthritis (RA) is a chronic autoimmune disorder that primarily affects the joints. In RA, the immune system mistakenly attacks the synovium—the lining of the membranes that surround the joints—leading to inflammation, pain, and eventually joint damage.</p>
+
+    <h1>Causes of Rheumatoid Arthritis</h1>
+    <ul>
+        <li><strong>Autoimmune Response:</strong> The body’s immune system attacks its own tissues, though the exact trigger is not fully understood.</li>
+        <li><strong>Genetics:</strong> A family history of rheumatoid arthritis may increase the likelihood of developing the condition.</li>
+        <li><strong>Environmental Factors:</strong> Exposure to certain environmental factors, such as smoking and pollution, can contribute to the onset of RA.</li>
+        <li><strong>Hormonal Factors:</strong> Hormonal changes may influence the risk of developing RA, as it is more common in women.</li>
+        <li><strong>Infections:</strong> Some infections may trigger rheumatoid arthritis in genetically susceptible individuals.</li>
+    </ul>
+
+    <h1>Symptoms of Rheumatoid Arthritis</h1>
+    <ul>
+        <li><strong>Joint Pain and Swelling:</strong> Persistent pain, swelling, and tenderness in the joints, often affecting both sides of the body.</li>
+        <li><strong>Stiffness:</strong> Morning stiffness lasting for more than 30 minutes, often affecting hands and feet.</li>
+        <li><strong>Fatigue:</strong> A general feeling of tiredness and lack of energy is common among individuals with RA.</li>
+        <li><strong>Fever:</strong> Mild fever may accompany the other symptoms due to inflammation.</li>
+        <li><strong>Loss of Appetite:</strong> Many individuals experience a decreased desire to eat, leading to weight loss.</li>
+    </ul>
+    
+    <p>Rheumatoid arthritis can significantly impact daily life, leading to joint damage and reduced mobility if left untreated.</p>
         </div>
 
         {/* Right Div: Image */}
@@ -276,13 +338,28 @@ case 'hyper-acidity':
       <div className="disease-detail flex-container">
         {/* Left Div: Disease problems */}
         <div className="disease-detail-left">
-          <h1>Problems of Knee Pain:</h1>
-          <ul>
-            <li>Knee instability or buckling</li>
-            <li>Pain, especially during movement</li>
-            <li>Swelling around the knee</li>
-          </ul>
-          <p>Knee ligament pain is often caused by injuries to the ligaments like the ACL, MCL, or PCL that stabilize the knee joint.</p>
+          <h1>What is Knee Pain?</h1>
+    <p>Knee pain is a common complaint that can result from various causes, including injuries, overuse, or underlying health conditions. It can affect people of all ages and may range from mild discomfort to severe pain that limits mobility.</p>
+
+    <h1>Causes of Knee Pain</h1>
+    <ul>
+        <li><strong>Injuries:</strong> Injuries such as ligament tears, meniscus tears, or fractures can lead to knee pain.</li>
+        <li><strong>Osteoarthritis:</strong> Wear and tear of cartilage over time can cause knee pain and stiffness.</li>
+        <li><strong>Rheumatoid Arthritis:</strong> This autoimmune disorder can affect the knee joints, leading to pain and inflammation.</li>
+        <li><strong>Bursitis:</strong> Inflammation of the bursae (small fluid-filled sacs) around the knee can cause pain and swelling.</li>
+        <li><strong>Patellar Tendonitis:</strong> Also known as "jumper's knee," this condition results from overuse of the knee and affects the patellar tendon.</li>
+    </ul>
+
+    <h1>Symptoms of Knee Pain</h1>
+    <ul>
+        <li><strong>Localized Pain:</strong> Pain that may be felt directly over the knee joint or surrounding areas.</li>
+        <li><strong>Swelling:</strong> Inflammation can cause the knee to swell and feel warm to the touch.</li>
+        <li><strong>Stiffness:</strong> Reduced range of motion and difficulty bending or straightening the knee.</li>
+        <li><strong>Creaking or Grinding Sounds:</strong> A sensation of creaking or grinding during knee movement.</li>
+        <li><strong>Instability:</strong> A feeling that the knee may give way or buckle under pressure.</li>
+    </ul>
+
+    <p>Knee pain can significantly affect mobility and daily activities, making it important to seek appropriate treatment and management options.</p>
         </div>
 
         {/* Right Div: Image */}
@@ -313,13 +390,28 @@ case 'hyper-acidity':
       <div className="disease-detail flex-container">
         {/* Left Div: Disease problems */}
         <div className="disease-detail-left">
-          <h1>Problems of Lower Back Pain (LBP):</h1>
-          <ul>
-            <li>Pain in the lower back, especially when bending or lifting</li>
-            <li>Stiffness or limited range of motion</li>
-            <li>Shooting or stabbing pain</li>
-          </ul>
-          <p>LBP can result from strain, disc issues, or conditions like degenerative disc disease.</p>
+          <h1>What is Lower Back Pain?</h1>
+    <p>Lower back pain is a common condition that affects many people at some point in their lives. It can arise from various factors, including muscle strain, injury, or underlying medical conditions. The pain can be acute or chronic, and it may interfere with daily activities and overall quality of life.</p>
+
+    <h1>Causes of Lower Back Pain</h1>
+    <ul>
+        <li><strong>Muscle or Ligament Strain:</strong> Heavy lifting or an awkward movement can strain back muscles and ligaments.</li>
+        <li><strong>Herniated Discs:</strong> Discs that cushion the vertebrae may bulge or rupture, pressing on nerves and causing pain.</li>
+        <li><strong>Degenerative Disc Disease:</strong> Discs lose hydration and elasticity with age, leading to pain and reduced flexibility.</li>
+        <li><strong>Arthritis:</strong> Conditions such as osteoarthritis can lead to joint pain and stiffness in the lower back.</li>
+        <li><strong>Sciatica:</strong> Compression of the sciatic nerve can cause pain that radiates from the lower back down one leg.</li>
+    </ul>
+
+    <h1>Symptoms of Lower Back Pain</h1>
+    <ul>
+        <li><strong>Aching or Stiffness:</strong> Persistent discomfort in the lower back that may worsen with movement.</li>
+        <li><strong>Sharp or Shooting Pain:</strong> Pain that may radiate down the legs, often associated with nerve involvement.</li>
+        <li><strong>Muscle Spasms:</strong> Involuntary contractions or spasms in the back muscles.</li>
+        <li><strong>Limited Range of Motion:</strong> Difficulty bending, lifting, or twisting due to pain.</li>
+        <li><strong>Changes in Posture:</strong> Difficulty maintaining a normal posture due to pain or discomfort.</li>
+    </ul>
+
+    <p>Lower back pain can have a significant impact on daily activities and may require medical attention for effective management and treatment.</p>
         </div>
 
         {/* Right Div: Image */}
@@ -352,14 +444,26 @@ case 'hyper-acidity':
         <div className="disease-detail flex-container">
           {/* Left Div: Disease problems */}
           <div className="disease-detail-left">
-            <p>Frozen shoulder, also known as adhesive capsulitis, causes stiffness and pain in the shoulder joint, making it difficult to move.</p>
-  
-            <h1>Symptoms:</h1>
-            <ul>
-              <li>Limited range of motion in the shoulder</li>
-              <li>Pain, especially when trying to move the arm</li>
-              <li>Worsening stiffness over time</li>
-            </ul>
+             <h1>What is Frozen Shoulder?</h1>
+    <p>Frozen shoulder, also known as adhesive capsulitis, is a condition characterized by stiffness and pain in the shoulder joint. It typically develops gradually and can limit the range of motion in the shoulder, making daily activities challenging. The exact cause is often unknown, but it can occur after an injury or as a result of certain medical conditions.</p>
+
+    <h1>Causes of Frozen Shoulder</h1>
+    <ul>
+        <li><strong>Injury or Surgery:</strong> A shoulder injury or surgery can lead to inflammation and stiffness in the joint.</li>
+        <li><strong>Medical Conditions:</strong> Conditions such as diabetes, thyroid disorders, or heart disease may increase the risk of developing frozen shoulder.</li>
+        <li><strong>Prolonged Immobility:</strong> Extended periods of inactivity or immobility can contribute to the condition, especially after surgery or injury.</li>
+        <li><strong>Inflammation:</strong> Chronic inflammation in the shoulder joint can lead to thickening and tightening of the shoulder capsule.</li>
+    </ul>
+
+    <h1>Symptoms of Frozen Shoulder</h1>
+    <ul>
+        <li><strong>Pain:</strong> A dull or sharp pain in the shoulder that may worsen at night or during certain activities.</li>
+        <li><strong>Stiffness:</strong> Limited range of motion, making it difficult to perform everyday tasks, such as reaching overhead or behind the back.</li>
+        <li><strong>Decreased Mobility:</strong> Difficulty moving the shoulder in various directions due to stiffness and pain.</li>
+        <li><strong>Gradual Onset:</strong> Symptoms typically develop slowly over time, often progressing through three stages: freezing, frozen, and thawing.</li>
+    </ul>
+
+    <p>Frozen shoulder can significantly impact daily life and may require physical therapy or other treatments to restore mobility and alleviate pain.</p>
   
           </div>
   
@@ -392,14 +496,28 @@ case 'hyper-acidity':
           <div className="disease-detail flex-container">
             {/* Left Div: Disease problems */}
             <div className="disease-detail-left">
-              <p>Excess Gas Formation is caused by excess acid production in the stomach, leading to discomfort and heartburn.</p>
-    
-              <h1>Symptoms:</h1>
-              <ul>
-                <li>Heartburn and burning sensation in the chest</li>
-                <li>Acid reflux, indigestion</li>
-                <li>Nausea and bloating</li>
-              </ul>
+              <h1>What is Excess Gas Formation?</h1>
+    <p>Excess gas formation, commonly known as bloating, is a condition characterized by the buildup of gas in the digestive tract. This can lead to discomfort, abdominal swelling, and distension. It can occur after eating, drinking, or even during certain medical conditions, and it can affect people of all ages.</p>
+
+    <h1>Causes of Excess Gas Formation</h1>
+    <ul>
+        <li><strong>Dietary Choices:</strong> Consumption of gas-producing foods such as beans, lentils, broccoli, onions, and carbonated beverages can lead to increased gas.</li>
+        <li><strong>Swallowing Air:</strong> Eating or drinking too quickly, chewing gum, or smoking can cause excessive air swallowing, leading to gas accumulation.</li>
+        <li><strong>Food Intolerances:</strong> Conditions like lactose intolerance or gluten sensitivity can result in improper digestion and gas formation.</li>
+        <li><strong>Bacterial Overgrowth:</strong> An imbalance in gut bacteria can lead to fermentation of undigested food, producing excess gas.</li>
+        <li><strong>Digestive Disorders:</strong> Conditions such as irritable bowel syndrome (IBS) or gastroesophageal reflux disease (GERD) can contribute to increased gas production.</li>
+    </ul>
+
+    <h1>Symptoms of Excess Gas Formation</h1>
+    <ul>
+        <li><strong>Abdominal Bloating:</strong> A feeling of fullness or swelling in the abdomen.</li>
+        <li><strong>Flatulence:</strong> Increased frequency of passing gas.</li>
+        <li><strong>Belching:</strong> Frequent burping or the release of gas from the stomach.</li>
+        <li><strong>Abdominal Pain:</strong> Discomfort or cramping in the abdominal area.</li>
+        <li><strong>Nausea:</strong> A sensation of unease or queasiness that may accompany gas formation.</li>
+    </ul>
+
+    <p>Excess gas formation can be uncomfortable and may require dietary adjustments or medical evaluation to determine underlying causes and appropriate treatment options.</p>
             </div>
     
             {/* Right Div: Image */}
@@ -431,18 +549,28 @@ case 'hyper-acidity':
           <>
             <div className="disease-detail flex-container">
               <div className="disease-detail-left">
-                <p>Irritable Bowel Syndrome (IBS) is a chronic gastrointestinal condition that affects the large intestine, causing discomfort and irregular bowel movements.</p>
-      
-                <h1>Symptoms:</h1>
-                <ul>
-                  <li>Abdominal pain or cramping</li>
-                  <li>Diarrhea or constipation</li>
-                  <li>Bloating and gas</li>
-                </ul>
-      
-                <h1>Conventional Treatment:</h1>
-                <p>Treatment includes dietary modifications, fiber supplements, and medications for symptom relief.</p>
-      
+               <h1>What is Irritable Bowel Syndrome (IBS)?</h1>
+    <p>Irritable Bowel Syndrome (IBS) is a common gastrointestinal disorder characterized by a combination of symptoms that can include abdominal pain, bloating, gas, and altered bowel habits such as diarrhea or constipation. It is a functional disorder, meaning there is no identifiable structural or biochemical cause, and symptoms can vary widely among individuals.</p>
+
+    <h1>Causes of Irritable Bowel Syndrome</h1>
+    <ul>
+        <li><strong>Gut Motility Issues:</strong> Abnormal contractions of the muscles in the intestines can lead to symptoms of IBS.</li>
+        <li><strong>Gut-Brain Interaction:</strong> Communication issues between the brain and the gastrointestinal tract may play a role in IBS.</li>
+        <li><strong>Food Sensitivities:</strong> Certain foods, such as dairy, gluten, and high-FODMAP foods, can trigger symptoms in some individuals.</li>
+        <li><strong>Stress and Anxiety:</strong> Psychological factors can exacerbate IBS symptoms, making stress management essential.</li>
+        <li><strong>Infections:</strong> Gastrointestinal infections or changes in gut flora after an infection can contribute to the development of IBS.</li>
+    </ul>
+
+    <h1>Symptoms of Irritable Bowel Syndrome</h1>
+    <ul>
+        <li><strong>Abdominal Pain:</strong> Cramping or pain in the abdomen, often relieved by bowel movements.</li>
+        <li><strong>Bloating:</strong> A feeling of fullness or swelling in the abdomen.</li>
+        <li><strong>Gas:</strong> Increased flatulence or belching.</li>
+        <li><strong>Altered Bowel Habits:</strong> Symptoms can include diarrhea, constipation, or alternating between the two.</li>
+        <li><strong>Mucus in Stool:</strong> Presence of mucus in the stool may occur in some individuals with IBS.</li>
+    </ul>
+
+    <p>IBS can significantly impact a person's quality of life, leading to dietary restrictions and anxiety about managing symptoms. Treatment often involves dietary changes, stress management, and sometimes medication.</p>
               </div>
       
               <div className="disease-detail-right">
@@ -470,15 +598,29 @@ case 'hyper-acidity':
             <>
               <div className="disease-detail flex-container">
                 <div className="disease-detail-left">
-                  <p>Constipation is the infrequent or difficult passage of stool, often caused by a lack of fiber or dehydration.</p>
-        
-                  <h1>Symptoms:</h1>
-                  <ul>
-                    <li>Difficulty passing stools</li>
-                    <li>Hard, lumpy stools</li>
-                    <li>Bloating and abdominal discomfort</li>
-                  </ul>
-        
+                  <h1>What is Constipation?</h1>
+    <p>Constipation is a common digestive condition characterized by infrequent bowel movements or difficulty passing stools. It can lead to discomfort, bloating, and a feeling of incomplete evacuation. While the frequency of bowel movements varies from person to person, having fewer than three bowel movements per week is typically considered constipation.</p>
+
+    <h1>Causes of Constipation</h1>
+    <ul>
+        <li><strong>Low Fiber Diet:</strong> A diet lacking in fiber-rich foods such as fruits, vegetables, and whole grains can lead to constipation.</li>
+        <li><strong>Dehydration:</strong> Insufficient water intake can cause stool to become hard and difficult to pass.</li>
+        <li><strong>Physical Inactivity:</strong> A sedentary lifestyle can slow down bowel movements, contributing to constipation.</li>
+        <li><strong>Medications:</strong> Certain medications, including opioids and some antidepressants, can affect bowel function.</li>
+        <li><strong>Ignoring Urges:</strong> Habitually ignoring the urge to have a bowel movement can disrupt normal bowel function over time.</li>
+        <li><strong>Medical Conditions:</strong> Conditions such as hypothyroidism, diabetes, and neurological disorders can impact bowel regularity.</li>
+    </ul>
+
+    <h1>Symptoms of Constipation</h1>
+    <ul>
+        <li><strong>Infrequent Bowel Movements:</strong> Having fewer than three bowel movements per week.</li>
+        <li><strong>Hard or Lumpy Stools:</strong> Stools that are difficult to pass and may require straining.</li>
+        <li><strong>Abdominal Discomfort:</strong> Cramping or pain in the abdomen often associated with constipation.</li>
+        <li><strong>Feeling of Incomplete Evacuation:</strong> A sensation that the bowel has not been completely emptied.</li>
+        <li><strong>Excessive Straining:</strong> Difficulty and strain during bowel movements.</li>
+    </ul>
+
+    <p>Constipation can affect anyone and is often manageable through dietary changes, increased hydration, and lifestyle modifications. In some cases, over-the-counter laxatives or medical evaluation may be necessary to address underlying causes.</p>
                 </div>
         
                 <div className="disease-detail-right">
@@ -506,14 +648,29 @@ case 'hyper-acidity':
               <>
                 <div className="disease-detail flex-container">
                   <div className="disease-detail-left">
-                    <p>Migraines are a type of recurring headache that causes intense throbbing pain, often accompanied by nausea, sensitivity to light, and visual disturbances.</p>
-          
-                    <h1>Symptoms:</h1>
-                    <ul>
-                      <li>Severe headache, usually on one side of the head</li>
-                      <li>Nausea, vomiting</li>
-                      <li>Sensitivity to light and sound</li>
-                    </ul>
+                    <h1>What are Migraines?</h1>
+    <p>Migraines are a type of severe headache often accompanied by other symptoms such as nausea, vomiting, and sensitivity to light and sound. They can last from a few hours to several days and can significantly interfere with daily activities. Migraines are typically characterized by intense, throbbing pain, usually on one side of the head.</p>
+
+    <h1>Causes of Migraines</h1>
+    <ul>
+        <li><strong>Genetics:</strong> A family history of migraines can increase susceptibility.</li>
+        <li><strong>Hormonal Changes:</strong> Fluctuations in hormones, particularly in women during menstruation, pregnancy, or menopause, can trigger migraines.</li>
+        <li><strong>Environmental Triggers:</strong> Factors such as bright lights, strong odors, loud noises, or changes in weather can precipitate a migraine.</li>
+        <li><strong>Dietary Factors:</strong> Certain foods and beverages, including aged cheeses, alcohol, and caffeine, can trigger migraines in some individuals.</li>
+        <li><strong>Stress and Fatigue:</strong> Emotional stress, anxiety, or lack of sleep can contribute to the onset of migraines.</li>
+        <li><strong>Neurological Factors:</strong> Changes in brain activity and neurotransmitter imbalances may play a role in migraine development.</li>
+    </ul>
+
+    <h1>Symptoms of Migraines</h1>
+    <ul>
+        <li><strong>Throbbing Headache:</strong> Intense, pulsating pain, often on one side of the head.</li>
+        <li><strong>Nausea and Vomiting:</strong> Many individuals experience gastrointestinal symptoms during a migraine attack.</li>
+        <li><strong>Sensitivity to Light and Sound:</strong> Increased sensitivity to environmental stimuli can occur.</li>
+        <li><strong>Visual Disturbances:</strong> Some may experience aura symptoms such as flashing lights or blind spots before the headache starts.</li>
+        <li><strong>Fatigue:</strong> A feeling of tiredness or exhaustion often follows a migraine attack.</li>
+    </ul>
+
+    <p>Migraines can be debilitating, affecting work, social activities, and overall quality of life. Treatment options include lifestyle modifications, medications for acute attacks, and preventive strategies to reduce the frequency and severity of migraines.</p>
                   </div>
           
                   <div className="disease-detail-right">
@@ -544,14 +701,29 @@ case 'hyper-acidity':
                   <div className="disease-detail flex-container">
                     {/* Left Div: Disease problems */}
                     <div className="disease-detail-left">
-                      <p>Type 2 Diabetes is a chronic condition that affects the way your body processes glucose, leading to high blood sugar levels.</p>
-            
-                      <h1>Symptoms:</h1>
-                      <ul>
-                        <li>Increased thirst and hunger</li>
-                        <li>Frequent urination</li>
-                        <li>Fatigue and blurred vision</li>
-                      </ul>
+                       <h1>What is Type 2 Diabetes?</h1>
+    <p>Type 2 diabetes is a chronic condition that affects the way your body metabolizes sugar (glucose), which is an important source of fuel for your body. Unlike Type 1 diabetes, where the body produces little or no insulin, in Type 2 diabetes, the body becomes resistant to insulin or doesn’t produce enough insulin to maintain normal glucose levels. This leads to elevated blood sugar levels, which can cause various health complications if left unmanaged.</p>
+
+    <h1>Causes of Type 2 Diabetes</h1>
+    <ul>
+        <li><strong>Obesity:</strong> Excess weight, especially around the abdomen, is a significant risk factor for developing Type 2 diabetes.</li>
+        <li><strong>Physical Inactivity:</strong> A sedentary lifestyle can contribute to weight gain and insulin resistance.</li>
+        <li><strong>Poor Diet:</strong> Diets high in processed foods, sugars, and unhealthy fats can increase the risk of Type 2 diabetes.</li>
+        <li><strong>Genetics:</strong> Family history of diabetes can increase the likelihood of developing the condition.</li>
+        <li><strong>Age:</strong> The risk of Type 2 diabetes increases with age, especially after age 45.</li>
+        <li><strong>Hormonal Changes:</strong> Conditions like polycystic ovary syndrome (PCOS) can increase risk factors.</li>
+    </ul>
+
+    <h1>Symptoms of Type 2 Diabetes</h1>
+    <ul>
+        <li><strong>Increased Thirst:</strong> Excessive thirst can be a sign of high blood sugar levels.</li>
+        <li><strong>Frequent Urination:</strong> High blood sugar causes the kidneys to work harder, leading to increased urination.</li>
+        <li><strong>Fatigue:</strong> Feeling tired or fatigued is common due to the body’s inability to use glucose effectively for energy.</li>
+        <li><strong>Blurred Vision:</strong> High blood sugar levels can cause fluid to be pulled from the lenses of the eyes, leading to vision changes.</li>
+        <li><strong>Slow Healing:</strong> Cuts and bruises may take longer to heal due to poor circulation and nerve damage.</li>
+    </ul>
+
+    <p>Type 2 diabetes can be managed through lifestyle changes, including a healthy diet, regular physical activity, and weight loss. In some cases, medication may be necessary to help control blood sugar levels. Early detection and proper management are crucial to prevent complications such as heart disease, kidney damage, and nerve damage.</p>
                      </div>
             
                     {/* Right Div: Image */}
@@ -582,14 +754,30 @@ case 'hyper-acidity':
                     <div className="disease-detail flex-container">
                       {/* Left Div: Disease problems */}
                       <div className="disease-detail-left">
-                        <p>Hypothyroidism is a condition where the thyroid gland doesn't produce enough hormones, leading to fatigue, weight gain, and sluggishness.</p>
-              
-                        <h1>Symptoms:</h1>
-                        <ul>
-                          <li>Fatigue and weakness</li>
-                          <li>Weight gain and cold intolerance</li>
-                          <li>Hair loss and dry skin</li>
-                        </ul>
+                        <h1>What is Hypothyroidism?</h1>
+    <p>Hypothyroidism is a condition in which the thyroid gland does not produce enough thyroid hormones to meet the body's needs. This leads to a slower metabolism and can affect various bodily functions. Common symptoms include fatigue, weight gain, and sensitivity to cold. Hypothyroidism can occur at any age but is more prevalent in women, especially those over 60.</p>
+
+    <h1>Causes of Hypothyroidism</h1>
+    <ul>
+        <li><strong>Autoimmune Disease:</strong> Hashimoto's thyroiditis is the most common cause, where the immune system attacks the thyroid gland.</li>
+        <li><strong>Thyroid Surgery:</strong> Removal of all or part of the thyroid can lead to hypothyroidism.</li>
+        <li><strong>Radiation Therapy:</strong> Treatment for cancers in the head and neck can damage the thyroid gland.</li>
+        <li><strong>Medications:</strong> Certain drugs, such as lithium and amiodarone, can affect thyroid hormone production.</li>
+        <li><strong>Iodine Deficiency:</strong> Iodine is essential for thyroid hormone production; a lack of it can lead to hypothyroidism.</li>
+        <li><strong>Congenital Hypothyroidism:</strong> Some infants are born with a malfunctioning thyroid gland.</li>
+    </ul>
+
+    <h1>Symptoms of Hypothyroidism</h1>
+    <ul>
+        <li><strong>Fatigue:</strong> A common symptom that affects daily activities and overall energy levels.</li>
+        <li><strong>Weight Gain:</strong> Unexplained weight gain or difficulty losing weight despite diet and exercise.</li>
+        <li><strong>Cold Sensitivity:</strong> Increased sensitivity to cold temperatures due to a slowed metabolism.</li>
+        <li><strong>Dry Skin and Hair:</strong> Skin may become dry, and hair may become brittle or thin.</li>
+        <li><strong>Depression:</strong> Changes in mood or depressive symptoms may occur.</li>
+        <li><strong>Memory Issues:</strong> Difficulty concentrating or memory problems can arise.</li>
+    </ul>
+
+    <p>Hypothyroidism is typically diagnosed through blood tests that measure levels of thyroid-stimulating hormone (TSH) and thyroxine (T4). Treatment usually involves daily use of synthetic thyroid hormone levothyroxine, which helps restore normal hormone levels and alleviate symptoms.</p>
                       </div>
               
                       {/* Right Div: Image */}
@@ -620,14 +808,29 @@ case 'hyper-acidity':
                       <div className="disease-detail flex-container">
                         {/* Left Div: Disease problems */}
                         <div className="disease-detail-left">
-                          <p>Nerve pain (Neuropathic pain) occurs when there is damage or dysfunction in the nervous system, often leading to sharp, burning, or stabbing pain.</p>
-                
-                          <h1>Symptoms:</h1>
-                          <ul>
-                            <li>Burning or shooting pain</li>
-                            <li>Numbness or tingling</li>
-                            <li>Increased sensitivity to touch</li>
-                          </ul>
+                           <h1>What is Nerve Pain?</h1>
+    <p>Nerve pain, also known as neuropathic pain, is a type of pain that occurs when there is damage or dysfunction in the nervous system. This can result from various conditions, including injuries, infections, diseases like diabetes, or conditions affecting the spine. Unlike typical pain caused by injury or inflammation, nerve pain is often described as sharp, burning, or tingling sensations, and it may be chronic or intermittent.</p>
+
+    <h1>Causes of Nerve Pain</h1>
+    <ul>
+        <li><strong>Diabetes:</strong> Diabetic neuropathy is a common complication where high blood sugar levels damage nerves, particularly in the legs and feet.</li>
+        <li><strong>Injuries:</strong> Traumatic injuries can directly damage nerves or compress them, leading to pain.</li>
+        <li><strong>Infections:</strong> Certain infections, such as shingles or HIV/AIDS, can lead to nerve damage and pain.</li>
+        <li><strong>Multiple Sclerosis:</strong> This autoimmune disease can affect the nerves in the brain and spinal cord, causing pain.</li>
+        <li><strong>Alcohol Abuse:</strong> Chronic alcohol consumption can lead to nutritional deficiencies that damage nerves.</li>
+        <li><strong>Chemotherapy:</strong> Certain cancer treatments can result in peripheral neuropathy as a side effect.</li>
+    </ul>
+
+    <h1>Symptoms of Nerve Pain</h1>
+    <ul>
+        <li><strong>Sharp or Stabbing Pain:</strong> Sudden, intense pain that can be debilitating.</li>
+        <li><strong>Burning Sensation:</strong> A persistent feeling of heat in the affected area.</li>
+        <li><strong>Tingling or "Pins and Needles":</strong> Abnormal sensations that can range from mild to severe.</li>
+        <li><strong>Muscle Weakness:</strong> Difficulty in controlling muscles in the affected area.</li>
+        <li><strong>Hypersensitivity:</strong> Increased sensitivity to touch, temperature, or pain in the affected region.</li>
+    </ul>
+
+    <p>Managing nerve pain often requires a multifaceted approach, including medications (like pain relievers, anticonvulsants, or antidepressants), physical therapy, and lifestyle modifications. Identifying and treating the underlying cause is crucial to effectively manage nerve pain and improve quality of life.</p>
                         </div>
                 
                         {/* Right Div: Image */}
@@ -659,16 +862,29 @@ case 'hyper-acidity':
                         <div className="disease-detail flex-container">
                           {/* Left Div: Disease problems */}
                           <div className="disease-detail-left">
-                            <p>
-                              Hair fall, or hair loss, can be caused by various factors such as stress, poor nutrition, hormonal changes, or underlying health conditions.
-                            </p>
-                  
-                            <h1>Symptoms:</h1>
-                            <ul>
-                              <li>Thinning hair</li>
-                              <li>Excessive hair shedding</li>
-                              <li>Visible scalp or bald patches</li>
-                            </ul>
+                             <h1>What is Hair Fall?</h1>
+    <p>Hair fall, also known as hair loss or alopecia, refers to the loss of hair from the scalp or other parts of the body. It can occur due to various reasons, including genetics, hormonal changes, medical conditions, or environmental factors. While some hair loss is normal, excessive shedding can be a sign of an underlying health issue or nutritional deficiency.</p>
+
+    <h1>Causes of Hair Fall</h1>
+    <ul>
+        <li><strong>Genetics:</strong> A family history of hair loss can increase the likelihood of androgenetic alopecia (pattern baldness).</li>
+        <li><strong>Hormonal Changes:</strong> Conditions such as pregnancy, menopause, or thyroid disorders can lead to temporary or permanent hair loss.</li>
+        <li><strong>Medical Conditions:</strong> Diseases like alopecia areata, scalp infections, and autoimmune disorders can cause hair fall.</li>
+        <li><strong>Nutritional Deficiencies:</strong> Lack of essential nutrients, such as iron, protein, and vitamins, can weaken hair and lead to shedding.</li>
+        <li><strong>Stress:</strong> Physical or emotional stress can trigger temporary hair loss, known as telogen effluvium.</li>
+        <li><strong>Hair Treatments:</strong> Excessive use of hair styling products, dyes, or heat treatments can damage hair and contribute to hair loss.</li>
+    </ul>
+
+    <h1>Symptoms of Hair Fall</h1>
+    <ul>
+        <li><strong>Thinning Hair:</strong> Gradual reduction in hair density, particularly on the crown or parting.</li>
+        <li><strong>Excessive Shedding:</strong> Noticeable hair strands on pillows, brushes, or in the shower.</li>
+        <li><strong>Bald Patches:</strong> Round or patchy areas of hair loss, which may be a sign of alopecia areata.</li>
+        <li><strong>Itchy Scalp:</strong> Discomfort or irritation that may accompany hair loss.</li>
+        <li><strong>Changes in Hair Texture:</strong> Hair may become brittle, dry, or change in texture before falling out.</li>
+    </ul>
+
+    <p>Addressing hair fall often involves identifying the underlying cause and implementing appropriate treatments, which may include medications, lifestyle changes, or topical solutions. Consulting a healthcare professional or dermatologist can provide guidance and support in managing hair loss effectively.</p>
                           </div>
                   
                           {/* Right Div: Image */}
@@ -701,19 +917,29 @@ case 'hyper-acidity':
                           <div className="disease-detail flex-container">
                             {/* Left Div: Disease problems */}
                             <div className="disease-detail-left">
-                              <p>
-                                Heel pain, often caused by plantar fasciitis or Achilles tendinitis, is a common foot condition that results in discomfort and difficulty walking.
-                              </p>
-                    
-                              <h1>Symptoms:</h1>
-                              <ul>
-                                <li>Pain in the heel, especially in the morning</li>
-                                <li>Swelling around the heel</li>
-                                <li>Difficulty walking or standing for long periods</li>
-                              </ul>
-                    
-                              <h1>Conventional Treatment:</h1>
-                              <p>Treatment includes rest, ice, physical therapy, and anti-inflammatory medications.</p>
+                               <h1>What is Heel Pain?</h1>
+    <p>Heel pain is a common complaint that can occur due to various reasons, affecting the heel's ability to bear weight. It can be sharp or dull and may be localized to one area or felt throughout the heel. Heel pain can significantly impact daily activities, such as walking, running, or standing for extended periods. Understanding its causes and symptoms is essential for effective treatment.</p>
+
+    <h1>Causes of Heel Pain</h1>
+    <ul>
+        <li><strong>Plantar Fasciitis:</strong> Inflammation of the plantar fascia, a thick band of tissue that runs across the bottom of the foot, is one of the most common causes of heel pain.</li>
+        <li><strong>Achilles Tendonitis:</strong> Overuse or strain of the Achilles tendon can lead to pain at the back of the heel.</li>
+        <li><strong>Bursitis:</strong> Inflammation of the bursa, a fluid-filled sac that cushions the heel, can cause localized pain.</li>
+        <li><strong>Heel Spurs:</strong> Bone growths on the heel bone can develop due to repetitive stress, leading to pain.</li>
+        <li><strong>Stress Fractures:</strong> Small cracks in the heel bone, often caused by overuse or impact, can result in pain.</li>
+        <li><strong>Other Conditions:</strong> Conditions such as arthritis or tarsal tunnel syndrome can also contribute to heel pain.</li>
+    </ul>
+
+    <h1>Symptoms of Heel Pain</h1>
+    <ul>
+        <li><strong>Sharp or Dull Pain:</strong> Pain may be sharp or dull and can vary in intensity.</li>
+        <li><strong>Stiffness:</strong> Limited range of motion, particularly in the morning or after prolonged sitting.</li>
+        <li><strong>Swelling:</strong> Swelling around the heel area may occur in cases of inflammation or injury.</li>
+        <li><strong>Discomfort During Activity:</strong> Increased pain during activities like walking, running, or standing.</li>
+        <li><strong>Worsening Pain:</strong> Pain may worsen with activity and improve with rest.</li>
+    </ul>
+
+    <p>Managing heel pain often involves a combination of rest, ice, stretching exercises, and over-the-counter pain relief medications. In more severe cases, a healthcare professional may recommend physical therapy, orthotics, or other interventions to address the underlying cause of heel pain.</p>
                     
                             </div>
                     
@@ -746,16 +972,29 @@ case 'hyper-acidity':
                             <div className="disease-detail flex-container">
                               {/* Left Div: Disease problems */}
                               <div className="disease-detail-left">
-                                <p>
-                                  Sciatica refers to pain that radiates along the path of the sciatic nerve, which runs from the lower back down to the legs. This is often caused by a herniated disk or bone spur compressing the nerve.
-                                </p>
-                      
-                                <h1>Symptoms:</h1>
-                                <ul>
-                                  <li>Pain radiating from the lower back down the leg</li>
-                                  <li>Numbness or weakness in the leg or foot</li>
-                                  <li>Sharp, burning, or shooting pain</li>
-                                </ul>
+                                <h1>What is Sciatica?</h1>
+    <p>Sciatica is a term used to describe pain that originates from the sciatic nerve, which runs from the lower back through the hips and down each leg. It typically occurs when the sciatic nerve is compressed, often due to a herniated disk, bone spur, or spinal stenosis. Sciatica can cause not only pain but also numbness, tingling, and weakness in the affected leg.</p>
+
+    <h1>Causes of Sciatica</h1>
+    <ul>
+        <li><strong>Herniated Disks:</strong> Disks that cushion the vertebrae may bulge or rupture, pressing on the sciatic nerve.</li>
+        <li><strong>Bone Spurs:</strong> Overgrowth of bone due to aging can narrow the spinal canal, leading to nerve compression.</li>
+        <li><strong>Spinal Stenosis:</strong> Narrowing of the spinal canal can create pressure on the sciatic nerve.</li>
+        <li><strong>Piriformis Syndrome:</strong> The piriformis muscle, located in the buttock, can irritate the sciatic nerve if it spasms.</li>
+        <li><strong>Injury:</strong> Trauma or injury to the lower back can lead to inflammation or compression of the sciatic nerve.</li>
+        <li><strong>Other Conditions:</strong> Conditions such as tumors, infections, or inflammatory diseases can also cause sciatica.</li>
+    </ul>
+
+    <h1>Symptoms of Sciatica</h1>
+    <ul>
+        <li><strong>Pain:</strong> Sharp, shooting pain that radiates from the lower back down through the leg.</li>
+        <li><strong>Numbness:</strong> Tingling or numbness in the leg or foot, often accompanying the pain.</li>
+        <li><strong>Weakness:</strong> Muscle weakness in the affected leg or foot.</li>
+        <li><strong>Difficulty Moving:</strong> Challenges with moving the affected leg or standing up.</li>
+        <li><strong>Pain Aggravation:</strong> Pain may worsen with prolonged sitting, standing, or sudden movements.</li>
+    </ul>
+
+    <p>Managing sciatica often involves a combination of physical therapy, medications, and lifestyle changes. In severe cases, medical interventions such as injections or surgery may be necessary to relieve pressure on the sciatic nerve.</p>
                       
                                 
                               </div>
@@ -787,17 +1026,29 @@ case 'hyper-acidity':
                               <div className="disease-detail flex-container">
                                 {/* Left Div: Disease problems */}
                                 <div className="disease-detail-left">
-                                  <p>
-                                    Piles, also known as hemorrhoids, are swollen blood vessels in the lower rectum or anus, leading to discomfort, pain, and sometimes bleeding.
-                                  </p>
-                        
-                                  <h1>Symptoms:</h1>
-                                  <ul>
-                                    <li>Bleeding during bowel movements</li>
-                                    <li>Itching and discomfort around the anus</li>
-                                    <li>Swelling around the anus</li>
-                                  </ul>
-                        
+                                 <h1>What are Piles?</h1>
+    <p>Piles, also known as hemorrhoids, are swollen and inflamed blood vessels in the rectum and anus that cause discomfort and bleeding. They can occur internally (inside the rectum) or externally (under the skin around the anus). Piles are a common condition that can affect people of all ages, often resulting from straining during bowel movements, pregnancy, or prolonged sitting.</p>
+
+    <h1>Causes of Piles</h1>
+    <ul>
+        <li><strong>Straining During Bowel Movements:</strong> Increased pressure during bowel movements can cause the blood vessels in the rectum to swell.</li>
+        <li><strong>Pregnancy:</strong> Hormonal changes and increased pressure on the pelvic blood vessels can lead to hemorrhoids.</li>
+        <li><strong>Obesity:</strong> Excess weight can put additional pressure on the rectal area, contributing to piles.</li>
+        <li><strong>Prolonged Sitting:</strong> Spending extended periods sitting, especially on the toilet, can increase the risk of developing piles.</li>
+        <li><strong>Low-Fiber Diet:</strong> A diet low in fiber can lead to constipation and straining, which can contribute to piles.</li>
+        <li><strong>Aging:</strong> As people age, the tissues supporting the blood vessels in the rectum can weaken, increasing the likelihood of hemorrhoids.</li>
+    </ul>
+
+    <h1>Symptoms of Piles</h1>
+    <ul>
+        <li><strong>Bleeding:</strong> Bright red blood during bowel movements is a common symptom.</li>
+        <li><strong>Pain and Discomfort:</strong> Pain or discomfort around the anal area, especially when sitting or during bowel movements.</li>
+        <li><strong>Itching:</strong> Itching or irritation in the anal region.</li>
+        <li><strong>Swelling:</strong> Swelling or a lump near the anus, which may be sensitive or painful.</li>
+        <li><strong>Mucus Discharge:</strong> A mucus discharge may occur with bowel movements.</li>
+    </ul>
+
+    <p>Piles can often be managed with lifestyle changes, such as increasing fiber intake, staying hydrated, and exercising. Over-the-counter treatments and home remedies may help relieve symptoms. In more severe cases, medical treatments or surgical options may be necessary.</p>
                                   
                                 </div>
                         
@@ -830,17 +1081,29 @@ case 'hyper-acidity':
                                 <div className="disease-detail flex-container">
                                   {/* Left Div: Disease problems */}
                                   <div className="disease-detail-left">
-                                    <p>
-                                      An anal fissure is a small tear in the lining of the anus, often causing sharp pain during bowel movements.
-                                    </p>
-                          
-                                    <h1>Symptoms:</h1>
-                                    <ul>
-                                      <li>Severe pain during and after bowel movements</li>
-                                      <li>Bright red blood on the stool or toilet paper</li>
-                                      <li>Itching or irritation around the anus</li>
-                                    </ul>
-                          
+                                     <h1>What are Anal Fissures?</h1>
+    <p>Anal fissures are small tears in the lining of the anus that can cause pain and bleeding during bowel movements. They can occur due to various factors, such as passing hard stools, chronic diarrhea, or anal intercourse. Fissures can be acute (lasting a few weeks) or chronic (lasting longer than six weeks) and often lead to discomfort and fear of bowel movements.</p>
+
+    <h1>Causes of Anal Fissures</h1>
+    <ul>
+        <li><strong>Hard Stools:</strong> Straining to pass hard stools is a common cause of fissures.</li>
+        <li><strong>Chronic Diarrhea:</strong> Frequent loose stools can irritate the anal lining and lead to tears.</li>
+        <li><strong>Childbirth:</strong> Women may experience fissures after vaginal delivery due to stretching of the anal area.</li>
+        <li><strong>Anal Intercourse:</strong> This can lead to trauma and tearing of the anal lining.</li>
+        <li><strong>Inflammatory Bowel Disease:</strong> Conditions like Crohn's disease can increase the risk of fissures.</li>
+        <li><strong>Poor Hygiene:</strong> Inadequate cleaning of the anal area can contribute to fissure development.</li>
+    </ul>
+
+    <h1>Symptoms of Anal Fissures</h1>
+    <ul>
+        <li><strong>Pain:</strong> Sharp pain during and after bowel movements is a hallmark symptom.</li>
+        <li><strong>Bleeding:</strong> Bright red blood on toilet paper or in the stool may occur.</li>
+        <li><strong>Itching:</strong> Itching or irritation around the anus may be present.</li>
+        <li><strong>Visible Tear:</strong> A visible crack or tear in the skin of the anal area.</li>
+        <li><strong>Spasms:</strong> Painful muscle spasms in the anal sphincter may occur.</li>
+    </ul>
+
+    <p>Anal fissures can often be treated with conservative measures such as dietary changes, increased fluid intake, and topical medications. In chronic cases, medical treatments or surgical options may be necessary to alleviate symptoms and promote healing.</p>
                                   
                                   </div>
                           
@@ -873,17 +1136,29 @@ case 'hyper-acidity':
                                   <div className="disease-detail flex-container">
                                     {/* Left Div: Disease problems */}
                                     <div className="disease-detail-left">
-                                      <p>
-                                        Fistula-in-ano is an abnormal connection between the end of the bowel and the skin near the anus, often resulting from an infection.
-                                      </p>
-                            
-                                      <h1>Symptoms:</h1>
-                                      <ul>
-                                        <li>Pain and swelling around the anus</li>
-                                        <li>Pus or blood discharge near the anus</li>
-                                        <li>Recurrent infections in the perianal region</li>
-                                      </ul>
-                            
+                                      <h1>What is an Anal Fistula?</h1>
+    <p>An anal fistula is a small tunnel-like structure that develops between the end of the bowel and the skin near the anus. It usually arises from an abscess (a collection of pus) that has not healed properly. Anal fistulas can cause discomfort, pain, and drainage and may become infected, leading to further complications.</p>
+
+    <h1>Causes of Anal Fistulas</h1>
+    <ul>
+        <li><strong>Anal Abscess:</strong> Most anal fistulas start from an abscess that forms due to infection.</li>
+        <li><strong>Inflammatory Bowel Disease:</strong> Conditions like Crohn's disease can increase the risk of developing fistulas.</li>
+        <li><strong>Trauma:</strong> Injury to the anal area from surgery, childbirth, or injury can lead to fistula formation.</li>
+        <li><strong>Radiation Therapy:</strong> Treatment for cancer in the pelvic area can contribute to fistula development.</li>
+        <li><strong>Infection:</strong> Certain infections, such as tuberculosis or sexually transmitted infections, can cause fistulas.</li>
+        <li><strong>Chronic Constipation or Diarrhea:</strong> These conditions can put strain on the anal area, increasing the risk of fistulas.</li>
+    </ul>
+
+    <h1>Symptoms of Anal Fistulas</h1>
+    <ul>
+        <li><strong>Pain:</strong> Persistent pain or discomfort in the anal area, especially during bowel movements.</li>
+        <li><strong>Drainage:</strong> Continuous drainage of pus or blood from the opening of the fistula.</li>
+        <li><strong>Swelling:</strong> Swelling around the anus or formation of an abscess.</li>
+        <li><strong>Itching:</strong> Itching or irritation in the anal region.</li>
+        <li><strong>Fever:</strong> In some cases, fever may accompany the infection.</li>
+    </ul>
+
+    <p>Anal fistulas require medical treatment, which may include antibiotics, drainage of abscesses, or surgical intervention to repair the fistula. Proper treatment is essential to prevent complications and promote healing.</p>
                                       
                                     </div>
                             
@@ -916,17 +1191,28 @@ case 'hyper-acidity':
                                     <div className="disease-detail flex-container">
                                       {/* Left Div: Disease problems */}
                                       <div className="disease-detail-left">
-                                        <p>
-                                          Dysmenorrhea refers to painful menstrual cramps that occur before or during menstruation.
-                                        </p>
-                              
-                                        <h1>Symptoms:</h1>
-                                        <ul>
-                                          <li>Severe cramps in the lower abdomen</li>
-                                          <li>Back pain, nausea, or headaches</li>
-                                          <li>Weakness or fatigue</li>
-                                        </ul>
-                              
+                                       <h1>What is Dysmenorrhea?</h1>
+    <p>Dysmenorrhea refers to the painful menstrual cramps that occur before or during menstruation. This condition can significantly impact a person's daily life, affecting work, school, and social activities. Dysmenorrhea can be classified into two types: primary dysmenorrhea, which is common and not caused by underlying conditions, and secondary dysmenorrhea, which results from an underlying reproductive health issue.</p>
+
+    <h1>Causes of Dysmenorrhea</h1>
+    <ul>
+        <li><strong>Primary Dysmenorrhea:</strong> Caused by normal contractions of the uterus (prostaglandin release) during menstruation.</li>
+        <li><strong>Secondary Dysmenorrhea:</strong> Often related to underlying conditions such as endometriosis, fibroids, or pelvic inflammatory disease (PID).</li>
+        <li><strong>Hormonal Imbalances:</strong> Fluctuations in hormone levels can contribute to the severity of menstrual cramps.</li>
+        <li><strong>Uterine Abnormalities:</strong> Structural issues such as fibroids or adenomyosis can cause increased pain during menstruation.</li>
+        <li><strong>Stress:</strong> High-stress levels can exacerbate the perception of pain during menstruation.</li>
+    </ul>
+
+    <h1>Symptoms of Dysmenorrhea</h1>
+    <ul>
+        <li><strong>Cramping Pain:</strong> Severe cramping in the lower abdomen that can radiate to the back and thighs.</li>
+        <li><strong>Nausea:</strong> Some individuals may experience nausea or vomiting during painful episodes.</li>
+        <li><strong>Fatigue:</strong> General tiredness and fatigue are common during menstruation.</li>
+        <li><strong>Headaches:</strong> Hormonal changes may lead to tension headaches or migraines.</li>
+        <li><strong>Diarrhea:</strong> Some may experience changes in bowel habits, including diarrhea or constipation.</li>
+    </ul>
+
+    <p>Dysmenorrhea can often be managed with over-the-counter pain relievers, hormonal birth control methods, and lifestyle changes. In cases of secondary dysmenorrhea, addressing the underlying condition is crucial for relief.</p>
                                         
                                       </div>
                               
@@ -958,17 +1244,28 @@ case 'hyper-acidity':
                                       <div className="disease-detail flex-container">
                                         {/* Left Div: Disease problems */}
                                         <div className="disease-detail-left">
-                                          <p>
-                                            Leucorrhoea refers to a thick, white or yellowish vaginal discharge that can be normal or indicate an infection.
-                                          </p>
-                                
-                                          <h1>Symptoms:</h1>
-                                          <ul>
-                                            <li>Thick, white or yellow vaginal discharge</li>
-                                            <li>Itching, irritation, or a foul smell in the genital area</li>
-                                            <li>Mild lower abdominal discomfort or back pain</li>
-                                          </ul>
-                                
+                                           <h1>What is Leucorrhea?</h1>
+    <p>Leucorrhea, also known as vaginal discharge, refers to a thick, whitish or yellowish discharge from the vagina. It is a common condition among women and can vary in consistency and color depending on hormonal changes, menstrual cycle, and health conditions. While some discharge is normal, changes in the amount, color, or odor may indicate an underlying issue that requires attention.</p>
+
+    <h1>Causes of Leucorrhea</h1>
+    <ul>
+        <li><strong>Hormonal Changes:</strong> Fluctuations in hormones, particularly during the menstrual cycle, pregnancy, or menopause, can increase discharge.</li>
+        <li><strong>Infections:</strong> Bacterial vaginosis, yeast infections, and sexually transmitted infections (STIs) can lead to abnormal discharge.</li>
+        <li><strong>Poor Hygiene:</strong> Insufficient or excessive hygiene can disturb the natural balance of bacteria in the vagina.</li>
+        <li><strong>Medical Conditions:</strong> Conditions like diabetes or pelvic inflammatory disease (PID) can contribute to increased discharge.</li>
+        <li><strong>Allergic Reactions:</strong> Reactions to soaps, detergents, or feminine hygiene products may cause increased discharge and irritation.</li>
+    </ul>
+
+    <h1>Symptoms of Leucorrhea</h1>
+    <ul>
+        <li><strong>Color Change:</strong> Discharge may appear white, yellow, or green, depending on the cause.</li>
+        <li><strong>Odor:</strong> A foul or unusual smell may indicate an infection.</li>
+        <li><strong>Itching or Irritation:</strong> Accompanying symptoms may include itching, burning, or irritation in the vaginal area.</li>
+        <li><strong>Increased Discharge:</strong> Noticeable changes in the volume of discharge, particularly if it becomes thick or frothy.</li>
+        <li><strong>Pelvic Pain:</strong> Some women may experience pelvic pain or discomfort along with discharge changes.</li>
+    </ul>
+
+    <p>If leucorrhea is accompanied by other concerning symptoms or changes, it is essential to consult a healthcare provider for appropriate diagnosis and treatment. Managing underlying infections or hormonal imbalances can help restore normal discharge patterns.</p>
                                          
                                         </div>
                                 
@@ -1000,14 +1297,28 @@ case 'hyper-acidity':
                                         <div className="disease-detail flex-container">
                                           {/* Left Div: Disease problems */}
                                           <div className="disease-detail-left">
-                                            <p>Irregular menstrual cycles can be caused by hormonal imbalances, stress, or underlying health conditions.</p>
-                                  
-                                            <h1>Symptoms:</h1>
-                                            <ul>
-                                              <li>Irregular or missed periods</li>
-                                              <li>Unusual bleeding patterns</li>
-                                              <li>Hormonal imbalance symptoms like acne or hair loss</li>
-                                            </ul>
+                                            <h1>What are Irregular Menstrual Cycles?</h1>
+    <p>Irregular menstrual cycles refer to variations in the timing, frequency, or flow of menstruation. A typical menstrual cycle ranges from 21 to 35 days, and cycles outside of this range may be considered irregular. Irregular menses can be a sign of hormonal imbalances, underlying health issues, or lifestyle factors and can impact a woman's reproductive health.</p>
+
+    <h1>Causes of Irregular Menstrual Cycles</h1>
+    <ul>
+        <li><strong>Hormonal Imbalances:</strong> Fluctuations in hormones such as estrogen and progesterone can disrupt the menstrual cycle.</li>
+        <li><strong>Stress:</strong> High levels of stress can affect the hypothalamus, leading to irregularities in the menstrual cycle.</li>
+        <li><strong>Polycystic Ovary Syndrome (PCOS):</strong> A common endocrine disorder that can cause irregular ovulation and menstrual cycles.</li>
+        <li><strong>Excessive Exercise:</strong> Intense physical activity or changes in body weight can lead to disruptions in menstruation.</li>
+        <li><strong>Chronic Conditions:</strong> Conditions such as thyroid disorders, diabetes, or obesity can impact menstrual regularity.</li>
+    </ul>
+
+    <h1>Symptoms of Irregular Menstrual Cycles</h1>
+    <ul>
+        <li><strong>Skipped Periods:</strong> Missing one or more menstrual cycles.</li>
+        <li><strong>Heavy or Prolonged Bleeding:</strong> Unusually heavy periods or bleeding that lasts longer than normal.</li>
+        <li><strong>Unpredictable Cycle Length:</strong> Cycles that vary significantly in length from month to month.</li>
+        <li><strong>Severe Cramps:</strong> Increased discomfort during menstruation compared to normal cycles.</li>
+        <li><strong>Other Hormonal Symptoms:</strong> Symptoms such as acne, weight gain, or hair growth can accompany irregular menses.</li>
+    </ul>
+
+    <p>If you experience irregular menstrual cycles, it is essential to consult a healthcare provider to identify any underlying causes and discuss potential treatments. Addressing irregularities early can help manage reproductive health effectively.</p>
                                   
                                             
                                           </div>
@@ -1040,14 +1351,28 @@ case 'hyper-acidity':
                                         <div className="disease-detail flex-container">
                                           {/* Left Div: Disease problems */}
                                           <div className="disease-detail-left">
-                                            <p>Excessive menstrual bleeding (menorrhagia) can be caused by hormonal imbalances, fibroids, or other health conditions.</p>
-                                  
-                                            <h1>Symptoms:</h1>
-                                            <ul>
-                                              <li>Heavy bleeding lasting more than 7 days</li>
-                                              <li>Weakness or fatigue due to blood loss</li>
-                                              <li>Frequent changing of sanitary products</li>
-                                            </ul>
+                                            <h1>What is Excessive Bleeding?</h1>
+    <p>Excessive bleeding, also known as menorrhagia, refers to heavy or prolonged menstrual bleeding that can disrupt daily life and indicate underlying health issues. A woman may experience menorrhagia if she needs to change sanitary products every hour or if her periods last longer than seven days. It can be caused by various factors, including hormonal imbalances, medical conditions, or structural issues within the uterus.</p>
+
+    <h1>Causes of Excessive Bleeding</h1>
+    <ul>
+        <li><strong>Hormonal Imbalances:</strong> Disruptions in the balance of estrogen and progesterone can lead to excessive growth of the uterine lining, resulting in heavy bleeding.</li>
+        <li><strong>Uterine Fibroids:</strong> Noncancerous growths in the uterus can cause heavy and painful periods.</li>
+        <li><strong>Polyps:</strong> Small, benign growths on the lining of the uterus can lead to increased bleeding.</li>
+        <li><strong>Medical Conditions:</strong> Conditions like endometriosis, thyroid disorders, or clotting disorders can contribute to excessive bleeding.</li>
+        <li><strong>Medications:</strong> Certain medications, especially blood thinners, can increase the risk of heavy bleeding.</li>
+    </ul>
+
+    <h1>Symptoms of Excessive Bleeding</h1>
+    <ul>
+        <li><strong>Heavy Menstrual Flow:</strong> Needing to change sanitary products every hour or more frequently.</li>
+        <li><strong>Prolonged Periods:</strong> Menstrual bleeding lasting longer than seven days.</li>
+        <li><strong>Passing Large Blood Clots:</strong> Noticing large clots during menstruation.</li>
+        <li><strong>Fatigue or Weakness:</strong> Feeling unusually tired or weak due to blood loss.</li>
+        <li><strong>Pelvic Pain:</strong> Experiencing discomfort or pain in the pelvic region during menstruation.</li>
+    </ul>
+
+    <p>If you experience excessive bleeding, it is important to consult a healthcare provider for evaluation and diagnosis. Proper management can help alleviate symptoms and address any underlying conditions.</p>
                                   
                                             
                                           </div>
@@ -1080,14 +1405,27 @@ case 'hyper-acidity':
                                         <div className="disease-detail flex-container">
                                           {/* Left Div: Disease problems */}
                                           <div className="disease-detail-left">
-                                            <p>Polycystic Ovary Syndrome (PCOS) is a hormonal disorder that affects the ovaries and can lead to irregular periods, infertility, and metabolic issues.</p>
-                                  
-                                            <h1>Symptoms:</h1>
-                                            <ul>
-                                              <li>Irregular or absent periods</li>
-                                              <li>Excess facial or body hair (hirsutism)</li>
-                                              <li>Acne and weight gain</li>
-                                            </ul>
+                                            <h1>What is Polycystic Ovary Syndrome (PCOS)?</h1>
+    <p>Polycystic Ovary Syndrome (PCOS) is a common hormonal disorder that affects people with ovaries, often during their reproductive years. PCOS is characterized by a combination of symptoms, including irregular menstrual cycles, excess androgen (male hormones), and polycystic ovaries. It can lead to various health issues, including infertility, metabolic problems, and increased risk of chronic conditions.</p>
+
+    <h1>Causes of Polycystic Ovary Syndrome</h1>
+    <ul>
+        <li><strong>Genetics:</strong> A family history of PCOS may increase the likelihood of developing the condition.</li>
+        <li><strong>Hormonal Imbalances:</strong> Elevated levels of insulin and androgens can contribute to the symptoms of PCOS.</li>
+        <li><strong>Inflammation:</strong> Chronic low-grade inflammation may play a role in the development of PCOS.</li>
+        <li><strong>Environmental Factors:</strong> Factors such as diet, lifestyle, and exposure to endocrine disruptors may influence the onset of PCOS.</li>
+    </ul>
+
+    <h1>Symptoms of Polycystic Ovary Syndrome</h1>
+    <ul>
+        <li><strong>Irregular Menstrual Cycles:</strong> Infrequent or absent menstrual periods are common.</li>
+        <li><strong>Excess Hair Growth:</strong> Hirsutism, or excessive hair growth on the face and body, is a common symptom.</li>
+        <li><strong>Acne and Oily Skin:</strong> Increased androgen levels can lead to acne and oily skin.</li>
+        <li><strong>Weight Gain:</strong> Many individuals with PCOS experience weight gain or difficulty losing weight.</li>
+        <li><strong>Polycystic Ovaries:</strong> Enlarged ovaries with multiple small cysts can be detected via ultrasound.</li>
+    </ul>
+
+    <p>Managing PCOS involves a combination of lifestyle changes, medical treatments, and regular monitoring. If you suspect you have PCOS or experience related symptoms, it is essential to consult a healthcare provider for proper diagnosis and treatment options.</p>
                                   
                                             
                                           </div>
@@ -1120,14 +1458,28 @@ case 'hyper-acidity':
                                         <div className="disease-detail flex-container">
                                           {/* Left Div: Disease problems */}
                                           <div className="disease-detail-left">
-                                            <p>Acne and pimples are skin conditions that occur when hair follicles become clogged with oil and dead skin cells, leading to inflammation.</p>
-                                  
-                                            <h1>Symptoms:</h1>
-                                            <ul>
-                                              <li>Whiteheads, blackheads, or pustules on the skin</li>
-                                              <li>Inflammation and redness</li>
-                                              <li>Sometimes pain or tenderness</li>
-                                            </ul>
+                                            <h1>What is Acne?</h1>
+    <p>Acne is a common skin condition that occurs when hair follicles become clogged with oil, dead skin cells, and bacteria. It can manifest as pimples, blackheads, whiteheads, or cysts and typically appears on the face, back, and shoulders. While acne is most prevalent during adolescence, it can affect individuals of all ages.</p>
+
+    <h1>Causes of Acne</h1>
+    <ul>
+        <li><strong>Hormonal Changes:</strong> Fluctuations in hormones, especially during puberty, menstruation, and pregnancy, can trigger acne.</li>
+        <li><strong>Excess Oil Production:</strong> Overactive sebaceous glands can produce too much oil, contributing to clogged pores.</li>
+        <li><strong>Bacteria:</strong> The presence of Propionibacterium acnes bacteria can lead to inflammation and acne formation.</li>
+        <li><strong>Diet:</strong> Certain foods, particularly those high in sugar and dairy, may exacerbate acne in some individuals.</li>
+        <li><strong>Stress:</strong> Increased stress levels can worsen acne symptoms due to hormonal fluctuations.</li>
+    </ul>
+
+    <h1>Symptoms of Acne</h1>
+    <ul>
+        <li><strong>Pimples:</strong> Red, inflamed spots on the skin that can be painful.</li>
+        <li><strong>Blackheads:</strong> Small, dark spots on the skin caused by clogged hair follicles.</li>
+        <li><strong>Whiteheads:</strong> Closed, white bumps on the skin that occur when hair follicles are clogged.</li>
+        <li><strong>Cysts:</strong> Deep, painful lumps under the skin that can cause scarring.</li>
+        <li><strong>Oily Skin:</strong> An excess of oil can lead to shiny skin and contribute to acne formation.</li>
+    </ul>
+
+    <p>Acne can have a significant impact on self-esteem and mental health. Effective treatments are available, including topical medications, oral medications, and lifestyle changes. If you are struggling with acne, it is advisable to consult a dermatologist for a tailored treatment plan.</p>
                                   
                                             
                                           </div>
@@ -1159,14 +1511,27 @@ case 'hyper-acidity':
                                       <>
                                         <div className="disease-detail flex-container">
                                           <div className="disease-detail-left">
-                                            <h1>Problems of Polycystic Ovary Disease (PCOD):</h1>
-                                            <ul>
-                                              <li>Irregular periods and hormonal imbalance</li>
-                                              <li>Weight gain and difficulty losing weight</li>
-                                              <li>Acne, hair thinning, and excessive hair growth</li>
-                                              <li>Ovarian cyst formation</li>
-                                            </ul>
-                                            <p>PCOD affects the reproductive system and can also lead to long-term health complications like diabetes and cardiovascular diseases.</p>
+                                            <h1>What is Polycystic Ovarian Disease (PCOD)?</h1>
+    <p>Polycystic Ovarian Disease (PCOD) is a hormonal disorder common among people with ovaries, characterized by the presence of multiple small cysts on the ovaries. PCOD is often associated with irregular menstrual cycles, excess androgen levels, and insulin resistance. It can lead to various health complications, including infertility and metabolic syndrome.</p>
+
+    <h1>Causes of Polycystic Ovarian Disease</h1>
+    <ul>
+        <li><strong>Genetics:</strong> A family history of PCOD can increase the likelihood of developing the condition.</li>
+        <li><strong>Hormonal Imbalances:</strong> Elevated levels of insulin and androgens can disrupt normal ovulatory function.</li>
+        <li><strong>Insulin Resistance:</strong> Many individuals with PCOD have insulin resistance, which can lead to weight gain and exacerbate symptoms.</li>
+        <li><strong>Environmental Factors:</strong> Lifestyle factors, including diet and exercise, can influence the severity of PCOD symptoms.</li>
+    </ul>
+
+    <h1>Symptoms of Polycystic Ovarian Disease</h1>
+    <ul>
+        <li><strong>Irregular Menstrual Cycles:</strong> Infrequent or prolonged menstrual periods are common.</li>
+        <li><strong>Excess Hair Growth:</strong> Hirsutism, or unwanted facial and body hair, is often a symptom.</li>
+        <li><strong>Weight Gain:</strong> Many individuals with PCOD experience weight gain or difficulty losing weight.</li>
+        <li><strong>Acne and Oily Skin:</strong> Hormonal imbalances can lead to skin issues, including acne.</li>
+        <li><strong>Polycystic Ovaries:</strong> Enlarged ovaries with multiple small cysts can be detected via ultrasound.</li>
+    </ul>
+
+    <p>Managing PCOD involves lifestyle modifications, such as diet and exercise, as well as medical treatments tailored to individual needs. If you suspect you have PCOD, it is essential to consult a healthcare provider for diagnosis and treatment options.</p>
                                           </div>
                                 
                                           <div className="disease-detail-right">
@@ -1194,15 +1559,28 @@ case 'hyper-acidity':
                                       <>
                                         <div className="disease-detail flex-container">
                                           <div className="disease-detail-left">
-                                            <h1>Problems of Acne and Pimples:</h1>
-                                            <ul>
-                                              <li>Clogged pores due to oil and dead skin buildup</li>
-                                              <li>Inflammation and redness</li>
-                                              <li>Painful, pus-filled bumps</li>
-                                              <li>Scarring from severe breakouts</li>
-                                              <li>Negative impact on self-esteem</li>
-                                            </ul>
-                                            <p>Acne can be triggered by hormonal changes, stress, and diet, and it commonly affects teenagers and young adults.</p>
+                                             <h1>What are Pimples?</h1>
+    <p>Pimples are small, inflamed bumps that form on the skin due to clogged hair follicles. They are commonly associated with acne and can appear on the face, back, chest, and shoulders. Pimples can be red, swollen, and painful, and may sometimes contain pus. They are most prevalent during puberty but can occur at any age.</p>
+
+    <h1>Causes of Pimples</h1>
+    <ul>
+        <li><strong>Excess Oil Production:</strong> Overactive sebaceous glands produce too much oil, leading to clogged pores.</li>
+        <li><strong>Bacterial Infection:</strong> The presence of Propionibacterium acnes bacteria can cause inflammation and infection.</li>
+        <li><strong>Hormonal Changes:</strong> Fluctuations in hormones during puberty, menstruation, or pregnancy can trigger pimples.</li>
+        <li><strong>Poor Hygiene:</strong> Inadequate cleansing of the skin can contribute to the buildup of dirt and oil.</li>
+        <li><strong>Diet:</strong> Certain foods, particularly those high in sugar and dairy, may exacerbate the formation of pimples.</li>
+    </ul>
+
+    <h1>Symptoms of Pimples</h1>
+    <ul>
+        <li><strong>Redness:</strong> Inflamed, red bumps that can be sensitive to touch.</li>
+        <li><strong>Swelling:</strong> Pimples can be swollen and raised above the skin's surface.</li>
+        <li><strong>Pus:</strong> Some pimples may have a white or yellow center filled with pus.</li>
+        <li><strong>Pain:</strong> Pimples can be tender and painful, especially when touched.</li>
+        <li><strong>Scarring:</strong> Severe cases can lead to scarring or changes in skin texture.</li>
+    </ul>
+
+    <p>Pimples can significantly affect self-esteem and confidence. Effective treatment options are available, including topical treatments, oral medications, and lifestyle changes. If you are struggling with persistent pimples, it's advisable to consult a dermatologist for tailored advice and treatment plans.</p>
                                           </div>
                                 
                                           <div className="disease-detail-right">
@@ -1230,13 +1608,28 @@ case 'hyper-acidity':
                                       <>
                                         <div className="disease-detail flex-container">
                                           <div className="disease-detail-left">
-                                            <h1>Problems of Eczema:</h1>
-                                            <ul>
-                                              <li>Itchy, dry, or scaly skin</li>
-                                              <li>Red or inflamed patches</li>
-                                              <li>Oozing or crusting in severe cases</li>
-                                            </ul>
-                                            <p>Eczema is a condition that makes your skin red, itchy, and inflamed. It's often triggered by an overactive immune response to allergens.</p>
+                                            <h1>What is Eczema?</h1>
+    <p>Eczema, also known as atopic dermatitis, is a chronic skin condition characterized by inflamed, itchy, and red patches of skin. It can affect people of all ages but is most commonly seen in infants and young children. Eczema can be triggered by various factors, including allergens, irritants, and environmental conditions.</p>
+
+    <h1>Causes of Eczema</h1>
+    <ul>
+        <li><strong>Genetics:</strong> A family history of eczema, asthma, or hay fever increases the risk of developing the condition.</li>
+        <li><strong>Environmental Triggers:</strong> Exposure to allergens (pollen, pet dander) or irritants (soaps, detergents) can provoke flare-ups.</li>
+        <li><strong>Skin Barrier Dysfunction:</strong> A compromised skin barrier can lead to moisture loss and increased susceptibility to irritants.</li>
+        <li><strong>Immune System Response:</strong> An overactive immune response can cause inflammation and itching.</li>
+        <li><strong>Stress:</strong> Emotional stress can worsen eczema symptoms and trigger flare-ups.</li>
+    </ul>
+
+    <h1>Symptoms of Eczema</h1>
+    <ul>
+        <li><strong>Itching:</strong> Intense itching, often worse at night, can disrupt sleep and daily activities.</li>
+        <li><strong>Red or Brownish-Gray Patches:</strong> Discolored patches can appear on the skin, commonly on the hands, feet, ankles, and face.</li>
+        <li><strong>Dry, Sensitive Skin:</strong> Affected areas may become dry and sensitive to the touch.</li>
+        <li><strong>Thickened Skin:</strong> Chronic scratching can lead to thickened and leathery skin.</li>
+        <li><strong>Crusting or Oozing:</strong> In severe cases, the skin may develop crusts or ooze fluid.</li>
+    </ul>
+
+    <p>Eczema can significantly impact quality of life, causing discomfort and emotional distress. While there is no cure, effective management strategies, including topical treatments, moisturizers, and lifestyle modifications, can help control symptoms. If you suspect you have eczema, consulting a dermatologist is recommended for personalized treatment options.</p>
                                   
                                             
                                           </div>
@@ -1266,13 +1659,28 @@ case 'hyper-acidity':
                                       <>
                                         <div className="disease-detail flex-container">
                                           <div className="disease-detail-left">
-                                            <h1>Problems of Psoriasis:</h1>
-                                            <ul>
-                                              <li>Red patches of skin covered with thick, silvery scales</li>
-                                              <li>Dry, cracked skin that may bleed</li>
-                                              <li>Itching, burning, or soreness</li>
-                                            </ul>
-                                            <p>Psoriasis is a chronic autoimmune skin condition characterized by red, scaly patches on the skin, often accompanied by itching or pain.</p>
+                                           <h1>What is Psoriasis?</h1>
+    <p>Psoriasis is a chronic autoimmune skin condition that leads to the rapid growth of skin cells, resulting in thick, red, scaly patches on the skin. These patches can appear anywhere on the body, but they are most commonly found on the elbows, knees, scalp, and lower back. Psoriasis is often accompanied by itching, discomfort, and can vary in severity from mild to severe.</p>
+
+    <h1>Causes of Psoriasis</h1>
+    <ul>
+        <li><strong>Genetics:</strong> A family history of psoriasis increases the likelihood of developing the condition.</li>
+        <li><strong>Immune System Dysfunction:</strong> Psoriasis is an autoimmune disorder where the immune system mistakenly attacks healthy skin cells.</li>
+        <li><strong>Environmental Triggers:</strong> Factors such as infections, stress, and skin injuries can trigger or exacerbate psoriasis symptoms.</li>
+        <li><strong>Weather Conditions:</strong> Cold, dry weather can worsen symptoms, while warm, sunny climates may provide relief.</li>
+        <li><strong>Medications:</strong> Certain medications, such as beta-blockers and lithium, can trigger or worsen psoriasis flare-ups.</li>
+    </ul>
+
+    <h1>Symptoms of Psoriasis</h1>
+    <ul>
+        <li><strong>Red Patches of Skin:</strong> Raised, red lesions covered with thick, silvery scales.</li>
+        <li><strong>Itching and Burning:</strong> Affected areas may be itchy and painful, leading to discomfort.</li>
+        <li><strong>Dry, Cracked Skin:</strong> Skin can become dry and may crack, sometimes bleeding.</li>
+        <li><strong>Nail Changes:</strong> Psoriasis can affect nails, causing pitting, discoloration, and separation from the nail bed.</li>
+        <li><strong>Joint Pain:</strong> Many people with psoriasis also experience psoriatic arthritis, leading to joint pain and swelling.</li>
+    </ul>
+
+    <p>Psoriasis can significantly affect an individual's quality of life, both physically and emotionally. While there is no cure, various treatments, including topical therapies, phototherapy, and systemic medications, can help manage symptoms and improve skin appearance. Consulting a dermatologist is essential for personalized treatment and care.</p>
                                   
                                           </div>
                                   
@@ -1302,14 +1710,28 @@ case 'hyper-acidity':
                                       <>
                                         <div className="disease-detail flex-container">
                                           <div className="disease-detail-left">
-                                            <h1>Problems of Skin Allergy:</h1>
-                                            <ul>
-                                              <li>Red, inflamed, and itchy skin</li>
-                                              <li>Rashes or hives</li>
-                                              <li>Swelling in severe cases</li>
-                                            </ul>
-                                            <p>Skin allergies are immune system reactions to certain substances, leading to redness, itching, and inflammation.</p>
-                                  
+                                            <h1>What is a Skin Allergy?</h1>
+    <p>A skin allergy occurs when the immune system reacts to a substance (allergen) that comes into contact with the skin. This can lead to various symptoms such as redness, itching, swelling, and rashes. Common allergens include certain foods, cosmetics, soaps, and environmental factors like pollen or pet dander. Skin allergies can affect people of all ages and may vary in severity from mild irritation to severe reactions.</p>
+
+    <h1>Causes of Skin Allergies</h1>
+    <ul>
+        <li><strong>Contact Dermatitis:</strong> This occurs when the skin comes into direct contact with an allergen, such as nickel, latex, or certain plants like poison ivy.</li>
+        <li><strong>Food Allergies:</strong> Some individuals may experience skin reactions due to food allergies, including reactions to nuts, shellfish, or dairy.</li>
+        <li><strong>Environmental Allergens:</strong> Pollen, dust mites, mold, and pet dander can trigger allergic reactions on the skin.</li>
+        <li><strong>Cosmetics and Skincare Products:</strong> Ingredients in lotions, shampoos, or makeup can lead to allergic reactions, especially in sensitive individuals.</li>
+        <li><strong>Medications:</strong> Some people may develop skin allergies as a reaction to certain medications, leading to rashes or hives.</li>
+    </ul>
+
+    <h1>Symptoms of Skin Allergies</h1>
+    <ul>
+        <li><strong>Redness and Inflammation:</strong> Affected areas may appear red and swollen.</li>
+        <li><strong>Itching and Burning:</strong> Intense itching or burning sensations can occur in the affected area.</li>
+        <li><strong>Rashes:</strong> Allergic reactions can lead to various types of rashes, including hives or eczema-like patches.</li>
+        <li><strong>Dry and Flaky Skin:</strong> Skin may become dry, flaky, or develop scabs due to scratching.</li>
+        <li><strong>Bumps or Blisters:</strong> Some skin allergies may cause the formation of small bumps or fluid-filled blisters.</li>
+    </ul>
+
+    <p>Skin allergies can significantly impact daily life, causing discomfort and emotional distress. Proper diagnosis and management are crucial, which may involve identifying and avoiding triggers, using topical treatments, and taking antihistamines. If you suspect you have a skin allergy, consulting a dermatologist or allergist is recommended for personalized treatment options.</p>
                                           </div>
                                   
                                           <div className="disease-detail-right">
@@ -1335,13 +1757,28 @@ case 'hyper-acidity':
                                       <>
                                         <div className="disease-detail flex-container">
                                           <div className="disease-detail-left">
-                                            <h1>Problems of White Patches (Vitiligo):</h1>
-                                            <ul>
-                                              <li>White or light-colored patches on the skin</li>
-                                              <li>May affect any area, including the face, hands, and feet</li>
-                                              <li>Skin sensitivity to sunlight</li>
-                                            </ul>
-                                            <p>White patches (Vitiligo) occur due to a loss of pigment in the skin, leading to white, depigmented areas.</p>
+                                             <h1>What is a White Patch?</h1>
+    <p>A white patch on the skin refers to an area that has lost its pigment, resulting in lighter skin. This condition can be caused by various factors, including skin disorders, environmental influences, or underlying health issues. Common causes of white patches include vitiligo, tinea versicolor, and post-inflammatory hypopigmentation. The patches can appear anywhere on the body and may vary in size and shape.</p>
+
+    <h1>Causes of White Patches</h1>
+    <ul>
+        <li><strong>Vitiligo:</strong> An autoimmune disorder that leads to the loss of skin pigment in patches, often spreading over time.</li>
+        <li><strong>Tinea Versicolor:</strong> A fungal infection that disrupts normal pigmentation, causing lighter or darker patches on the skin.</li>
+        <li><strong>Post-Inflammatory Hypopigmentation:</strong> Lightening of the skin following injury, inflammation, or irritation.</li>
+        <li><strong>Sun Damage:</strong> Prolonged exposure to the sun can cause changes in pigmentation, leading to white patches.</li>
+        <li><strong>Other Skin Conditions:</strong> Conditions like eczema or psoriasis can lead to changes in skin pigmentation as well.</li>
+    </ul>
+
+    <h1>Symptoms of White Patches</h1>
+    <ul>
+        <li><strong>Loss of Skin Color:</strong> Patches that appear lighter than surrounding skin.</li>
+        <li><strong>Variable Size and Shape:</strong> White patches can range from small spots to larger areas, often irregular in shape.</li>
+        <li><strong>No Itching or Pain:</strong> Generally, white patches do not cause discomfort, although some underlying conditions may.</li>
+        <li><strong>Hair Depigmentation:</strong> In cases of vitiligo, hair in the affected areas may also turn white or gray.</li>
+        <li><strong>Possible Spread:</strong> Depending on the underlying cause, white patches may spread or change over time.</li>
+    </ul>
+
+    <p>While white patches themselves are not harmful, they can affect a person's appearance and self-esteem. Consulting a dermatologist is essential for diagnosis and treatment, which may include topical therapies, phototherapy, or lifestyle adjustments to manage underlying causes.</p>
                                           </div>
                                   
                                           <div className="disease-detail-right">
@@ -1369,13 +1806,28 @@ case 'hyper-acidity':
                                       <>
                                         <div className="disease-detail flex-container">
                                           <div className="disease-detail-left">
-                                            <h1>Problems of Spermatorrhea (SP):</h1>
-                                            <ul>
-                                              <li>Involuntary discharge of semen during sleep or urination</li>
-                                              <li>Weakness or fatigue</li>
-                                              <li>Loss of concentration or sexual desire</li>
-                                            </ul>
-                                            <p>Spermatorrhea (SP) is the involuntary leakage of semen, which can lead to weakness and fatigue.</p>
+                                            <h1>What is Spermatorrhoea?</h1>
+    <p>Spermatorrhoea is a medical condition characterized by the involuntary discharge of semen, typically without sexual activity. This condition can occur during sleep (nocturnal emissions) or in the daytime and is often associated with feelings of weakness, anxiety, and distress. While spermatorrhoea is not a disease itself, it can indicate underlying issues related to sexual health or hormonal imbalances.</p>
+
+    <h1>Causes of Spermatorrhoea</h1>
+    <ul>
+        <li><strong>Excessive Sexual Activity:</strong> Frequent sexual activity or excessive masturbation can lead to spermatorrhoea.</li>
+        <li><strong>Hormonal Imbalance:</strong> Disruptions in hormone levels, particularly testosterone, can contribute to the condition.</li>
+        <li><strong>Psychological Factors:</strong> Anxiety, stress, and psychological disorders can trigger involuntary ejaculation.</li>
+        <li><strong>Medical Conditions:</strong> Conditions such as prostatitis or other pelvic disorders may lead to spermatorrhoea.</li>
+        <li><strong>Medications:</strong> Certain medications can affect hormonal levels and sexual function, resulting in spermatorrhoea.</li>
+    </ul>
+
+    <h1>Symptoms of Spermatorrhoea</h1>
+    <ul>
+        <li><strong>Involuntary Semen Discharge:</strong> Semen may be released without any sexual stimulation, either during sleep or while awake.</li>
+        <li><strong>Weakness and Fatigue:</strong> Many individuals report feelings of fatigue and weakness associated with the condition.</li>
+        <li><strong>Emotional Distress:</strong> Anxiety, shame, or distress due to the involuntary nature of the discharge.</li>
+        <li><strong>Reduced Libido:</strong> Some individuals may experience a decrease in sexual desire or performance issues.</li>
+        <li><strong>Possible Irritation:</strong> Discomfort or irritation in the genital area may occur as a result of frequent discharges.</li>
+    </ul>
+
+    <p>Though spermatorrhoea can be distressing, it is often treatable. Consulting a healthcare professional is essential for a proper diagnosis and management plan, which may include lifestyle modifications, psychological support, or medical treatment to address underlying causes.</p>
                                           </div>
                                   
                                           <div className="disease-detail-right">
@@ -1406,14 +1858,28 @@ case 'hyper-acidity':
                                         <div className="disease-detail flex-container">
                                           {/* Left Div: Disease problems */}
                                           <div className="disease-detail-left">
-                                            <h1>Problems of Nocturnal Emissions:</h1>
-                                            <ul>
-                                              <li>Involuntary ejaculation during sleep</li>
-                                              <li>May cause embarrassment or stress for some individuals</li>
-                                              <li>Frequent occurrences can affect sleep quality</li>
-                                              <li>May be accompanied by sexual dreams</li>
-                                            </ul>
-                                            <p>Nocturnal emissions, or "wet dreams," are a normal part of sexual health, particularly during adolescence, and usually decrease with age.</p>
+                                             <h1>What are Nocturnal Emissions?</h1>
+    <p>Nocturnal emissions, commonly known as "wet dreams," are involuntary ejaculations that occur during sleep. They are a normal physiological phenomenon, primarily occurring during adolescence and young adulthood, but can happen at any age. These emissions are often accompanied by erotic dreams and are considered a natural part of sexual development and health.</p>
+
+    <h1>Causes of Nocturnal Emissions</h1>
+    <ul>
+        <li><strong>Puberty:</strong> The onset of puberty triggers hormonal changes that can lead to increased sexual arousal and nocturnal emissions.</li>
+        <li><strong>Sexual Arousal:</strong> Increased sexual thoughts or fantasies, whether conscious or subconscious, can lead to nocturnal emissions during sleep.</li>
+        <li><strong>Physiological Response:</strong> The body may naturally release built-up semen as part of its normal reproductive functions.</li>
+        <li><strong>Lack of Sexual Activity:</strong> Extended periods of abstinence or lack of sexual activity can contribute to the occurrence of nocturnal emissions.</li>
+        <li><strong>Dreams and Fantasies:</strong> Sexual dreams often play a significant role in triggering nocturnal emissions.</li>
+    </ul>
+
+    <h1>Symptoms of Nocturnal Emissions</h1>
+    <ul>
+        <li><strong>Involuntary Ejaculation:</strong> Semen is released involuntarily during sleep.</li>
+        <li><strong>Awakening with Discomfort:</strong> Some individuals may wake up feeling wet or uncomfortable due to the discharge.</li>
+        <li><strong>Associated Dreams:</strong> Often accompanied by sexual or erotic dreams.</li>
+        <li><strong>Occasional Feelings of Guilt or Embarrassment:</strong> Individuals may feel embarrassed or guilty upon waking from such an event.</li>
+        <li><strong>Varied Frequency:</strong> The frequency of nocturnal emissions can vary widely from person to person.</li>
+    </ul>
+
+    <p>Nocturnal emissions are a normal part of sexual health and are not considered a medical problem unless they cause significant distress or occur excessively. If an individual has concerns about the frequency or emotional impact of nocturnal emissions, it is advisable to consult a healthcare professional for guidance and support.</p>
                                           </div>
                                   
                                           {/* Right Div: Image */}
@@ -1445,14 +1911,28 @@ case 'hyper-acidity':
                                         <div className="disease-detail flex-container">
                                           {/* Left Div: Disease problems */}
                                           <div className="disease-detail-left">
-                                            <h1>Problems of Premature Ejaculation (PE):</h1>
-                                            <ul>
-                                              <li>Ejaculation occurs sooner than desired</li>
-                                              <li>Causes frustration or distress</li>
-                                              <li>Affects sexual satisfaction</li>
-                                              <li>May lead to anxiety around sexual performance</li>
-                                            </ul>
-                                            <p>PE is a common issue that can be caused by both psychological and physiological factors. Treatment options vary and may include therapy, medication, or behavioral techniques.</p>
+                                           <h1>What is Premature Ejaculation?</h1>
+    <p>Premature ejaculation (PE) is a common sexual dysfunction characterized by the inability to control ejaculation during sexual intercourse, resulting in ejaculation that occurs sooner than desired. This can happen before or shortly after penetration, leading to dissatisfaction for both partners. PE can occur at any age and may be a result of physical or psychological factors.</p>
+
+    <h1>Causes of Premature Ejaculation</h1>
+    <ul>
+        <li><strong>Psychological Factors:</strong> Anxiety, stress, and relationship issues can significantly contribute to premature ejaculation.</li>
+        <li><strong>Hormonal Changes:</strong> Fluctuations in hormone levels, such as testosterone, may impact sexual function.</li>
+        <li><strong>Neurological Conditions:</strong> Conditions affecting nerve function, such as multiple sclerosis or spinal cord injuries, can lead to PE.</li>
+        <li><strong>Previous Sexual Experiences:</strong> A history of sexual trauma or a pattern of hurried sexual encounters may contribute to the condition.</li>
+        <li><strong>Medical Conditions:</strong> Certain medical issues, like prostatitis or thyroid problems, may affect ejaculation control.</li>
+    </ul>
+
+    <h1>Symptoms of Premature Ejaculation</h1>
+    <ul>
+        <li><strong>Inability to Control Ejaculation:</strong> Ejaculation occurs with minimal stimulation, often before or shortly after penetration.</li>
+        <li><strong>Emotional Distress:</strong> Feelings of embarrassment, anxiety, or frustration related to sexual performance.</li>
+        <li><strong>Poor Sexual Satisfaction:</strong> Dissatisfaction from sexual experiences for both partners due to rapid ejaculation.</li>
+        <li><strong>Avoidance of Sexual Activity:</strong> Some individuals may avoid sexual intimacy due to concerns about premature ejaculation.</li>
+        <li><strong>Impact on Relationships:</strong> PE can lead to tension or issues within intimate relationships.</li>
+    </ul>
+
+    <p>Premature ejaculation is a treatable condition. Individuals experiencing PE are encouraged to consult a healthcare professional to explore potential treatment options, which may include therapy, medication, or techniques to enhance control over ejaculation.</p>
                                           </div>
                                   
                                           {/* Right Div: Image */}
@@ -1483,14 +1963,28 @@ case 'hyper-acidity':
       <div className="disease-detail flex-container">
         {/* Left Div: Disease problems */}
         <div className="disease-detail-left">
-          <h1>Problems of Erectile Dysfunction (ED):</h1>
-          <ul>
-            <li>Difficulty achieving or maintaining an erection</li>
-            <li>Reduces sexual satisfaction</li>
-            <li>Causes stress and affects self-esteem</li>
-            <li>May be linked to underlying health conditions (e.g., heart disease, diabetes)</li>
-          </ul>
-          <p>ED is a common issue that affects many men, particularly as they age. It can be caused by physical, psychological, or lifestyle factors, and treatment options include medication, therapy, and lifestyle changes.</p>
+           <h1>What is Erectile Dysfunction?</h1>
+    <p>Erectile dysfunction (ED) is the inability to achieve or maintain an erection sufficient for satisfactory sexual performance. It can affect men of all ages but is more common in older adults. ED can be a temporary condition or a persistent issue, impacting a man’s self-esteem, relationships, and overall quality of life.</p>
+
+    <h1>Causes of Erectile Dysfunction</h1>
+    <ul>
+        <li><strong>Medical Conditions:</strong> Chronic illnesses such as diabetes, hypertension, and heart disease can affect blood flow and nerve function.</li>
+        <li><strong>Psychological Factors:</strong> Anxiety, depression, and stress can interfere with sexual arousal and erection.</li>
+        <li><strong>Hormonal Imbalances:</strong> Low testosterone levels or other hormonal issues can contribute to ED.</li>
+        <li><strong>Lifestyle Choices:</strong> Factors such as smoking, excessive alcohol consumption, and obesity can increase the risk of erectile dysfunction.</li>
+        <li><strong>Medications:</strong> Certain medications, including those for high blood pressure and depression, can have side effects that affect erectile function.</li>
+    </ul>
+
+    <h1>Symptoms of Erectile Dysfunction</h1>
+    <ul>
+        <li><strong>Inability to Achieve an Erection:</strong> Difficulty getting or maintaining an erection during sexual activity.</li>
+        <li><strong>Reduced Sexual Desire:</strong> A decrease in libido or interest in sexual activity.</li>
+        <li><strong>Difficulty in Achieving Full Erection:</strong> Erection may occur but may not be firm enough for penetration.</li>
+        <li><strong>Emotional Distress:</strong> Feelings of frustration, anxiety, or embarrassment related to sexual performance issues.</li>
+        <li><strong>Impact on Relationships:</strong> Erectile dysfunction can lead to tension or challenges in intimate relationships.</li>
+    </ul>
+
+    <p>Erectile dysfunction is a common condition that can often be treated effectively. Men experiencing ED are encouraged to seek medical advice, as various treatment options are available, including lifestyle changes, counseling, medications, and other therapies.</p>
         </div>
 
         {/* Right Div: Image */}
@@ -1523,14 +2017,28 @@ case 'hyper-acidity':
         <div className="disease-detail flex-container">
           {/* Left Div: Disease Information */}
           <div className="disease-detail-left">
-            <p>Infertility is the inability to conceive after one year of unprotected intercourse, affecting both men and women.</p>
-  
-            <h1>Symptoms:</h1>
-            <ul>
-              <li>Inability to conceive after a year of trying</li>
-              <li>Irregular menstrual cycles (in women)</li>
-              <li>Low sperm count or motility (in men)</li>
-            </ul>
+             <h1>What is Infertility?</h1>
+    <p>Infertility is the inability to conceive after one year of unprotected sexual intercourse. It can affect both men and women and may be caused by a variety of factors, including health issues, lifestyle choices, and age. Infertility can be a challenging and emotional experience for individuals and couples trying to start a family.</p>
+
+    <h1>Causes of Infertility</h1>
+    <ul>
+        <li><strong>Ovulation Disorders:</strong> Conditions that affect hormone levels can lead to irregular or absent ovulation.</li>
+        <li><strong>Fallopian Tube Damage:</strong> Blockages or damage to the fallopian tubes can prevent sperm from reaching the egg.</li>
+        <li><strong>Uterine Conditions:</strong> Issues such as fibroids or polyps can interfere with implantation or pregnancy.</li>
+        <li><strong>Male Factors:</strong> Low sperm count, poor sperm motility, or abnormal sperm shape can contribute to infertility.</li>
+        <li><strong>Lifestyle Factors:</strong> Smoking, excessive alcohol consumption, obesity, and stress can negatively impact fertility.</li>
+    </ul>
+
+    <h1>Symptoms of Infertility</h1>
+    <ul>
+        <li><strong>Inability to Conceive:</strong> Not achieving pregnancy after one year of regular, unprotected intercourse.</li>
+        <li><strong>Irregular Menstrual Cycles:</strong> Women may experience irregular periods or missed cycles.</li>
+        <li><strong>Changes in Sexual Function:</strong> This may include issues such as low libido or erectile dysfunction in men.</li>
+        <li><strong>Hormonal Changes:</strong> Symptoms like hot flashes, mood swings, or changes in hair growth may indicate hormonal imbalances.</li>
+        <li><strong>Previous Miscarriages:</strong> Experiencing recurrent pregnancy loss can be a sign of underlying fertility issues.</li>
+    </ul>
+
+    <p>Infertility is a common issue that affects many individuals and couples. It is essential to consult with a healthcare provider for a comprehensive evaluation and to discuss possible treatment options, which may include medication, assisted reproductive technologies, or lifestyle changes.</p>
           </div>
   
           {/* Right Div: Image */}
@@ -1563,16 +2071,28 @@ case 'hyper-acidity':
         <div className="disease-detail flex-container">
           {/* Left Div: Disease Information */}
           <div className="disease-detail-left">
-            <p>Anxiety is a common mental health disorder characterized by persistent feelings of worry, fear, or apprehension that can interfere with daily activities.</p>
-            
-            <h1>Symptoms:</h1>
-            <ul>
-              <li>Excessive worrying about various aspects of life</li>
-              <li>Restlessness or feeling on edge</li>
-              <li>Difficulty concentrating or mind going blank</li>
-              <li>Physical symptoms such as increased heart rate, sweating, or trembling</li>
-              <li>Sleep disturbances like insomnia or excessive sleeping</li>
-            </ul>
+             <h1>What is Anxiety?</h1>
+    <p>Anxiety is a normal and often healthy emotion characterized by feelings of worry, nervousness, or fear. However, when these feelings become excessive, they can interfere with daily activities and lead to anxiety disorders. Common types of anxiety disorders include generalized anxiety disorder (GAD), panic disorder, and social anxiety disorder.</p>
+
+    <h1>Causes of Anxiety</h1>
+    <ul>
+        <li><strong>Genetics:</strong> A family history of anxiety disorders may increase the likelihood of developing anxiety.</li>
+        <li><strong>Brain Chemistry:</strong> Imbalances in neurotransmitters, which regulate mood, can contribute to anxiety.</li>
+        <li><strong>Environmental Stressors:</strong> Traumatic events, prolonged stress, or significant life changes can trigger anxiety.</li>
+        <li><strong>Medical Conditions:</strong> Certain health issues, such as heart disease, diabetes, or thyroid problems, can lead to anxiety symptoms.</li>
+        <li><strong>Lifestyle Factors:</strong> Poor diet, lack of exercise, and substance abuse can exacerbate anxiety levels.</li>
+    </ul>
+
+    <h1>Symptoms of Anxiety</h1>
+    <ul>
+        <li><strong>Excessive Worry:</strong> Persistent worry about various aspects of life, often disproportionate to the situation.</li>
+        <li><strong>Restlessness:</strong> Feeling on edge, unable to relax or sit still.</li>
+        <li><strong>Physical Symptoms:</strong> Symptoms such as increased heart rate, sweating, trembling, or gastrointestinal issues.</li>
+        <li><strong>Difficulty Concentrating:</strong> Trouble focusing or mind going blank due to anxious thoughts.</li>
+        <li><strong>Avoidance Behavior:</strong> Avoiding certain situations or places that trigger anxiety.</li>
+    </ul>
+
+    <p>Anxiety can significantly impact daily life, but it is treatable. Various options, including therapy, medication, and lifestyle changes, can help manage symptoms and improve overall well-being. Seeking help from a mental health professional is crucial for those struggling with anxiety.</p>
           </div>
   
           {/* Right Div: Image */}
@@ -1605,17 +2125,28 @@ case 'hyper-acidity':
         <div className="disease-detail flex-container">
           {/* Left Div: Disease Information */}
           <div className="disease-detail-left">
-            <p>Dandruff is a common scalp condition characterized by flaking skin, which can lead to itching and discomfort.</p>
-            
-            <h1>Symptoms:</h1>
-            <ul>
-              <li>White or yellow flakes on the scalp and hair</li>
-              <li>Itching or irritation on the scalp</li>
-              <li>Dry scalp or oily patches</li>
-              <li>Redness or inflammation in severe cases</li>
-            </ul>
+           <h1>What is Dandruff?</h1>
+    <p>Dandruff is a common scalp condition characterized by the shedding of dead skin cells, which can appear as white or yellow flakes in the hair and on clothing. It can cause itching and irritation but is usually not a serious health concern. Dandruff can affect anyone, regardless of age or gender.</p>
+
+    <h1>Causes of Dandruff</h1>
+    <ul>
+        <li><strong>Dry Skin:</strong> Lack of moisture can lead to a dry, flaky scalp, resulting in dandruff.</li>
+        <li><strong>Seborrheic Dermatitis:</strong> A more severe form of dandruff caused by an oily scalp and inflammation.</li>
+        <li><strong>Fungal Infection:</strong> The yeast-like fungus, Malassezia, can irritate the scalp and contribute to dandruff.</li>
+        <li><strong>Skin Conditions:</strong> Conditions like eczema or psoriasis can cause flaking and irritation of the scalp.</li>
+        <li><strong>Diet:</strong> Poor nutrition, particularly a lack of zinc, B vitamins, and fatty acids, can increase the risk of dandruff.</li>
+    </ul>
+
+    <h1>Symptoms of Dandruff</h1>
+    <ul>
+        <li><strong>Flaky Scalp:</strong> Visible white or yellow flakes of skin in the hair and on the shoulders.</li>
+        <li><strong>Itching:</strong> An itchy scalp that may become irritated and red.</li>
+        <li><strong>Dryness:</strong> A dry, tight feeling on the scalp, which may accompany the flaking.</li>
+        <li><strong>Red or Greasy Patches:</strong> Scaly patches on the scalp or in the eyebrows and beard.</li>
+    </ul>
+
+    <p>Dandruff is generally manageable with proper scalp care, including the use of anti-dandruff shampoos and maintaining a healthy scalp environment. If symptoms persist or worsen, it’s advisable to consult a dermatologist for further evaluation and treatment options.</p>
           </div>
-  
           {/* Right Div: Image */}
           <div className="disease-detail-right">
             <img src="data:image/jpeg;base64,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" alt="Dandruff condition" />
@@ -1646,15 +2177,27 @@ case 'hyper-acidity':
         <div className="disease-detail flex-container">
           {/* Left Div: Disease Information */}
           <div className="disease-detail-left">
-            <p>Alopecia refers to hair loss that can occur in patches (Alopecia Areata) or can be more widespread. It can affect people of all ages.</p>
-  
-            <h1>Symptoms:</h1>
-            <ul>
-              <li>Sudden hair loss in round patches on the scalp or other areas</li>
-              <li>Thinning of hair on the scalp</li>
-              <li>Changes in nail texture (brittle nails or pitting)</li>
-              <li>Itching or burning sensations before hair loss occurs</li>
-            </ul>
+           <h1>What is Alopecia?</h1>
+    <p>Alopecia is an autoimmune condition that leads to hair loss on the scalp and other areas of the body. The most common type, known as alopecia areata, occurs when the immune system mistakenly attacks hair follicles, resulting in round patches of baldness. Alopecia can affect individuals of all ages and genders.</p>
+
+    <h1>Causes of Alopecia</h1>
+    <ul>
+        <li><strong>Autoimmune Response:</strong> The body's immune system targets hair follicles, leading to hair loss.</li>
+        <li><strong>Genetics:</strong> A family history of alopecia can increase the likelihood of developing the condition.</li>
+        <li><strong>Hormonal Changes:</strong> Hormonal fluctuations due to pregnancy, menopause, or thyroid issues can contribute to hair loss.</li>
+        <li><strong>Stress:</strong> High levels of physical or emotional stress can trigger or exacerbate hair loss.</li>
+        <li><strong>Medical Conditions:</strong> Other health issues, such as vitiligo or lupus, may also cause hair loss.</li>
+    </ul>
+
+    <h1>Symptoms of Alopecia</h1>
+    <ul>
+        <li><strong>Hair Loss:</strong> Sudden loss of hair, typically in round patches, but can also be more diffuse.</li>
+        <li><strong>Thinning Hair:</strong> Gradual thinning of hair on the scalp or body.</li>
+        <li><strong>Changes in Nail Texture:</strong> Pits or ridges may develop in the nails of individuals with alopecia.</li>
+        <li><strong>Itchy or Painful Scalp:</strong> Some individuals may experience discomfort in areas where hair loss occurs.</li>
+    </ul>
+
+    <p>Alopecia can have a significant emotional impact on those affected. While there is no cure, various treatment options, including topical medications, corticosteroids, and hair restoration therapies, can help manage the condition and stimulate hair regrowth.</p>
           </div>
   
           {/* Right Div: Image */}
@@ -1687,17 +2230,28 @@ case 'hyper-acidity':
         <div className="disease-detail flex-container">
           {/* Left Div: Disease Information */}
           <div className="disease-detail-left">
-            <p>Obesity is a complex health issue characterized by excessive body fat, which can increase the risk of various health problems.</p>
-            
-            <h1>Symptoms:</h1>
-            <ul>
-              <li>Increased body weight and body mass index (BMI)</li>
-              <li>Difficulty in physical activities</li>
-              <li>Shortness of breath</li>
-              <li>Excessive sweating</li>
-              <li>Joint pain and discomfort</li>
-            </ul>
-  
+            <h1>What is Obesity?</h1>
+    <p>Obesity is a medical condition characterized by an excessive accumulation of body fat, which can negatively impact health. It is typically measured using the Body Mass Index (BMI), with a BMI of 30 or higher indicating obesity. Obesity can lead to a variety of health issues, including heart disease, diabetes, and certain types of cancer.</p>
+
+    <h1>Causes of Obesity</h1>
+    <ul>
+        <li><strong>Genetics:</strong> Family history can play a significant role in an individual's predisposition to obesity.</li>
+        <li><strong>Poor Diet:</strong> High-calorie, low-nutrient foods can contribute to weight gain.</li>
+        <li><strong>Lack of Physical Activity:</strong> Sedentary lifestyles reduce the number of calories burned, leading to weight gain.</li>
+        <li><strong>Emotional Factors:</strong> Stress, depression, or boredom can lead to overeating as a coping mechanism.</li>
+        <li><strong>Medical Conditions:</strong> Certain health issues, such as hypothyroidism or polycystic ovary syndrome (PCOS), can contribute to weight gain.</li>
+    </ul>
+
+    <h1>Symptoms of Obesity</h1>
+    <ul>
+        <li><strong>Excess Body Fat:</strong> Noticeable accumulation of fat, particularly around the abdomen.</li>
+        <li><strong>Shortness of Breath:</strong> Difficulty breathing, especially during physical activities.</li>
+        <li><strong>Joint Pain:</strong> Increased pressure on joints can lead to pain and discomfort.</li>
+        <li><strong>Fatigue:</strong> Low energy levels and persistent tiredness may be experienced.</li>
+        <li><strong>Skin Issues:</strong> Increased risk of skin conditions, such as rashes or infections in skin folds.</li>
+    </ul>
+
+    <p>Obesity is a complex condition that requires a multifaceted approach for management, including lifestyle changes, dietary adjustments, physical activity, and, in some cases, medical intervention. Addressing obesity is crucial for improving overall health and quality of life.</p>
           </div>
   
           {/* Right Div: Image */}
@@ -1731,16 +2285,29 @@ case 'high-blood-pressure':
     <div className="disease-detail flex-container">
       {/* Left Div: Text Content */}
       <div className="disease-detail-left">
-        <p>High blood pressure is a chronic condition that occurs when the force of the blood against the artery walls is too high, leading to serious health complications.</p>
+        <h1>What is High Blood Pressure?</h1>
+    <p>High blood pressure, also known as hypertension, is a common medical condition where the force of the blood against the artery walls is consistently too high. It is often called the "silent killer" because it usually has no symptoms but can lead to serious health problems such as heart disease, stroke, and kidney damage if left untreated.</p>
 
-        <h1>Symptoms:</h1>
-        <ul>
-          <li>Often asymptomatic; many may not know they have it</li>
-          <li>Headaches</li>
-          <li>Shortness of breath</li>
-          <li>Nosebleeds</li>
-          <li>Flushing</li>
-        </ul>
+    <h1>Causes of High Blood Pressure</h1>
+    <ul>
+        <li><strong>Genetics:</strong> Family history can play a significant role in the likelihood of developing hypertension.</li>
+        <li><strong>Poor Diet:</strong> High sodium intake, excessive alcohol consumption, and low potassium can contribute to high blood pressure.</li>
+        <li><strong>Obesity:</strong> Excess weight can increase the strain on the heart and raise blood pressure.</li>
+        <li><strong>Physical Inactivity:</strong> A sedentary lifestyle can lead to weight gain and increased blood pressure.</li>
+        <li><strong>Chronic Stress:</strong> Long-term stress may contribute to elevated blood pressure levels.</li>
+        <li><strong>Medical Conditions:</strong> Conditions such as diabetes and kidney disease can increase the risk of hypertension.</li>
+    </ul>
+
+    <h1>Symptoms of High Blood Pressure</h1>
+    <ul>
+        <li><strong>Headaches:</strong> Frequent headaches, particularly in the morning.</li>
+        <li><strong>Dizziness:</strong> Feeling lightheaded or dizzy can occur in some cases.</li>
+        <li><strong>Shortness of Breath:</strong> Difficulty breathing during activities or at rest.</li>
+        <li><strong>Chest Pain:</strong> Discomfort or pain in the chest, potentially signaling a serious condition.</li>
+        <li><strong>Nosebleeds:</strong> Unexplained nosebleeds can occur occasionally.</li>
+    </ul>
+
+    <p>High blood pressure is often manageable through lifestyle changes, such as adopting a healthy diet, engaging in regular physical activity, reducing stress, and, if necessary, medication. Regular monitoring and early intervention can help prevent serious complications and improve overall health.</p>
       </div>
 
       {/* Right Div: Image */}
@@ -1772,16 +2339,27 @@ case 'hyperlipidemia':
     <>
     <div className="disease-detail flex-container">
       <div className="disease-detail-left">
-        <p>Hyperlipidemia refers to elevated levels of lipids (fats) in the blood, which can lead to cardiovascular diseases.</p>
+        <h1>What is Hyperlipidemia?</h1>
+    <p>Hyperlipidemia is a medical condition characterized by abnormally elevated levels of lipids (fats) in the blood, including cholesterol and triglycerides. This condition increases the risk of cardiovascular diseases, such as heart attack and stroke. Hyperlipidemia is often associated with lifestyle factors, genetic predispositions, and other health conditions.</p>
 
-        <h1>Symptoms:</h1>
-        <ul>
-          <li>Often asymptomatic until serious complications arise</li>
-          <li>Chest pain (angina)</li>
-          <li>Fatigue</li>
-          <li>Shortness of breath</li>
-          <li>Symptoms of a heart attack or stroke in severe cases</li>
-        </ul>
+    <h1>Causes of Hyperlipidemia</h1>
+    <ul>
+        <li><strong>Diet:</strong> High intake of saturated fats, trans fats, and cholesterol can lead to elevated lipid levels.</li>
+        <li><strong>Obesity:</strong> Excess body weight can increase lipid levels and contribute to metabolic syndrome.</li>
+        <li><strong>Lack of Physical Activity:</strong> Sedentary lifestyles can lead to weight gain and abnormal lipid levels.</li>
+        <li><strong>Genetics:</strong> Family history of hyperlipidemia or related conditions can increase risk.</li>
+        <li><strong>Medical Conditions:</strong> Conditions such as diabetes, hypothyroidism, and kidney disease can contribute to hyperlipidemia.</li>
+    </ul>
+
+    <h1>Symptoms of Hyperlipidemia</h1>
+    <ul>
+        <li><strong>None:</strong> Often, hyperlipidemia does not present noticeable symptoms; it is usually detected through blood tests.</li>
+        <li><strong>Xanthomas:</strong> Yellowish deposits of cholesterol may form on the skin, indicating high lipid levels.</li>
+        <li><strong>Corneal Arcs:</strong> White or gray ring around the cornea of the eye may suggest elevated cholesterol levels.</li>
+        <li><strong>Cardiovascular Symptoms:</strong> Symptoms of heart disease (chest pain, shortness of breath) may occur as a complication of long-term hyperlipidemia.</li>
+    </ul>
+
+    <p>Managing hyperlipidemia often involves lifestyle changes, such as adopting a heart-healthy diet, increasing physical activity, and possibly taking medication. Regular monitoring and consultation with a healthcare provider can help control lipid levels and reduce the risk of associated health complications.</p>
       </div>
 
       <div className="disease-detail-right">
@@ -1812,16 +2390,28 @@ case 'cough-and-cold':
     <>
     <div className="disease-detail flex-container">
       <div className="disease-detail-left">
-        <p>Cough and cold are common viral infections that affect the upper respiratory tract, causing discomfort and inconvenience.</p>
+         <h1>What is Cough and Cold?</h1>
+    <p>Cough and cold are common respiratory conditions caused by viral infections. A cold typically manifests with symptoms like a runny or stuffy nose, sneezing, and sore throat, while coughing is the body's reflex to clear the airways of irritants. Although they are often mild and self-limiting, they can cause significant discomfort and may lead to complications, especially in vulnerable populations.</p>
 
-        <h1>Symptoms:</h1>
-        <ul>
-          <li>Runny or stuffy nose</li>
-          <li>Sore throat</li>
-          <li>Coughing</li>
-          <li>Fatigue</li>
-          <li>Fever (in some cases)</li>
-        </ul>
+    <h1>Causes of Cough and Cold</h1>
+    <ul>
+        <li><strong>Viral Infections:</strong> The most common cause, including rhinoviruses, coronaviruses, and influenza viruses.</li>
+        <li><strong>Allergens:</strong> Dust, pollen, and pet dander can trigger cold-like symptoms in sensitive individuals.</li>
+        <li><strong>Environmental Irritants:</strong> Exposure to smoke, pollution, or strong odors can lead to coughing and nasal congestion.</li>
+        <li><strong>Weakened Immune System:</strong> A compromised immune system increases susceptibility to infections.</li>
+        <li><strong>Seasonal Changes:</strong> Colds are more prevalent during fall and winter months when people are indoors more often.</li>
+    </ul>
+
+    <h1>Symptoms of Cough and Cold</h1>
+    <ul>
+        <li><strong>Runny or Stuffy Nose:</strong> Nasal congestion and discharge are common symptoms.</li>
+        <li><strong>Sore Throat:</strong> Irritation and pain in the throat due to inflammation.</li>
+        <li><strong>Persistent Cough:</strong> A dry or productive cough as the body tries to clear the airways.</li>
+        <li><strong>Sneezing:</strong> Frequent sneezing as a response to nasal irritation.</li>
+        <li><strong>Fatigue:</strong> General tiredness and malaise can occur as the body fights the infection.</li>
+    </ul>
+
+    <p>While most cases of cough and cold resolve on their own, rest, hydration, and over-the-counter medications can help alleviate symptoms. It is important to consult a healthcare provider if symptoms persist or worsen, especially in children, elderly individuals, or those with underlying health conditions.</p>
       </div>
 
       <div className="disease-detail-right">
@@ -1852,16 +2442,28 @@ case 'sinusitis':
     <>
     <div className="disease-detail flex-container">
       <div className="disease-detail-left">
-        <p>Sinusitis is an inflammation of the sinus linings, which can be caused by infections, allergies, or other factors.</p>
+         <h1>What is Sinusitis?</h1>
+    <p>Sinusitis, commonly known as a sinus infection, is the inflammation of the sinus lining, often due to an infection. It can be acute (lasting up to four weeks) or chronic (lasting more than 12 weeks). Symptoms include nasal congestion, facial pain, and pressure, which can significantly affect a person’s quality of life.</p>
 
-        <h1>Symptoms:</h1>
-        <ul>
-          <li>Facial pain or pressure</li>
-          <li>Stuffy or runny nose</li>
-          <li>Loss of smell or taste</li>
-          <li>Cough</li>
-          <li>Fever</li>
-        </ul>
+    <h1>Causes of Sinusitis</h1>
+    <ul>
+        <li><strong>Viral Infections:</strong> Most cases of sinusitis begin with a viral infection, such as a cold.</li>
+        <li><strong>Bacterial Infections:</strong> Secondary bacterial infections can develop if sinus drainage is blocked.</li>
+        <li><strong>Allergies:</strong> Allergic reactions can lead to inflammation of the sinuses.</li>
+        <li><strong>Nasal Polyps:</strong> Growths in the nasal passages can obstruct drainage and contribute to sinusitis.</li>
+        <li><strong>Deviated Septum:</strong> A crooked septum can hinder proper drainage of the sinuses.</li>
+    </ul>
+
+    <h1>Symptoms of Sinusitis</h1>
+    <ul>
+        <li><strong>Nasal Congestion:</strong> Blocked nasal passages making it difficult to breathe through the nose.</li>
+        <li><strong>Facial Pain and Pressure:</strong> Pain or pressure around the forehead, cheeks, or eyes, often worsening when bending forward.</li>
+        <li><strong>Thick Nasal Discharge:</strong> Mucus discharge that may be green or yellow in color.</li>
+        <li><strong>Headaches:</strong> Persistent headaches due to pressure in the sinuses.</li>
+        <li><strong>Reduced Sense of Smell:</strong> A diminished ability to smell or taste can occur.</li>
+    </ul>
+
+    <p>Sinusitis can often be treated with home remedies, decongestants, and nasal sprays. However, if symptoms persist or worsen, it’s essential to consult a healthcare provider for appropriate diagnosis and treatment, which may include antibiotics for bacterial infections.</p>
       </div>
 
       <div className="disease-detail-right">
@@ -1892,17 +2494,28 @@ case 'copd':
     <>
     <div className="disease-detail flex-container">
       <div className="disease-detail-left">
-        <h1>Chronic Obstructive Pulmonary Disease (COPD)</h1>
-        <p>COPD is a progressive lung disease that makes it difficult to breathe due to airflow obstruction and breathing-related problems.</p>
+       <h1>What is COPD?</h1>
+    <p>Chronic Obstructive Pulmonary Disease (COPD) is a progressive lung disease characterized by persistent airflow limitation. It primarily includes chronic bronchitis and emphysema. COPD is commonly caused by long-term exposure to irritants that damage the lungs and airways, leading to difficulty breathing, cough, and mucus production.</p>
 
-        <h1>Symptoms:</h1>
-        <ul>
-          <li>Shortness of breath</li>
-          <li>Chronic cough</li>
-          <li>Wheezing</li>
-          <li>Chest tightness</li>
-          <li>Frequent respiratory infections</li>
-        </ul>
+    <h1>Causes of COPD</h1>
+    <ul>
+        <li><strong>Smoking:</strong> The leading cause of COPD; tobacco smoke damages lung tissue and airflow.</li>
+        <li><strong>Air Pollution:</strong> Long-term exposure to outdoor and indoor pollutants can contribute to lung damage.</li>
+        <li><strong>Occupational Exposure:</strong> Jobs involving dust, chemicals, or fumes can increase the risk of COPD.</li>
+        <li><strong>Genetic Factors:</strong> A rare genetic disorder known as alpha-1 antitrypsin deficiency can lead to COPD.</li>
+        <li><strong>Respiratory Infections:</strong> Frequent respiratory infections during childhood can increase susceptibility to COPD later in life.</li>
+    </ul>
+
+    <h1>Symptoms of COPD</h1>
+    <ul>
+        <li><strong>Chronic Cough:</strong> A persistent cough that may produce mucus.</li>
+        <li><strong>Shortness of Breath:</strong> Difficulty breathing, especially during physical activities.</li>
+        <li><strong>Wheezing:</strong> A whistling or squeaky sound when breathing.</li>
+        <li><strong>Chest Tightness:</strong> A feeling of pressure or tightness in the chest.</li>
+        <li><strong>Frequent Respiratory Infections:</strong> Increased susceptibility to colds and respiratory infections.</li>
+    </ul>
+
+    <p>COPD is a serious condition that can significantly impact daily life. While there is no cure, proper management and lifestyle changes, such as quitting smoking and pulmonary rehabilitation, can help improve quality of life and slow disease progression.</p>
       </div>
 
       <div className="disease-detail-right">
@@ -1932,15 +2545,28 @@ case 'asthma':
     <>
     <div className="disease-detail flex-container">
       <div className="disease-detail-left">
-        <p>Asthma is a chronic condition characterized by the inflammation of the airways, leading to difficulty in breathing.</p>
+         <h1>What is Asthma?</h1>
+    <p>Asthma is a chronic respiratory condition characterized by inflammation and narrowing of the airways, making breathing difficult. It can lead to wheezing, coughing, chest tightness, and shortness of breath. Asthma symptoms can vary in severity and may be triggered by allergens, irritants, or exercise.</p>
 
-        <h1>Symptoms:</h1>
-        <ul>
-          <li>Wheezing</li>
-          <li>Shortness of breath</li>
-          <li>Chest tightness</li>
-          <li>Coughing (especially at night or during exercise)</li>
-        </ul>
+    <h1>Causes of Asthma</h1>
+    <ul>
+        <li><strong>Allergens:</strong> Substances like pollen, mold, pet dander, and dust mites can trigger asthma attacks.</li>
+        <li><strong>Irritants:</strong> Smoke, strong odors, air pollution, and chemical fumes can exacerbate symptoms.</li>
+        <li><strong>Respiratory Infections:</strong> Viruses, such as the common cold, can trigger or worsen asthma symptoms.</li>
+        <li><strong>Exercise:</strong> Physical activity can induce asthma symptoms in some individuals.</li>
+        <li><strong>Weather Changes:</strong> Cold air or sudden changes in weather can trigger asthma symptoms.</li>
+    </ul>
+
+    <h1>Symptoms of Asthma</h1>
+    <ul>
+        <li><strong>Wheezing:</strong> A high-pitched whistling sound when breathing, especially during exhalation.</li>
+        <li><strong>Coughing:</strong> Frequent coughing, particularly at night or early morning.</li>
+        <li><strong>Shortness of Breath:</strong> Difficulty breathing, especially during physical activity or at night.</li>
+        <li><strong>Chest Tightness:</strong> A feeling of pressure or tightness in the chest.</li>
+        <li><strong>Difficulty Sleeping:</strong> Symptoms may worsen at night, affecting sleep quality.</li>
+    </ul>
+
+    <p>Asthma can often be managed with medications, including inhalers and corticosteroids, as well as lifestyle changes. Regular monitoring and avoiding triggers can help individuals lead a healthy and active life.</p>
       </div>
 
       <div className="disease-detail-right">
@@ -1970,14 +2596,27 @@ case 'low-sex-drive':
     <>
     <div className="disease-detail flex-container">
       <div className="disease-detail-left">
-        <p>Low sex drive, or decreased libido, can result from various factors including stress, hormonal changes, and lifestyle choices.</p>
+       <h1>What is Low Sex Drive?</h1>
+    <p>Low sex drive, or low libido, refers to a decreased interest in sexual activity. It can be a temporary issue or a chronic condition and may affect both men and women. Various physical, emotional, and psychological factors can contribute to low sex drive, impacting relationships and overall quality of life.</p>
 
-        <h1>Symptoms:</h1>
-        <ul>
-          <li>Reduced interest in sexual activity</li>
-          <li>Difficulty in achieving sexual arousal</li>
-          <li>Emotional distress or anxiety related to sexual performance</li>
-        </ul>
+    <h1>Causes of Low Sex Drive</h1>
+    <ul>
+        <li><strong>Hormonal Changes:</strong> Fluctuations in hormones, such as testosterone or estrogen, can lead to reduced libido.</li>
+        <li><strong>Medical Conditions:</strong> Chronic illnesses, diabetes, and heart disease can affect sexual desire.</li>
+        <li><strong>Medications:</strong> Certain medications, including antidepressants and blood pressure medications, can diminish libido.</li>
+        <li><strong>Psychological Factors:</strong> Stress, anxiety, depression, and relationship issues can negatively impact sexual interest.</li>
+        <li><strong>Lifestyle Factors:</strong> Poor diet, lack of exercise, and substance abuse can contribute to low sex drive.</li>
+    </ul>
+
+    <h1>Symptoms of Low Sex Drive</h1>
+    <ul>
+        <li><strong>Reduced Interest:</strong> A noticeable decrease in the desire for sexual activity.</li>
+        <li><strong>Decreased Arousal:</strong> Difficulty becoming sexually aroused or maintaining arousal.</li>
+        <li><strong>Emotional Distress:</strong> Feelings of frustration, sadness, or inadequacy related to sexual health.</li>
+        <li><strong>Impact on Relationships:</strong> Strain on romantic relationships due to mismatched libido levels.</li>
+    </ul>
+
+    <p>Addressing low sex drive often involves identifying underlying causes, which may include medical treatment, therapy, or lifestyle changes. Open communication with partners and healthcare providers is crucial for effective management.</p>
       </div>
 
       <div className="disease-detail-right">

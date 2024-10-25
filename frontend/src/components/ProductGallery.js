@@ -55,8 +55,6 @@ const ProductGallery = () => {
 
   return (
     <div className="product-gallery-container">
-      <h2 className="one">Type of Products</h2>
-      <p className="product-subtitle"></p>
 
       <Slider {...settings}>
         {products.map((product, index) => (

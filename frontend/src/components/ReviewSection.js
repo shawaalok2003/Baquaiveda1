@@ -39,13 +39,12 @@ const ReviewSection = () => {
 
   return (
     <div className="review-section1">
-      <h2>Customer Reviews</h2>
       <div className="reviews-container1">
         {currentReviews.map((review) => (
           <div className="review-card1" key={review.id}>
             <div className="review-content1">
               <h3>{review.name}</h3>
-              <p className="rating1">Rating: {Array(review.rating).fill('⭐').join('')}</p>
+              <p className="rating1">Rating: {Array(review.rating).fill('').join('')}</p>
               <p className="review-text1">"{review.review}"</p>
             </div>
           </div>

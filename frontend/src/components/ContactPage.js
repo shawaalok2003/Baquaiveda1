@@ -57,7 +57,7 @@ const ContactPage = () => {
     <p style={{
       fontFamily: "'Raleway', sans-serif",
       fontSize: '1.2rem',
-      color: 'green',
+      color: 'white',
       fontSize : '27px',
       textAlign: 'center',
       lineHeight: '1.5',
