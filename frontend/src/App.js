@@ -300,6 +300,8 @@ import './components/Profile Section/ProfilePage.css';
 import { CartProvider } from './components/cart/cartContext';
 import { WishlistProvider } from './components/wishlist/wishlistContext';
 import DiseaseDetailPage from './components/DiseaseDetailPage'; // Import the new component
+import StickyAppointmentButton from './components/StickyAppointmentButton';
+
 
 function App() {
   const token = localStorage.getItem('token');
@@ -353,6 +355,7 @@ function App() {
   element={
     <Layout>
       <Banner />
+      <StickyAppointmentButton />
       <AboutProducts />
       <ServicesPage />
       <DropdownMenu />

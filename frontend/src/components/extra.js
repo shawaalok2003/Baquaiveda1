@@ -15,11 +15,7 @@ const Details = () => {
           <h2 className="subtitle">Feel the difference</h2>
           <h1 className="title">Who We Are</h1>
           <p className="description">
-          Baquaiveda Clinic is the modern form of the traditional Baquai Dispensary. While we have embraced modernity with time, we have kept centuries-old Unani traditions alive. Even today, medicines in our factory are made using the same ancient Unani methods. The formulas are exactly as they were passed down to us by our ancestors. We are committed to preserving this glorious tradition and want it to benefit the common people.
-
-          We manufacture our medicines in-house, using natural ingredients that are completely chemical-free, in line with the principles of Unani medicine.
-          
-          Our goal is to treat patients from the root cause, following the Unani approach of holistic healing. We want patients to leave our clinic not only with the medicine but also with the assurance of being healed.
+          Baquaiveda Clinic is the modern form of the traditional Baquai Dispensary. While we have embraced modernity with time, we have kept centuries-old Unani and Ayurvedic traditions alive. Even today, medicines in our factory are made using the same ancient Unani and Ayurvedic methods. The formulas are exactly as they were passed down to us by our ancestors. Ayurveda and Unani emphasize the balance between mind, body, and spirit to promote overall wellness, offering a holistic healing approach. We manufacture our medicines in-house, using natural ingredients that are completely chemical-free, in line with the principles of Unani and Ayurvedic medicine. Our goal is to treat patients from the root cause, following the Unani approach of holistic healing. We want patients to leave our clinic not only with the medicine but also with the assurance of being healed.
           </p>
         </div>
       </div>

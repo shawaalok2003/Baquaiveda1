@@ -17,7 +17,6 @@ const Header = () => {
         <Container fluid>
           <Row className="align-items-center">
             <Col md={4} className="discount-text text-left">
-              Get 10% Discount on first Order
             </Col>
             <Col className="text-right contact-info">
               <span role="img" aria-label="phone">📞</span>8961514680 | <span role="img" aria-label="email">✉️</span>baquaiveda@gmail.com

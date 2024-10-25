@@ -10,10 +10,10 @@ const Banner = () => {
           <h1 className="banner-title">The Ayurvedic & Unani Way of Life</h1>
           <h1  className="banner-title">100+ Years of Legacy</h1>
           <div className="col-md-9 banner-content text-start">
-            <div className="banner-text">
-              {/* The other h1 and paragraph will stay in the original position */}
+            {/* <div className="banner-text">
+              
               <p>Products are delivered in West Bengal, Bihar, Jharkhand, Uttar Pradesh</p>
-            </div>
+            </div> */}
             <a href="/products" className=" ban btn btn-success btn-lg mt-3" style={{ fontSize: '24px', fontWeight: 'bold' }}>Shop Now</a>
           </div>
         </div>
