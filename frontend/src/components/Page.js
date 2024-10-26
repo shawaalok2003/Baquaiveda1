@@ -410,22 +410,22 @@ const MainDiseases = () => {
     {
       name: 'Joint Pain',
       details: [
-        { short: 'OA', full: 'Osteoarthritis' },
-        { short: 'RA', full: 'Rheumatoid Arthritis' },
-        { short: 'KLP', full: 'Knee Ligament Pain' },
+        { short: 'Osteoarthritis', full: 'Osteoarthritis' },
+        { short: 'Rheumatoid Arthritis', full: 'Rheumatoid Arthritis' },
+        { short: 'Knee Pain', full: 'Knee Pain' },
         { short: 'Frozen Shoulder', full: 'Frozen Shoulder' },
         { short: 'Nerve Pain', full: 'Nerve Pain' },
         { short: 'Neck Pain', full: 'Neck Pain' },
         { short: 'Heel Pain', full: 'Heel Pain' },
         { short: 'Sciatica', full: 'Sciatica' },
-        { short: 'low-back-pain', full : 'Low Back Pain'}
+        { short: 'low-backpain', full : 'Low Back Pain'}
       ]
     },
     {
       name: 'Digestive Disease',
       details: [
         { short: 'Excess Gas Formation', full: 'Excess Gas Formation' },
-        { short: 'Hyper Acidity', full: 'Hyper Acidity'},
+        { short: 'Hyperacidity', full: 'Hyperacidity'},
         { short: 'IBS', full: 'Irritable Bowel Syndrome' },
         { short: 'Constipation', full: 'Constipation' }
       ]

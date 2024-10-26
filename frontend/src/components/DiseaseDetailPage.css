@@ -1,4 +1,4 @@
-/* Container for the disease detail */
+/* Main Container for the Disease Detail */
 .disease-detail {
     max-width: 1200px;
     margin: 30px auto;
@@ -9,13 +9,12 @@
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-/* Hover effect for the container */
 .disease-detail:hover {
     transform: scale(1.02);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
 }
 
-/* Flex container for side-by-side layout */
+/* Flex Container for Side-by-Side Layout */
 .flex-container {
     display: flex;
     flex-wrap: wrap; /* Allow wrapping for smaller screens */
@@ -23,33 +22,31 @@
     margin-bottom: 30px;
 }
 
-/* Left div styling */
 .disease-detail-left {
     flex: 1 1 50%; /* Flex grow, shrink, basis */
     padding: 20px;
 }
-
-/* Right div styling */
 .disease-detail-right {
-    flex: 1 1 45%; /* Flex grow, shrink, basis */
+    flex: 1 1 45%;
     display: flex;
-    flex-direction: column;
-    align-items: center; /* Center content horizontally */
-    justify-content: center; /* Center content vertically if container has extra space */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align items horizontally */
+    justify-content: flex-start; /* Align items to the top */
+    padding: 20px; /* Add some padding around */
 }
 
-/* Image styling in right container */
+/* Image Styling in Right Container */
 .disease-detail-right img {
     width: 90%; /* Make it responsive */
     max-width: 400px; /* Set a max width */
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border: 3px solid rgba(88, 216, 107, 0.229);
-    margin-bottom: 15px; /* Space between image and text below */
-    animation: fadeIn 0.5s ease-in; /* Image fade-in effect */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    border: 3px solid rgba(88, 216, 107, 0.229); /* Border color */
+    margin-bottom: 15px; /* Space below the image */
+    animation: fadeIn 0.5s ease-in; /* Fade-in effect */
+    order: -1; /* Bring the image to the top if there are multiple flex items */
 }
-
-/* Text styling in right container */
+/* Right Container Text Styling */
 .disease-detail-right p {
     font-size: 1em;
     line-height: 1.5;
@@ -67,7 +64,7 @@
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Other sections remain the same */
+/* Review Content */
 .review-slider {
     display: flex;
     justify-content: center;
@@ -80,25 +77,27 @@
     text-align: left;
     display: flex;
     align-items: center;
-    transition: transform 0.3s ease; /* Add transition to review content */
+    transition: transform 0.3s ease;
 }
 
 .review-content:hover {
-    transform: scale(1.05); /* Scale effect on hover */
+    transform: scale(1.05);
 }
 
+/* Review Image */
 .review-image {
     width: 80px;
     height: 80px;
     border-radius: 50%;
     margin-right: 20px;
-    transition: transform 0.3s ease; /* Add transition to review images */
+    transition: transform 0.3s ease;
 }
 
 .review-image:hover {
-    transform: scale(1.1); /* Scale effect on hover */
+    transform: scale(1.1);
 }
 
+/* Toggle Button */
 .toggle-button {
     background-color: #4caf50;
     border: none;
@@ -107,12 +106,12 @@
     padding: 10px;
     cursor: pointer;
     border-radius: 50%;
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Add transitions */
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .toggle-button:hover {
     background-color: #388e3c;
-    transform: scale(1.1); /* Scale effect on hover */
+    transform: scale(1.1);
 }
 
 /* Headings */
@@ -122,17 +121,17 @@ h1 {
     margin-top: 10px;
     margin-bottom: 1px;
     text-align: center;
-    padding: 10px;
-    animation: fadeIn 0.5s ease-in; /* Fade-in animation */
+    padding: 20px;
+    animation: fadeIn 0.5s ease-in;
 }
 
 h2 {
     font-size: 2em;
     color: #2c6f2f;
     margin-bottom: 5px;
-    text-align: center;
-    animation: fadeIn 0.5s ease-in; /* Fade-in animation */
-    padding: 10px;
+    text-align: left;
+    animation: fadeIn 0.5s ease-in;
+    padding: 20px;
 }
 
 /* Paragraphs */
@@ -142,8 +141,7 @@ p {
     color: #666;
     margin-bottom: 15px;
     opacity: 0; /* Initial opacity for fade-in */
-    animation: fadeIn 0.5s ease-in forwards; /* Fade-in animation */
-    padding: 10px;
+    animation: fadeIn 0.5s ease-in forwards;
 }
 
 /* Lists */
@@ -166,7 +164,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Fade-in animation */
+/* Fade-in Animation */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -195,59 +193,60 @@ a:hover {
 
 @media (max-width: 992px) {
     .flex-container {
-        flex-direction: column; /* Stack elements on smaller screens */
+        flex-direction: column;
     }
 
     .disease-detail-left,
     .disease-detail-right {
         padding: 0;
-        flex: 1 1 100%; /* Full width on smaller screens */
+        flex: 1 1 100%;
     }
 
     .toggle-button {
-        font-size: 1.5em; /* Larger buttons for touch devices */
-        padding: 12px; /* Slightly larger padding */
+        font-size: 1.5em;
+        padding: 12px;
     }
 
     h1 {
-        font-size: 1.8em; /* Decrease heading size */
+        font-size: 1.8em;
     }
 
     h2 {
-        font-size: 1.5em; /* Decrease heading size */
+        font-size: 1.5em;
     }
 }
 
 @media (max-width: 768px) {
     .disease-detail {
-        padding: 15px; /* Less padding on very small devices */
+        padding: 15px;
     }
 
     h1 {
-        font-size: 1.5em; /* Further decrease heading size */
+        font-size: 1.5em;
     }
 
     h2 {
-        font-size: 1.3em; /* Further decrease heading size */
+        font-size: 1.3em;
     }
 
     p {
-        font-size: 0.8rem; /* Adjust paragraph size */
+        font-size: 0.8rem;
     }
 }
 
 @media (max-width: 480px) {
     .disease-detail-right img {
         width: 40%;
-        height: 40%; /* Full width images on small devices */
+        height: 40%;
     }
 
     .review-image {
-        width: 60px; /* Smaller review images */
-        height: 40px; /* Smaller review images */
+        width: 60px;
+        height: 40px;
     }
+
     .toggle-button {
-        font-size: 1.2em; /* Smaller buttons */
-        padding: 8px; /* Smaller padding */
+        font-size: 1.2em;
+        padding: 8px;
     }
 }

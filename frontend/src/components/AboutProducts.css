@@ -420,7 +420,7 @@ h5 {
   .small-img,
   .middle-img {
       width: 100%;
-      height: auto;
+      height: 40%;
   }
 
   .image-container1 img,
