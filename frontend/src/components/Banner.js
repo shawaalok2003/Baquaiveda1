@@ -7,8 +7,9 @@ const Banner = () => {
       <div className="container">
         <div className="row align-items-center">
           {/* Move the h1 tag to the top of the banner */}
+          <div class="buuu d-flex flex-column justify-content-center">
           <h1 className="banner-title">The Ayurvedic & Unani Way of Life</h1>
-          <h1  className="banner-title">100+ Years of Legacy</h1>
+          <h1  className="banner-title">100+ Years of Legacy</h1></div>
           <div className="col-md-9 banner-content text-start">
             {/* <div className="banner-text">
               
