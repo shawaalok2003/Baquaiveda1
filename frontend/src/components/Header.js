@@ -13,39 +13,17 @@ const Header = () => {
   return (
     <>
       {/* Top Bar */}
-      {/* <div className="top-bar bg-success text-white">
+      <div className="top-bar bg-success text-white">
         <Container fluid>
           <Row className="align-items-center">
             <Col md={4} className="discount-text text-left">
-            <span>Free Shipping</span>
-            </Col>
-            <Col md={4} className="discount-text text-left">
-            <span>24*7 Customer Service</span>
-            </Col>
-            <Col md={4} className="discount-text text-left">
-            <span>Money Back Gurantee</span>
             </Col>
             <Col className="text-right contact-info">
               <span role="img" aria-label="phone">📞</span>8961514680 | <span role="img" aria-label="email">✉️</span>baquaiveda@gmail.com
             </Col>
           </Row>
         </Container>
-      </div> */}
-
-<div className="top-bar bg-success text-white">
-  <Container fluid>
-    <Row className="align-items-center justify-content-between">
-      <Col md={4} className="text-center discount-text">
-        <span>Free Shipping</span> | <span>24*7 Customer Service</span> | <span>Money Back Guarantee</span>
-      </Col>
-      <Col md={4} className="text-right contact-info">
-        <span role="img" aria-label="phone">📞</span>8961514680 | <span role="img" aria-label="email">✉️</span>baquaiveda@gmail.com
-      </Col>
-    </Row>
-  </Container>
-</div>
-
-
+      </div>
 
       {/* Main Navbar */}
       <div className='stickk'>

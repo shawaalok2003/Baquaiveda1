@@ -1,28 +1,4 @@
-/*
-.top-bar {
-  background-color: #28a745; 
-  padding: 5px 0;
-  font-size: 14px;
-}
-
-.discount-text {
-  font-weight: bold;
-  text-transform: capitalize;
-}
-
-.contact-info {
-  font-size: 14px;
-  margin-left: 0px;
-}
-
-.contact-info span {
-  margin-right: 5px;
-}
-
-.contact-info {
-  white-space: nowrap;
-} */
-
+/* Top Bar */
 .top-bar {
   background-color: #28a745; /* Green background */
   padding: 5px 0;
@@ -36,14 +12,16 @@
 
 .contact-info {
   font-size: 14px;
-  white-space: nowrap; /* Prevent wrapping */
+  margin-left: 500px;
 }
 
 .contact-info span {
   margin-right: 5px;
 }
 
-
+.contact-info {
+  white-space: nowrap; /* Prevent wrapping */
+}
 
 /* Navbar */
 .navbar {
