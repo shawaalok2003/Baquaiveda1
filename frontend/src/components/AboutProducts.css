@@ -13,8 +13,7 @@
 }
 .main-img {
   width: 450px; /* Width of the main image */
-  height: 656px;
-  margin: 30px; /* Height of the main image */
+  height: 656px;/* Height of the main image */
   top: 980px; /* Positioning from the top */
   left: 600px; /* Positioning from the left */
   gap: 0px; /* Gap settings (if using flex or grid) */

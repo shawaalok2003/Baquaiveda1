@@ -88,11 +88,11 @@
 }
 
 .discount-text {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .contact-info {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .navbar-toggler {
@@ -104,7 +104,7 @@
 }
 
 .nav-link {
-  font-size: 12px;
+  font-size: 9px;
   margin: 0 10px;
 }
 
@@ -268,7 +268,7 @@
   }
 
   .navbar-nav .nav-item .nav-link {
-    font-size: 14px; /* Smaller link size */
+    font-size: 9px; /* Smaller link size */
     padding: 6px 10px; /* Smaller padding */
   }
 
@@ -453,12 +453,12 @@
   }
 
   .discount-text {
-    font-size: 13px;
+    font-size: 9px;
   }
 
   .contact-info {
     margin-left: 400px; /* Adjust margin */
-    font-size: 13px;
+    font-size: 9px;
   }
 
   /* Navbar */
@@ -473,7 +473,7 @@
   }
 
   .navbar-nav .nav-item .nav-link {
-    font-size: 15px; /* Adjust font size */
+    font-size: 9x; /* Adjust font size */
     padding: 8px 12px; /* Adjust padding */
   }
 
@@ -512,7 +512,7 @@
     }
 
     .navbar-nav .nav-link {
-      font-size: 14px; /* Further reduce font size */
+      font-size: 9px; /* Further reduce font size */
     }
 
     .nav-icons {
