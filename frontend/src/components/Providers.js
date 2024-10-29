@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './ServiceFeatures.css'; // Import custom styles
+import './ServiceFeatures.css'; // Import custom styles 
 
 const ServiceFeatures = () => {
   return (
