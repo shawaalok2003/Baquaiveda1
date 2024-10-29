@@ -45,6 +45,8 @@
     margin-bottom: 15px; /* Space below the image */
     animation: fadeIn 0.5s ease-in; /* Fade-in effect */
     order: -1; /* Bring the image to the top if there are multiple flex items */
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 /* Right Container Text Styling */
 .disease-detail-right p {
