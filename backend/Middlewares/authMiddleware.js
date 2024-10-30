@@ -9,7 +9,7 @@ const authMiddleware = (req, res, next) => {
   }
 
   try {
-    // Verify token and extract the user ID (or any payload you included in the token)
+    //  Verify token and extract the user ID (or any payload you included in the token)
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
     
     // Attach user ID (or other payload data) to request object
