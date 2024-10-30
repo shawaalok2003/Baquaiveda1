@@ -505,7 +505,7 @@ const MainDiseases = () => {
     {
       name: 'Respiratory Problems',
       details: [
-        { short: 'Cough & Cold', full: 'Cough & Cold' },
+        { short: 'cough-and-cold', full: 'Cough & Cold' },
         { short: 'Sinusitis', full: 'Sinusitis' },
         { short: 'COPD', full: 'Chronic Obstructive Pulmonary Disease' },
         { short: 'Asthma', full: 'Asthma' }

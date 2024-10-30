@@ -1886,7 +1886,7 @@ case 'hyperacidity':
                                     break;
                                   
 
-                                    case 'nocturnal emissions':  // Nocturnal Emissions
+                                    case 'nocturnal-emission':  // Nocturnal Emissions
                                     content = (
                                       <>
                                         {/* Container for text and image */}
@@ -1939,7 +1939,7 @@ case 'hyperacidity':
                                     );
                                     break;
                                   
-                                  case 'premature ejaculation':  // Premature Ejaculation
+                                  case 'premature-ejaculation':  // Premature Ejaculation
                                     content = (
                                       <>
                                         {/* Container for text and image */}
@@ -1991,7 +1991,7 @@ case 'hyperacidity':
                                       </>
                                     );
                                     break;
-                                    case 'erectile dysfunction':  // Erectile Dysfunction
+                                    case 'erectile-dysfunction':  // Erectile Dysfunction
   content = (
     <>
       {/* Container for text and image */}
