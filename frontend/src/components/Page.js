@@ -424,7 +424,7 @@ const MainDiseases = () => {
     {
       name: 'Digestive Disease',
       details: [
-        { short: 'Excess Gas Formation', full: 'Excess Gas Formation' },
+        { short: 'Excess GasFormation', full: 'Excess Gas Formation' },
         { short: 'Hyperacidity', full: 'Hyperacidity'},
         { short: 'IBS', full: 'Irritable Bowel Syndrome' },
         { short: 'Constipation', full: 'Constipation' }
@@ -505,7 +505,7 @@ const MainDiseases = () => {
     {
       name: 'Respiratory Problems',
       details: [
-        { short: 'cough-and-cold', full: 'Cough & Cold' },
+        { short: 'cough&cold', full: 'Cough & Cold' },
         { short: 'Sinusitis', full: 'Sinusitis' },
         { short: 'COPD', full: 'Chronic Obstructive Pulmonary Disease' },
         { short: 'Asthma', full: 'Asthma' }
@@ -537,17 +537,19 @@ const MainDiseases = () => {
           </div>
           {openDisease === index && (
             <div className="disease-details">
-              <ul>
-                {disease.details.map((detail, i) => (
-                  <li key={i}>
-                    {/* Display the full name but link with the short name */}
-                    <Link to={`/disease/${detail.short.toLowerCase().replace(/\s+/g, '-')}`}>
-                      {detail.full}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
+            <ul>
+              {disease.details.map((detail, i) => (
+                <li key={i}>
+                  {/* Display the full name but link with the short name */}
+                  <Link
+                    to={`/disease/${detail.short.toLowerCase().replace(/\s+/g, '-').replace(/-+/g, '-')}`}
+                  >
+                    {detail.full}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
           )}
         </div>
       ))}
