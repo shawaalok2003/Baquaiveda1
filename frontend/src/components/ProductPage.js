@@ -14,19 +14,19 @@ const ProductsPage = () => {
   const token = localStorage.getItem('token'); // Or sessionStorage.getItem('token')
 
   const productList = [
-    { id: 1, name: 'Product 1', price: 100, image: 'Product 1.jpeg', description: 'This is a detailed description of Product 1.' },
-    { id: 2, name: 'Product 2', price: 150, image: 'Product 2.jpeg', description: 'This is a detailed description of Product 2.' },
-    { id: 3, name: 'Product 3', price: 200, image: 'Product 4.jpeg', description: 'This is a detailed description of Product 3.' },
-    { id: 4, name: 'Product 4', price: 100, image: 'Product 5.jpeg', description: 'This is a detailed description of Product 1.' },
-    { id: 5, name: 'Product 5', price: 150, image: 'Product 6.jpeg', description: 'This is a detailed description of Product 2.' },
-    { id: 6, name: 'Product 6', price: 200, image: 'Product 7.jpeg', description: 'This is a detailed description of Product 3.' },
-    { id: 7, name: 'Product 7', price: 100, image: 'Product 8.jpeg', description: 'This is a detailed description of Product 1.' },
-    { id: 8, name: 'Product 8', price: 150, image: 'Product 9.jpeg', description: 'This is a detailed description of Product 2.' },
-    { id: 9, name: 'Product 9', price: 200, image: 'Product 10.jpeg', description: 'This is a detailed description of Product 3.' },
-    { id: 10, name: 'Product 10', price: 100, image: 'Product 11.jpeg', description: 'This is a detailed description of Product 1.' },
-    { id: 11, name: 'Product 11', price: 150, image: 'Product 12.jpeg', description: 'This is a detailed description of Product 2.' },
-    { id: 12, name: 'Product 12', price: 200, image: 'Product 13.jpeg', description: 'This is a detailed description of Product 3.' },
-    { id: 13, name: 'Product 13', price: 100, image: 'Product 14.jpeg', description: 'This is a detailed description of Product 1.' },
+    { id: 1, name: 'BrainAtza', price: 200, image: 'Product 1.jpeg', description: 'Quantity:200gm' },
+    { id: 2, name: 'AmritPak', price: 220, image: 'Product 2.jpeg', description: 'Quantity:100gm' },
+    { id: 3, name: 'Jirigan Forte', price: 280, image: 'Product 4.jpeg', description: 'Quantity:60Tab' },
+    { id: 4, name: 'Dr Flexo', price: 450, image: 'Product 5.jpeg', description: 'Quantity:30Tab' },
+    { id: 5, name: 'Suga Sutra', price: 300, image: 'Product 6.jpeg', description: 'Quantity:60Tab' },
+    { id: 6, name: 'Vicacid', price: 300, image: 'Product 7.jpeg', description: 'Quantity:60Tab' },
+    { id: 7, name: 'Amrit Niswan', price: 180, image: 'Product 8.jpeg', description: 'Quantity:200ml' },
+    { id: 8, name: 'Sadrina', price: 100, image: 'Product 9.jpeg', description: 'Quantity:100ml' },
+    { id: 9, name: 'Sharbat Jiryan', price: 140, image: 'Product 10.jpeg', description: 'Quantity:200ml' },
+    { id: 10, name: 'Liv-Hayat', price: 435, image: 'pro1.jpg', description: 'Quantity:200ml' },
+    { id: 11, name: 'Balwan', price: 230, image: 'pro3.jpg', description: 'Quantity:500ml' },
+    { id: 12, name: 'Wake Up', price: 280, image: 'pro4.jpg', description: 'Quantity:20Tab' },
+    { id: 13, name: 'Shabab Akbar Special Jelly', price: 1260, image: 'pro2.jpg', description: 'Quantity:220gm' },
   ];
 
   return (
@@ -41,7 +41,7 @@ const ProductsPage = () => {
                 <Card.Text className="product-description">
                   {product.description}
                 </Card.Text>
-                <p className="product-price">${product.price}</p>
+                <p className="product-price">Rs.{product.price}</p>
                 <Button variant="primary" className='button1' onClick={() => {
                   if (token) {
                     handleAddToCart(product.id, product.name, product.price, 1, token);
