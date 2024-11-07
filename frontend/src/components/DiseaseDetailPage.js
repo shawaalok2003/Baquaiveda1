@@ -2426,7 +2426,7 @@ case 'hyperlipidemia':
   break;
 
 // Cough and Cold
-case 'cough and cold':
+case 'cough-and-cold':
   content = (
     <>
     <div className="disease-detail flex-container">

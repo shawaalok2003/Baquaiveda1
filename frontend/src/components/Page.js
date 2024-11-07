@@ -405,6 +405,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown, faChevronUp, faDisease } from '@fortawesome/free-solid-svg-icons';
 import './page.css';
 
+
+const toTitleCase = (text) =>
+  text
+    .toLowerCase()
+    .split(/[\s-]+/) // Split by spaces or hyphens
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
+
 const MainDiseases = () => {
   const diseases = [
     {
@@ -418,7 +426,7 @@ const MainDiseases = () => {
         { short: 'Neck Pain', full: 'Neck Pain' },
         { short: 'Heel Pain', full: 'Heel Pain' },
         { short: 'Sciatica', full: 'Sciatica' },
-        { short: 'low-backpain', full : 'Low Back Pain'}
+        { short: 'low back pain', full : 'Low Back Pain'}
       ]
     },
     {
@@ -505,7 +513,7 @@ const MainDiseases = () => {
     {
       name: 'Respiratory Problems',
       details: [
-        { short: 'cough&cold', full: 'Cough & Cold' },
+        { short: 'cough and cold', full: 'Cough And Cold' },
         { short: 'Sinusitis', full: 'Sinusitis' },
         { short: 'COPD', full: 'Chronic Obstructive Pulmonary Disease' },
         { short: 'Asthma', full: 'Asthma' }
@@ -513,7 +521,53 @@ const MainDiseases = () => {
     }
   ];
 
-  const [openDisease, setOpenDisease] = useState(null);
+//   const [openDisease, setOpenDisease] = useState(null);
+
+//   const toggleDisease = (index) => {
+//     setOpenDisease(openDisease === index ? null : index); // Toggle between open and closed
+//   };
+
+//   return (
+//     <div className="disease-container">
+//       {diseases.map((disease, index) => (
+//         <div
+//           key={index}
+//           className={`disease-item ${openDisease === index ? 'open' : ''}`}
+//           onClick={() => toggleDisease(index)}
+//         >
+//           <div className="disease-header">
+//             <FontAwesomeIcon icon={faDisease} className="disease-icon" />
+//             <span>{disease.name}</span>
+//             <FontAwesomeIcon
+//               icon={openDisease === index ? faChevronUp : faChevronDown}
+//               className="toggle-icon"
+//             />
+//           </div>
+//           {openDisease === index && (
+//             <div className="disease-details">
+//             <ul>
+//               {disease.details.map((detail, i) => (
+//                 <li key={i}>
+//                   {/* Display the full name but link with the short name */}
+//                   <Link
+//                     to={`/disease/${detail.short.toLowerCase().replace(/\s+/g, '-').replace(/-+/g, '-')}`}
+//                   >
+//                     {detail.full}
+//                   </Link>
+//                 </li>
+//               ))}
+//             </ul>
+//           </div>
+//           )}
+//         </div>
+//       ))}
+//     </div>
+//   );
+// };
+
+
+
+const [openDisease, setOpenDisease] = useState(null);
 
   const toggleDisease = (index) => {
     setOpenDisease(openDisease === index ? null : index); // Toggle between open and closed
@@ -529,7 +583,8 @@ const MainDiseases = () => {
         >
           <div className="disease-header">
             <FontAwesomeIcon icon={faDisease} className="disease-icon" />
-            <span>{disease.name}</span>
+            {/* Use the toTitleCase function for proper capitalization */}
+            <span>{toTitleCase(disease.name)}</span>
             <FontAwesomeIcon
               icon={openDisease === index ? faChevronUp : faChevronDown}
               className="toggle-icon"
@@ -537,19 +592,18 @@ const MainDiseases = () => {
           </div>
           {openDisease === index && (
             <div className="disease-details">
-            <ul>
-              {disease.details.map((detail, i) => (
-                <li key={i}>
-                  {/* Display the full name but link with the short name */}
-                  <Link
-                    to={`/disease/${detail.short.toLowerCase().replace(/\s+/g, '-').replace(/-+/g, '-')}`}
-                  >
-                    {detail.full}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
+              <ul>
+                {disease.details.map((detail, i) => (
+                  <li key={i}>
+                    <Link
+                      to={`/disease/${detail.short.toLowerCase().replace(/\s+/g, '-').replace(/-+/g, '-')}`}
+                    >
+                      {detail.full}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
           )}
         </div>
       ))}
