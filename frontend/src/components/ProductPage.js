@@ -51,7 +51,7 @@ const ProductsPage = () => {
                     });
                   } else {
                     console.error('User is not authenticated');
-                    window.location.href = '/login'; // Redirect to login if no token
+                    window.location.href = '/login'; //  Redirect to login if no token
                   }
                 }}>
                   Cart
