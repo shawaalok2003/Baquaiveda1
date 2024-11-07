@@ -14,9 +14,9 @@ const ProductsPage = () => {
   const token = localStorage.getItem('token'); // Or sessionStorage.getItem('token')
 
   const productList = [
-    { id: 1, name: 'BrainAtza', price: 200, image: 'Product 1.jpeg', description: 'Quantity:200gm' },
+    { id: 1, name: 'BrainAfza', price: 200, image: 'Product 1.jpeg', description: 'Quantity:200gm' },
     { id: 2, name: 'AmritPak', price: 220, image: 'Product 2.jpeg', description: 'Quantity:100gm' },
-    { id: 3, name: 'Jirigan Forte', price: 280, image: 'Product 4.jpeg', description: 'Quantity:60Tab' },
+    { id: 3, name: 'Jiriyan Forte', price: 280, image: 'Product 4.jpeg', description: 'Quantity:60Tab' },
     { id: 4, name: 'Dr Flexo', price: 450, image: 'Product 5.jpeg', description: 'Quantity:30Tab' },
     { id: 5, name: 'Suga Sutra', price: 300, image: 'Product 6.jpeg', description: 'Quantity:60Tab' },
     { id: 6, name: 'Vicacid', price: 300, image: 'Product 7.jpeg', description: 'Quantity:60Tab' },

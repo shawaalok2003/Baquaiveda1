@@ -542,7 +542,7 @@ const MainDiseases = () => {
                 <li key={i}>
                   {/* Display the full name but link with the short name */}
                   <Link
-                    to={`/disease/${detail.short.toLowerCase().replace(/\s+/g, '-').replace(/-+/g, '-')}`}
+                    to={`/disease/${detail.short.toLowerCase().replace(/\s+/g, '-').replace(/-+/g, '')}`}
                   >
                     {detail.full}
                   </Link>

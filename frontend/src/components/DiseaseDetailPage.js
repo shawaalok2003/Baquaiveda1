@@ -177,7 +177,7 @@ const DiseaseDetailPage = () => {
       </>
     );
     break;
-  case 'low-backpain':  
+  case 'low-back-pain':  
     content = (
       <>
         {/* Container for text and image */}
@@ -875,7 +875,7 @@ case 'hyperacidity':
                   break;
                 
 
-                  case 'hairfall':
+                  case 'hair-fall':
                     content = (
                       <>
                         {/* Container for text and image */}
@@ -1101,27 +1101,27 @@ case 'hyperacidity':
                           break;
                         
 
-                          case 'fissures':
+                          case 'fissure':
                             content = (
                               <>
                                 {/* Container for text and image */}
                                 <div className="disease-detail flex-container">
                                   {/* Left Div: Disease problems */}
                                   <div className="disease-detail-left">
-                                     <h1>What is Anal Fissures?</h1>
-    <p>Anal fissures are small tears in the lining of the anus that can cause pain and bleeding during bowel movements. They can occur due to various factors, such as passing hard stools, chronic diarrhea, or anal intercourse. Fissures can be acute (lasting a few weeks) or chronic (lasting longer than six weeks) and often lead to discomfort and fear of bowel movements.</p>
+                                     <h1>What is Anal Fissure?</h1>
+    <p>Anal fissure are small tears in the lining of the anus that can cause pain and bleeding during bowel movements. They can occur due to various factors, such as passing hard stools, chronic diarrhea, or anal intercourse. Fissure can be acute (lasting a few weeks) or chronic (lasting longer than six weeks) and often lead to discomfort and fear of bowel movements.</p>
 
-    <h1>Causes of Anal Fissures</h1>
+    <h1>Causes of Anal Fissure</h1>
     <ul>
-        <li><strong>Hard Stools:</strong> Straining to pass hard stools is a common cause of fissures.</li>
+        <li><strong>Hard Stools:</strong> Straining to pass hard stools is a common cause of fissure.</li>
         <li><strong>Chronic Diarrhea:</strong> Frequent loose stools can irritate the anal lining and lead to tears.</li>
-        <li><strong>Childbirth:</strong> Women may experience fissures after vaginal delivery due to stretching of the anal area.</li>
+        <li><strong>Childbirth:</strong> Women may experience fissure after vaginal delivery due to stretching of the anal area.</li>
         <li><strong>Anal Intercourse:</strong> This can lead to trauma and tearing of the anal lining.</li>
-        <li><strong>Inflammatory Bowel Disease:</strong> Conditions like Crohn's disease can increase the risk of fissures.</li>
+        <li><strong>Inflammatory Bowel Disease:</strong> Conditions like Crohn's disease can increase the risk of fissure.</li>
         <li><strong>Poor Hygiene:</strong> Inadequate cleaning of the anal area can contribute to fissure development.</li>
     </ul>
 
-    <h1>Symptoms of Anal Fissures</h1>
+    <h1>Symptoms of Anal Fissure</h1>
     <ul>
         <li><strong>Pain:</strong> Sharp pain during and after bowel movements is a hallmark symptom.</li>
         <li><strong>Bleeding:</strong> Bright red blood on toilet paper or in the stool may occur.</li>
@@ -1130,7 +1130,7 @@ case 'hyperacidity':
         <li><strong>Spasms:</strong> Painful muscle spasms in the anal sphincter may occur.</li>
     </ul>
 
-    <p>Anal fissures can often be treated with conservative measures such as dietary changes, increased fluid intake, and topical medications. In chronic cases, medical treatments or surgical options may be necessary to alleviate symptoms and promote healing.</p>
+    <p>Anal fissure can often be treated with conservative measures such as dietary changes, increased fluid intake, and topical medications. In chronic cases, medical treatments or surgical options may be necessary to alleviate symptoms and promote healing.</p>
                                   
                                   </div>
                           
@@ -1273,10 +1273,10 @@ case 'hyperacidity':
                                       <div className="disease-detail flex-container">
                                         {/* Left Div: Disease problems */}
                                         <div className="disease-detail-left">
-                                           <h1>What is Leucorrhea?</h1>
-    <p>Leucorrhea, also known as vaginal discharge, refers to a thick, whitish or yellowish discharge from the vagina. It is a common condition among women and can vary in consistency and color depending on hormonal changes, menstrual cycle, and health conditions. While some discharge is normal, changes in the amount, color, or odor may indicate an underlying issue that requires attention.</p>
+                                           <h1>What is Leucorrhoea?</h1>
+    <p>Leucorrhoea, also known as vaginal discharge, refers to a thick, whitish or yellowish discharge from the vagina. It is a common condition among women and can vary in consistency and color depending on hormonal changes, menstrual cycle, and health conditions. While some discharge is normal, changes in the amount, color, or odor may indicate an underlying issue that requires attention.</p>
 
-    <h1>Causes of Leucorrhea</h1>
+    <h1>Causes of Leucorrhoea</h1>
     <ul>
         <li><strong>Hormonal Changes:</strong> Fluctuations in hormones, particularly during the menstrual cycle, pregnancy, or menopause, can increase discharge.</li>
         <li><strong>Infections:</strong> Bacterial vaginosis, yeast infections, and sexually transmitted infections (STIs) can lead to abnormal discharge.</li>
@@ -1285,7 +1285,7 @@ case 'hyperacidity':
         <li><strong>Allergic Reactions:</strong> Reactions to soaps, detergents, or feminine hygiene products may cause increased discharge and irritation.</li>
     </ul>
 
-    <h1>Symptoms of Leucorrhea</h1>
+    <h1>Symptoms of Leucorrhoea</h1>
     <ul>
         <li><strong>Color Change:</strong> Discharge may appear white, yellow, or green, depending on the cause.</li>
         <li><strong>Odor:</strong> A foul or unusual smell may indicate an infection.</li>
@@ -1294,7 +1294,7 @@ case 'hyperacidity':
         <li><strong>Pelvic Pain:</strong> Some women may experience pelvic pain or discomfort along with discharge changes.</li>
     </ul>
 
-    <p>If leucorrhea is accompanied by other concerning symptoms or changes, it is essential to consult a healthcare provider for appropriate diagnosis and treatment. Managing underlying infections or hormonal imbalances can help restore normal discharge patterns.</p>
+    <p>If Leucorrhoea is accompanied by other concerning symptoms or changes, it is essential to consult a healthcare provider for appropriate diagnosis and treatment. Managing underlying infections or hormonal imbalances can help restore normal discharge patterns.</p>
                                          
                                         </div>
                                 
@@ -2426,7 +2426,7 @@ case 'hyperlipidemia':
   break;
 
 // Cough and Cold
-case 'cough&cold':
+case 'cough and cold':
   content = (
     <>
     <div className="disease-detail flex-container">
