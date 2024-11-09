@@ -531,8 +531,8 @@ case 'hyperacidity':
     
             {/* Right Div: Image */}
             <div className="disease-detail-right">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTN1XVcFAIsJ5Q9NugGI4ESs5mIx4Kblh5s9Q&s"></img>
-              <img src="https://th.bing.com/th/id/OIP.N5tIEQoML2Gx6vi3W8WVnQHaE8?w=250&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"></img>
+              <img src="https://www.verywellhealth.com/thmb/GnZ7q311G8k702BDZoIrnAzVAmg=/1501x1001/filters:no_upscale():max_bytes(150000):strip_icc()/when-should-i-worry-about-passing-too-much-gas-796838-5b94a30546e0fb005005414b.png"></img>
+              <img src="https://th.bing.com/th/id/OIP.S_mM8iNL_hZW9Kab2KwRqAHaE7?w=227&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7://th.bing.com/th/id/OIP.N5tIEQoML2Gx6vi3W8WVnQHaE8?w=250&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"></img>
               </div>
           </div>
     
@@ -875,7 +875,7 @@ case 'hyperacidity':
                   break;
                 
 
-                  case 'hair-fall':
+                  case 'hairfall':
                     content = (
                       <>
                         {/* Container for text and image */}

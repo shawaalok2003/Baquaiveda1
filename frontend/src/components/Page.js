@@ -453,7 +453,7 @@ const MainDiseases = () => {
       name: 'Anorectal Problems',
       details: [
         { short: 'Piles', full: 'Piles' },
-        { short: 'Fissures', full: 'Fissures' },
+        { short: 'Fissure', full: 'Fissure' },
         { short: 'Fistula', full: 'Fistula' }
       ]
     },
