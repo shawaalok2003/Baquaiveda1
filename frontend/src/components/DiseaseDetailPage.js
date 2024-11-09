@@ -498,7 +498,7 @@ case 'hyperacidity':
     );
     break;
   
-    case 'excess-gasformation':
+    case 'excess-gas-formation':
       content = (
         <>
           {/* Container for text and image */}
@@ -875,7 +875,7 @@ case 'hyperacidity':
                   break;
                 
 
-                  case 'hairfall':
+                  case 'hair-fall':
                     content = (
                       <>
                         {/* Container for text and image */}

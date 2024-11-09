@@ -432,7 +432,7 @@ const MainDiseases = () => {
     {
       name: 'Digestive Disease',
       details: [
-        { short: 'Excess GasFormation', full: 'Excess Gas Formation' },
+        { short: 'Excess Gas Formation', full: 'Excess Gas Formation' },
         { short: 'Hyperacidity', full: 'Hyperacidity'},
         { short: 'IBS', full: 'Irritable Bowel Syndrome' },
         { short: 'Constipation', full: 'Constipation' }
@@ -497,7 +497,7 @@ const MainDiseases = () => {
     {
       name: 'Hair problems',
       details: [
-        { short: 'Hairfall', full: 'Hairfall' },
+        { short: 'Hair Fall', full: 'Hair Fall' },
         { short: 'Dandruff', full: 'Dandruff' },
         { short: 'Alopecia', full: 'Alopecia' }
       ]
