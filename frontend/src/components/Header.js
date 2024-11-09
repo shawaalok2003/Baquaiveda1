@@ -30,7 +30,7 @@ const Header = () => {
       <nav className="navbar navbar-expand-lg navbar-light">
         <Container fluid>
           <a className="navbar-brand" href="/">
-            <img src="\images\Logo 6.png" alt="Baquai Veda" className="logo img-fluid" />
+            <img src="\images\Your_paragraph_text__4_-removebg-preview.png" alt="BaquaiVeda" className="logo img-fluid" />
           </a>
 
           <button
