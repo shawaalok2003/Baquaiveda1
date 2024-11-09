@@ -2694,7 +2694,11 @@ case 'low-sex-drive':
 
   return (
     <div className="disease-detail">
-    <h1>{diseaseName ? diseaseName.replace('-', ' ').toUpperCase() : 'Disease'}</h1>
+    <h1>
+  {diseaseName 
+    ? diseaseName.replace(/-+/g, ' ').toUpperCase() 
+    : 'Disease'}
+</h1>
     {content}
 </div>
   );
