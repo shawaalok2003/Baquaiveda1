@@ -20,6 +20,7 @@
   margin-right: 5px;
 }
 
+/* Navbar */
 .navbar {
   padding: 0;
   background-color: #000000;
@@ -99,61 +100,11 @@
 }
 
 /* Responsive Styles */
-@media (max-width: 768px) {
-  .top-bar {
-    padding: 8px 0;
-    font-size: 12px;
-  }
 
-  .discount-text, .contact-info {
-    text-align: center;
-    width: 100%;
-    margin-top: 5px;
-    font-size: 12px;
-  }
-
-  .navbar-collapse {
-    margin-left: 0;
-    padding: 0 10px;
-  }
-
-  .navbar-nav .nav-item {
-    margin: 5px 0;
-  }
-
-  .nav-icons {
-    margin-right: 0;
-    justify-content: center;
-  }
-}
-
-@media (max-width: 480px) {
-  .navbar.logo {
-    max-width: 120px;
-  }
-  .navbar{
-    height: auto;
-  }
-
-  .navbar-nav .nav-link {
-    font-size: 9px;
-    padding: 6px 10px;
-  }
-
-  .nav-icon {
-    font-size: 16px;
-  }
-
-  .discount-text,
-  .contact-info {
-    font-size: 12px;
-  }
-}
-
+/* Medium Devices (tablets, 768px and up) */
 @media (max-width: 1366px) {
   .top-bar {
-    padding: 10px 0;
-    font-size: 9px;
+    display: none;
   }
 
   .navbar {
@@ -176,6 +127,66 @@
   }
 }
 
+/* Small Devices (landscape phones, 576px and up) */
+@media (max-width: 768px) {
+  .top-bar {
+    padding: 8px 0;
+    font-size: 12px;
+  }
+
+  .discount-text,
+  .contact-info {
+    text-align: center;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 12px;
+  }
+
+  .navbar-collapse {
+    margin-left: 0;
+    padding: 0 10px;
+  }
+
+  .navbar-nav .nav-item {
+    margin: 5px 0;
+  }
+
+  .nav-icons {
+    margin-right: 0;
+    justify-content: center;
+  }
+
+  .navbar .logo {
+    max-width: 180px;
+  }
+}
+
+/* Extra Small Devices (phones, less than 576px) */
+@media (max-width: 480px) {
+  .navbar .logo {
+    max-width: 120px;
+  }
+  
+  .navbar {
+    height: auto;
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 9px;
+    padding: 6px 10px;
+  }
+
+  .nav-icon {
+    font-size: 16px;
+  }
+
+  .discount-text,
+  .contact-info {
+    font-size: 12px;
+  }
+}
+
+/* Sticky Navbar */
 .stickk {
   position: sticky;
   top: 0;
