@@ -461,6 +461,7 @@ import { CartProvider } from './components/cart/cartContext';
 import { WishlistProvider } from './components/wishlist/wishlistContext';
 import DiseaseDetailPage from './components/DiseaseDetailPage';
 import StickyAppointmentButton from './components/StickyAppointmentButton';
+import { HelmetProvider, Helmet } from 'react-helmet-async';
 
 function App() {
   const token = localStorage.getItem('token');
@@ -510,6 +511,69 @@ function App() {
   );
 
   return (
+   <HelmetProvider>
+        <Helmet>
+          <title>Baquaiveda | Leading Ayurvedic & Unani Company in Kolkata for Natural Wellness</title>
+          <meta name="description" content="Explore Baquaiveda's Ayurvedic and Unani treatments, products, and wellness solutions in Kolkata. Embrace natural healing with traditional remedies for holistic health." />
+          <meta name="keywords" content="Ayurveda, Unani, herbal products, wellness, natural remedies, Baquaiveda, Kolkata Ayurveda, Ayurvedic treatments, Unani medicine" />
+          <meta name="author" content="Baquaiveda" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          
+          {/* Open Graph Tags */}
+          <meta property="og:title" content="Baquaiveda | Ayurvedic & Unani Wellness in Kolkata" />
+          <meta property="og:description" content="Discover Baquaiveda's Ayurvedic and Unani treatments and wellness products in Kolkata for holistic health." />
+          <meta property="og:image" content="https://www.baquaiveda.com/images/og-image.jpg" /> {/* Replace with actual image URL */}
+          <meta property="og:url" content="https://www.baquaiveda.com" />
+          <meta property="og:type" content="website" />
+
+          {/* Twitter Meta Tags */}
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="Baquaiveda | Leading Ayurvedic & Unani Wellness Company in Kolkata" />
+          <meta name="twitter:description" content="Explore Ayurvedic and Unani wellness solutions by Baquaiveda in Kolkata. Embrace natural healing and holistic wellness." />
+          <meta name="twitter:image" content="https://www.baquaiveda.com/images/twitter-image.jpg" /> {/* Replace with actual image URL */}
+
+          {/* Structured Data for Local Business */}
+          <script type="application/ld+json">
+            {JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              "name": "Baquaiveda",
+              "image": "https://www.baquaiveda.com/images/logo.jpg",
+              "@id": "https://www.baquaiveda.com",
+              "url": "https://www.baquaiveda.com",
+              "telephone": "+91-XXXXXXXXXX",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "123 Wellness Avenue",
+                "addressLocality": "Kolkata",
+                "addressRegion": "WB",
+                "postalCode": "700001",
+                "addressCountry": "IN"
+              },
+              "openingHoursSpecification": [
+                {
+                  "@type": "OpeningHoursSpecification",
+                  "dayOfWeek": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday"
+                  ],
+                  "opens": "09:00",
+                  "closes": "18:00"
+                }
+              ],
+              "sameAs": [
+                "https://www.facebook.com/baquaiveda",
+                "https://www.instagram.com/baquaiveda",
+                "https://www.linkedin.com/company/baquaiveda"
+              ],
+              "priceRange": "$$"
+            })}
+          </script>
+        </Helmet>
     <WishlistProvider token={token}>
       <CartProvider token={token}>
         <div className="App">
@@ -575,6 +639,7 @@ function App() {
         </div>
       </CartProvider>
     </WishlistProvider>
+    </HelmetProvider>
   );
 }
 
