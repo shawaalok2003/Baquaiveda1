@@ -1,10 +1,11 @@
+/* Base styles */
 .details-section {
   display: flex;
   flex-wrap: wrap;
   padding: 50px;
   background-color: #f9f9f9;
-  position: relative; /* For overlay positioning */
-  overflow: hidden; /* Prevent overflow from the overlay */
+  position: relative;
+  overflow: hidden;
 }
 
 .overlay {
@@ -13,41 +14,29 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(255, 255, 255, 0.7); /* White with transparency */
-  opacity: 0; /* Start with overlay hidden */
-  transition: opacity 0.5s ease; /* Smooth transition for opacity */
-  z-index: 1; /* Ensure it appears above the background but below text */
+  background-color: rgba(255, 255, 255, 0.7);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: 1;
 }
 
-/* Show overlay on hover */
 .details-section:hover .overlay {
-  opacity: 1; /* Make overlay visible on hover */
+  opacity: 1;
 }
 
-.image-section {
+.image-section, .text-section {
   flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 20px;
-  position: relative; /* For positioning the overlay */
+  position: relative;
+  z-index: 2;
 }
 
 .clinic-image {
-  width: 500px;
-  height: 400px;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
   border-radius: 15px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  z-index: 2; /* Ensure image appears above the overlay */
-}
-
-.text-section {
-  flex: 1;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  z-index: 2; /* Ensure text appears above the overlay */
 }
 
 .subtitle {
@@ -73,7 +62,7 @@
   text-align: center;
   background-color: #fff;
   padding: 50px;
-  position: relative; /* For overlay positioning */
+  position: relative;
 }
 
 .why-us-title {
@@ -86,6 +75,7 @@
   display: flex;
   justify-content: space-around;
   gap: 30px;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -94,24 +84,23 @@
   border-radius: 15px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+  margin: 10px;
   text-align: center;
   transition: transform 0.3s ease-in-out;
-  position: relative; /* For overlay positioning */
+  position: relative;
 }
 
 .card:hover {
   transform: translateY(-10px);
 }
 
-.card:hover .overlay {
-  opacity: 1; /* Show overlay on hover */
-}
-
 .card-image {
-  max-width: 100%;
-  border-radius: 15px;
+  width: 100%;
   height: 250px;
-  object-fit: contain;
+  border-radius: 15px;
+  object-fit: cover;
 }
 
 .card-title {
@@ -132,7 +121,7 @@
   justify-content: space-between;
   padding: 50px;
   background-color: #f1f1f1;
-  position: relative; /* For overlay positioning */
+  position: relative;
 }
 
 .mission-section, .vision-section {
@@ -145,7 +134,7 @@
   max-width: 100%;
   border-radius: 15px;
   margin-bottom: 20px;
-  height: 300px;
+  height: auto;
 }
 
 .mission-section h2, .vision-section h2 {
@@ -160,7 +149,7 @@
   line-height: 1.8;
 }
 
-/* Animations for Mission and Vision */
+/* Animations */
 .animate-mission {
   animation: fadeInLeft 2s ease-in-out;
 }
@@ -191,12 +180,75 @@
   }
 }
 
-@media (max-width: 768px) {
+/* Responsive Styles */
+@media (max-width: 1024px) {
   .details-section, .mission-vision-section {
       flex-direction: column;
+      padding: 30px;
+  }
+
+  .why-us-title {
+      font-size: 2rem;
+  }
+
+  .title {
+      font-size: 2rem;
   }
 
   .why-us-cards {
+      gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .why-us-cards {
       flex-direction: column;
+      align-items: center;
+  }
+
+  .card {
+      max-width: 90%;
+  }
+
+  .mission-section h2, .vision-section h2 {
+      font-size: 2rem;
+  }
+
+  .subtitle {
+      font-size: 1.3rem;
+  }
+
+  .title {
+      font-size: 2rem;
+  }
+
+  .description, .mission-section p, .vision-section p {
+      font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .details-section {
+      padding: 20px;
+  }
+
+  .title, .why-us-title, .mission-section h2, .vision-section h2 {
+      font-size: 1.8rem;
+  }
+
+  .subtitle, .card-title {
+      font-size: 1.2rem;
+  }
+
+  .description, .card-description {
+      font-size: 1rem;
+  }
+
+  .card-image {
+      height: 200px;
+  }
+
+  .mission-vision-section {
+      padding: 20px;
   }
 }
